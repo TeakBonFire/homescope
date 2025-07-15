@@ -96,3 +96,16 @@ homescope/
 ├── roadmap.md        # Feature timeline and dev priorities
 ├── README.md         # You’re here
 └── .gitignore        # Ignore unnecessary files
+```
+
+---
+
+## 🤝 Contributors
+**Tim Sutherland** (TeakBonFire) – Home Inspector & Product Vision
+
+ChatGPT – AI collaborator, research, code writing, and prototyping support
+
+---
+
+## 📜 License
+[MIT License](LICENSE)
