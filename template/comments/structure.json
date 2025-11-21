@@ -1,0 +1,269 @@
+{
+  "category": "structure",
+  "groups": [
+    {
+      "id": "foundation",
+      "label": "Foundation",
+      "comments": [
+        {
+          "id": "foundation-typical-settlement",
+          "label": "[[Typical Settlement Cracks]] Monitor",
+          "type": "monitor",
+          "goesInSummary": false,
+          "text": "Typical settlement cracks were observed in the foundation. These conditions are common in homes of this age and type. Monitor over time for changes.",
+          "tags": ["foundation", "settlement", "monitor"]
+        },
+        {
+          "id": "foundation-major-settlement",
+          "label": "[[Major Settlement]] Possible Repair",
+          "type": "repair",
+          "goesInSummary": true,
+          "text": "Evidence of significant foundation settlement was observed at (location). The rate of movement cannot be determined during a one-time visit. Repairs may be needed to help prevent further movement. Recommend evaluation by a qualified foundation repair contractor.",
+          "tags": ["foundation", "settlement", "repair"]
+        },
+        {
+          "id": "foundation-large-cracks",
+          "label": "[[Large Foundation Cracks]] Monitor / Repair",
+          "type": "monitor",
+          "goesInSummary": false,
+          "text": "Larger-than-typical foundation cracks were observed at (location). These may indicate structural movement. Monitor for changes, and consider evaluation by a qualified contractor if worsening occurs.",
+          "tags": ["foundation", "cracks", "monitor"]
+        },
+        {
+          "id": "foundation-leaning-wall",
+          "label": "[[Foundation Wall Leaning]] Monitor / Possible Repair",
+          "type": "monitor",
+          "goesInSummary": true,
+          "text": "A foundation wall was noted to be leaning or bowed at (location). The rate of movement cannot be determined during a one-time inspection. Recommend evaluation by a qualified foundation contractor.",
+          "tags": ["foundation", "leaning wall"]
+        },
+        {
+          "id": "foundation-water-staining",
+          "label": "[[Foundation Water Staining]] Monitor",
+          "type": "monitor",
+          "goesInSummary": false,
+          "text": "Water staining was observed on the foundation wall at (location). The area was dry at time of inspection. Monitor during wet weather for signs of active leakage.",
+          "tags": ["foundation", "water staining"]
+        },
+        {
+          "id": "foundation-efflorescence",
+          "label": "[[Efflorescence]] Monitor",
+          "type": "monitor",
+          "goesInSummary": false,
+          "text": "Efflorescence, a white mineral deposit, was observed on the foundation wall. This typically indicates past moisture entry. Monitor for recurrence or active water infiltration.",
+          "tags": ["foundation", "efflorescence"]
+        }
+      ]
+    },
+    {
+      "id": "floor-structure",
+      "label": "Floor Structure",
+      "comments": [
+        {
+          "id": "floor-typical-wear",
+          "label": "[[Typical Floor Structure Conditions]] Note",
+          "type": "note",
+          "goesInSummary": false,
+          "text": "Typical wear and aging were observed in the floor structure. No significant concerns were noted unless otherwise described.",
+          "tags": ["floor structure", "typical"]
+        },
+        {
+          "id": "floor-sagging",
+          "label": "[[Floor Sagging]] Monitor / Repair",
+          "type": "monitor",
+          "goesInSummary": false,
+          "text": "Sagging of the floor structure was observed at (location). This is common in older homes but should be monitored for changes. Repairs may be needed if movement progresses.",
+          "tags": ["floor", "sagging"]
+        },
+        {
+          "id": "floor-broken-beam",
+          "label": "[[Broken Beam in Crawlspace]] Repair",
+          "type": "repair",
+          "goesInSummary": true,
+          "text": "A broken structural beam was observed in the crawlspace. The beam showed no support between steel reinforcement beams. Evaluation and repair by a qualified structural contractor is recommended.",
+          "tags": ["floor structure", "beam", "repair"]
+        },
+        {
+          "id": "floor-joists-sistered-short",
+          "label": "[[Joists Improperly Sistered]] Repair",
+          "type": "repair",
+          "goesInSummary": false,
+          "text": "Floor joists were found to be sistered using short lengths that do not provide adequate support. This condition has allowed movement to occur. Recommend evaluation and repair by a qualified contractor.",
+          "tags": ["joists", "sistered", "repair"]
+        },
+        {
+          "id": "floor-support-post-not-plumb",
+          "label": "[[Support Post Not Plumb]] Monitor",
+          "type": "monitor",
+          "goesInSummary": false,
+          "text": "A structural support post was observed to not be plumb. Settlement has likely occurred in this area. Movement appears to have been halted by reinforcement, but the area should be monitored for changes.",
+          "tags": ["support post", "monitor"]
+        }
+      ]
+    },
+    {
+      "id": "wall-structure",
+      "label": "Wall Structure",
+      "comments": [
+        {
+          "id": "wall-typical-settlement",
+          "label": "[[Typical Settlement Cracks in Walls]] Note",
+          "type": "note",
+          "goesInSummary": false,
+          "text": "Minor settlement cracks were observed in the walls. These conditions are typical and generally not of structural concern.",
+          "tags": ["wall", "settlement"]
+        },
+        {
+          "id": "wall-cracks-larger",
+          "label": "[[Large Wall Cracks]] Monitor / Possible Repair",
+          "type": "monitor",
+          "goesInSummary": false,
+          "text": "Cracking larger than typical was observed in wall structures. These areas should be monitored for worsening and evaluated if movement continues.",
+          "tags": ["wall", "cracks"]
+        },
+        {
+          "id": "wall-reinforced-ibeams",
+          "label": "[[Foundation Reinforced with I-Beams]] Note",
+          "type": "note",
+          "goesInSummary": false,
+          "text": "The foundation walls had been reinforced with steel I-beams at some point. These are typically installed to help stabilize movement. Monitor over time for any changes.",
+          "tags": ["foundation", "I-beams"]
+        }
+      ]
+    },
+    {
+      "id": "roof-structure",
+      "label": "Roof Structure",
+      "comments": [
+        {
+          "id": "roof-typical-conditions",
+          "label": "[[Typical Roof Structure Conditions]] Note",
+          "type": "note",
+          "goesInSummary": false,
+          "text": "The visible portions of the roof structure showed typical conditions for a home of this age. No significant deficiencies were noted unless otherwise reported.",
+          "tags": ["roof structure"]
+        },
+        {
+          "id": "roof-sagging-ridge",
+          "label": "[[Roof Ridge Sagging]] Monitor / Possible Repair",
+          "type": "monitor",
+          "goesInSummary": false,
+          "text": "Sagging or deflection of the roof ridge was observed. Monitor for changes; evaluation by a qualified roofing or structural contractor may be desirable.",
+          "tags": ["roof", "ridge sag"]
+        },
+        {
+          "id": "roof-truss-modified",
+          "label": "[[Roof Truss Modified]] Repair",
+          "type": "repair",
+          "goesInSummary": true,
+          "text": "A roof truss has been modified or cut. Truss alterations can negatively affect the structural integrity of the roof. Evaluation and repair by a qualified structural contractor are recommended.",
+          "tags": ["roof truss", "modification"]
+        }
+      ]
+    },
+    {
+      "id": "wood-destroying-insects",
+      "label": "Wood Destroying Insects",
+      "comments": [
+        {
+          "id": "wdi-no-evidence",
+          "label": "[[No Visible WDI Activity]] Note",
+          "type": "note",
+          "goesInSummary": false,
+          "text": "No visible signs of wood-destroying insect activity were observed during the inspection. As with all homes, periodic monitoring is recommended.",
+          "tags": ["WDI"]
+        },
+        {
+          "id": "wdi-evidence-previous",
+          "label": "[[Evidence of Previous WDI Activity]] Monitor",
+          "type": "monitor",
+          "goesInSummary": false,
+          "text": "Evidence of previous wood-destroying insect activity was observed. No active infestation was apparent. Monitoring and periodic evaluation may be desirable.",
+          "tags": ["WDI", "previous activity"]
+        },
+        {
+          "id": "wdi-damage",
+          "label": "[[WDI Damage Observed]] Repair",
+          "type": "repair",
+          "goesInSummary": true,
+          "text": "Damage consistent with wood-destroying insects was observed at (location). Recommend evaluation and treatment by a qualified pest control specialist.",
+          "tags": ["WDI", "damage"]
+        }
+      ]
+    },
+    {
+      "id": "crawl-space",
+      "label": "Crawl Space",
+      "comments": [
+        {
+          "id": "crawlspace-limited-access",
+          "label": "[[Crawlspace Access Limited]] Limitation",
+          "type": "note",
+          "goesInSummary": false,
+          "text": "Inspection of the crawlspace was limited due to restricted access, low clearance, or obstructions.",
+          "tags": ["crawlspace", "limitation"]
+        },
+        {
+          "id": "crawlspace-moisture",
+          "label": "[[Crawlspace Moisture]] Monitor / Repair",
+          "type": "monitor",
+          "goesInSummary": false,
+          "text": "Moisture was observed in the crawlspace at (location). This area should be monitored, and drainage or vapor barrier improvements may be needed.",
+          "tags": ["crawlspace", "moisture"]
+        },
+        {
+          "id": "crawlspace-wood-damage",
+          "label": "[[Crawlspace Wood Damage]] Repair",
+          "type": "repair",
+          "goesInSummary": true,
+          "text": "Damage to wood structural components in the crawlspace was observed at (location). Repairs by a qualified contractor are recommended.",
+          "tags": ["crawlspace", "wood damage"]
+        }
+      ]
+    },
+    {
+      "id": "basement-leakage",
+      "label": "Basement / Crawlspace Leakage",
+      "comments": [
+        {
+          "id": "leakage-typical-cracks",
+          "label": "[[Typical Minor Leakage Signs]] Monitor",
+          "type": "monitor",
+          "goesInSummary": false,
+          "text": "Minor signs of leakage were observed in the basement/crawlspace. These conditions are common. Monitor during heavy rain for active leakage.",
+          "tags": ["leakage", "basement"]
+        },
+        {
+          "id": "leakage-active",
+          "label": "[[Active Leakage]] Repair",
+          "type": "repair",
+          "goesInSummary": true,
+          "text": "Active leakage was observed at (location). Recommend evaluation and correction by a qualified waterproofing contractor.",
+          "tags": ["leakage", "active"]
+        }
+      ]
+    },
+    {
+      "id": "inspection-tips",
+      "label": "Inspection Tips",
+      "comments": [
+        {
+          "id": "tip-monitor-changes",
+          "label": "[[Monitor Structural Changes]] Note",
+          "type": "note",
+          "goesInSummary": false,
+          "text": "Structural components should be periodically monitored for any changes, especially cracks, movement, or moisture intrusion.",
+          "tags": ["tip"]
+        },
+        {
+          "id": "tip-routine-maintenance",
+          "label": "[[Routine Maintenance Recommended]] Note",
+          "type": "note",
+          "goesInSummary": false,
+          "text": "Routine exterior maintenance, drainage control, and prompt repair of minor defects can help prolong the life of the structure.",
+          "tags": ["tip"]
+        }
+      ]
+    }
+  ]
+}
