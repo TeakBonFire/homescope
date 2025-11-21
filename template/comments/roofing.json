@@ -1,0 +1,444 @@
+{
+  "category": "roofing",
+  "groups": [
+    {
+      "id": "pitched-roof-covering",
+      "label": "Roof Covering – Pitched Roof",
+      "comments": [
+        {
+          "id": "roof-good-condition-basic",
+          "label": "Note – Good Condition",
+          "type": "note",
+          "goesInSummary": false,
+          "text": "Roofing was in good condition. We did not see evidence of active leaks nor need for immediate major repair.",
+          "tags": ["roof", "pitched", "good condition"],
+          "notesToAI": "Use when roof appears functional with no active issues."
+        },
+        {
+          "id": "roof-normal-wear",
+          "label": "Note – Normal Wear and Tear",
+          "type": "note",
+          "goesInSummary": false,
+          "text": "The roof shows signs of normal wear and tear consistent with its age and exposure to the elements. These include minor weathering of shingles, slight granule loss, and minor wear around flashings. There are no signs of immediate concern. Regular maintenance and periodic inspections are recommended.",
+          "tags": ["normal wear", "aging", "shingles"],
+          "notesToAI": "Use when shingles show normal age-related wear but are still functional."
+        },
+        {
+          "id": "roof-recommend-evaluation",
+          "label": "Note – Recommend Evaluation Due to Age/Vulnerability",
+          "type": "note",
+          "goesInSummary": false,
+          "text": "Due to the aging roof and multiple vulnerable areas, it is recommended that the entire roofing system be further evaluated by a qualified roofing contractor to assess its overall condition and ensure there are no underlying issues that could affect performance.",
+          "tags": ["roof", "evaluation", "aging"],
+          "notesToAI": "Use when roof appears older or vulnerable even without confirmed defects."
+        },
+        {
+          "id": "roof-minor-repairs",
+          "label": "Repair/Replace – Minor Repairs",
+          "type": "repair",
+          "goesInSummary": false,
+          "text": "Minor repairs to the roofing are needed. Damaged or missing roofing material should be repaired. All roof penetrations should be examined and sealed as necessary. Loose or aging flashing should be maintained to prevent leaks.",
+          "tags": ["repair", "minor", "shingles", "flashing"],
+          "notesToAI": "Use when repairs are localized and non-urgent."
+        },
+        {
+          "id": "roof-deferred-cost-minor",
+          "label": "Deferred Cost Item (End of Life – Minor)",
+          "type": "monitor",
+          "goesInSummary": false,
+          "text": "The roofing is nearing the end of its useful life. While replacement is not needed right away, it should be anticipated soon. Repairs may be possible to extend life. Recommend evaluation by a qualified roofing contractor.",
+          "tags": ["aging", "end of life", "roof"],
+          "notesToAI": "Use when roof is old but not actively leaking."
+        },
+        {
+          "id": "roof-end-life-major",
+          "label": "Repair/Replace (End of Life – Major)",
+          "type": "repair",
+          "goesInSummary": true,
+          "text": "Based on the inspection, the roof is approaching the end of its lifespan and shows significant wear, including shingle damage and areas of deterioration. Replacement is strongly recommended to prevent water intrusion and further damage.",
+          "tags": ["end of life", "major", "roof replacement"],
+          "notesToAI": "Use when widespread deterioration is present."
+        },
+        {
+          "id": "roof-monitor-uneven-wear",
+          "label": "Monitor – Uneven Wear",
+          "type": "monitor",
+          "goesInSummary": false,
+          "text": "The roofing is in fair condition, with different areas wearing at different rates. Roof surfaces exposed to sunlight wear faster, while shaded surfaces may develop staining or moss.",
+          "tags": ["uneven wear", "fair condition"],
+          "notesToAI": "Use when some slopes look worse than others."
+        },
+        {
+          "id": "roof-monitor-fair-condition",
+          "label": "Monitor – Fair Condition",
+          "type": "monitor",
+          "goesInSummary": false,
+          "text": "The roofing is in fair condition. We did not see evidence of active leaks nor the need for immediate major repair.",
+          "tags": ["fair condition"],
+          "notesToAI": "Use when wear is moderate but not urgent."
+        },
+        {
+          "id": "roof-monitor-prior-repairs",
+          "label": "Monitor – Prior Repairs",
+          "type": "monitor",
+          "goesInSummary": false,
+          "text": "Prior repairs to the roofing are evident. This suggests past problems. This area should be monitored for changes.",
+          "tags": ["prior repairs"],
+          "notesToAI": "Use when patches or replaced shingles are visible."
+        },
+        {
+          "id": "roof-possible-hail-damage",
+          "label": "Possible Repair – Hail Damage",
+          "type": "repair",
+          "goesInSummary": false,
+          "text": "The roof shows evidence of possible hail damage. Evaluation by a licensed roofing contractor is recommended. This may qualify as an insurance claim depending on the extent of the damage.",
+          "tags": ["hail", "impact damage"],
+          "notesToAI": "Use when granular loss or bruising suggests hail."
+        },
+        {
+          "id": "roof-monitor-multiple-layers",
+          "label": "Monitor – Multiple Layers",
+          "type": "monitor",
+          "goesInSummary": false,
+          "text": "The roof has multiple layers of shingles. Additional layers add weight, retain heat, and can shorten roof life. This condition should be monitored.",
+          "tags": ["multiple layers", "roofing"],
+          "notesToAI": "Use when more than one layer of shingles is visible."
+        },
+        {
+          "id": "roof-monitor-poor-workmanship",
+          "label": "Monitor – Poor Workmanship",
+          "type": "monitor",
+          "goesInSummary": false,
+          "text": "The roofing appears to have been installed with poor workmanship. While this may not pose an immediate concern, it increases the risk of leaks and premature aging.",
+          "tags": ["workmanship", "installation issues"],
+          "notesToAI": "Use for misaligned shingles, exposed nails, messy flashing, etc."
+        },
+        {
+          "id": "roof-possible-flaws",
+          "label": "Possible Repair – Material or Installation Flaws",
+          "type": "repair",
+          "goesInSummary": false,
+          "text": "The roofing shows evidence of installation or material flaws. These conditions may accelerate wear and lead to premature leaks.",
+          "tags": ["flaws", "installation"],
+          "notesToAI": "Use when shingles appear defective or improperly installed."
+        },
+        {
+          "id": "roof-monitor-moss-growth",
+          "label": "Monitor – Moss Growth",
+          "type": "monitor",
+          "goesInSummary": false,
+          "text": "The roofing is in fair condition but shows moss or organic buildup in shaded areas. This can reduce roof life.",
+          "tags": ["moss", "organic growth"],
+          "notesToAI": "Use for visible moss on shaded roof slopes."
+        },
+        {
+          "id": "roof-monitor-older-roof",
+          "label": "Monitor – Older Roof",
+          "type": "monitor",
+          "goesInSummary": false,
+          "text": "Older roofs require ongoing maintenance. Annual inspection and repair should be anticipated as flashings and materials age.",
+          "tags": ["older roof", "aging"],
+          "notesToAI": "Use when roof appears significantly old."
+        },
+        {
+          "id": "roof-monitor-wood-roof",
+          "label": "Monitor – Wood Roof",
+          "type": "monitor",
+          "goesInSummary": false,
+          "text": "The life expectancy of wood roofs is generally 25–40 years depending on quality and exposure. Annual maintenance is needed, and worn shingles should be repaired as needed.",
+          "tags": ["wood roof", "shake", "shingle"],
+          "notesToAI": "Use only for cedar or wood shake/shingle roofs."
+        },
+        {
+          "id": "roof-monitor-vulnerable-areas",
+          "label": "Monitor – Vulnerable Areas in Roof Design",
+          "type": "monitor",
+          "goesInSummary": false,
+          "text": "The roof design includes multiple vulnerable areas with higher potential for leaks. Annual maintenance will be critical.",
+          "tags": ["vulnerable areas", "design issue"],
+          "notesToAI": "Use for valleys, dead-end flashing, low-slope transitions, etc."
+        },
+        {
+          "id": "roof-repair-debris",
+          "label": "Repair – Debris on Roof",
+          "type": "repair",
+          "goesInSummary": false,
+          "text": "Debris should be removed from the roofing to reduce the risk of leaks and early roof wear.",
+          "tags": ["debris", "maintenance"],
+          "notesToAI": "Use when leaves, branches, or debris are visible."
+        },
+        {
+          "id": "roof-repair-exposed-sheathing",
+          "label": "Repair – Exposed OSB/Plywood",
+          "type": "repair",
+          "goesInSummary": true,
+          "text": "Exposed sheathing is visible where the roofing is damaged. Damaged or missing roofing material should be repaired.",
+          "tags": ["exposed sheathing", "damage"],
+          "notesToAI": "Use when bare wood is visible."
+        },
+        {
+          "id": "roof-repair-ridge-caps",
+          "label": "Repair/Replace – Damaged Ridge Caps",
+          "type": "repair",
+          "goesInSummary": true,
+          "text": "Split, loose, or damaged ridge caps require repair or replacement.",
+          "tags": ["ridge cap", "damage"],
+          "notesToAI": "Use when ridge caps show cracks, curling, or separation."
+        },
+        {
+          "id": "roof-note-reroofing-remove-layers",
+          "label": "Note – Remove Old Layers",
+          "type": "note",
+          "goesInSummary": false,
+          "text": "It is recommended that the present layers of roofing materials be removed prior to re-roofing.",
+          "tags": ["reroof", "layers"],
+          "notesToAI": "Use when discussing reroofing best practices."
+        },
+        {
+          "id": "roof-note-sun-exposure-wear",
+          "label": "Note – Sun Exposure Effects",
+          "type": "note",
+          "goesInSummary": false,
+          "text": "The south and west sides of a roof typically wear faster due to sun exposure. Replacing all slopes may be advisable when large portions are worn.",
+          "tags": ["sun exposure", "wear"],
+          "notesToAI": "Use when one side looks particularly aged."
+        },
+        {
+          "id": "roof-note-replace-flashing-during-reroof",
+          "label": "Note – Replace Flashing During Reroof",
+          "type": "note",
+          "goesInSummary": false,
+          "text": "Replace roof flashing materials when re-roofing to avoid leaks in these areas.",
+          "tags": ["flashing", "reroof"],
+          "notesToAI": "Use for general reroofing guidance."
+        },
+        {
+          "id": "roof-note-weather-limited-inspection",
+          "label": "Note – Weather Limited Inspection",
+          "type": "note",
+          "goesInSummary": false,
+          "text": "Unfavorable weather restricted the inspection of the roofing system. Consult the seller regarding age and condition. If weather permits, additional inspection by a roofer prior to closing is recommended.",
+          "tags": ["weather limitation"],
+          "notesToAI": "Use when snow, rain, or ice obstructs roof inspection."
+        },
+        {
+          "id": "roof-improve-waviness",
+          "label": "Improve – Waviness in Roofing Surface",
+          "type": "improve",
+          "goesInSummary": false,
+          "text": "Waviness was noted in the roofing surface. This is a relatively common condition in older homes and may be related to inadequate ventilation.",
+          "tags": ["waviness"],
+          "notesToAI": "Use for visible undulation in shingles."
+        }
+      ]
+    },
+
+    {
+      "id": "flat-roof-covering",
+      "label": "Roof Covering – Flat Roof",
+      "comments": [
+        {
+          "id": "flat-roof-end-life-major-concern",
+          "label": "Major Concern – Flat Roof End of Life",
+          "type": "repair",
+          "goesInSummary": true,
+          "text": "The flat rubber roofing is at end of life and should be replaced.",
+          "tags": ["flat roof", "end of life"],
+          "notesToAI": "Use when flat membrane is severely deteriorated."
+        },
+        {
+          "id": "flat-roof-deferred-end-life",
+          "label": "Deferred Cost – Flat Roof Near End of Life",
+          "type": "monitor",
+          "goesInSummary": false,
+          "text": "The flat roofing is near the end of its life. The membrane exhibits flaws such as blistering or cracking. Expect to replace the roof soon.",
+          "tags": ["flat roof", "aging"],
+          "notesToAI": "Use when wear is significant but not urgent."
+        },
+        {
+          "id": "flat-roof-missing-gravel",
+          "label": "Monitor – Missing Gravel (End of Life)",
+          "type": "monitor",
+          "goesInSummary": false,
+          "text": "The flat roofing is near the end of its life. Gravel is missing from areas of the membrane, reducing life expectancy.",
+          "tags": ["flat roof", "gravel"],
+          "notesToAI": "Use for BUR roofs missing gravel."
+        },
+        {
+          "id": "flat-roof-fair-condition",
+          "label": "Monitor – Flat Roof Fair Condition",
+          "type": "monitor",
+          "goesInSummary": false,
+          "text": "The flat roofing is in fair condition. No signs of active leaks were observed.",
+          "tags": ["flat roof", "fair condition"],
+          "notesToAI": "Use for moderately aged but functional flat roofs."
+        },
+        {
+          "id": "flat-roof-fair-no-gravel",
+          "label": "Monitor – Fair Condition (No Gravel)",
+          "type": "monitor",
+          "goesInSummary": false,
+          "text": "The flat roofing is in fair condition, but the lack of gravel has shortened its life expectancy.",
+          "tags": ["flat roof", "no gravel"],
+          "notesToAI": "Use when gravel is absent where expected."
+        },
+        {
+          "id": "flat-roof-ponding",
+          "label": "Monitor – Water Ponding",
+          "type": "monitor",
+          "goesInSummary": false,
+          "text": "Water appears to pond on the membrane. Ponding shortens roof life and increases the potential for damage.",
+          "tags": ["ponding", "flat roof"],
+          "notesToAI": "Use when standing water exceeds 48 hours after rain."
+        },
+        {
+          "id": "flat-roof-poor-workmanship",
+          "label": "Monitor – Poor Workmanship (Flat Roof)",
+          "type": "monitor",
+          "goesInSummary": false,
+          "text": "The roofing material is in reasonably good condition, but the workmanship was poor. This increases the likelihood of leaks and early failure.",
+          "tags": ["workmanship", "flat roof"],
+          "notesToAI": "Use for messy seams, bubbles, wrinkles, etc."
+        },
+        {
+          "id": "flat-roof-repair-maintenance-needed",
+          "label": "Repair – Maintenance Needed",
+          "type": "repair",
+          "goesInSummary": false,
+          "text": "The flat roof requires maintenance. Moss should be cleared, gravel voids improved, and any blisters repaired.",
+          "tags": ["flat roof", "maintenance"],
+          "notesToAI": "Use when moss, blisters, or surface defects are present."
+        },
+        {
+          "id": "flat-roof-monitor-prior-repairs",
+          "label": "Monitor – Prior Repairs (Flat Roof)",
+          "type": "monitor",
+          "goesInSummary": false,
+          "text": "Prior repairs to the flat roof are evident. This suggests past issues. Monitor for any changes.",
+          "tags": ["flat roof", "prior repairs"],
+          "notesToAI": "Use when patches or modified areas are visible."
+        }
+      ]
+    },
+
+    {
+      "id": "flashing-penetrations",
+      "label": "Flashing & Roof Penetrations",
+      "comments": [
+        {
+          "id": "flashing-improperly-sealed",
+          "label": "Repair – Flashing Improperly Sealed",
+          "type": "repair",
+          "goesInSummary": true,
+          "text": "Flashing appears improperly sealed or deteriorated at (location). This condition may allow moisture intrusion. Repairs are recommended.",
+          "tags": ["flashing", "sealant"],
+          "notesToAI": "Use when flashing sealant is cracked, missing, or poorly applied."
+        },
+        {
+          "id": "flashing-gaps-penetrations",
+          "label": "Repair – Gaps at Flashing",
+          "type": "repair",
+          "goesInSummary": true,
+          "text": "Gaps were observed at flashing around roof penetrations such as vent pipes or chimneys. Corrections are recommended to prevent leakage.",
+          "tags": ["flashing gaps", "penetrations"],
+          "notesToAI": "Use when daylight or gaps are visible."
+        },
+        {
+          "id": "penetrations-monitor-small-gaps",
+          "label": "Monitor – Aged Sealant / Small Gaps",
+          "type": "monitor",
+          "goesInSummary": false,
+          "text": "Small gaps or aged sealant were observed around plumbing or HVAC penetrations. Monitor and reseal as needed.",
+          "tags": ["sealant", "penetrations"],
+          "notesToAI": "Use when sealant aging is visible but not failing."
+        },
+        {
+          "id": "skylight-monitor-sealant",
+          "label": "Monitor – Skylight Flashing/Sealant Aging",
+          "type": "monitor",
+          "goesInSummary": false,
+          "text": "Skylight flashing or sealant shows signs of aging or wear. Monitor for leakage.",
+          "tags": ["skylight", "flashing"],
+          "notesToAI": "Use when skylight surrounds show surface aging."
+        }
+      ]
+    },
+
+    {
+      "id": "roof-drainage",
+      "label": "Roof Drainage (Gutters & Downspouts)",
+      "comments": [
+        {
+          "id": "gutter-spikes-loose",
+          "label": "Repair – Loose Gutter Spikes",
+          "type": "repair",
+          "goesInSummary": false,
+          "text": "Loose gutter spikes should be resecured to avoid gutter movement or water intrusion.",
+          "tags": ["gutters", "fasteners"],
+          "notesToAI": "Use when spikes are visibly loose or pulling away."
+        },
+        {
+          "id": "gutter-overflow",
+          "label": "Repair – Gutter Overflow",
+          "type": "repair",
+          "goesInSummary": false,
+          "text": "Evidence of gutter overflow was observed at (location). This may indicate clogging, undersized gutters, or improper slope.",
+          "tags": ["gutters", "overflow"],
+          "notesToAI": "Use when staining, water marks, or debris indicate overflow."
+        },
+        {
+          "id": "downspout-missing-extensions",
+          "label": "Repair – Missing or Improper Extensions",
+          "type": "repair",
+          "goesInSummary": false,
+          "text": "Downspout extensions are missing or are improperly directed. Extensions should discharge water away from the foundation.",
+          "tags": ["downspout", "extensions"],
+          "notesToAI": "Use when extensions do not carry water away properly."
+        },
+        {
+          "id": "downspout-too-close-foundation",
+          "label": "Repair – Downspout Discharge Too Close",
+          "type": "repair",
+          "goesInSummary": false,
+          "text": "Downspouts that discharge too close to the foundation may contribute to moisture problems. Redirection is recommended.",
+          "tags": ["downspout", "moisture"],
+          "notesToAI": "Use when downspout discharge is within 3–4 feet of the foundation."
+        },
+        {
+          "id": "gutters-sagging",
+          "label": "Repair – Sagging Gutters",
+          "type": "repair",
+          "goesInSummary": false,
+          "text": "Portions of the gutter system appear sagging or improperly sloped. This can cause overflow; adjustment is recommended.",
+          "tags": ["gutters", "sagging"],
+          "notesToAI": "Use when gutter slope is visibly incorrect."
+        }
+      ]
+    },
+
+    {
+      "id": "other-roofing-findings",
+      "label": "Other Roofing Findings",
+      "comments": [
+        {
+          "id": "satellite-dish-removal",
+          "label": "Improve – Remove Satellite Dish",
+          "type": "improve",
+          "goesInSummary": false,
+          "text": "We recommend removal of the satellite dish from the roof.",
+          "tags": ["satellite dish"],
+          "notesToAI": "Use when unused dish hardware is present."
+        },
+        {
+          "id": "satellite-bracket-seal",
+          "label": "Improve – Remove Bracket & Seal",
+          "type": "improve",
+          "goesInSummary": false,
+          "text": "The satellite dish bracket should be removed and penetrations sealed to help prevent moisture intrusion.",
+          "tags": ["satellite dish", "penetrations"],
+          "notesToAI": "Use when brackets remain after dish removal."
+        }
+      ]
+    }
+  ]
+}
