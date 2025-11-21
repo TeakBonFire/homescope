@@ -1,0 +1,156 @@
+{
+  "category": "interior-doors",
+  "groups": [
+    {
+      "id": "general-door-function",
+      "label": "General Door Function",
+      "comments": [
+        {
+          "id": "door-adjustments",
+          "label": "[[Door Adjustments]] Improve",
+          "type": "improve",
+          "goesInSummary": false,
+          "text": "Doors should be trimmed or adjusted as necessary to operate and seal properly.",
+          "tags": ["door", "adjustment", "operation"],
+          "notesToAI": "Use for doors rubbing, sticking, dragging, or not latching smoothly."
+        },
+        {
+          "id": "door-hardware-damaged",
+          "label": "[[Loose or Damaged Hardware]] Repair/Replace",
+          "type": "repair",
+          "goesInSummary": false,
+          "text": "Damaged, nonfunctional, or missing door hardware should be repaired or replaced as needed.",
+          "tags": ["hardware", "door", "repair"],
+          "notesToAI": "Use when hinges, latches, strike plates, or locking hardware are loose, missing, or malfunctioning."
+        },
+        {
+          "id": "loose-door-knob",
+          "label": "[[Loose Door Knob]] Repair/Replace",
+          "type": "repair",
+          "goesInSummary": false,
+          "text": "Loose or nonfunctioning door knobs should be repaired or replaced.",
+          "tags": ["doorknob", "hardware", "repair"],
+          "notesToAI": "Use when a door knob spins freely, does not latch, or is visibly loose."
+        }
+      ]
+    },
+    {
+      "id": "interior-sliding-closet-doors",
+      "label": "Interior Sliding / Closet Doors",
+      "comments": [
+        {
+          "id": "closet-door-guide",
+          "label": "[[Closet Door Guide]] Improve",
+          "type": "improve",
+          "goesInSummary": false,
+          "text": "Interior sliding doors (such as closet doors) should have floor guides installed for proper operation.",
+          "tags": ["closet door", "sliding door", "guide"],
+          "notesToAI": "Use when sliding closet doors wobble, swing, or track improperly due to missing guides."
+        }
+      ]
+    },
+    {
+      "id": "sliding-glass-doors",
+      "label": "Sliding Glass Doors",
+      "comments": [
+        {
+          "id": "sliding-door-difficult",
+          "label": "[[Sliding Door – Difficult Operation]] Improve",
+          "type": "improve",
+          "goesInSummary": false,
+          "text": "The sliding glass door could be improved to operate freely.",
+          "tags": ["sliding door", "operation"],
+          "notesToAI": "Use when the slider sticks, requires force, or drags on the track."
+        },
+        {
+          "id": "sliding-door-rollers",
+          "label": "[[Sliding Door Rollers]] Improve",
+          "type": "improve",
+          "goesInSummary": false,
+          "text": "The rollers of the sliding glass door could be improved to operate freely.",
+          "tags": ["sliding door", "rollers"],
+          "notesToAI": "Use when rollers are worn, flat-spotted, stiff, or out of alignment."
+        },
+        {
+          "id": "old-sliding-door",
+          "label": "[[Old Sliding Door]] Monitor",
+          "type": "monitor",
+          "goesInSummary": false,
+          "text": "The sliding glass door is old. Older doors may require increased maintenance and eventual replacement.",
+          "tags": ["sliding door", "age"],
+          "notesToAI": "Use when the door is visibly older, original to the home, or shows age-related wear but still functions."
+        },
+        {
+          "id": "sliding-door-screen-damaged",
+          "label": "[[Sliding Door Screen Damaged]] Repair/Replace",
+          "type": "repair",
+          "goesInSummary": false,
+          "text": "The screen for the sliding glass door is damaged or needs adjustment.",
+          "tags": ["screen", "sliding door", "repair"],
+          "notesToAI": "Use when screen mesh is torn, frame is bent, or screen is off-track."
+        },
+        {
+          "id": "sliding-door-screen-missing",
+          "label": "[[Sliding Door Screen Missing]] Monitor",
+          "type": "monitor",
+          "goesInSummary": false,
+          "text": "The screen for the sliding glass door is missing. Replacement may be desirable.",
+          "tags": ["screen", "sliding door", "missing"],
+          "notesToAI": "Use when the slider has no screen installed."
+        },
+        {
+          "id": "sliding-door-hardware",
+          "label": "[[Sliding Door Hardware]] Repair/Replace",
+          "type": "repair",
+          "goesInSummary": false,
+          "text": "The hardware for the sliding glass door is damaged and should be repaired or replaced.",
+          "tags": ["sliding door", "hardware", "repair"],
+          "notesToAI": "Use when handles, locks, latches, or mechanisms are damaged or failing."
+        },
+        {
+          "id": "sliding-door-threshold-leak",
+          "label": "[[Sliding Door Threshold Leakage]] Monitor",
+          "type": "monitor",
+          "goesInSummary": false,
+          "text": "Evidence of leakage was observed at the sliding door threshold. Monitor during heavy rains and/or consult the seller regarding any prior leaks or repairs at this location.",
+          "tags": ["sliding door", "leak", "threshold"],
+          "notesToAI": "Use when staining, water marks, or caulk failure suggests past moisture entry, but no active leak is confirmed."
+        }
+      ]
+    },
+    {
+      "id": "garage-to-house-doors",
+      "label": "Garage-to-House Doors",
+      "comments": [
+        {
+          "id": "fire-rated-door-missing",
+          "label": "[[Fire-Rated Door Missing]] Repair (Safety)",
+          "type": "repair",
+          "safety": true,
+          "goesInSummary": true,
+          "text": "The door between the garage and the house does not appear to be fire-rated. A properly rated door is recommended for safety.",
+          "tags": ["garage door", "fire rating", "safety"],
+          "notesToAI": "Use when the door is hollow-core, has a window, or otherwise appears not to meet fire separation standards."
+        },
+        {
+          "id": "garage-door-not-sealed",
+          "label": "[[Door Not Sealed Against Fumes]] Repair",
+          "type": "repair",
+          "goesInSummary": false,
+          "text": "The garage-to-house door is not properly sealed against vehicle fumes. Weatherstripping or other appropriate sealing is recommended.",
+          "tags": ["garage door", "seal", "fumes"],
+          "notesToAI": "Use when gaps are visible around the door or weatherstripping is missing or damaged."
+        },
+        {
+          "id": "garage-entry-door-adjustment",
+          "label": "[[Garage Entry Door Adjustment]] Repair",
+          "type": "repair",
+          "goesInSummary": false,
+          "text": "The garage entry door should be adjusted to operate freely while still fitting tightly.",
+          "tags": ["garage entry door", "adjustment"],
+          "notesToAI": "Use when the door rubs, sticks, or does not latch smoothly."
+        }
+      ]
+    }
+  ]
+}
