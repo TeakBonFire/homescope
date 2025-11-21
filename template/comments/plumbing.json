@@ -1,0 +1,722 @@
+{
+  "category": "plumbing",
+  "groups": [
+    {
+      "id": "supply-plumbing",
+      "label": "Supply Plumbing",
+      "comments": [
+        {
+          "id": "supply-typical-pressure",
+          "label": "[[Typical Water Pressure]] Note",
+          "type": "note",
+          "goesInSummary": false,
+          "text": "Reasonable water pressure was observed. A typical drop in flow was experienced when two or more fixtures were operated at the same time.",
+          "tags": ["water pressure", "supply"],
+          "notesToAI": "Use when overall pressure is acceptable and only normal drop is noted with multiple fixtures."
+        },
+        {
+          "id": "supply-main-shutoff-limitation",
+          "label": "[[Main Shutoff Valves Not Operated]] Note / Limitation",
+          "type": "note",
+          "goesInSummary": false,
+          "text": "Since main shutoff valves are operated infrequently, they can become stiff, leak, or break when operated after a long period of inactivity. For this reason, main shutoff valves were not operated during the inspection. Caution is advised when operating older shutoff valves.",
+          "tags": ["main shutoff", "limitation"],
+          "notesToAI": "Use as a standard limitation whenever main shutoff valves are not operated."
+        },
+        {
+          "id": "supply-leak",
+          "label": "[[Supply Piping Leak]] Repair/Replace",
+          "type": "repair",
+          "goesInSummary": true,
+          "text": "A leak was observed in the supply piping at (location). Repair or replacement by a qualified plumber is recommended.",
+          "tags": ["leak", "supply piping"],
+          "notesToAI": "Use when active leakage from pressurized water lines is present."
+        },
+        {
+          "id": "supply-corrosion-exterior",
+          "label": "[[Corrosion on Supply Piping]] Monitor",
+          "type": "monitor",
+          "goesInSummary": false,
+          "text": "Corrosion was observed on the exterior of the supply piping at (location). This area should be monitored and repaired if leakage develops.",
+          "tags": ["corrosion", "supply piping"],
+          "notesToAI": "Use when rust or mineral build-up is visible but no active leakage is confirmed."
+        },
+        {
+          "id": "supply-old-steel-piping",
+          "label": "[[Old Steel Supply Piping]] Monitor",
+          "type": "monitor",
+          "goesInSummary": false,
+          "text": "Old steel water supply piping was observed. This material is prone to interior corrosion and constriction of the pipe diameter over time, which can reduce water pressure. Replacement is typically performed when loss of pressure becomes unacceptable.",
+          "tags": ["galvanized", "old piping"],
+          "notesToAI": "Use when galvanized/steel supply lines are present."
+        },
+        {
+          "id": "supply-polybutylene",
+          "label": "[[Polybutylene Supply Piping]] Monitor",
+          "type": "monitor",
+          "goesInSummary": true,
+          "text": "Polybutylene water supply piping was observed. This gray plastic pipe has a history of premature failure in some installations. Leaks and deterioration have been reported. Further evaluation by a qualified plumber and ongoing monitoring are recommended.",
+          "tags": ["polybutylene", "supply piping"],
+          "notesToAI": "Use when gray polybutylene piping is present. Do not state it is failing unless leaks are observed."
+        },
+        {
+          "id": "supply-freeze-risk-outbuilding",
+          "label": "[[Supply Piping Freeze Risk]] Monitor",
+          "type": "monitor",
+          "goesInSummary": false,
+          "text": "Supply piping serving the outbuilding may be susceptible to freezing during very cold weather. Insulation or heat tracing may be desirable.",
+          "tags": ["freeze risk", "outbuilding"],
+          "notesToAI": "Use when exposed supply piping is outside conditioned space."
+        },
+        {
+          "id": "supply-poor-support",
+          "label": "[[Supply Piping Poorly Supported]] Repair",
+          "type": "repair",
+          "goesInSummary": false,
+          "text": "The supply piping lacks adequate support at (location). Better support or strapping is recommended to reduce movement and stress on fittings.",
+          "tags": ["support", "supply piping"],
+          "notesToAI": "Use when piping is hanging, sagging, or loosely supported."
+        },
+        {
+          "id": "supply-missing-valve-handle",
+          "label": "[[Supply Valve Handle Missing]] Repair/Replace",
+          "type": "repair",
+          "goesInSummary": false,
+          "text": "A supply valve handle is missing at (location). Repair or replacement is recommended to allow proper operation.",
+          "tags": ["valve", "handle missing"],
+          "notesToAI": "Use when valve is present but cannot be operated normally."
+        },
+        {
+          "id": "supply-damaged-valve-handle",
+          "label": "[[Supply Valve Handle Damaged]] Repair/Replace",
+          "type": "repair",
+          "goesInSummary": false,
+          "text": "A supply valve handle is damaged at (location). Repair or replacement is recommended.",
+          "tags": ["valve", "damaged handle"],
+          "notesToAI": "Use when the handle is cracked, bent, or not securely attached."
+        },
+        {
+          "id": "supply-water-hammer",
+          "label": "[[Water Hammer]] Monitor",
+          "type": "monitor",
+          "goesInSummary": false,
+          "text": "Water hammer (banging or rattling of pipes) was observed when operating plumbing fixtures. Over time this can stress pipe connections. Pipe support improvements and/or water hammer arrestors may be desirable.",
+          "tags": ["water hammer"],
+          "notesToAI": "Use when noticeable banging is heard when fixtures are shut off."
+        },
+        {
+          "id": "supply-poor-workmanship",
+          "label": "[[Supply Piping Workmanship]] Monitor",
+          "type": "monitor",
+          "goesInSummary": false,
+          "text": "The installation of the supply piping at (location) is not workmanlike. While no active leakage was observed today, this may increase the likelihood of future problems.",
+          "tags": ["workmanship", "supply piping"],
+          "notesToAI": "Use when connections appear sloppy or non-standard but intact."
+        },
+        {
+          "id": "supply-condensation",
+          "label": "[[Cold Water Condensation]] Monitor",
+          "type": "monitor",
+          "goesInSummary": false,
+          "text": "Condensation was noted on portions of the cold water piping. If this becomes a concern, insulation could be added to reduce condensation.",
+          "tags": ["condensation"],
+          "notesToAI": "Use when droplets form on cold pipes in humid areas."
+        },
+        {
+          "id": "supply-cross-connection",
+          "label": "[[Cross Connection]] Repair",
+          "type": "repair",
+          "goesInSummary": true,
+          "text": "A potential cross connection was observed between the potable water supply and a source of contamination at (location). This condition should be corrected by a qualified plumber.",
+          "tags": ["cross connection"],
+          "notesToAI": "Use when a hose or fixture could allow backflow into the potable supply."
+        },
+        {
+          "id": "supply-old-pressure-tank",
+          "label": "[[Old Well Pressure Tank]] Monitor",
+          "type": "monitor",
+          "goesInSummary": false,
+          "text": "The well pressure tank appears old. As with any older mechanical component, it is difficult to predict remaining life. Replacement may eventually be needed.",
+          "tags": ["well", "pressure tank"],
+          "notesToAI": "Use on well systems when tank appears aged."
+        },
+        {
+          "id": "supply-add-shutoffs",
+          "label": "[[Add Local Shutoffs]] Improve",
+          "type": "improve",
+          "goesInSummary": false,
+          "text": "Additional shutoff valves at (location) would be beneficial to allow easier isolation of plumbing fixtures for future maintenance.",
+          "tags": ["shutoff valves"],
+          "notesToAI": "Use when fixtures lack local shutoff valves."
+        },
+        {
+          "id": "supply-dissimilar-metals",
+          "label": "[[Dissimilar Metal Connection]] Repair",
+          "type": "repair",
+          "goesInSummary": true,
+          "text": "Dissimilar metals were observed in the supply piping connection at (location). This can lead to galvanic corrosion and leakage. Installation of proper dielectric fittings by a qualified plumber is recommended.",
+          "tags": ["dissimilar metals", "corrosion"],
+          "notesToAI": "Use where copper connects directly to steel/galvanized without dielectric union."
+        }
+      ]
+    },
+    {
+      "id": "waste-drain-vent",
+      "label": "Waste, Drain, and Vent Piping",
+      "comments": [
+        {
+          "id": "waste-possible-obstruction",
+          "label": "[[Possible Waste Line Obstruction]] Repair",
+          "type": "repair",
+          "goesInSummary": true,
+          "text": "The waste piping at (location) may be obstructed or draining slowly. Further evaluation and any needed cleaning or repairs by a qualified plumber are recommended.",
+          "tags": ["waste piping", "obstruction"],
+          "notesToAI": "Use when drains back up, gurgle, or drain very slowly."
+        },
+        {
+          "id": "trap-leak",
+          "label": "[[Trap Leaking]] Repair",
+          "type": "repair",
+          "goesInSummary": true,
+          "text": "The trap is leaking at (location). Repair or replacement is recommended to prevent water damage.",
+          "tags": ["trap", "leak"],
+          "notesToAI": "Use when active drip or water staining is present at a trap."
+        },
+        {
+          "id": "flexible-trap",
+          "label": "[[Flexible Trap Not Recommended]] Improve",
+          "type": "improve",
+          "goesInSummary": false,
+          "text": "A flexible waste pipe or trap has been installed at (location). These fittings are prone to clogs and leakage. Replacement with properly sized rigid piping is recommended when practical.",
+          "tags": ["flexible trap"],
+          "notesToAI": "Use when corrugated or flexible traps are installed."
+        },
+        {
+          "id": "trap-suspect-condition",
+          "label": "[[Trap in Suspect Condition]] Monitor",
+          "type": "monitor",
+          "goesInSummary": false,
+          "text": "The trap at (location) appears to be in suspect condition. This area should be monitored, and repairs made if leakage or odors develop.",
+          "tags": ["trap", "suspect"],
+          "notesToAI": "Use when trap is rusted, patched, or poorly assembled but not leaking."
+        },
+        {
+          "id": "s-trap",
+          "label": "[[S Trap]] Monitor / Improve",
+          "type": "monitor",
+          "goesInSummary": false,
+          "text": "An \"S\" trap was observed at (location). S traps are prone to siphoning and can allow sewer gases to enter the home. Replacement with a properly vented P-trap is recommended during future plumbing upgrades. Fixtures should be monitored for sewer odors.",
+          "tags": ["S-trap"],
+          "notesToAI": "Use when S-shaped traps are visible under fixtures."
+        },
+        {
+          "id": "waste-poor-slope",
+          "label": "[[Insufficient Waste Pipe Slope]] Repair",
+          "type": "repair",
+          "goesInSummary": true,
+          "text": "Portions of the waste piping do not appear to have adequate slope for proper drainage. Corrective work by a qualified plumber is recommended to help prevent blockages.",
+          "tags": ["slope", "waste piping"],
+          "notesToAI": "Use when horizontal drains appear flat or back-pitched."
+        },
+        {
+          "id": "waste-poor-support",
+          "label": "[[Waste Piping Poorly Supported]] Repair",
+          "type": "repair",
+          "goesInSummary": false,
+          "text": "Waste piping at (location) lacks adequate support. Improved support or strapping is recommended to prevent sagging and joint stress.",
+          "tags": ["support", "waste piping"],
+          "notesToAI": "Use when piping sags or hangs loosely."
+        },
+        {
+          "id": "abs-waste-monitor",
+          "label": "[[ABS Waste Piping]] Monitor",
+          "type": "monitor",
+          "goesInSummary": false,
+          "text": "ABS plastic waste piping was noted. In some installations, this material has been prone to problems at the joints, especially where exposed to temperature extremes. Connections should be monitored for signs of leakage.",
+          "tags": ["ABS", "waste piping"],
+          "notesToAI": "Use when ABS is present, particularly in attics or exterior walls."
+        },
+        {
+          "id": "waste-connection-suspect",
+          "label": "[[Waste Connection Suspect]] Monitor",
+          "type": "monitor",
+          "goesInSummary": false,
+          "text": "A waste piping connection at (location) appears suspect or non-standard. This area should be monitored and repaired if leakage occurs.",
+          "tags": ["waste connection"],
+          "notesToAI": "Use when odd fittings or patch repairs are present but not leaking."
+        },
+        {
+          "id": "waste-old-piping",
+          "label": "[[Old Waste Piping]] Monitor",
+          "type": "monitor",
+          "goesInSummary": false,
+          "text": "Much of the waste piping is older material. Older piping can be more prone to problems and may require repair or replacement on an as-needed basis.",
+          "tags": ["old piping"],
+          "notesToAI": "Use for cast iron, clay, or older mixed piping."
+        },
+        {
+          "id": "waste-lead-piping",
+          "label": "[[Lead Waste Piping]] Monitor",
+          "type": "monitor",
+          "goesInSummary": true,
+          "text": "Lead waste piping was observed. This material is old and prone to leakage at joints. Replacement may eventually be needed.",
+          "tags": ["lead piping"],
+          "notesToAI": "Use when lead bends or other lead components are visible."
+        },
+        {
+          "id": "no-main-cleanout",
+          "label": "[[Main Drain Cleanout Not Found]] Monitor",
+          "type": "monitor",
+          "goesInSummary": false,
+          "text": "No cleanout for the main drain was found during the inspection. It may be prudent to locate an existing cleanout or have one installed to allow easier maintenance.",
+          "tags": ["cleanout"],
+          "notesToAI": "Use when main cleanout cannot be located."
+        },
+        {
+          "id": "sewer-odor",
+          "label": "[[Sewer Odor Detected]] Monitor / Repair",
+          "type": "monitor",
+          "goesInSummary": true,
+          "text": "A sewer odor was detected at (location) during the inspection. This area should be monitored. If unpleasant odors persist, evaluation and repair by a qualified plumber is recommended.",
+          "tags": ["odor", "sewer gas"],
+          "notesToAI": "Use when noticeable odor is present in a localized area."
+        },
+        {
+          "id": "venting-suspect",
+          "label": "[[Waste Venting Suspect]] Monitor",
+          "type": "monitor",
+          "goesInSummary": false,
+          "text": "The presence of adequate venting for the waste piping at (location) is suspect. Gurgling or slow drainage may indicate venting issues.",
+          "tags": ["venting"],
+          "notesToAI": "Use when fixture performance suggests venting problems."
+        },
+        {
+          "id": "roof-vent-height",
+          "label": "[[Roof Vent Height]] Repair",
+          "type": "repair",
+          "goesInSummary": false,
+          "text": "A plumbing vent stack at (location) terminates too close to the roof surface. Vent stacks should generally extend several inches above the roof. Correction is recommended.",
+          "tags": ["vent stack"],
+          "notesToAI": "Use when vent terminations are unusually short or undersized."
+        },
+        {
+          "id": "waste-limitation-concealed",
+          "label": "[[Waste Piping Concealed]] Limitation",
+          "type": "note",
+          "goesInSummary": false,
+          "text": "Portions of the waste and vent piping are concealed by finishes, insulation, or soil and could not be inspected.",
+          "tags": ["limitation", "concealed piping"],
+          "notesToAI": "Use as a standard limitation where appropriate."
+        }
+      ]
+    },
+    {
+      "id": "fixtures",
+      "label": "Plumbing Fixtures (Sinks, Tubs, Showers, Toilets)",
+      "comments": [
+        {
+          "id": "sink-drain-stop-missing",
+          "label": "[[Sink Drain Stop Missing or Sticks]] Improve",
+          "type": "improve",
+          "goesInSummary": false,
+          "text": "The sink drain stop at (location) is missing or does not operate properly. Adjustment or replacement may be desirable.",
+          "tags": ["sink", "drain stop"],
+          "notesToAI": "Use when pop-up or stopper does not seal or is absent."
+        },
+        {
+          "id": "tub-drain-stop-missing",
+          "label": "[[Tub Drain Stop Missing or Sticks]] Improve",
+          "type": "improve",
+          "goesInSummary": false,
+          "text": "The tub drain stop at (location) is missing or not working properly. Adjustment or replacement may be desirable.",
+          "tags": ["tub", "drain stop"],
+          "notesToAI": "Use when tub stopper will not hold water or is missing."
+        },
+        {
+          "id": "toilet-loose",
+          "label": "[[Toilet Loose]] Repair",
+          "type": "repair",
+          "goesInSummary": true,
+          "text": "The toilet at (location) is loose at the floor. Loose toilets should be removed, the connection and surrounding floor checked for leakage, and the toilet properly reinstalled with a new wax ring.",
+          "tags": ["toilet", "loose"],
+          "notesToAI": "Use when the toilet rocks or moves under light pressure."
+        },
+        {
+          "id": "toilet-runs-on",
+          "label": "[[Toilet Runs On]] Repair",
+          "type": "repair",
+          "goesInSummary": false,
+          "text": "The toilet at (location) continues to run after flushing. Adjustment or replacement of tank components is recommended to reduce water waste.",
+          "tags": ["toilet", "runs on"],
+          "notesToAI": "Use when tank does not shut off reliably."
+        },
+        {
+          "id": "shower-diverter-not-working",
+          "label": "[[Shower Diverter Not Working]] Repair",
+          "type": "repair",
+          "goesInSummary": false,
+          "text": "The tub spout diverter at (location) is not functioning properly. Water continues to flow from the spout while the shower is in use. Repair is recommended.",
+          "tags": ["diverter", "shower"],
+          "notesToAI": "Use when diverter does not adequately send water to shower head."
+        },
+        {
+          "id": "tile-shower-needs-repair",
+          "label": "[[Tile Shower Requires Repair]] Repair",
+          "type": "repair",
+          "goesInSummary": true,
+          "text": "The tiled shower stall at (location) requires repair. Loose or damaged tile, grout, and caulk should be repaired or replaced as needed. Any damaged wall structure behind the tile should also be repaired if present.",
+          "tags": ["tile shower", "repair"],
+          "notesToAI": "Use when cracked grout, loose tile, or water damage is evident."
+        },
+        {
+          "id": "tub-rust-interior",
+          "label": "[[Tub Rust – Interior]] Monitor",
+          "type": "monitor",
+          "goesInSummary": false,
+          "text": "Rust was observed inside the bathtub at (location). While no leakage was observed at the time of inspection, this suggests some deterioration and the tub should be monitored.",
+          "tags": ["tub", "rust"],
+          "notesToAI": "Use when enamel is chipped and rust spots are visible."
+        },
+        {
+          "id": "tub-rust-underside",
+          "label": "[[Tub Rust – Underside]] Monitor",
+          "type": "monitor",
+          "goesInSummary": false,
+          "text": "Rusting was observed on the underside of the bathtub at (location). No leakage was observed today, but leakage could occur as deterioration progresses. Monitoring and eventual repair or replacement may be needed.",
+          "tags": ["tub", "underside rust"],
+          "notesToAI": "Use when underside is accessible and rust is visible."
+        },
+        {
+          "id": "tub-shower-maintenance-caulking",
+          "label": "[[Tub and Shower Caulking Maintenance]] Maintenance Item",
+          "type": "maintenance",
+          "goesInSummary": false,
+          "text": "Water intrusion from tubs and showers is a common cause of concealed damage. Periodic re-caulking of seams, corners, tub lips, tub spouts, and faucet trim plates is an important ongoing maintenance task.",
+          "tags": ["maintenance", "caulk"],
+          "notesToAI": "Use as a general maintenance note for baths and showers."
+        },
+        {
+          "id": "whirlpool-testing-note",
+          "label": "[[Whirlpool Tub Testing]] Note",
+          "type": "note",
+          "goesInSummary": false,
+          "text": "The whirlpool tub at (location) was filled above the jets and operated to check basic function. Pump and supply piping are typically concealed and were not fully visible for inspection.",
+          "tags": ["whirlpool tub"],
+          "notesToAI": "Use when a whirlpool tub is present and you performed a basic operational test."
+        },
+        {
+          "id": "whirlpool-debris-jets",
+          "label": "[[Whirlpool Tub Debris]] Maintenance Item",
+          "type": "maintenance",
+          "goesInSummary": false,
+          "text": "Debris was ejected from the whirlpool tub jets during testing. Professional cleaning of the circulation system is recommended before use.",
+          "tags": ["whirlpool tub", "debris"],
+          "notesToAI": "Use when dark debris or buildup appears during operation."
+        }
+      ]
+    },
+    {
+      "id": "hose-bibs",
+      "label": "Hose Bibs",
+      "comments": [
+        {
+          "id": "hose-bib-iso-valve",
+          "label": "[[Hose Bib Isolating Valve]] Repair",
+          "type": "repair",
+          "goesInSummary": false,
+          "text": "An interior isolating valve for the exterior hose bib at (location) was not found. Installing a shutoff valve can make winterization easier and help protect from freezing.",
+          "tags": ["hose bib", "shutoff"],
+          "notesToAI": "Use when no interior shutoff is present in cold climates."
+        },
+        {
+          "id": "hose-bib-leaking",
+          "label": "[[Hose Bib Leaking]] Repair/Replace",
+          "type": "repair",
+          "goesInSummary": false,
+          "text": "The hose bib at (location) is leaking. Repair or replacement is recommended.",
+          "tags": ["hose bib", "leak"],
+          "notesToAI": "Use when dripping is observed at the handle or spout."
+        },
+        {
+          "id": "hose-bib-loose",
+          "label": "[[Hose Bib Loose]] Repair",
+          "type": "repair",
+          "goesInSummary": false,
+          "text": "The exterior hose bib at (location) is loose and should be properly secured to the wall.",
+          "tags": ["hose bib", "loose"],
+          "notesToAI": "Use when the faucet moves relative to the wall."
+        },
+        {
+          "id": "hose-bib-damaged",
+          "label": "[[Hose Bib Damaged]] Repair/Replace",
+          "type": "repair",
+          "goesInSummary": false,
+          "text": "The hose bib and/or handle at (location) is damaged. Repair or replacement is recommended.",
+          "tags": ["hose bib", "damage"],
+          "notesToAI": "Use when handle is broken or body is cracked."
+        },
+        {
+          "id": "hose-bib-operational-note",
+          "label": "[[Hose Bibs Operational]] Note",
+          "type": "note",
+          "goesInSummary": false,
+          "text": "Exterior hose bibs were tested and operated normally at the time of inspection unless otherwise noted.",
+          "tags": ["hose bib", "note"],
+          "notesToAI": "Use as a positive operational note."
+        },
+        {
+          "id": "hose-bib-not-tested-cold-weather",
+          "label": "[[Hose Bibs Not Tested – Cold Weather]] Limitation",
+          "type": "note",
+          "goesInSummary": false,
+          "text": "Exterior hose bibs were not tested due to low outdoor temperatures and the risk of freezing.",
+          "tags": ["hose bib", "limitation"],
+          "notesToAI": "Use when shut off or not tested due to weather."
+        }
+      ]
+    },
+    {
+      "id": "water-heater",
+      "label": "Water Heater",
+      "comments": [
+        {
+          "id": "water-heater-operational",
+          "label": "[[Water Heater Operational]] Note",
+          "type": "note",
+          "goesInSummary": false,
+          "text": "The water heater was operating and no obvious leakage was observed at the time of inspection.",
+          "tags": ["water heater", "operational"],
+          "notesToAI": "Use when unit works and appears dry."
+        },
+        {
+          "id": "water-temp-too-hot",
+          "label": "[[Hot Water Temperature High]] Safety Issue",
+          "type": "repair",
+          "safety": true,
+          "goesInSummary": true,
+          "text": "The hot water temperature at the fixtures measured approximately (temperature)°F, which is higher than generally recommended and can create a scald hazard. Reducing the water heater temperature to about 120°F is recommended for improved safety.",
+          "tags": ["scald hazard", "temperature"],
+          "notesToAI": "Use when measured temperature exceeds ~120°F."
+        },
+        {
+          "id": "water-heater-old",
+          "label": "[[Old Water Heater]] Deferred Cost Item",
+          "type": "monitor",
+          "goesInSummary": false,
+          "text": "The water heater appears to be near or beyond the typical service life. While it was operating today, replacement should be anticipated.",
+          "tags": ["old", "deferred cost"],
+          "notesToAI": "Use when age suggests limited remaining life."
+        },
+        {
+          "id": "water-heater-prior-leak",
+          "label": "[[Water Heater Prior Leakage]] Monitor",
+          "type": "monitor",
+          "goesInSummary": false,
+          "text": "Staining or corrosion suggests prior leakage at the water heater. No active leakage was observed today, but the unit should be monitored closely.",
+          "tags": ["prior leak"],
+          "notesToAI": "Use when rust or staining is present around seams or base."
+        },
+        {
+          "id": "water-heater-leaking",
+          "label": "[[Water Heater Leaking]] Repair/Replace",
+          "type": "repair",
+          "goesInSummary": true,
+          "text": "The water heater is leaking. Repair or replacement by a qualified plumber is recommended.",
+          "tags": ["water heater", "leak"],
+          "notesToAI": "Use when active leakage is visible from tank or fittings."
+        },
+        {
+          "id": "water-heater-service-recommended",
+          "label": "[[Water Heater Service Recommended]] Maintenance Item",
+          "type": "maintenance",
+          "goesInSummary": false,
+          "text": "Servicing of the water heater by a qualified professional is recommended to help ensure safe, reliable operation.",
+          "tags": ["maintenance"],
+          "notesToAI": "Use when unit appears older or burner is dirty, even if operating."
+        },
+        {
+          "id": "burner-dirty",
+          "label": "[[Water Heater Burner Dirty]] Repair",
+          "type": "repair",
+          "goesInSummary": false,
+          "text": "The water heater burner assembly appears dirty or sooted. Cleaning and adjustment are recommended.",
+          "tags": ["burner", "dirty"],
+          "notesToAI": "Use when visual inspection shows soot or debris."
+        },
+        {
+          "id": "water-heater-corrode-connections",
+          "label": "[[Corrosion at Water Heater Connections]] Monitor",
+          "type": "monitor",
+          "goesInSummary": false,
+          "text": "Corrosion was noted where the water heater connects to the supply piping. This is a common condition but should be monitored for leakage.",
+          "tags": ["corrosion", "connections"],
+          "notesToAI": "Use when rust is present at nipples or unions."
+        },
+        {
+          "id": "water-heater-reversed-connections",
+          "label": "[[Hot/Cold Reversed at Water Heater]] Repair",
+          "type": "repair",
+          "goesInSummary": false,
+          "text": "The hot and cold connections appear to be reversed at the water heater. Correct connection is recommended for best performance.",
+          "tags": ["reversed connections"],
+          "notesToAI": "Use when labeling or piping indicates hot/cold reversal at the tank."
+        },
+        {
+          "id": "water-heater-no-cold-shutoff",
+          "label": "[[No Cold Supply Shutoff]] Repair",
+          "type": "repair",
+          "goesInSummary": false,
+          "text": "No cold water shutoff valve was observed at the water heater. Adding a shutoff valve would make future service easier.",
+          "tags": ["shutoff valve"],
+          "notesToAI": "Use when cold inlet lacks a local shutoff."
+        },
+        {
+          "id": "tpr-no-discharge-pipe",
+          "label": "[[TPR Discharge Pipe Missing]] Repair (Safety)",
+          "type": "repair",
+          "safety": true,
+          "goesInSummary": true,
+          "text": "The temperature and pressure relief (TPR) valve on the water heater lacks a proper discharge pipe. For safety, a pipe should be installed and terminated near the floor.",
+          "tags": ["TPR", "safety"],
+          "notesToAI": "Use when valve has open outlet."
+        },
+        {
+          "id": "tpr-leaking",
+          "label": "[[TPR Valve or Pipe Leaking]] Repair/Replace",
+          "type": "repair",
+          "goesInSummary": true,
+          "text": "The TPR valve or its discharge piping shows signs of leakage. Evaluation and repair or replacement by a qualified plumber is recommended.",
+          "tags": ["TPR", "leak"],
+          "notesToAI": "Use when crusting, staining, or active drip is present at outlet."
+        },
+        {
+          "id": "tpr-discharge-improper",
+          "label": "[[Improper TPR Discharge Pipe]] Repair",
+          "type": "repair",
+          "goesInSummary": false,
+          "text": "The discharge piping for the TPR valve is not configured as typically recommended. It should terminate in a visible location, generally not more than about 6 inches above the floor. Correction is recommended.",
+          "tags": ["TPR", "discharge pipe"],
+          "notesToAI": "Use when pipe is capped, reduced, or ends too high."
+        },
+        {
+          "id": "water-heater-wiring-unprotected",
+          "label": "[[Water Heater Wiring Unprotected]] Repair",
+          "type": "repair",
+          "goesInSummary": true,
+          "text": "Wiring serving the electric water heater is not adequately protected. Conduit or appropriate cable protection is recommended.",
+          "tags": ["wiring", "electric water heater"],
+          "notesToAI": "Use when NM cable enters without strain relief or conduit is missing where typically expected."
+        },
+        {
+          "id": "water-heater-burner-cover-missing",
+          "label": "[[Burner Compartment Cover Missing]] Repair/Replace",
+          "type": "repair",
+          "goesInSummary": true,
+          "text": "The burner compartment cover is missing from the water heater. Replacement is recommended for safety and proper combustion.",
+          "tags": ["cover missing", "burner"],
+          "notesToAI": "Use when combustion chamber is open."
+        },
+        {
+          "id": "water-heater-spillage-backdraft",
+          "label": "[[Water Heater Backdrafting or Spillage]] Repair (Safety)",
+          "type": "repair",
+          "safety": true,
+          "goesInSummary": true,
+          "text": "The water heater venting system shows evidence of backdrafting or exhaust spillage. This is a potential safety hazard and should be evaluated and corrected by a qualified HVAC technician or plumber.",
+          "tags": ["backdraft", "venting"],
+          "notesToAI": "Use when draft test or staining suggests flue gases are not drafting properly."
+        }
+      ]
+    },
+    {
+      "id": "gas-piping",
+      "label": "Gas Piping (Fuel Storage & Distribution)",
+      "comments": [
+        {
+          "id": "gas-copper-not-approved",
+          "label": "[[Copper Used for Gas Piping]] Repair/Replace",
+          "type": "repair",
+          "goesInSummary": true,
+          "text": "Copper piping appears to have been used for gas distribution at (location). This is not generally recommended in this area. Correction by a qualified plumber or gas contractor is advised.",
+          "tags": ["gas piping", "copper"],
+          "notesToAI": "Use when copper is clearly used for gas lines and local practice discourages it."
+        },
+        {
+          "id": "csst-bonded",
+          "label": "[[CSST Gas Piping Bonded]] Note",
+          "type": "note",
+          "goesInSummary": false,
+          "text": "CSST (corrugated stainless steel tubing) gas piping was observed and appears to be bonded as recommended.",
+          "tags": ["CSST", "bonding"],
+          "notesToAI": "Use when bonding clamp and conductor are visible."
+        }
+      ]
+    },
+    {
+      "id": "sump-ejector-radon",
+      "label": "Sump, Ejector, and Radon-Related Plumbing",
+      "comments": [
+        {
+          "id": "sump-sealed-radon",
+          "label": "[[Sump Basin Sealed for Radon]] Limitation",
+          "type": "note",
+          "goesInSummary": false,
+          "text": "The sump basin lid is sealed as part of the radon mitigation system and could not be opened for inspection or testing of the pump.",
+          "tags": ["sump", "radon", "limitation"],
+          "notesToAI": "Use when sealed covers prevent normal testing."
+        },
+        {
+          "id": "radon-system-operational",
+          "label": "[[Radon System Operating]] Note",
+          "type": "note",
+          "goesInSummary": false,
+          "text": "The radon mitigation system appeared to be operating at the time of inspection, as evidenced by the in-line fan and pressure indicator.",
+          "tags": ["radon system"],
+          "notesToAI": "Use when manometer or fan indicates operation."
+        }
+      ]
+    },
+    {
+      "id": "plumbing-limitations",
+      "label": "Plumbing Limitations and General Notes",
+      "comments": [
+        {
+          "id": "plumbing-concealed-limitation",
+          "label": "[[Concealed Plumbing Not Inspected]] Limitation",
+          "type": "note",
+          "goesInSummary": false,
+          "text": "Portions of the plumbing system are concealed by finishes, insulation, or soil and could not be inspected. Only visible, accessible plumbing components were evaluated.",
+          "tags": ["limitation", "concealed"],
+          "notesToAI": "Use in the plumbing limitations section of the report."
+        },
+        {
+          "id": "plumbing-performance-limitation",
+          "label": "[[Plumbing Performance Not Fully Determined]] Limitation",
+          "type": "note",
+          "goesInSummary": false,
+          "text": "The inspection does not determine exact flow rates, volume, pressure, temperature, or long-term adequacy of the plumbing system. Fixtures were tested using normal operating controls where accessible.",
+          "tags": ["limitation", "performance"],
+          "notesToAI": "Standard boilerplate for plumbing scope of inspection."
+        },
+        {
+          "id": "plumbing-appliances-excluded",
+          "label": "[[Certain Plumbing Components Excluded]] Limitation",
+          "type": "note",
+          "goesInSummary": false,
+          "text": "The inspection does not include water conditioning equipment, solar water heaters, fire or lawn sprinkler systems, or private waste disposal systems unless specifically contracted for.",
+          "tags": ["limitation", "exclusions"],
+          "notesToAI": "Use as global plumbing limitation."
+        },
+        {
+          "id": "tubs-showers-testing-limitation",
+          "label": "[[Tub and Shower Overflow Not Tested]] Limitation",
+          "type": "note",
+          "goesInSummary": false,
+          "text": "Tubs and showers are not tested with the weight of a person standing in the fixture, and overflows are not intentionally tested. Leaks may occur under different use conditions.",
+          "tags": ["limitation", "tub", "shower"],
+          "notesToAI": "Use as a standard limitation for bathroom fixtures."
+        }
+      ]
+    }
+  ]
+}
