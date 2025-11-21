@@ -1,0 +1,198 @@
+{
+  "category": "interior-windows",
+  "groups": [
+    {
+      "id": "standard-maintenance",
+      "label": "Standard Maintenance (Always Included for Homes with Windows)",
+      "comments": [
+        {
+          "id": "window-maintenance",
+          "label": "[[Window Maintenance]] Maintenance Item",
+          "type": "maintenance",
+          "goesInSummary": false,
+          "text": "While the windows in the home were in fair condition, it’s important to perform general window maintenance such as cleaning, lubricating, and adjustments to ensure proper function and avoid premature deterioration. As the windows age, hardware replacement or repairs—such as locking mechanisms, safety latches, or handles—may be needed to restore full function. The most important factor is that the windows remain effective as a barrier against moisture intrusion and remain energy efficient.",
+          "tags": ["window", "maintenance", "operation"],
+          "notesToAI": "Use as a general maintenance note for most homes unless the user opts out of including maintenance sections."
+        },
+        {
+          "id": "window-disrepair",
+          "label": "[[Disrepair]] Repair",
+          "type": "repair",
+          "goesInSummary": false,
+          "text": "The windows are in mild disrepair. This is a common condition that does not necessitate immediate major repair. Trimming and adjustment, hardware improvements, or glazing repairs would be logical long-term improvements. In practice, improvements are usually made on an as-needed basis only. The most important factor is that the window exteriors are well-maintained to avoid rot or water infiltration.",
+          "tags": ["window", "repair", "disrepair"],
+          "notesToAI": "Use when windows have general wear, loose hardware, or minor deterioration but are still functional."
+        }
+      ]
+    },
+    {
+      "id": "typical-older-windows",
+      "label": "Typical / Older Window Conditions",
+      "comments": [
+        {
+          "id": "older-windows",
+          "label": "[[Older Windows]] Monitor",
+          "type": "monitor",
+          "goesInSummary": false,
+          "text": "Older windows require ongoing maintenance. Wear consistent with age was observed at (location). Operation and sealing should be monitored over time.",
+          "tags": ["window", "age", "older"],
+          "notesToAI": "Use when windows appear original or outdated but not defective."
+        }
+      ]
+    },
+    {
+      "id": "window-safety-issues",
+      "label": "Safety Issues",
+      "comments": [
+        {
+          "id": "painted-shut",
+          "label": "[[Painted Shut]] Safety Issue",
+          "type": "repair",
+          "safety": true,
+          "goesInSummary": true,
+          "text": "One or more windows at (location) are painted shut. This prevents egress and natural ventilation. Repairs are recommended for safety.",
+          "tags": ["window", "safety", "egress", "painted shut"],
+          "notesToAI": "Use when paint seals the sash and prevents normal opening."
+        }
+      ]
+    },
+    {
+      "id": "operation-hardware-issues",
+      "label": "Operation / Hardware Issues",
+      "comments": [
+        {
+          "id": "hardware-nonfunctional",
+          "label": "[[Hardware Nonfunctional]] Repair",
+          "type": "repair",
+          "goesInSummary": false,
+          "text": "Window hardware (lock, crank, or latch) was nonfunctional at (location). Repair is recommended to ensure proper operation and security.",
+          "tags": ["window hardware", "repair"],
+          "notesToAI": "Use when locks, latches, or crank handles do not function properly."
+        },
+        {
+          "id": "difficult-to-operate",
+          "label": "[[Difficult to Operate]] Improve",
+          "type": "improve",
+          "goesInSummary": false,
+          "text": "A window at (location) is difficult to operate. Cleaning, lubrication, or adjustment may be needed. If operation does not improve, repair may be necessary.",
+          "tags": ["window", "operation", "sticking"],
+          "notesToAI": "Use when windows require unusual force to open or close."
+        }
+      ]
+    },
+    {
+      "id": "water-intrusion-moisture",
+      "label": "Water Intrusion / Moisture",
+      "comments": [
+        {
+          "id": "chronic-leakage",
+          "label": "[[Chronic Leakage]] Repair",
+          "type": "repair",
+          "goesInSummary": true,
+          "text": "The window at (location) shows signs of chronic leakage. Sealing, flashing correction, or window repair may be necessary to prevent further moisture intrusion.",
+          "tags": ["window", "leakage", "moisture"],
+          "notesToAI": "Use when staining shows repeated water entry or deterioration."
+        },
+        {
+          "id": "water-stains-around-window",
+          "label": "[[Water Stains Around Window]] Monitor / Repair",
+          "type": "monitor",
+          "goesInSummary": false,
+          "text": "Water staining was noted around the window at (location). The area was dry at the time of inspection. Consult the seller about any prior leaks or repairs. Repairs may be needed if leakage recurs.",
+          "tags": ["window", "stain", "moisture"],
+          "notesToAI": "Use when window trim or drywall shows past staining but no active leakage is detected."
+        }
+      ]
+    },
+    {
+      "id": "fogging-lost-seal",
+      "label": "Fogging / Lost Seal",
+      "comments": [
+        {
+          "id": "lost-seal-fogged-window",
+          "label": "[[Lost Seal / Fogged Window]] Repair",
+          "type": "repair",
+          "goesInSummary": false,
+          "text": "A window at (location) shows evidence of a failed thermal seal, such as fogging or condensation between the panes. Repair or replacement of the window sash may be needed.",
+          "tags": ["failed seal", "fogging", "condensation"],
+          "notesToAI": "Use when condensation is between panes, not on interior surfaces."
+        }
+      ]
+    },
+    {
+      "id": "glass-damage",
+      "label": "Glass Damage",
+      "comments": [
+        {
+          "id": "glass-cracked-damaged",
+          "label": "[[Glass Cracked or Damaged]] Repair",
+          "type": "repair",
+          "goesInSummary": true,
+          "text": "The window glass at (location) is cracked or damaged. Replacement is recommended to maintain safety and energy efficiency.",
+          "tags": ["glass", "crack", "damage"],
+          "notesToAI": "Use whenever glass damage is visible, regardless of whether the window is operable."
+        }
+      ]
+    },
+    {
+      "id": "screens",
+      "label": "Screens",
+      "comments": [
+        {
+          "id": "screens-missing-damaged",
+          "label": "[[Screens Missing or Damaged]] Improve",
+          "type": "improve",
+          "goesInSummary": false,
+          "text": "Window screens are missing or damaged at (location). Replacement may be desirable.",
+          "tags": ["screens", "window"],
+          "notesToAI": "Use when screens are torn, bent, off-track, or completely missing."
+        }
+      ]
+    },
+    {
+      "id": "caulking-sealing-interior",
+      "label": "Caulking / Sealing – Interior",
+      "comments": [
+        {
+          "id": "caulk-gaps-window-trim",
+          "label": "[[Caulk Gaps at Window Trim]] Improve",
+          "type": "improve",
+          "goesInSummary": false,
+          "text": "Gaps in caulking were noted at the interior trim of the window at (location). Caulking is recommended to improve air sealing and appearance.",
+          "tags": ["caulk", "window", "trim"],
+          "notesToAI": "Use when small visual gaps appear between trim and wall or window frame."
+        }
+      ]
+    },
+    {
+      "id": "condensation",
+      "label": "Condensation",
+      "comments": [
+        {
+          "id": "interior-condensation",
+          "label": "[[Interior Condensation]] Monitor",
+          "type": "monitor",
+          "goesInSummary": false,
+          "text": "Condensation was noted on the inside surface of the window at (location). This is often related to interior humidity levels. Monitor and use ventilation or dehumidification as needed.",
+          "tags": ["condensation", "humidity", "window"],
+          "notesToAI": "Use when moisture forms on the interior side of glass, not between panes."
+        }
+      ]
+    },
+    {
+      "id": "typical-cosmetic-wear",
+      "label": "Typical Cosmetic Wear",
+      "comments": [
+        {
+          "id": "typical-window-wear",
+          "label": "[[Typical Window Wear]] Note",
+          "type": "note",
+          "goesInSummary": false,
+          "text": "Minor cosmetic wear was observed on window trim or finishes at (location). This is common in previously owned homes.",
+          "tags": ["cosmetic", "window", "trim"],
+          "notesToAI": "Use for scuffs, light paint wear, or small dings consistent with normal use."
+        }
+      ]
+    }
+  ]
+}
