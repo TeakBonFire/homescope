@@ -1,0 +1,316 @@
+{
+  "category": "insulation-ventilation",
+  "groups": [
+    {
+      "id": "attic-insulation",
+      "label": "Attic Insulation",
+      "comments": [
+        {
+          "id": "attic-insulation-typical",
+          "label": "Note: Typical insulation levels",
+          "type": "note",
+          "goesInSummary": false,
+          "text": "Typical insulation levels were observed. No deficiencies were noted.",
+          "tags": ["insulation", "attic"],
+          "notesToAI": "Use when insulation depth appears typical for the area and no defects are visible."
+        },
+        {
+          "id": "attic-insulation-good",
+          "label": "Note: Good insulation levels observed",
+          "type": "note",
+          "goesInSummary": false,
+          "text": "Good insulation levels were observed.",
+          "tags": ["insulation", "attic"],
+          "notesToAI": "Use when insulation appears above average depth or coverage."
+        },
+        {
+          "id": "attic-insulation-improve-general",
+          "label": "Improve: Additional insulation",
+          "type": "improve",
+          "goesInSummary": false,
+          "text": "Insulation improvements may be cost-effective depending on the anticipated term of ownership.",
+          "tags": ["insulation", "attic"],
+          "notesToAI": "Use when insulation is adequate but additional depth could improve efficiency."
+        },
+        {
+          "id": "attic-access-door-insulation",
+          "label": "Improve: Insulate attic access door",
+          "type": "improve",
+          "goesInSummary": false,
+          "text": "The attic access door should be insulated for energy efficiency.",
+          "tags": ["insulation", "attic", "access door"],
+          "notesToAI": "Use when the attic hatch or door is uninsulated or poorly insulated."
+        },
+        {
+          "id": "attic-insulation-uneven",
+          "label": "Repair: Uneven insulation",
+          "type": "repair",
+          "goesInSummary": false,
+          "text": "Disturbed or uneven insulation should be evened out.",
+          "tags": ["insulation", "attic", "repair"],
+          "notesToAI": "Use when insulation is disrupted, displaced, or significantly compressed in spots."
+        },
+        {
+          "id": "attic-insulation-missing",
+          "label": "Repair: Missing or incomplete insulation",
+          "type": "repair",
+          "goesInSummary": true,
+          "text": "Missing or incomplete insulation should be corrected by a qualified installer.",
+          "tags": ["insulation", "attic", "missing"],
+          "notesToAI": "Use when portions of the attic have no insulation or obvious gaps in coverage."
+        },
+        {
+          "id": "attic-duct-insulation",
+          "label": "Repair: Attic ductwork insulation",
+          "type": "repair",
+          "goesInSummary": false,
+          "text": "Ductwork in the attic should be better insulated to reduce energy costs.",
+          "tags": ["ductwork", "insulation", "attic"],
+          "notesToAI": "Use when supply or return ducts in the attic lack adequate insulation."
+        },
+        {
+          "id": "attic-vermiculite-monitor",
+          "label": "Monitor: Vermiculite insulation",
+          "type": "monitor",
+          "goesInSummary": false,
+          "text": "Vermiculite insulation was observed. Vermiculite may contain asbestos. EPA recommendations generally suggest leaving this material in place and undisturbed; consult an asbestos specialist if further evaluation is desired.",
+          "tags": ["vermiculite", "asbestos", "attic"],
+          "notesToAI": "Use when loose-fill insulation resembles vermiculite. Do not state that asbestos is present unless confirmed by testing."
+        },
+        {
+          "id": "attic-recessed-lights-safety",
+          "label": "Repair (Safety): Recessed lights and insulation",
+          "type": "repair",
+          "safety": true,
+          "goesInSummary": true,
+          "text": "Recessed lights buried in insulation or not rated for insulation contact may pose a fire hazard. Evaluation by a qualified electrician is recommended.",
+          "tags": ["recessed lights", "insulation", "attic", "safety"],
+          "notesToAI": "Use when insulation covers recessed light fixtures that are not clearly rated for insulation contact."
+        }
+      ],
+      "limitations": [
+        {
+          "id": "attic-visibility-limited",
+          "type": "note",
+          "text": "The inspector was unable to visually see any items or components located beneath the attic insulation, such as the bottom chords of trusses, ceiling joists at the drywall, electrical wiring, or exhaust vents."
+        },
+        {
+          "id": "attic-access-limited",
+          "type": "note",
+          "text": "Due to the size of the attic opening and the design of the roof structure, some areas of the attic space were limited and could not be seen."
+        }
+      ]
+    },
+    {
+      "id": "crawlspace-basement-insulation",
+      "label": "Crawlspace / Basement Insulation",
+      "comments": [
+        {
+          "id": "crawlspace-insulation-improve",
+          "label": "Improve: Crawlspace insulation improvements",
+          "type": "improve",
+          "goesInSummary": false,
+          "text": "Crawlspace insulation improvements may be desirable depending on the anticipated term of ownership.",
+          "tags": ["insulation", "crawlspace"],
+          "notesToAI": "Use when there is some insulation present but opportunities exist to add more for comfort/efficiency."
+        },
+        {
+          "id": "rim-joist-insulation",
+          "label": "Improve: Insulate rim joist cavities",
+          "type": "improve",
+          "goesInSummary": false,
+          "text": "Rim joist cavities should be insulated.",
+          "tags": ["rim joist", "insulation", "crawlspace", "basement"],
+          "notesToAI": "Use when rim joist areas are uninsulated or minimally insulated."
+        },
+        {
+          "id": "crawlspace-insulation-damaged",
+          "label": "Repair/Replace: Loose or damaged insulation",
+          "type": "repair",
+          "goesInSummary": false,
+          "text": "Loose or damaged insulation should be repaired or replaced.",
+          "tags": ["insulation", "crawlspace", "basement", "repair"],
+          "notesToAI": "Use when insulation is hanging loose, deteriorated, or missing backing."
+        },
+        {
+          "id": "plumbing-pipe-insulation",
+          "label": "Repair: Insulate plumbing pipes",
+          "type": "repair",
+          "goesInSummary": false,
+          "text": "Plumbing pipes should be insulated to protect from freezing.",
+          "tags": ["plumbing", "pipes", "insulation", "freeze"],
+          "notesToAI": "Use when water supply pipes are exposed in areas subject to freezing."
+        },
+        {
+          "id": "crawlspace-duct-insulation",
+          "label": "Repair: Crawlspace ductwork insulation",
+          "type": "repair",
+          "goesInSummary": false,
+          "text": "Ductwork in the crawlspace or basement should be better insulated.",
+          "tags": ["ductwork", "insulation", "crawlspace", "basement"],
+          "notesToAI": "Use when supply/return ducts in these areas have little or no insulation."
+        },
+        {
+          "id": "crawlspace-ventilation-inadequate",
+          "label": "Repair: Crawlspace ventilation inadequate",
+          "type": "repair",
+          "goesInSummary": false,
+          "text": "Crawlspace ventilation is inadequate. It is generally recommended that approximately one square foot of vent opening be provided for every 500 square feet of crawlspace floor area.",
+          "tags": ["ventilation", "crawlspace"],
+          "notesToAI": "Use when there are few or no vents, or vents appear undersized for crawlspace area."
+        },
+        {
+          "id": "crawlspace-vents-obstructed",
+          "label": "Improve: Crawlspace wall vents obstructed",
+          "type": "improve",
+          "goesInSummary": false,
+          "text": "Crawlspace wall vents are obstructed and should be cleared or opened to allow air flow.",
+          "tags": ["ventilation", "crawlspace", "vents"],
+          "notesToAI": "Use when vents are blocked by vegetation, debris, or stored items."
+        },
+        {
+          "id": "crawlspace-moisture-barrier",
+          "label": "Repair: Install crawlspace moisture barrier",
+          "type": "repair",
+          "goesInSummary": false,
+          "text": "A moisture barrier should be installed on the crawlspace floor to reduce ground moisture migration.",
+          "tags": ["moisture barrier", "crawlspace"],
+          "notesToAI": "Use when bare soil is exposed on the crawlspace floor and no vapor barrier is present."
+        },
+        {
+          "id": "foam-board-insulation-safety",
+          "label": "Repair (Safety): Exposed foam board insulation",
+          "type": "repair",
+          "safety": true,
+          "goesInSummary": true,
+          "text": "Exposed foam board insulation is a fire hazard and should be removed or covered with an appropriate fire-resistant material.",
+          "tags": ["foam board", "insulation", "safety", "fire"],
+          "notesToAI": "Use when rigid foam insulation is exposed without a proper fire barrier."
+        },
+        {
+          "id": "evidence-of-vermin-activity",
+          "label": "Repair: Evidence of vermin activity",
+          "type": "repair",
+          "goesInSummary": false,
+          "text": "Evidence of vermin activity was observed. Pest control treatment or monitoring is recommended.",
+          "tags": ["vermin", "pests", "insulation", "crawlspace", "basement"],
+          "notesToAI": "Use when droppings, nesting, or gnaw marks are visible."
+        }
+      ]
+    },
+    {
+      "id": "floor-insulation",
+      "label": "Floor Insulation",
+      "comments": [
+        {
+          "id": "floor-insulation-improve",
+          "label": "Improve: Floor insulation for comfort",
+          "type": "improve",
+          "goesInSummary": false,
+          "text": "Insulation improvements may be desirable to improve the comfort of the room above.",
+          "tags": ["floor", "insulation"],
+          "notesToAI": "Use when floors over unconditioned space feel cool and insulation is minimal or absent."
+        }
+      ]
+    },
+    {
+      "id": "attic-roof-ventilation",
+      "label": "Attic & Roof Ventilation",
+      "comments": [
+        {
+          "id": "attic-roof-ventilation-improve",
+          "label": "Repair/Improve: Attic or roof ventilation",
+          "type": "repair",
+          "goesInSummary": false,
+          "text": "Attic or roof ventilation should be improved. It is generally recommended that one square foot of free vent area be provided for every 150 square feet of ceiling area.",
+          "tags": ["ventilation", "attic", "roof"],
+          "notesToAI": "Use when intake/exhaust venting appears limited or unbalanced for the attic area."
+        },
+        {
+          "id": "soffit-vents-obstructed",
+          "label": "Repair: Soffit vents obstructed",
+          "type": "repair",
+          "goesInSummary": false,
+          "text": "Soffit vents are obstructed; installation of baffles is recommended to maintain proper airflow from the eaves.",
+          "tags": ["soffit vents", "attic", "ventilation"],
+          "notesToAI": "Use when insulation or debris is blocking soffit vent openings."
+        },
+        {
+          "id": "roof-vents-unscreened",
+          "label": "Repair: Roof or exhaust vents not screened",
+          "type": "repair",
+          "goesInSummary": false,
+          "text": "Roof or exhaust vents that are not screened should be screened to help prevent vermin entry.",
+          "tags": ["vents", "screening", "roof", "attic"],
+          "notesToAI": "Use when open vent terminations lack screens or covers where pests could enter."
+        },
+        {
+          "id": "cathedral-ceilings-monitor",
+          "label": "Monitor: Sloped or cathedral ceilings",
+          "type": "monitor",
+          "goesInSummary": false,
+          "text": "Sloped or cathedral ceilings are rarely well ventilated and may be more prone to concealed moisture problems. Monitor for signs of distress over time.",
+          "tags": ["cathedral ceiling", "ventilation"],
+          "notesToAI": "Use when rooms have vaulted or cathedral ceilings with limited visible venting."
+        },
+        {
+          "id": "bath-fan-inoperable",
+          "label": "Repair: Bathroom exhaust fan inoperable",
+          "type": "repair",
+          "goesInSummary": false,
+          "text": "A bathroom exhaust fan was found to be inoperable. Repair or replacement is recommended.",
+          "tags": ["bathroom fan", "exhaust", "ventilation"],
+          "notesToAI": "Use when the fan does not respond to normal controls during testing."
+        },
+        {
+          "id": "attic-fan-inoperable",
+          "label": "Repair: Attic power ventilator inoperable",
+          "type": "repair",
+          "goesInSummary": false,
+          "text": "An attic power ventilator was found to be inoperable. Repair or replacement is recommended if relied upon for ventilation.",
+          "tags": ["attic fan", "ventilation", "attic"],
+          "notesToAI": "Use when motorized attic fans do not operate using accessible controls or thermostats."
+        },
+        {
+          "id": "bath-fan-vents-into-attic",
+          "label": "Repair: Bathroom exhaust vents to exterior",
+          "type": "repair",
+          "goesInSummary": false,
+          "text": "Bathroom exhaust vents should discharge to the building exterior rather than into the attic or other concealed spaces.",
+          "tags": ["bathroom fan", "attic", "venting"],
+          "notesToAI": "Use when exhaust ducts terminate in the attic or other concealed cavities instead of outdoors."
+        }
+      ]
+    },
+    {
+      "id": "dryer-vent-limitations",
+      "label": "Dryer Vent Limitations",
+      "comments": [
+        {
+          "id": "dryer-vent-limited-visibility",
+          "label": "Note: Portions of dryer vent concealed",
+          "type": "note",
+          "goesInSummary": false,
+          "text": "Portions of the dryer vent piping may be concealed by insulation or wall/ceiling finishes and could not be fully inspected.",
+          "tags": ["dryer vent", "limitation"],
+          "notesToAI": "Use as a limitation when much of the vent path is concealed."
+        }
+      ]
+    },
+    {
+      "id": "general-energy-efficiency",
+      "label": "General Energy Efficiency Note",
+      "comments": [
+        {
+          "id": "insulation-energy-efficiency-note",
+          "label": "Monitor: Insulation levels and energy costs",
+          "type": "monitor",
+          "goesInSummary": false,
+          "text": "Insulation levels affect heating and cooling costs. Current energy standards generally recommend around R-49 attic insulation in this region for new homes. Existing homes may have less.",
+          "tags": ["insulation", "energy efficiency"],
+          "notesToAI": "Use as a general note where insulation is below current standards but typical for the age of the home."
+        }
+      ]
+    }
+  ]
+}
