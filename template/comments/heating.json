@@ -1,0 +1,199 @@
+{
+  "category": "heating",
+  "groups": [
+    {
+      "id": "heating-system",
+      "label": "Heating System",
+      "comments": [
+        {
+          "id": "heat-general-note",
+          "label": "[[Heating – General Description]] Note",
+          "type": "note",
+          "goesInSummary": false,
+          "text": "The primary heat source is a (fuel type) (forced-air furnace/heat pump/geothermal air handler/electric baseboard) located at (location). The unit responded to normal controls at the time of inspection unless otherwise noted.",
+          "tags": ["heating", "description"],
+          "notesToAI": "Fill in fuel type (gas, electric, geothermal, etc.), equipment type, and location."
+        },
+        {
+          "id": "heat-typical-condition",
+          "label": "[[Heating – Typical Condition]] Note",
+          "type": "note",
+          "goesInSummary": false,
+          "text": "The visible portions of the heating system appeared in typical condition for its age. No evidence of active malfunction was observed unless specifically described in this report.",
+          "tags": ["heating", "condition"]
+        },
+        {
+          "id": "heat-old-unit-monitor",
+          "label": "[[Older Heating Equipment]] Monitor / Deferred Cost",
+          "type": "monitor",
+          "goesInSummary": false,
+          "text": "The heating equipment appears older and is likely near the latter portion of its typical service life. While it functioned at the time of inspection, future repair or replacement should be anticipated.",
+          "tags": ["heating", "age", "deferred cost"]
+        },
+        {
+          "id": "heat-inoperative",
+          "label": "[[Heating System Inoperative]] Repair",
+          "type": "repair",
+          "goesInSummary": true,
+          "text": "The heating system did not respond properly to normal controls at the time of inspection. Evaluation and repair by a qualified HVAC contractor are recommended.",
+          "tags": ["heating", "inoperative"]
+        },
+        {
+          "id": "heat-low-temperature-rise",
+          "label": "[[Low Temperature Rise]] Repair / Monitor",
+          "type": "repair",
+          "goesInSummary": false,
+          "text": "The furnace exhibited a low temperature rise between return and supply air when tested. This can indicate performance issues such as incorrect airflow or burner problems. Further evaluation and service by a qualified HVAC contractor are recommended.",
+          "tags": ["heating", "temperature rise", "performance"],
+          "notesToAI": "Use when your measured temp rise is below the nameplate range."
+        },
+        {
+          "id": "heat-rust-in-cabinet",
+          "label": "[[Rust in Furnace Cabinet]] Monitor / Repair",
+          "type": "monitor",
+          "goesInSummary": false,
+          "text": "Rust or corrosion was observed inside the furnace cabinet at (location). This may indicate past moisture or condensate issues. The system should be monitored, and repairs or cleaning performed as needed during the next HVAC service.",
+          "tags": ["heating", "rust", "cabinet"],
+          "notesToAI": "Matches your frequent 'rust observed inside of furnace cabinet' finding."
+        },
+        {
+          "id": "heat-water-stain-in-cabinet",
+          "label": "[[Water Stain in Furnace Cabinet]] Monitor",
+          "type": "monitor",
+          "goesInSummary": false,
+          "text": "Water staining was observed in the furnace cabinet at (location). The area was dry at the time of inspection. We recommend having this area checked at the next routine HVAC service to confirm that any prior leakage has been corrected.",
+          "tags": ["heating", "water stain", "cabinet"],
+          "notesToAI": "This is the monitor comment you asked for previously about water stains in the furnace cabinet."
+        },
+        {
+          "id": "heat-geothermal-note",
+          "label": "[[Geothermal System – Limited Evaluation]] Note",
+          "type": "note",
+          "goesInSummary": false,
+          "text": "A geothermal heating system was present. A basic functional check was performed using normal controls; internal components, buried piping, and system design were not evaluated.",
+          "tags": ["geothermal", "limitation"]
+        },
+        {
+          "id": "heat-electric-baseboard",
+          "label": "[[Electric Baseboard Heaters]] Note",
+          "type": "note",
+          "goesInSummary": false,
+          "text": "Electric baseboard heaters are installed in portions of the home. A representative number were operated at the time of inspection. Furniture and stored items limited inspection in some areas.",
+          "tags": ["electric baseboard"]
+        },
+        {
+          "id": "heat-electric-baseboard-clearance",
+          "label": "[[Baseboard Heater Clearance]] Improve / Safety",
+          "type": "improve",
+          "goesInSummary": false,
+          "text": "Combustible materials (such as furniture, drapes, or bedding) were located close to an electric baseboard heater at (location). Maintaining adequate clearance around heaters is recommended for safety.",
+          "tags": ["electric baseboard", "clearance", "safety"]
+        },
+        {
+          "id": "heat-gas-wall-unit",
+          "label": "[[Gas Wall Heater – Room Heat Only]] Note",
+          "type": "note",
+          "goesInSummary": false,
+          "text": "A gas wall heater was observed at (location), providing heat mainly to that room. The remainder of the home may not be heated by this unit. Only a basic operational check was performed.",
+          "tags": ["gas wall heater"]
+        }
+      ]
+    },
+
+    {
+      "id": "ductwork-and-exhaust",
+      "label": "Ductwork and Exhaust",
+      "comments": [
+        {
+          "id": "duct-typical-note",
+          "label": "[[Ductwork – Typical Condition]] Note",
+          "type": "note",
+          "goesInSummary": false,
+          "text": "Visible supply and return ductwork appeared in typical condition for its age. Interior duct surfaces are not inspected and may contain dust or debris.",
+          "tags": ["ductwork", "note"]
+        },
+        {
+          "id": "duct-damaged-or-disconnected",
+          "label": "[[Damaged or Disconnected Ductwork]] Repair",
+          "type": "repair",
+          "goesInSummary": true,
+          "text": "Damaged or disconnected ductwork was observed at (location). This can reduce efficiency and comfort. Repair or sealing by a qualified HVAC contractor is recommended.",
+          "tags": ["ductwork", "damage", "disconnected"]
+        },
+        {
+          "id": "duct-airflow-imbalance",
+          "label": "[[Uneven Airflow at Registers]] Monitor / Improve",
+          "type": "monitor",
+          "goesInSummary": false,
+          "text": "Uneven airflow was noted at some supply registers. Balancing or duct adjustments may be desirable to improve comfort.",
+          "tags": ["ductwork", "airflow"]
+        },
+        {
+          "id": "flue-bvent-not-plumb",
+          "label": "[[B-Vent Not Plumb]] Repair",
+          "type": "repair",
+          "goesInSummary": true,
+          "text": "The metal B-vent serving the heating appliance at (location) is not plumb or properly supported. Correction is recommended to help ensure proper draft and clearance to combustibles.",
+          "tags": ["flue", "B-vent", "venting"],
+          "notesToAI": "Use for your 'B-vents not plumb' photo/comment."
+        },
+        {
+          "id": "flue-pvc-water-stain",
+          "label": "[[Water on PVC Furnace Flue]] Monitor / Repair",
+          "type": "monitor",
+          "goesInSummary": false,
+          "text": "Water was observed on the exterior of the PVC furnace flue pipe with a water stain directly beneath it at (location). This may indicate condensation or leakage at a joint. Monitor the area and have a qualified HVAC contractor repair any active leakage.",
+          "tags": ["PVC flue", "condensation", "stain"],
+          "notesToAI": "Matches your recent comment: water observed on exterior of PVC furnace flue and stain below."
+        },
+        {
+          "id": "flue-rust-or-corrosion",
+          "label": "[[Rust/Corrosion at Flue]] Monitor / Repair",
+          "type": "monitor",
+          "goesInSummary": false,
+          "text": "Rust or corrosion was observed at the furnace flue or vent connector at (location). This area should be monitored and evaluated during the next HVAC service; repairs or replacement may be needed if deterioration progresses.",
+          "tags": ["flue", "rust"]
+        },
+        {
+          "id": "flue-clearance-combustibles",
+          "label": "[[Flue Clearance to Combustibles]] Repair / Safety",
+          "type": "repair",
+          "goesInSummary": true,
+          "text": "The furnace flue/vent connector at (location) appears to be too close to combustible materials. Correction by a qualified HVAC contractor is recommended for safety.",
+          "tags": ["flue", "clearance", "safety"]
+        }
+      ]
+    },
+
+    {
+      "id": "heating-fyi",
+      "label": "Heating FYI",
+      "comments": [
+        {
+          "id": "heating-annual-service-tip",
+          "label": "[[Annual Service Recommended]] Note",
+          "type": "note",
+          "goesInSummary": false,
+          "text": "Annual servicing of the heating system by a qualified HVAC contractor is recommended to help maintain efficiency, safety, and reliability.",
+          "tags": ["tip", "service"]
+        },
+        {
+          "id": "filter-maintenance-tip",
+          "label": "[[Filter Maintenance Tip]] Note",
+          "type": "note",
+          "goesInSummary": false,
+          "text": "Air filters should be checked regularly and replaced as needed. Dirty filters can reduce airflow, lower efficiency, and shorten equipment life.",
+          "tags": ["tip", "filter"]
+        },
+        {
+          "id": "heating-life-expectancy-tip",
+          "label": "[[Heating Life Expectancy Tip]] Note",
+          "type": "note",
+          "goesInSummary": false,
+          "text": "Most forced-air furnaces have a typical life expectancy in the range of 15–25 years, depending on usage and maintenance. Planning for eventual replacement is part of normal home ownership.",
+          "tags": ["tip", "life expectancy"]
+        }
+      ]
+    }
+  ]
+}
