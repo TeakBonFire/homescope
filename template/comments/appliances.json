@@ -1,0 +1,400 @@
+{
+  "category": "appliances",
+  "groups": [
+    {
+      "id": "appliances-tested",
+      "label": "Appliances Tested – General",
+      "comments": [
+        {
+          "id": "appliances-general-note",
+          "label": "[[Appliances Tested]] Note",
+          "type": "note",
+          "goesInSummary": false,
+          "text": "Built-in kitchen appliances present at the time of inspection were tested using normal controls unless otherwise noted. Portable or personal appliances were not evaluated.",
+          "tags": ["appliances", "scope"],
+          "notesToAI": "Use as default overview when at least one major appliance was tested."
+        },
+        {
+          "id": "appliances-not-exhaustive",
+          "label": "[[Inspection Scope – Appliances]] Limitation",
+          "type": "note",
+          "goesInSummary": false,
+          "text": "The appliance inspection is limited to basic operation using normal controls. Internal components, timers, calibration, and specialty features are not tested.",
+          "tags": ["appliances", "limitation"],
+          "notesToAI": "Standard boilerplate for the appliance section."
+        }
+      ]
+    },
+
+    {
+      "id": "range-stove",
+      "label": "Range / Stove",
+      "comments": [
+        {
+          "id": "range-operational",
+          "label": "[[Range Operational]] Note",
+          "type": "note",
+          "goesInSummary": false,
+          "text": "The range/stove responded to normal controls and appeared to function as intended at the time of inspection.",
+          "tags": ["range", "operational"]
+        },
+        {
+          "id": "range-burner-igniter-not-working",
+          "label": "[[Range Burner Igniter Inoperative]] Repair",
+          "type": "repair",
+          "goesInSummary": false,
+          "text": "One or more range burners at (location) did not ignite using the automatic igniter. Cleaning or repair is recommended.",
+          "tags": ["range", "igniter"],
+          "notesToAI": "Use when a gas burner will light with a match but the igniter fails."
+        },
+        {
+          "id": "range-igniter-keeps-sparking",
+          "label": "[[Range Igniter Continues Sparking]] Repair",
+          "type": "repair",
+          "goesInSummary": false,
+          "text": "The range igniter continued to spark after the burner was lit. Adjustment or repair is recommended.",
+          "tags": ["range", "igniter"],
+          "notesToAI": "Use for comment you’ve used before: starter does not stop sparking after burners are lit."
+        },
+        {
+          "id": "range-anti-tip-missing",
+          "label": "[[Range Anti-Tip Device Missing]] Safety Issue",
+          "type": "repair",
+          "safety": true,
+          "goesInSummary": true,
+          "text": "An anti-tip device was not observed for the range. These devices help prevent the appliance from tipping if weight is applied to an open door. Installation of an approved anti-tip bracket is recommended.",
+          "tags": ["range", "anti-tip", "safety"]
+        }
+      ]
+    },
+
+    {
+      "id": "refrigerator",
+      "label": "Refrigerator",
+      "comments": [
+        {
+          "id": "refrigerator-not-inspected-personal",
+          "label": "[[Refrigerator Not Inspected – Personal Appliance]] Limitation",
+          "type": "note",
+          "goesInSummary": false,
+          "text": "The refrigerator present at the time of inspection appears to be a personal appliance and may not remain with the home; it was not evaluated as part of this inspection.",
+          "tags": ["refrigerator", "limitation"],
+          "notesToAI": "Use by default when refrigerator is not clearly included with the sale."
+        },
+        {
+          "id": "refrigerator-operational-basic",
+          "label": "[[Refrigerator Operational – Basic Check]] Note",
+          "type": "note",
+          "goesInSummary": false,
+          "text": "A basic check of the refrigerator/freezer found it to be running and cooling at the time of inspection. Performance over time is not determined.",
+          "tags": ["refrigerator", "operational"],
+          "notesToAI": "Use when you did perform a basic test."
+        }
+      ]
+    },
+
+    {
+      "id": "microwave",
+      "label": "Microwave",
+      "comments": [
+        {
+          "id": "microwave-operational",
+          "label": "[[Microwave Operational]] Note",
+          "type": "note",
+          "goesInSummary": false,
+          "text": "The built-in microwave responded to normal controls at the time of inspection.",
+          "tags": ["microwave", "operational"]
+        },
+        {
+          "id": "microwave-not-tested-countertop",
+          "label": "[[Microwave Not Tested – Portable]] Limitation",
+          "type": "note",
+          "goesInSummary": false,
+          "text": "Countertop/portable microwaves are considered personal appliances and were not evaluated.",
+          "tags": ["microwave", "portable", "limitation"]
+        }
+      ]
+    },
+
+    {
+      "id": "waste-disposer",
+      "label": "Waste Disposer",
+      "comments": [
+        {
+          "id": "disposer-operational",
+          "label": "[[Disposer Operational]] Note",
+          "type": "note",
+          "goesInSummary": false,
+          "text": "The waste disposer responded to normal controls at the time of inspection.",
+          "tags": ["disposer", "operational"]
+        },
+        {
+          "id": "disposer-debris",
+          "label": "[[Debris in Disposer]] Repair",
+          "type": "repair",
+          "goesInSummary": false,
+          "text": "Debris was observed inside the waste disposer. We recommend the disposer be cleaned and any foreign material removed to reduce the risk of damage or jamming.",
+          "tags": ["disposer", "debris"],
+          "notesToAI": "Use for your frequent 'debris in disposer' / 'debris in disposal' observation."
+        },
+        {
+          "id": "disposer-leaking",
+          "label": "[[Disposer Leaking]] Repair",
+          "type": "repair",
+          "goesInSummary": true,
+          "text": "The waste disposer at (location) is leaking. Repair or replacement is recommended.",
+          "tags": ["disposer", "leak"]
+        }
+      ]
+    },
+
+    {
+      "id": "cooktop",
+      "label": "Cooktop",
+      "comments": [
+        {
+          "id": "cooktop-operational",
+          "label": "[[Cooktop Operational]] Note",
+          "type": "note",
+          "goesInSummary": false,
+          "text": "The cooktop responded to normal controls and appeared to function as intended at the time of inspection.",
+          "tags": ["cooktop", "operational"]
+        },
+        {
+          "id": "cooktop-igniter-inoperative",
+          "label": "[[Cooktop Igniter Inoperative]] Repair",
+          "type": "repair",
+          "goesInSummary": false,
+          "text": "The automatic igniter for the gas cooktop did not function properly during testing. Cleaning or repair is recommended.",
+          "tags": ["cooktop", "igniter"],
+          "notesToAI": "Matches the comment you’ve used: automatic igniter did not function during testing."
+        },
+        {
+          "id": "cooktop-breaker-off-note",
+          "label": "[[Cooktop Breaker Off]] Note",
+          "type": "note",
+          "goesInSummary": false,
+          "text": "Power to the cooktop was turned off at the electrical panel at the time of inspection. The unit was not operated.",
+          "tags": ["cooktop", "limitation"],
+          "notesToAI": "Use when you find the breaker off and choose not to energize."
+        }
+      ]
+    },
+
+    {
+      "id": "built-in-oven",
+      "label": "Built-in Oven",
+      "comments": [
+        {
+          "id": "oven-operational-basic",
+          "label": "[[Oven Operational – Basic]] Note",
+          "type": "note",
+          "goesInSummary": false,
+          "text": "The built-in oven responded to normal controls and warmed when tested. Temperature calibration was not verified.",
+          "tags": ["oven", "operational"]
+        },
+        {
+          "id": "oven-not-tested",
+          "label": "[[Oven Not Tested]] Limitation",
+          "type": "note",
+          "goesInSummary": false,
+          "text": "The built-in oven was not operated due to (reason).",
+          "tags": ["oven", "limitation"],
+          "notesToAI": "Inspector should fill in the reason: items stored inside, power off, etc."
+        }
+      ]
+    },
+
+    {
+      "id": "clothes-washer",
+      "label": "Clothes Washer",
+      "comments": [
+        {
+          "id": "washer-not-inspected-personal",
+          "label": "[[Washer Not Inspected – Personal Appliance]] Limitation",
+          "type": "note",
+          "goesInSummary": false,
+          "text": "The clothes washer present appears to be a personal appliance and may not remain with the home; it was not inspected.",
+          "tags": ["washer", "limitation"],
+          "notesToAI": "Use as your default stance since you only occasionally inspect laundry appliances."
+        },
+        {
+          "id": "washer-operational-basic",
+          "label": "[[Washer Operated – Basic]] Note",
+          "type": "note",
+          "goesInSummary": false,
+          "text": "The clothes washer was run through a short cycle and appeared to operate without obvious leakage. Long-term performance is not determined.",
+          "tags": ["washer", "operational"],
+          "notesToAI": "Use when you *do* test the washer."
+        },
+        {
+          "id": "washer-drain-pan-recommended",
+          "label": "[[Washing Machine Drain Pan Recommended]] Improve",
+          "type": "improve",
+          "goesInSummary": false,
+          "text": "The washing machine is located in a finished area of the home. Installing a properly drained washing machine pan would help reduce the risk of hidden water damage if leakage occurs.",
+          "tags": ["washer", "drain pan", "finished area"],
+          "notesToAI": "Use when the washer is above finished flooring or over drywall/paneling rather than bare concrete."
+        }
+      ]
+    },
+
+    {
+      "id": "clothes-dryer",
+      "label": "Clothes Dryer",
+      "comments": [
+        {
+          "id": "dryer-not-inspected-personal",
+          "label": "[[Dryer Not Inspected – Personal Appliance]] Limitation",
+          "type": "note",
+          "goesInSummary": false,
+          "text": "The clothes dryer present appears to be a personal appliance and may not remain with the home; it was not inspected.",
+          "tags": ["dryer", "limitation"]
+        },
+        {
+          "id": "dryer-operational-basic",
+          "label": "[[Dryer Operated – Basic]] Note",
+          "type": "note",
+          "goesInSummary": false,
+          "text": "The clothes dryer responded to normal controls and produced heat when tested. Internal lint accumulation and long-term performance are beyond the scope of this inspection.",
+          "tags": ["dryer", "operational"]
+        },
+        {
+          "id": "dryer-venting-concern",
+          "label": "[[Dryer Venting Concern]] Repair",
+          "type": "repair",
+          "goesInSummary": false,
+          "text": "A concern was noted with the dryer exhaust venting at (location), such as excessive length, kinks, or non-smooth duct material. Correction is recommended for safety and efficiency.",
+          "tags": ["dryer", "venting"],
+          "notesToAI": "You can tweak the specific issue when you insert it."
+        }
+      ]
+    },
+
+    {
+      "id": "door-bell",
+      "label": "Door Bell",
+      "comments": [
+        {
+          "id": "doorbell-operational",
+          "label": "[[Door Bell Operational]] Note",
+          "type": "note",
+          "goesInSummary": false,
+          "text": "The door bell responded to its test button at the time of inspection.",
+          "tags": ["door bell", "operational"]
+        },
+        {
+          "id": "doorbell-inoperative",
+          "label": "[[Door Bell Inoperative]] Repair",
+          "type": "repair",
+          "goesInSummary": false,
+          "text": "The door bell did not respond to normal controls at the time of inspection. Repair is recommended.",
+          "tags": ["door bell", "inoperative"]
+        }
+      ]
+    },
+
+    {
+      "id": "trash-compactor",
+      "label": "Trash Compactor",
+      "comments": [
+        {
+          "id": "compactor-not-present",
+          "label": "[[Trash Compactor Not Present]] Note",
+          "type": "note",
+          "goesInSummary": false,
+          "text": "No trash compactor was installed at the time of inspection.",
+          "tags": ["trash compactor", "not present"]
+        },
+        {
+          "id": "compactor-not-tested",
+          "label": "[[Trash Compactor Not Tested]] Limitation",
+          "type": "note",
+          "goesInSummary": false,
+          "text": "The trash compactor, if present, was not operated as part of this inspection.",
+          "tags": ["trash compactor", "limitation"]
+        }
+      ]
+    },
+
+    {
+      "id": "kitchen-exhaust",
+      "label": "Kitchen Exhaust",
+      "comments": [
+        {
+          "id": "exhaust-operational",
+          "label": "[[Kitchen Exhaust Operational]] Note",
+          "type": "note",
+          "goesInSummary": false,
+          "text": "The kitchen exhaust fan responded to normal controls at the time of inspection.",
+          "tags": ["kitchen exhaust", "operational"]
+        },
+        {
+          "id": "exhaust-vents-indoors",
+          "label": "[[Kitchen Exhaust Vents Indoors]] Improve",
+          "type": "improve",
+          "goesInSummary": false,
+          "text": "The kitchen exhaust fan appears to discharge back into the room or into a recirculating filter instead of venting to the exterior. While common, venting to the exterior is generally preferred to reduce moisture and cooking odors.",
+          "tags": ["kitchen exhaust", "venting"],
+          "notesToAI": "Use for over-the-range microwaves or hoods that don’t vent outside."
+        }
+      ]
+    },
+
+    {
+      "id": "dishwasher",
+      "label": "Dishwasher",
+      "comments": [
+        {
+          "id": "dishwasher-operational",
+          "label": "[[Dishwasher Operational – Basic]] Note",
+          "type": "note",
+          "goesInSummary": false,
+          "text": "The dishwasher was run through a short cycle and appeared to operate without obvious leakage. A full wash cycle and drying performance are beyond the scope of this inspection.",
+          "tags": ["dishwasher", "operational"]
+        },
+        {
+          "id": "dishwasher-supplied-cold-water",
+          "label": "[[Dishwasher Supplied with Cold Water]] Improve/Repair",
+          "type": "repair",
+          "goesInSummary": false,
+          "text": "The dishwasher appears to be supplied with cold water. For best cleaning performance, most manufacturers recommend a hot water supply. Correction is recommended when practical.",
+          "tags": ["dishwasher", "water supply"],
+          "notesToAI": "Matches your prior comment about dishwasher on cold water, upgraded to repair if you want."
+        },
+        {
+          "id": "dishwasher-leak",
+          "label": "[[Dishwasher Leakage]] Repair",
+          "type": "repair",
+          "goesInSummary": true,
+          "text": "Signs of leakage were observed at the dishwasher at (location). Evaluation and repair by an appliance technician or plumber are recommended.",
+          "tags": ["dishwasher", "leak"]
+        },
+        {
+          "id": "dishwasher-air-gap-or-high-loop",
+          "label": "[[Dishwasher Drain High Loop/Air Gap]] Improve",
+          "type": "improve",
+          "goesInSummary": false,
+          "text": "The dishwasher drain line lacks a visible high loop or air gap at the sink. Adding a high loop or air gap is recommended to help prevent sink water from backing into the dishwasher.",
+          "tags": ["dishwasher", "drain"],
+          "notesToAI": "Use when the drain line is low under the sink."
+        }
+      ]
+    },
+
+    {
+      "id": "appliance-inspection-tips",
+      "label": "Inspection Tips – Appliances",
+      "comments": [
+        {
+          "id": "appliance-future-maintenance-tip",
+          "label": "[[Appliance General Tip]] Note",
+          "type": "note",
+          "goesInSummary": false,
+          "text": "Many appliances are near or beyond their original manufacturer warranty period. Future repair or replacement should be anticipated as part of normal home ownership.",
+          "tags": ["appliances", "tip"]
+        }
+      ]
+    }
+  ]
+}
