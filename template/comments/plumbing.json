@@ -1,0 +1,244 @@
+{
+  "category": "plumbing",
+  "groups": [
+    {
+      "id": "supply-plumbing",
+      "label": "Supply Plumbing",
+      "comments": [
+        {
+          "id": "supply-typical-pressure",
+          "label": "[[Typical Water Pressure]] Note",
+          "type": "note",
+          "goesInSummary": false,
+          "text": "Reasonable water pressure was observed. A typical drop in flow was experienced when two or more fixtures were operated at the same time.",
+          "tags": ["water pressure", "supply"],
+          "notesToAI": "Use when overall pressure is acceptable and only normal drop is noted with multiple fixtures."
+        },
+        {
+          "id": "supply-main-shutoff-limitation",
+          "label": "[[Main Shutoff Valves Not Operated]] Note / Limitation",
+          "type": "note",
+          "goesInSummary": false,
+          "text": "Since main shutoff valves are operated infrequently, they can become stiff, leak, or break when operated after a long period of inactivity. For this reason, main shutoff valves were not operated during the inspection. Caution is advised when operating older shutoff valves.",
+          "tags": ["main shutoff", "limitation"],
+          "notesToAI": "Use as a standard limitation whenever main shutoff valves are not operated."
+        },
+        {
+          "id": "supply-leak",
+          "label": "[[Supply Piping Leak]] Repair/Replace",
+          "type": "repair",
+          "goesInSummary": true,
+          "text": "A leak was observed in the supply piping at (location). Repair or replacement by a qualified plumber is recommended.",
+          "tags": ["leak", "supply piping"],
+          "notesToAI": "Use when active leakage from pressurized water lines is present."
+        },
+        {
+          "id": "supply-corrosion-exterior",
+          "label": "[[Corrosion on Supply Piping]] Monitor",
+          "type": "monitor",
+          "goesInSummary": false,
+          "text": "Corrosion was observed on the exterior of the supply piping at (location). This area should be monitored and repaired if leakage develops.",
+          "tags": ["corrosion", "supply piping"],
+          "notesToAI": "Use when rust or mineral build-up is visible but no active leakage is confirmed."
+        },
+        {
+          "id": "supply-old-steel-piping",
+          "label": "[[Old Steel Supply Piping]] Monitor",
+          "type": "monitor",
+          "goesInSummary": false,
+          "text": "Old steel water supply piping was observed. This material is prone to interior corrosion and constriction of the pipe diameter over time, which can reduce water pressure. Replacement is typically performed when loss of pressure becomes unacceptable.",
+          "tags": ["galvanized", "old piping"],
+          "notesToAI": "Use when galvanized/steel supply lines are present."
+        },
+        {
+          "id": "supply-polybutylene",
+          "label": "[[Polybutylene Supply Piping]] Monitor",
+          "type": "monitor",
+          "goesInSummary": true,
+          "text": "Polybutylene water supply piping was observed. This gray plastic pipe has a history of premature failure in some installations. Leaks and deterioration have been reported. Further evaluation by a qualified plumber and ongoing monitoring are recommended.",
+          "tags": ["polybutylene", "supply piping"],
+          "notesToAI": "Use when gray polybutylene piping is present. Do not state it is failing unless leaks are observed."
+        },
+        {
+          "id": "supply-freeze-risk-outbuilding",
+          "label": "[[Supply Piping Freeze Risk]] Monitor",
+          "type": "monitor",
+          "goesInSummary": false,
+          "text": "Supply piping serving the outbuilding may be susceptible to freezing during very cold weather. Insulation or heat tracing may be desirable.",
+          "tags": ["freeze risk", "outbuilding"],
+          "notesToAI": "Use when exposed supply piping is outside conditioned space."
+        },
+        {
+          "id": "supply-poor-support",
+          "label": "[[Supply Piping Poorly Supported]] Repair",
+          "type": "repair",
+          "goesInSummary": false,
+          "text": "The supply piping lacks adequate support at (location). Better support or strapping is recommended to reduce movement and stress on fittings.",
+          "tags": ["support", "supply piping"],
+          "notesToAI": "Use when piping is hanging, sagging, or loosely supported."
+        },
+        {
+          "id": "supply-missing-valve-handle",
+          "label": "[[Supply Valve Handle Missing]] Repair/Replace",
+          "type": "repair",
+          "goesInSummary": false,
+          "text": "A supply valve handle is missing at (location). Repair or replacement is recommended to allow proper operation.",
+          "tags": ["valve", "handle missing"],
+          "notesToAI": "Use when valve is present but cannot be operated normally."
+        },
+        {
+          "id": "supply-damaged-valve-handle",
+          "label": "[[Supply Valve Handle Damaged]] Repair/Replace",
+          "type": "repair",
+          "goesInSummary": false,
+          "text": "A supply valve handle is damaged at (location). Repair or replacement is recommended.",
+          "tags": ["valve", "damaged handle"],
+          "notesToAI": "Use when the handle is cracked, bent, or not securely attached."
+        },
+        {
+          "id": "supply-water-hammer",
+          "label": "[[Water Hammer]] Monitor",
+          "type": "monitor",
+          "goesInSummary": false,
+          "text": "Water hammer (banging or rattling of pipes) was observed when operating plumbing fixtures. Over time this can stress pipe connections. Pipe support improvements and/or water hammer arrestors may be desirable.",
+          "tags": ["water hammer"],
+          "notesToAI": "Use when noticeable banging is heard when fixtures are shut off."
+        },
+        {
+          "id": "supply-poor-workmanship",
+          "label": "[[Supply Piping Workmanship]] Monitor",
+          "type": "monitor",
+          "goesInSummary": false,
+          "text": "The installation of the supply piping at (location) is not workmanlike. While no active leakage was observed today, this may increase the likelihood of future problems.",
+          "tags": ["workmanship", "supply piping"],
+          "notesToAI": "Use when connections appear sloppy or non-standard but intact."
+        },
+        {
+          "id": "supply-condensation",
+          "label": "[[Cold Water Condensation]] Monitor",
+          "type": "monitor",
+          "goesInSummary": false,
+          "text": "Condensation was noted on portions of the cold water piping. If this becomes a concern, insulation could be added to reduce condensation.",
+          "tags": ["condensation"],
+          "notesToAI": "Use when droplets form on cold pipes in humid areas."
+        },
+        {
+          "id": "supply-cross-connection",
+          "label": "[[Cross Connection]] Repair",
+          "type": "repair",
+          "goesInSummary": true,
+          "text": "A potential cross connection was observed between the potable water supply and a source of contamination at (location). This condition should be corrected by a qualified plumber.",
+          "tags": ["cross connection"],
+          "notesToAI": "Use when a hose or fixture could allow backflow into the potable supply."
+        },
+        {
+          "id": "supply-old-pressure-tank",
+          "label": "[[Old Well Pressure Tank]] Monitor",
+          "type": "monitor",
+          "goesInSummary": false,
+          "text": "The well pressure tank appears old. As with any older mechanical component, it is difficult to predict remaining life. Replacement may eventually be needed.",
+          "tags": ["well", "pressure tank"],
+          "notesToAI": "Use on well systems when tank appears aged."
+        },
+        {
+          "id": "supply-add-shutoffs",
+          "label": "[[Add Local Shutoffs]] Improve",
+          "type": "improve",
+          "goesInSummary": false,
+          "text": "Additional shutoff valves at (location) would be beneficial to allow easier isolation of plumbing fixtures for future maintenance.",
+          "tags": ["shutoff valves"],
+          "notesToAI": "Use when fixtures lack local shutoff valves."
+        },
+        {
+          "id": "supply-dissimilar-metals",
+          "label": "[[Dissimilar Metal Connection]] Repair",
+          "type": "repair",
+          "goesInSummary": true,
+          "text": "Dissimilar metals were observed in the supply piping connection at (location). This can lead to galvanic corrosion and leakage. Installation of proper dielectric fittings by a qualified plumber is recommended.",
+          "tags": ["dissimilar metals", "corrosion"],
+          "notesToAI": "Use where copper connects directly to steel/galvanized without dielectric union."
+        }
+      ]
+    },
+    {
+      "id": "waste-drain-vent",
+      "label": "Waste, Drain, and Vent Piping",
+      "comments": [
+        {
+          "id": "waste-possible-obstruction",
+          "label": "[[Possible Waste Line Obstruction]] Repair",
+          "type": "repair",
+          "goesInSummary": true,
+          "text": "The waste piping at (location) may be obstructed or draining slowly. Further evaluation and any needed cleaning or repairs by a qualified plumber are recommended.",
+          "tags": ["waste piping", "obstruction"],
+          "notesToAI": "Use when drains back up, gurgle, or drain very slowly."
+        },
+        {
+          "id": "trap-leak",
+          "label": "[[Trap Leaking]] Repair",
+          "type": "repair",
+          "goesInSummary": true,
+          "text": "The trap is leaking at (location). Repair or replacement is recommended to prevent water damage.",
+          "tags": ["trap", "leak"],
+          "notesToAI": "Use when active drip or water staining is present at a trap."
+        },
+        {
+          "id": "flexible-trap",
+          "label": "[[Flexible Trap Not Recommended]] Improve",
+          "type": "improve",
+          "goesInSummary": false,
+          "text": "A flexible waste pipe or trap has been installed at (location). These fittings are prone to clogs and leakage. Replacement with properly sized rigid piping is recommended when practical.",
+          "tags": ["flexible trap"],
+          "notesToAI": "Use when corrugated or flexible traps are installed."
+        },
+        {
+          "id": "trap-suspect-condition",
+          "label": "[[Trap in Suspect Condition]] Monitor",
+          "type": "monitor",
+          "goesInSummary": false,
+          "text": "The trap at (location) appears to be in suspect condition. This area should be monitored, and repairs made if leakage or odors develop.",
+          "tags": ["trap", "suspect"],
+          "notesToAI": "Use when trap is rusted, patched, or poorly assembled but not leaking."
+        },
+        {
+          "id": "s-trap",
+          "label": "[[S Trap]] Monitor / Improve",
+          "type": "monitor",
+          "goesInSummary": false,
+          "text": "An \"S\" trap was observed at (location). S traps are prone to siphoning and can allow sewer gases to enter the home. Replacement with a properly vented P-trap is recommended during future plumbing upgrades. Fixtures should be monitored for sewer odors.",
+          "tags": ["S-trap"],
+          "notesToAI": "Use when S-shaped traps are visible under fixtures."
+        },
+        {
+          "id": "waste-poor-slope",
+          "label": "[[Insufficient Waste Pipe Slope]] Repair",
+          "type": "repair",
+          "goesInSummary": true,
+          "text": "Portions of the waste piping do not appear to have adequate slope for proper drainage. Corrective work by a qualified plumber is recommended to help prevent blockages.",
+          "tags": ["slope", "waste piping"],
+          "notesToAI": "Use when horizontal drains appear flat or back-pitched."
+        },
+        {
+          "id": "waste-poor-support",
+          "label": "[[Waste Piping Poorly Supported]] Repair",
+          "type": "repair",
+          "goesInSummary": false,
+          "text": "Waste piping at (location) lacks adequate support. Improved support or strapping is recommended to prevent sagging and joint stress.",
+          "tags": ["support", "waste piping"],
+          "notesToAI": "Use when piping sags or hangs loosely."
+        },
+        {
+          "id": "abs-waste-monitor",
+          "label": "[[ABS Waste Piping]] Monitor",
+          "type": "monitor",
+          "goesInSummary": false,
+          "text": "ABS plastic waste piping was noted. In some installations, this material has been prone to problems at the joints, especially where exposed to temperature extremes. Connections should be monitored for signs of leakage.",
+          "tags": ["ABS", "waste piping"],
+          "notesToAI": "Use when ABS is present, particularly in attics or exterior walls."
+        },
+        {
+          "id": "waste-connection-suspect",
+          "label": "[[Waste Connection Suspect]] Monitor",
+          "type": "monitor",
+          "goesInSummary": false,
+          "text": "A waste piping connection at (location) appears suspect or non-standard. This area should be moni
