@@ -1,0 +1,419 @@
+{
+  "category": "interior",
+  "groups": [
+
+    /* ------------------------------
+       INTERIOR – FLOORS
+    ------------------------------ */
+    {
+      "id": "floors",
+      "label": "Floors",
+      "comments": [
+        {
+          "id": "typical-wear",
+          "label": "[[Typical Wear]] Note",
+          "type": "note",
+          "goesInSummary": false,
+          "text": "Typical wear was observed on flooring surfaces at (location). These conditions are common in previously owned homes and are cosmetic in nature.",
+          "tags": ["flooring", "wear", "cosmetic"],
+          "notesToAI": "Use for normal age-related flooring wear."
+        },
+        {
+          "id": "loose-flooring",
+          "label": "[[Loose Flooring]] Repair",
+          "type": "repair",
+          "goesInSummary": false,
+          "text": "Loose or unsecured flooring material was observed at (location). This should be repaired to help prevent further deterioration or tripping hazards.",
+          "tags": ["flooring", "loose", "trip hazard"]
+        },
+        {
+          "id": "damaged-flooring",
+          "label": "[[Damaged Flooring]] Repair",
+          "type": "repair",
+          "goesInSummary": false,
+          "text": "Damaged flooring was observed at (location). Repair or replacement is recommended as needed.",
+          "tags": ["flooring", "damage"]
+        },
+        {
+          "id": "damaged-lvp",
+          "label": "[[Damaged LVP]] Repair",
+          "type": "repair",
+          "goesInSummary": false,
+          "text": "Loose or damaged LVP flooring was observed at (location). Repairs are recommended.",
+          "tags": ["LVP", "flooring", "damage"]
+        },
+        {
+          "id": "cracked-tile",
+          "label": "[[Cracked Tile]] Monitor",
+          "type": "monitor",
+          "goesInSummary": false,
+          "text": "Cracked tile was observed at (location). Monitor for additional cracking. Replacement may be desirable for cosmetic or functional reasons.",
+          "tags": ["tile", "crack"]
+        },
+        {
+          "id": "trip-hazard-transition",
+          "label": "[[Trip Hazard – Transition]] Repair – Safety Issue",
+          "type": "repair",
+          "safety": true,
+          "goesInSummary": true,
+          "text": "A flooring transition at (location) is raised and presents a trip hazard. Adjustment or repair is recommended for safety.",
+          "tags": ["trip hazard", "transition"]
+        },
+        {
+          "id": "trip-hazard-uneven-floor",
+          "label": "[[Trip Hazard – Uneven Floor]] Repair",
+          "type": "repair",
+          "goesInSummary": true,
+          "text": "Uneven flooring was observed at (location), creating a trip hazard. Repairs are recommended.",
+          "tags": ["uneven floor", "trip hazard"]
+        },
+        {
+          "id": "poor-installation",
+          "label": "[[Poor Installation]] Monitor",
+          "type": "monitor",
+          "goesInSummary": false,
+          "text": "Flooring installation appears to be of lower workmanship quality at (location), such as uneven seams or misaligned boards. This is primarily cosmetic.",
+          "tags": ["installation", "cosmetic"]
+        },
+        {
+          "id": "gaps-in-flooring",
+          "label": "[[Gaps in Flooring]] Improve",
+          "type": "improve",
+          "goesInSummary": false,
+          "text": "Gaps in flooring were noted at (location). Repairs may be desirable for appearance or to prevent debris accumulation.",
+          "tags": ["flooring", "gaps"]
+        },
+        {
+          "id": "carpet-wear",
+          "label": "[[Carpet Wear]] Note",
+          "type": "note",
+          "goesInSummary": false,
+          "text": "Carpet wear was observed at (location), consistent with age and use.",
+          "tags": ["carpet", "wear"]
+        },
+        {
+          "id": "carpet-loose",
+          "label": "[[Carpet Loose]] Repair",
+          "type": "repair",
+          "goesInSummary": false,
+          "text": "Carpet is loose or buckled at (location). Stretching or reinstallation is recommended.",
+          "tags": ["carpet", "loose", "trip hazard"]
+        }
+      ]
+    },
+
+
+    /* ------------------------------
+       INTERIOR – WINDOWS
+    ------------------------------ */
+    {
+      "id": "windows",
+      "label": "Windows",
+      "comments": [
+        {
+          "id": "window-maintenance",
+          "label": "[[Window Maintenance]] Maintenance Item",
+          "type": "maintenance",
+          "goesInSummary": false,
+          "text": "General window maintenance such as cleaning, lubricating, and adjustments is recommended to ensure proper function and prevent deterioration.",
+          "tags": ["window", "maintenance"]
+        },
+        {
+          "id": "window-disrepair",
+          "label": "[[Disrepair]] Repair",
+          "type": "repair",
+          "goesInSummary": false,
+          "text": "The windows are in mild disrepair. Trimming, adjustment, hardware improvements, or glazing repairs may be needed.",
+          "tags": ["window", "repair"]
+        },
+        {
+          "id": "older-windows",
+          "label": "[[Older Windows]] Monitor",
+          "type": "monitor",
+          "goesInSummary": false,
+          "text": "Older windows require ongoing maintenance. Wear consistent with age was observed at (location).",
+          "tags": ["window", "age"]
+        },
+        {
+          "id": "painted-shut",
+          "label": "[[Painted Shut]] Safety Issue",
+          "type": "repair",
+          "safety": true,
+          "goesInSummary": true,
+          "text": "One or more windows at (location) are painted shut. This prevents egress and natural ventilation. Repairs are recommended.",
+          "tags": ["window", "safety"]
+        },
+        {
+          "id": "hardware-nonfunctional",
+          "label": "[[Hardware Nonfunctional]] Repair",
+          "type": "repair",
+          "goesInSummary": false,
+          "text": "Window hardware (lock, crank, or latch) was nonfunctional at (location). Repair is recommended.",
+          "tags": ["window", "hardware"]
+        },
+        {
+          "id": "difficult-to-operate",
+          "label": "[[Difficult to Operate]] Improve",
+          "type": "improve",
+          "text": "A window at (location) is difficult to operate. Cleaning, lubrication, or adjustment may be needed.",
+          "tags": ["window", "operation"]
+        },
+        {
+          "id": "chronic-leakage",
+          "label": "[[Chronic Leakage]] Repair",
+          "type": "repair",
+          "goesInSummary": true,
+          "text": "The window at (location) shows signs of chronic leakage. Sealing, flashing correction, or repair may be needed.",
+          "tags": ["window", "leakage"]
+        },
+        {
+          "id": "water-stains-around-window",
+          "label": "[[Water Stains Around Window]] Monitor",
+          "type": "monitor",
+          "text": "Water staining was noted around the window at (location). The area was dry at inspection. Consult the seller about prior leaks.",
+          "tags": ["window", "stain"]
+        },
+        {
+          "id": "lost-seal-fogged-window",
+          "label": "[[Lost Seal / Fogged Window]] Repair",
+          "type": "repair",
+          "text": "A window at (location) shows a failed thermal seal with fogging or condensation between panes.",
+          "tags": ["window", "seal failure"]
+        },
+        {
+          "id": "glass-cracked-damaged",
+          "label": "[[Glass Cracked or Damaged]] Repair",
+          "type": "repair",
+          "goesInSummary": true,
+          "text": "The window glass at (location) is cracked or damaged. Replacement is recommended.",
+          "tags": ["window", "glass", "damage"]
+        },
+        {
+          "id": "screens-missing-damaged",
+          "label": "[[Screens Missing or Damaged]] Improve",
+          "type": "improve",
+          "text": "Window screens are missing or damaged at (location). Replacement may be desirable.",
+          "tags": ["window", "screens"]
+        },
+        {
+          "id": "caulk-gaps-window-trim",
+          "label": "[[Caulk Gaps at Window Trim]] Improve",
+          "type": "improve",
+          "text": "Gaps in caulking were noted at the interior trim of the window at (location). Caulking is recommended.",
+          "tags": ["window", "caulk"]
+        },
+        {
+          "id": "interior-condensation",
+          "label": "[[Interior Condensation]] Monitor",
+          "type": "monitor",
+          "text": "Condensation was noted on the interior surface of the window at (location). Often related to humidity levels.",
+          "tags": ["window", "condensation"]
+        },
+        {
+          "id": "typical-window-wear",
+          "label": "[[Typical Window Wear]] Note",
+          "type": "note",
+          "text": "Minor cosmetic wear was observed on window trim or finishes at (location).",
+          "tags": ["window", "cosmetic"]
+        }
+      ]
+    },
+
+
+    /* ------------------------------
+       INTERIOR – WALLS & CEILINGS
+    ------------------------------ */
+    {
+      "id": "walls-ceilings",
+      "label": "Walls & Ceilings",
+      "comments": [
+        {
+          "id": "preowned-drywall-flaws",
+          "label": "[[Preowned Home Typical Flaws]] Note",
+          "type": "note",
+          "text": "Typical drywall flaws were observed, including minor cracks, scuffs, and small holes from household items hung on walls.",
+          "tags": ["drywall", "cosmetic"]
+        },
+        {
+          "id": "new-build-drywall-flaws",
+          "label": "[[New Build Typical Drywall Flaws]] Note",
+          "type": "note",
+          "text": "Minor visible seams, nail pops, and surface imperfections were noted in this new construction. These are common as materials settle.",
+          "tags": ["drywall", "new build"]
+        },
+        {
+          "id": "water-staining-dry-a",
+          "label": "[[Water Staining Dry]] Monitor",
+          "type": "monitor",
+          "text": "An area of water staining was noted at (location). The area was dry at the time of inspection. Consult seller for additional information.",
+          "tags": ["water stain", "dry"]
+        },
+        {
+          "id": "water-damage",
+          "label": "[[Water Damage]] Monitor",
+          "type": "monitor",
+          "text": "Water damage was noted at (location). Repairs may be needed depending on severity.",
+          "tags": ["water damage"]
+        },
+        {
+          "id": "active-leak",
+          "label": "[[Active Leak]] Repair",
+          "type": "repair",
+          "goesInSummary": true,
+          "text": "An active leak was identified at (location). Moisture meter and infrared confirmed elevated moisture. Repair is recommended.",
+          "tags": ["active leak"]
+        },
+        {
+          "id": "patching",
+          "label": "[[Patching]] Monitor",
+          "type": "monitor",
+          "text": "Evidence of patching was detected at (location). Monitor for changes that may indicate an underlying issue.",
+          "tags": ["patching"]
+        },
+        {
+          "id": "finish-damage",
+          "label": "[[Finish Damage]] Monitor",
+          "type": "monitor",
+          "text": "Damage to the interior finish was observed at (location). Repairs may be desirable.",
+          "tags": ["finish", "damage"]
+        },
+        {
+          "id": "large-cracks",
+          "label": "[[Large Cracks]] Monitor / Possible Repair",
+          "type": "monitor",
+          "text": "Larger-than-typical cracks were noted at (location). These may indicate underlying movement. Monitor for worsening.",
+          "tags": ["cracks", "settlement"]
+        },
+        {
+          "id": "plaster-bulging",
+          "label": "[[Plaster Bulging]] Monitor",
+          "type": "monitor",
+          "text": "The plaster shows evidence of bulging at (location). Repairs may be desirable.",
+          "tags": ["plaster"]
+        },
+        {
+          "id": "fire-separation",
+          "label": "[[Fire Separation]] Repair (Safety)",
+          "type": "repair",
+          "safety": true,
+          "goesInSummary": true,
+          "text": "Appropriate fire separation is recommended at (location).",
+          "tags": ["fire separation"]
+        },
+        {
+          "id": "mold-visible",
+          "label": "[[Mold Visible]] Repair",
+          "type": "repair",
+          "goesInSummary": true,
+          "text": "What appears to be organic growth resembling mold was observed at (location). Further testing is recommended.",
+          "tags": ["mold"]
+        },
+        {
+          "id": "popcorn-ceiling",
+          "label": "[[Popcorn Ceiling]] Monitor",
+          "type": "monitor",
+          "text": "Textured or 'popcorn' ceiling material was visible at (location). Asbestos testing is beyond the scope of the inspection.",
+          "tags": ["popcorn ceiling"]
+        },
+        {
+          "id": "ghosting",
+          "label": "[[Ghosting]] Monitor",
+          "type": "monitor",
+          "text": "Ghosting on drywall ceilings was noted at (location). This is usually related to temperature differences, humidity, or soot.",
+          "tags": ["ghosting"]
+        }
+      ]
+    },
+
+
+    /* ------------------------------
+       INTERIOR – DOORS
+    ------------------------------ */
+    {
+      "id": "doors",
+      "label": "Doors",
+      "comments": [
+        {
+          "id": "door-adjustments",
+          "label": "[[Door Adjustments]] Improve",
+          "type": "improve",
+          "text": "Doors should be trimmed or adjusted as necessary to operate and seal properly.",
+          "tags": ["door", "adjustment"]
+        },
+        {
+          "id": "damaged-hardware",
+          "label": "[[Loose or Damaged Hardware]] Repair/Replace",
+          "type": "repair",
+          "text": "Damaged, nonfunctional, or missing door hardware should be repaired or replaced.",
+          "tags": ["door", "hardware"]
+        },
+        {
+          "id": "loose-door-knob",
+          "label": "[[Loose Door Knob]] Repair",
+          "type": "repair",
+          "text": "Loose or nonfunctioning door knobs should be repaired or replaced.",
+          "tags": ["door", "knob"]
+        },
+        {
+          "id": "closet-door-guide",
+          "label": "[[Closet Door Guide]] Improve",
+          "type": "improve",
+          "text": "Interior sliding closet doors should have proper floor guides installed to operate correctly.",
+          "tags": ["closet", "sliding door"]
+        },
+        {
+          "id": "sliding-door-rollers",
+          "label": "[[Sliding Door Rollers]] Improve",
+          "type": "improve",
+          "text": "The rollers of the sliding glass door could be improved to operate freely.",
+          "tags": ["sliding door", "rollers"]
+        },
+        {
+          "id": "sliding-door-old",
+          "label": "[[Old Sliding Door]] Monitor",
+          "type": "monitor",
+          "text": "The sliding glass door is old. Older doors may require increased maintenance.",
+          "tags": ["sliding door", "age"]
+        },
+        {
+          "id": "sliding-door-hardware",
+          "label": "[[Sliding Door Hardware]] Repair/Replace",
+          "type": "repair",
+          "text": "The hardware for the sliding glass door is damaged and should be repaired or replaced.",
+          "tags": ["sliding door", "hardware"]
+        },
+        {
+          "id": "sliding-door-leakage",
+          "label": "[[Sliding Door Threshold Leakage]] Monitor",
+          "type": "monitor",
+          "text": "Evidence of leakage was observed at the sliding door threshold. Monitor during heavy rains.",
+          "tags": ["sliding door", "leakage"]
+        },
+        {
+          "id": "garage-fire-door",
+          "label": "[[Fire-Rated Door Missing]] Repair (Safety)",
+          "type": "repair",
+          "safety": true,
+          "goesInSummary": true,
+          "text": "The door between the garage and the house does not appear fire-rated. A properly rated door is recommended.",
+          "tags": ["garage", "fire safety"]
+        },
+        {
+          "id": "garage-door-not-sealed",
+          "label": "[[Door Not Sealed Against Fumes]] Repair",
+          "type": "repair",
+          "text": "The garage-to-house door is not properly sealed against vehicle fumes.",
+          "tags": ["garage", "seal"]
+        },
+        {
+          "id": "garage-entry-adjustment",
+          "label": "[[Garage Entry Door Adjustment]] Repair",
+          "type": "repair",
+          "text": "The garage entry door should be adjusted to operate freely while still fitting tightly.",
+          "tags": ["garage", "door"]
+        }
+      ]
+    }
+
+  ]
+}
