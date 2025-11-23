@@ -1,0 +1,147 @@
+{
+  "schema_version": 1,
+  "name": "HomeScope Standard Residential Report",
+  "summary": {
+    "pull_from_statuses": ["repair", "safety"],
+    "group_by_section": true
+  },
+  "sections": [
+    {
+      "id": "exterior",
+      "title": "Exterior",
+      "comment_file": "comments/exterior.json",
+      "include_in_summary": true,
+      "subsections": [
+        "Site / Grading",
+        "Driveways & Walkways",
+        "Porches / Decks / Patios",
+        "Exterior Walls & Trim",
+        "Exterior Doors",
+        "Exterior Windows",
+        "Garage / Carport (Exterior view)"
+      ]
+    },
+    {
+      "id": "roofing",
+      "title": "Roofing",
+      "comment_file": "comments/roofing.json",
+      "include_in_summary": true,
+      "subsections": [
+        "Roof Coverings",
+        "Flashings",
+        "Roof Penetrations",
+        "Roof Drainage / Gutters",
+        "Chimneys (roof view)"
+      ]
+    },
+    {
+      "id": "structure",
+      "title": "Structure",
+      "comment_file": "comments/structure.json",
+      "include_in_summary": true,
+      "subsections": [
+        "Foundations",
+        "Floor Structure",
+        "Wall Structure",
+        "Roof Structure",
+        "Crawlspace / Basement Access",
+        "Observed Settlement"
+      ]
+    },
+    {
+      "id": "heating",
+      "title": "Heating",
+      "comment_file": "comments/heating.json",
+      "include_in_summary": true,
+      "subsections": [
+        "Heating Equipment",
+        "Distribution System (ducts / radiators / baseboards)",
+        "Vents / Flues / Chimneys",
+        "Thermostats"
+      ]
+    },
+    {
+      "id": "cooling",
+      "title": "Cooling",
+      "comment_file": "comments/cooling.json",
+      "include_in_summary": true,
+      "subsections": [
+        "Cooling Equipment",
+        "Condenser Location",
+        "Coils / Air Handler",
+        "Condensate Drainage"
+      ]
+    },
+    {
+      "id": "insulation_ventilation",
+      "title": "Insulation & Ventilation",
+      "comment_file": "comments/insulation-ventilation.json",
+      "include_in_summary": false,
+      "subsections": [
+        "Attic Insulation",
+        "Wall / Floor Insulation (where visible)",
+        "Attic Ventilation",
+        "Crawlspace Ventilation",
+        "Air Sealing / Bypasses"
+      ]
+    },
+    {
+      "id": "plumbing",
+      "title": "Plumbing",
+      "comment_file": "comments/plumbing.json",
+      "include_in_summary": true,
+      "subsections": [
+        "Water Service & Main Shutoff",
+        "Interior Supply Piping",
+        "Waste / Vent Piping",
+        "Water Heater(s)",
+        "Fixtures & Faucets",
+        "Sump / Ejector Pumps",
+        "Private Water / Sewer (if applicable)"
+      ]
+    },
+    {
+      "id": "electrical",
+      "title": "Electrical",
+      "comment_file": "comments/electrical.json",
+      "include_in_summary": true,
+      "subsections": [
+        "Service Drop / Lateral",
+        "Meter & Service Equipment",
+        "Main Panel",
+        "Subpanels",
+        "Branch Wiring",
+        "Outlets & Switches",
+        "Smoke / CO Detectors"
+      ]
+    },
+    {
+      "id": "interior",
+      "title": "Interior",
+      "comment_file": "comments/interior.json",
+      "include_in_summary": false,
+      "subsections": [
+        "Walls & Ceilings",
+        "Floors",
+        "Interior Doors",
+        "Interior Windows",
+        "Stairs & Railings",
+        "Cabinetry & Countertops"
+      ]
+    },
+    {
+      "id": "appliances",
+      "title": "Built-in Appliances",
+      "comment_file": "comments/appliances.json",
+      "include_in_summary": false,
+      "subsections": [
+        "Range / Cooktop / Oven",
+        "Dishwasher",
+        "Refrigerator (if included)",
+        "Microwave (built-in)",
+        "Washer / Dryer (if inspected)",
+        "Other Built-in Appliances"
+      ]
+    }
+  ]
+}
