@@ -1,0 +1,14 @@
+{
+  "id": "unique_string_identifier",
+  "category": "repair | safety | deferred | maintenance | improve | monitor | note",
+  "title": "Short label used in the app",
+  "body": "Full comment text exactly as it will appear in the report.",
+  "applies_to": ["subsection1", "subsection2"],
+  "tags": ["water", "leak", "bathroom"],
+
+  "ai": {
+    "voice_keywords": ["leaking", "rust", "deteriorated"],
+    "photo_keywords": ["corrosion", "crack", "stain"],
+    "priority": 1
+  }
+}
