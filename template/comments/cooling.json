@@ -1,196 +1,201 @@
 {
   "category": "cooling",
-  "groups": [
+  "comments": [
     {
-      "id": "cooling-system",
-      "label": "Cooling System",
-      "comments": [
-        {
-          "id": "cooling-general-description",
-          "label": "[[Cooling – General Description]] Note",
-          "type": "note",
-          "goesInSummary": false,
-          "text": "The home is served by a (system type) cooling system (central air conditioner/heat pump/ductless unit/window or wall unit) powered by (fuel type) located at (location). The system responded to normal controls at the time of inspection unless otherwise noted.",
-          "tags": ["cooling", "description"],
-          "notesToAI": "Fill in system type, fuel type (usually electric), and location."
-        },
-        {
-          "id": "cooling-typical-condition",
-          "label": "[[Cooling – Typical Condition]] Note",
-          "type": "note",
-          "goesInSummary": false,
-          "text": "The visible portions of the cooling system appeared in typical condition for its age. No evidence of active malfunction was observed unless specifically described in this report.",
-          "tags": ["cooling", "condition"]
-        },
-        {
-          "id": "cooling-not-tested-cold-weather-50",
-          "label": "[[Cooling Not Tested – Below 50°F]] Limitation",
-          "type": "note",
-          "goesInSummary": false,
-          "text": "The outdoor temperature was below 50°F at the time of inspection. To help prevent damage to the compressor, the air conditioning system was not operated.",
-          "tags": ["cooling", "limitation", "temperature"],
-          "notesToAI": "Directly based on Meadowbrook: 'If outside temperature is below 50 degrees, then system is not tested.'"
-        },
-        {
-          "id": "cooling-limited-test-below-60",
-          "label": "[[Cooling Partially Tested – Below 60°F]] Limitation",
-          "type": "note",
-          "goesInSummary": false,
-          "text": "The cooling system responded to normal controls, but a full test was not completed because the outside temperature was below approximately 60°F. Performance during warmer weather could not be fully evaluated.",
-          "tags": ["cooling", "limitation", "temperature"]
-        },
-        {
-          "id": "cooling-inoperative",
-          "label": "[[Cooling System Inoperative]] Repair",
-          "type": "repair",
-          "goesInSummary": true,
-          "text": "The cooling system did not respond properly to normal controls at the time of inspection. Evaluation and repair by a qualified HVAC contractor are recommended.",
-          "tags": ["cooling", "inoperative"]
-        },
-        {
-          "id": "cooling-old-system-deferred-cost",
-          "label": "[[Cooling System Old – Deferred Cost Item]] Monitor / Deferred Cost",
-          "type": "monitor",
-          "goesInSummary": false,
-          "text": "As is not uncommon for homes of this age and location, the air conditioning system is old. It will likely require a higher level of maintenance and may be more prone to unanticipated breakdowns. You should anticipate replacement in the near future.",
-          "tags": ["cooling", "age", "deferred cost"],
-          "notesToAI": "Paraphrased from Meadowbrook 'old' deferred cost bullet."
-        },
-        {
-          "id": "cooling-middle-aged-deferred-cost",
-          "label": "[[Cooling System Middle-Aged – Deferred Cost Item]] Monitor",
-          "type": "monitor",
-          "goesInSummary": false,
-          "text": "The air conditioning system is roughly middle-aged. It may require increased maintenance and can be more prone to major component breakdown. If the compressor fails or breakdowns become chronic, replacement of the entire system is often more cost-effective than repeated repairs.",
-          "tags": ["cooling", "age", "deferred cost"],
-          "notesToAI": "Based on Meadowbrook 'relatively middle aged' deferred cost text."
-        },
-        {
-          "id": "cooling-low-temp-drop",
-          "label": "[[Temperature Drop Less Than Typical]] Repair",
-          "type": "repair",
-          "goesInSummary": false,
-          "text": "The temperature drop measured across the cooling system was less than typical. This usually indicates that servicing is needed. A qualified heating and cooling technician should be consulted to further evaluate this condition and the remedies available.",
-          "tags": ["cooling", "temperature drop", "performance"],
-          "notesToAI": "Use when your measured delta-T is below the normal range from Meadowbrook chart."
-        },
-        {
-          "id": "cooling-undersized-capacity",
-          "label": "[[Cooling Capacity May Be Undersized]] Monitor / Possible Repair",
-          "type": "monitor",
-          "goesInSummary": false,
-          "text": "The capacity of the air conditioning system appears marginal for the size or layout of the home and may prove to be undersized during warmer summer days. Without performing detailed heat gain calculations or living in the home through hot weather, actual performance is difficult to predict. A larger unit may be desirable.",
-          "tags": ["cooling", "capacity", "undersized"],
-          "notesToAI": "Directly patterned on Meadowbrook 'capacity undersized and may prove to be marginal' bullet."
-        },
-        {
-          "id": "cooling-oversized-short-cycling",
-          "label": "[[Cooling System May Be Oversized]] Possible Repair",
-          "type": "monitor",
-          "goesInSummary": false,
-          "text": "The air conditioning system appears it may be oversized. Oversized units can short-cycle (turning on and off frequently), which may increase energy use and reduce comfort. Further evaluation by a licensed HVAC professional is recommended.",
-          "tags": ["cooling", "capacity", "oversized"]
-        },
-        {
-          "id": "cooling-r22-refrigerant",
-          "label": "[[R-22 Refrigerant – Service Limitations]] Monitor",
-          "type": "monitor",
-          "goesInSummary": true,
-          "text": "This air conditioning system appears to use R-22 refrigerant, commonly found in units installed prior to roughly 2010. R-22 is being phased out and parts or refrigerant may be difficult or expensive to obtain in the future. Planning for eventual replacement is prudent.",
-          "tags": ["cooling", "R-22", "refrigerant"],
-          "notesToAI": "Based on Meadowbrook note about R-22 systems."
-        },
-        {
-          "id": "cooling-refrigerant-line-insulation",
-          "label": "[[Refrigerant Line Insulation Damaged or Missing]] Repair",
-          "type": "repair",
-          "goesInSummary": false,
-          "text": "Damaged or missing insulation was observed on the exterior refrigerant lines at (location). Insulation should be repaired or extended all the way to the outdoor unit to help maintain efficiency and prevent condensation.",
-          "tags": ["refrigerant lines", "insulation"],
-          "notesToAI": "From Meadowbrook: 'Damaged and missing insulation on refrigerant lines should be repaired... all the way to the compressor unit.'"
-        },
-        {
-          "id": "cooling-condenser-out-of-level",
-          "label": "[[Outdoor Unit Out of Level]] Improve",
-          "type": "improve",
-          "goesInSummary": false,
-          "text": "The outdoor unit of the air conditioning system is out of level at (location). Releveling is recommended to help promote proper operation and drainage.",
-          "tags": ["condenser", "level"]
-        },
-        {
-          "id": "cooling-condenser-needs-cleaning",
-          "label": "[[Outdoor Unit Requires Cleaning]] Repair",
-          "type": "repair",
-          "goesInSummary": false,
-          "text": "The outdoor condenser unit has accumulated debris or dirt on the coil surfaces. Cleaning by a qualified person is recommended to help maintain efficiency.",
-          "tags": ["condenser", "cleaning"]
-        },
-        {
-          "id": "cooling-fins-damaged",
-          "label": "[[Condenser Fins Damaged]] Monitor",
-          "type": "monitor",
-          "goesInSummary": false,
-          "text": "The fins of the outdoor portion of the cooling system were observed to be bent or damaged. This condition can reduce efficiency. Straightening or repair may be desirable.",
-          "tags": ["condenser", "fins", "damage"]
-        },
-        {
-          "id": "cooling-unit-noisy",
-          "label": "[[Outdoor Unit Noisy]] Monitor",
-          "type": "monitor",
-          "goesInSummary": false,
-          "text": "The outdoor unit of the cooling system was noticeably noisy during operation. This should be further investigated during servicing.",
-          "tags": ["condenser", "noise"]
-        },
-        {
-          "id": "cooling-vegetation-clearance",
-          "label": "[[Vegetation Too Close to Outdoor Unit]] Repair",
-          "type": "repair",
-          "goesInSummary": false,
-          "text": "Vegetation or other obstructions near the outdoor cooling unit at (location) should be cut back to provide adequate airflow and working clearance.",
-          "tags": ["condenser", "vegetation"]
-        },
-        {
-          "id": "cooling-disconnect-missing",
-          "label": "[[AC Disconnect Missing or Inadequate]] Improve / Possible Safety Issue",
-          "type": "improve",
-          "safety": true,
-          "goesInSummary": true,
-          "text": "An electrical disconnect was not observed near the outdoor AC unit, or it appears inadequate. A properly located disconnect is recommended for safety and service convenience.",
-          "tags": ["disconnect", "safety"],
-          "notesToAI": "Based on Meadowbrook: 'Electrical disconnect is missing for the AC unit... We recommend a shut off be in place.'"
-        }
-      ]
+      "id": "cooling-general-description",
+      "category": "note",
+      "title": "Cooling – General Description",
+      "body": "The home is served by a (system type) cooling system (central air conditioner/heat pump/ductless unit/window or wall unit) powered by (fuel type) located at (location). The system responded to normal controls at the time of inspection unless otherwise noted.",
+      "applies_to": ["Cooling System"],
+      "tags": ["cooling", "description"],
+      "ai": {
+        "notes": "Fill in system type, fuel type (usually electric), and location."
+      }
+    },
+    {
+      "id": "cooling-typical-condition",
+      "category": "note",
+      "title": "Cooling – Typical Condition",
+      "body": "The visible portions of the cooling system appeared in typical condition for its age. No evidence of active malfunction was observed unless specifically described in this report.",
+      "applies_to": ["Cooling System"],
+      "tags": ["cooling", "condition"]
+    },
+    {
+      "id": "cooling-not-tested-cold-weather-50",
+      "category": "note",
+      "title": "Cooling Not Tested – Below 50°F",
+      "body": "The outdoor temperature was below 50°F at the time of inspection. To help prevent damage to the compressor, the air conditioning system was not operated.",
+      "applies_to": ["Cooling System"],
+      "tags": ["cooling", "limitation", "temperature"],
+      "ai": {
+        "notes": "Directly based on Meadowbrook: 'If outside temperature is below 50 degrees, then system is not tested.'"
+      }
+    },
+    {
+      "id": "cooling-limited-test-below-60",
+      "category": "note",
+      "title": "Cooling Partially Tested – Below 60°F",
+      "body": "The cooling system responded to normal controls, but a full test was not completed because the outside temperature was below approximately 60°F. Performance during warmer weather could not be fully evaluated.",
+      "applies_to": ["Cooling System"],
+      "tags": ["cooling", "limitation", "temperature"]
+    },
+    {
+      "id": "cooling-inoperative",
+      "category": "repair",
+      "title": "Cooling System Inoperative",
+      "body": "The cooling system did not respond properly to normal controls at the time of inspection. Evaluation and repair by a qualified HVAC contractor are recommended.",
+      "applies_to": ["Cooling System"],
+      "tags": ["cooling", "inoperative"]
+    },
+    {
+      "id": "cooling-old-system-deferred-cost",
+      "category": "deferred",
+      "title": "Cooling System Old – Deferred Cost Item",
+      "body": "As is not uncommon for homes of this age and location, the air conditioning system is old. It will likely require a higher level of maintenance and may be more prone to unanticipated breakdowns. You should anticipate replacement in the near future.",
+      "applies_to": ["Cooling System"],
+      "tags": ["cooling", "age", "deferred cost"],
+      "ai": {
+        "notes": "Paraphrased from Meadowbrook 'old' deferred cost bullet."
+      }
+    },
+    {
+      "id": "cooling-middle-aged-deferred-cost",
+      "category": "deferred",
+      "title": "Cooling System Middle-Aged – Deferred Cost Item",
+      "body": "The air conditioning system is roughly middle-aged. It may require increased maintenance and can be more prone to major component breakdown. If the compressor fails or breakdowns become chronic, replacement of the entire system is often more cost-effective than repeated repairs.",
+      "applies_to": ["Cooling System"],
+      "tags": ["cooling", "age", "deferred cost"],
+      "ai": {
+        "notes": "Based on Meadowbrook 'relatively middle aged' deferred cost text."
+      }
+    },
+    {
+      "id": "cooling-low-temp-drop",
+      "category": "repair",
+      "title": "Temperature Drop Less Than Typical",
+      "body": "The temperature drop measured across the cooling system was less than typical. This usually indicates that servicing is needed. A qualified heating and cooling technician should be consulted to further evaluate this condition and the remedies available.",
+      "applies_to": ["Cooling System"],
+      "tags": ["cooling", "temperature drop", "performance"],
+      "ai": {
+        "notes": "Use when your measured delta-T is below the normal range from Meadowbrook chart."
+      }
+    },
+    {
+      "id": "cooling-undersized-capacity",
+      "category": "monitor",
+      "title": "Cooling Capacity May Be Undersized",
+      "body": "The capacity of the air conditioning system appears marginal for the size or layout of the home and may prove to be undersized during warmer summer days. Without performing detailed heat gain calculations or living in the home through hot weather, actual performance is difficult to predict. A larger unit may be desirable.",
+      "applies_to": ["Cooling System"],
+      "tags": ["cooling", "capacity", "undersized"],
+      "ai": {
+        "notes": "Directly patterned on Meadowbrook 'capacity undersized and may prove to be marginal' bullet."
+      }
+    },
+    {
+      "id": "cooling-oversized-short-cycling",
+      "category": "monitor",
+      "title": "Cooling System May Be Oversized",
+      "body": "The air conditioning system appears it may be oversized. Oversized units can short-cycle (turning on and off frequently), which may increase energy use and reduce comfort. Further evaluation by a licensed HVAC professional is recommended.",
+      "applies_to": ["Cooling System"],
+      "tags": ["cooling", "capacity", "oversized"]
+    },
+    {
+      "id": "cooling-r22-refrigerant",
+      "category": "monitor",
+      "title": "R-22 Refrigerant – Service Limitations",
+      "body": "This air conditioning system appears to use R-22 refrigerant, commonly found in units installed prior to roughly 2010. R-22 is being phased out and parts or refrigerant may be difficult or expensive to obtain in the future. Planning for eventual replacement is prudent.",
+      "applies_to": ["Cooling System"],
+      "tags": ["cooling", "R-22", "refrigerant"],
+      "ai": {
+        "notes": "Based on Meadowbrook note about R-22 systems."
+      }
+    },
+    {
+      "id": "cooling-refrigerant-line-insulation",
+      "category": "repair",
+      "title": "Refrigerant Line Insulation Damaged or Missing",
+      "body": "Damaged or missing insulation was observed on the exterior refrigerant lines at (location). Insulation should be repaired or extended all the way to the outdoor unit to help maintain efficiency and prevent condensation.",
+      "applies_to": ["Cooling System"],
+      "tags": ["refrigerant lines", "insulation"],
+      "ai": {
+        "notes": "From Meadowbrook: 'Damaged and missing insulation on refrigerant lines should be repaired... all the way to the compressor unit.'"
+      }
+    },
+    {
+      "id": "cooling-condenser-out-of-level",
+      "category": "improve",
+      "title": "Outdoor Unit Out of Level",
+      "body": "The outdoor unit of the air conditioning system is out of level at (location). Releveling is recommended to help promote proper operation and drainage.",
+      "applies_to": ["Cooling System"],
+      "tags": ["condenser", "level"]
+    },
+    {
+      "id": "cooling-condenser-needs-cleaning",
+      "category": "repair",
+      "title": "Outdoor Unit Requires Cleaning",
+      "body": "The outdoor condenser unit has accumulated debris or dirt on the coil surfaces. Cleaning by a qualified person is recommended to help maintain efficiency.",
+      "applies_to": ["Cooling System"],
+      "tags": ["condenser", "cleaning"]
+    },
+    {
+      "id": "cooling-fins-damaged",
+      "category": "monitor",
+      "title": "Condenser Fins Damaged",
+      "body": "The fins of the outdoor portion of the cooling system were observed to be bent or damaged. This condition can reduce efficiency. Straightening or repair may be desirable.",
+      "applies_to": ["Cooling System"],
+      "tags": ["condenser", "fins", "damage"]
+    },
+    {
+      "id": "cooling-unit-noisy",
+      "category": "monitor",
+      "title": "Outdoor Unit Noisy",
+      "body": "The outdoor unit of the cooling system was noticeably noisy during operation. This should be further investigated during servicing.",
+      "applies_to": ["Cooling System"],
+      "tags": ["condenser", "noise"]
+    },
+    {
+      "id": "cooling-vegetation-clearance",
+      "category": "repair",
+      "title": "Vegetation Too Close to Outdoor Unit",
+      "body": "Vegetation or other obstructions near the outdoor cooling unit at (location) should be cut back to provide adequate airflow and working clearance.",
+      "applies_to": ["Cooling System"],
+      "tags": ["condenser", "vegetation"]
+    },
+    {
+      "id": "cooling-disconnect-missing",
+      "category": "safety",
+      "title": "AC Disconnect Missing or Inadequate",
+      "body": "An electrical disconnect was not observed near the outdoor AC unit, or it appears inadequate. A properly located disconnect is recommended for safety and service convenience.",
+      "applies_to": ["Cooling System"],
+      "tags": ["disconnect", "safety"],
+      "ai": {
+        "notes": "Based on Meadowbrook: 'Electrical disconnect is missing for the AC unit... We recommend a shut off be in place.'"
+      }
     },
 
     {
-      "id": "cooling-inspection-tips",
-      "label": "Inspection Tips – Cooling",
-      "comments": [
-        {
-          "id": "cooling-annual-service-tip",
-          "label": "[[Annual Cooling Service Recommended]] Note",
-          "type": "note",
-          "goesInSummary": false,
-          "text": "Annual servicing of the cooling system by a qualified HVAC contractor is recommended to help maintain efficiency, check refrigerant levels, and extend equipment life.",
-          "tags": ["tip", "service", "cooling"]
-        },
-        {
-          "id": "cooling-filter-and-coil-tip",
-          "label": "[[Filters and Coils Maintenance Tip]] Note",
-          "type": "note",
-          "goesInSummary": false,
-          "text": "Keeping air filters clean and outdoor coils free of debris is important for proper cooling performance and lower operating costs.",
-          "tags": ["tip", "filters", "coils"]
-        },
-        {
-          "id": "cooling-life-expectancy-tip",
-          "label": "[[Cooling System Life Expectancy]] Note",
-          "type": "note",
-          "goesInSummary": false,
-          "text": "Many residential air conditioning systems have a typical service life in the range of 12–20 years, depending on usage and maintenance. Planning for eventual replacement is part of normal home ownership.",
-          "tags": ["tip", "life expectancy", "cooling"]
-        }
-      ]
+      "id": "cooling-annual-service-tip",
+      "category": "note",
+      "title": "Annual Cooling Service Recommended",
+      "body": "Annual servicing of the cooling system by a qualified HVAC contractor is recommended to help maintain efficiency, check refrigerant levels, and extend equipment life.",
+      "applies_to": ["Inspection Tips – Cooling"],
+      "tags": ["tip", "service", "cooling"]
+    },
+    {
+      "id": "cooling-filter-and-coil-tip",
+      "category": "note",
+      "title": "Filters and Coils Maintenance Tip",
+      "body": "Keeping air filters clean and outdoor coils free of debris is important for proper cooling performance and lower operating costs.",
+      "applies_to": ["Inspection Tips – Cooling"],
+      "tags": ["tip", "filters", "coils"]
+    },
+    {
+      "id": "cooling-life-expectancy-tip",
+      "category": "note",
+      "title": "Cooling System Life Expectancy",
+      "body": "Many residential air conditioning systems have a typical service life in the range of 12–20 years, depending on usage and maintenance. Planning for eventual replacement is part of normal home ownership.",
+      "applies_to": ["Inspection Tips – Cooling"],
+      "tags": ["tip", "life expectancy", "cooling"]
     }
   ]
 }
