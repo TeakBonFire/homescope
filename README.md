@@ -139,6 +139,24 @@ homescope/
 ├── README.md         # You’re here
 └── .gitignore        # Ignore unnecessary files
 ```
+## 🧩 Comment Library
+
+All prewritten inspection comments live under `template/comments/` as JSON files. These files are what the app and report generator use at runtime.
+
+**JSON files**
+- `appliances.json` – appliance-related defects and notes  
+- `cooling.json` – cooling and heat pump comments  
+- `electrical.json` – service, panels, wiring, and devices  
+- `exterior.json` – siding, trim, doors, decks, grading, etc.  
+- `heating.json` – furnaces, boilers, and other heat sources  
+- `insulation-ventilation.json` – attic, insulation, and ventilation  
+- `interior.json` – interior walls, ceilings, floors, doors, and windows  
+- `plumbing.json` – supply, waste, fixtures, and water quality notes  
+- `roofing.json` – roof coverings, flashings, drainage  
+- `structure.json` – foundations, framing, and major structural items  
+
+**Markdown files**  
+Mirror the JSON files (for example, `roofing.md`, `plumbing.md`) and are used as human-readable source material when editing or reviewing the library. The long-term goal is for the mobile app to read from the JSON files only, while the `.md` files remain as documentation and drafting space for inspectors.
 
 
 ## 🤝 Contributors
