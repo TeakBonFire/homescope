@@ -1,561 +1,490 @@
 {
   "category": "exterior",
-  "groups": [
+  "comments": [
     {
-      "id": "exterior-walls",
-      "label": "Exterior Walls",
-      "comments": [
-        {
-          "id": "walls-typical-wear",
-          "label": "[[Typical Exterior Wear]] Note",
-          "type": "note",
-          "goesInSummary": false,
-          "text": "Typical cosmetic wear was observed on the exterior surfaces. These conditions are common in previously owned homes and are not considered significant defects.",
-          "tags": ["exterior walls", "cosmetic", "typical wear"]
-        },
-        {
-          "id": "walls-damaged-siding",
-          "label": "[[Damaged Siding]] Repair",
-          "type": "repair",
-          "goesInSummary": false,
-          "text": "Damaged exterior siding was observed at (location). Repair or replacement of the affected areas is recommended to help protect the structure from moisture intrusion.",
-          "tags": ["siding", "damage"]
-        },
-        {
-          "id": "walls-missing-siding",
-          "label": "[[Missing Siding]] Repair",
-          "type": "repair",
-          "goesInSummary": true,
-          "text": "Areas of missing or incomplete siding were observed at (location). This should be repaired to protect underlying materials from weather exposure.",
-          "tags": ["siding", "missing"]
-        },
-        {
-          "id": "walls-gaps-caulk",
-          "label": "[[Gaps at Exterior]] Improve",
-          "type": "improve",
-          "goesInSummary": false,
-          "text": "Gaps were observed at exterior joints and penetrations at (location). Caulking or sealing is recommended to help reduce moisture intrusion and air leakage.",
-          "tags": ["caulking", "gaps", "sealant"]
-        },
-        {
-          "id": "walls-mortar-deteriorated",
-          "label": "[[Deteriorated Mortar Joints]] Repair",
-          "type": "repair",
-          "goesInSummary": false,
-          "text": "Areas of deteriorated or missing mortar were observed in the masonry at (location). Repointing by a qualified mason is recommended to help prevent water entry and further deterioration.",
-          "tags": ["masonry", "mortar", "repoint"]
-        },
-        {
-          "id": "walls-paint-maintenance",
-          "label": "[[Paint Maintenance Needed]] Improve",
-          "type": "improve",
-          "goesInSummary": false,
-          "text": "Exterior painted surfaces at (location) show signs of weathering and could benefit from paint maintenance. Proper painting helps protect wood and other materials from moisture damage.",
-          "tags": ["paint", "maintenance"]
-        },
-        {
-          "id": "walls-rot-observed",
-          "label": "[[Exterior Wood Rot]] Repair",
-          "type": "repair",
-          "goesInSummary": true,
-          "text": "Areas of rot were observed in exterior wood components at (location). Damaged material should be repaired or replaced as needed to restore structural integrity and prevent further deterioration.",
-          "tags": ["rot", "wood", "repair"]
-        },
-        {
-          "id": "walls-missing-j-channel",
-          "label": "[[Missing J-Channel]] Repair",
-          "type": "repair",
-          "goesInSummary": false,
-          "text": "J-channel or trim flashing around the exterior cladding is missing or incomplete at (location). Installation of proper trim is recommended to help shed water and protect wall assemblies.",
-          "tags": ["siding", "J-channel", "trim"]
-        }
-      ]
+      "id": "walls-typical-wear",
+      "category": "note",
+      "title": "Typical Exterior Wear",
+      "body": "Typical cosmetic wear was observed on the exterior surfaces. These conditions are common in previously owned homes and are not considered significant defects.",
+      "applies_to": ["Exterior Walls"],
+      "tags": ["exterior walls", "cosmetic", "typical wear"]
     },
     {
-      "id": "eaves-soffits-fascias",
-      "label": "Eaves / Soffits / Fascias",
-      "comments": [
-        {
-          "id": "eaves-typical-wear",
-          "label": "[[Typical Eave Wear]] Note",
-          "type": "note",
-          "goesInSummary": false,
-          "text": "Typical weathering was observed at the eaves, soffits, and fascias. No significant deficiencies were noted unless otherwise described in this report.",
-          "tags": ["eaves", "soffits", "fascia", "typical wear"]
-        },
-        {
-          "id": "eaves-damaged-fascia",
-          "label": "[[Damaged Fascia]] Repair",
-          "type": "repair",
-          "goesInSummary": false,
-          "text": "Damaged or deteriorated fascia boards were observed at (location). Repairs are recommended to help protect roof edges and prevent moisture intrusion.",
-          "tags": ["fascia", "damage"]
-        },
-        {
-          "id": "eaves-rot",
-          "label": "[[Eave/Soffit Rot]] Repair",
-          "type": "repair",
-          "goesInSummary": true,
-          "text": "Rot or deterioration was observed at the eaves/soffits at (location). Repairs are recommended to restore proper protection of roof and wall assemblies.",
-          "tags": ["soffit", "rot"]
-        },
-        {
-          "id": "eaves-vent-blocked",
-          "label": "[[Soffit Vents Blocked]] Improve",
-          "type": "improve",
-          "goesInSummary": false,
-          "text": "Soffit vents at (location) appear to be blocked or covered. Clearing or improving venting is recommended to allow proper attic ventilation.",
-          "tags": ["soffit vents", "ventilation"]
-        },
-        {
-          "id": "eaves-paint-maintenance",
-          "label": "[[Paint Maintenance at Eaves]] Improve",
-          "type": "improve",
-          "goesInSummary": false,
-          "text": "Peeling or worn paint was observed at the eaves/soffits/fascias. Scraping, priming, and repainting will help protect these components from deterioration.",
-          "tags": ["paint", "eaves", "maintenance"]
-        }
-      ]
+      "id": "walls-damaged-siding",
+      "category": "repair",
+      "title": "Damaged Siding",
+      "body": "Damaged exterior siding was observed at (location). Repair or replacement of the affected areas is recommended to help protect the structure from moisture intrusion.",
+      "applies_to": ["Exterior Walls"],
+      "tags": ["siding", "damage"]
     },
     {
-      "id": "exterior-doors-windows",
-      "label": "Exterior Doors / Windows",
-      "comments": [
-        {
-          "id": "ext-doors-gaps",
-          "label": "[[Gaps at Exterior Door]] Improve",
-          "type": "improve",
-          "goesInSummary": false,
-          "text": "Gaps were observed around the exterior door at (location). Weatherstripping or adjustment is recommended to improve sealing and energy efficiency.",
-          "tags": ["door", "gaps", "weatherstripping"]
-        },
-        {
-          "id": "ext-door-damaged-trim",
-          "label": "[[Exterior Door Trim Damaged]] Repair",
-          "type": "repair",
-          "goesInSummary": false,
-          "text": "Damaged or deteriorated exterior trim was noted around the door at (location). Repairs and sealing are recommended to help prevent moisture intrusion.",
-          "tags": ["door", "trim", "damage"]
-        },
-        {
-          "id": "ext-door-primer-needs-paint",
-          "label": "[[Factory Primer Needs Paint]] Improve",
-          "type": "improve",
-          "goesInSummary": false,
-          "text": "The exterior door at (location) appears to have only a factory primer coat. A proper finish coat of paint is recommended to reduce the likelihood of rust and weather damage.",
-          "tags": ["door", "paint", "primer"]
-        },
-        {
-          "id": "ext-door-hinges-outward",
-          "label": "[[Door Hinges Oriented Outward]] Repair/Security",
-          "type": "repair",
-          "goesInSummary": true,
-          "text": "The exterior door at (location) is installed with the hinges facing outward. This is a security concern because hinge pins can be removed from the exterior. Reinstallation or hardware changes are recommended for improved security.",
-          "tags": ["door", "hinges", "security"]
-        },
-        {
-          "id": "ext-window-exterior-rot",
-          "label": "[[Window Trim Rot]] Repair",
-          "type": "repair",
-          "goesInSummary": true,
-          "text": "Rot or deterioration was observed at the exterior window trim/sills at (location). Repairs are recommended to protect the structure from water intrusion.",
-          "tags": ["window", "rot", "trim"]
-        },
-        {
-          "id": "ext-window-caulking",
-          "label": "[[Window Caulking Needed]] Improve",
-          "type": "improve",
-          "goesInSummary": false,
-          "text": "Gaps or failed caulking were observed around the exterior window at (location). Re-caulking is recommended to help prevent moisture intrusion.",
-          "tags": ["window", "caulk", "sealant"]
-        },
-        {
-          "id": "storm-door-adjustment",
-          "label": "[[Storm Door Needs Adjustment]] Improve",
-          "type": "improve",
-          "goesInSummary": false,
-          "text": "The exterior storm door at (location) does not fully close or seal properly. Adjustment or minor repair is recommended.",
-          "tags": ["storm door", "adjustment"]
-        },
-        {
-          "id": "storm-door-glass-cracked",
-          "label": "[[Storm Door Glass Cracked]] Repair",
-          "type": "repair",
-          "goesInSummary": true,
-          "text": "Glass in the storm door at (location) is cracked or damaged. Repair or replacement is recommended for safety and weather protection.",
-          "tags": ["storm door", "glass", "cracked"]
-        }
-      ]
+      "id": "walls-missing-siding",
+      "category": "repair",
+      "title": "Missing Siding",
+      "body": "Areas of missing or incomplete siding were observed at (location). This should be repaired to protect underlying materials from weather exposure.",
+      "applies_to": ["Exterior Walls"],
+      "tags": ["siding", "missing"]
     },
     {
-      "id": "driveways",
-      "label": "Driveways",
-      "comments": [
-        {
-          "id": "driveway-typical-cracks",
-          "label": "[[Typical Driveway Cracks]] Note",
-          "type": "note",
-          "goesInSummary": false,
-          "text": "Typical cracking and surface wear were observed in the driveway. These conditions are common and generally considered cosmetic unless otherwise noted.",
-          "tags": ["driveway", "cracks", "typical"]
-        },
-        {
-          "id": "driveway-settlement",
-          "label": "[[Driveway Settlement]] Monitor / Possible Repair",
-          "type": "monitor",
-          "goesInSummary": false,
-          "text": "Areas of settlement or unevenness were observed in the driveway at (location). These areas should be monitored and repairs may be desirable for appearance, drainage, or to reduce trip hazards.",
-          "tags": ["driveway", "settlement", "uneven"]
-        },
-        {
-          "id": "driveway-trip-hazard",
-          "label": "[[Driveway Trip Hazard]] Repair – Safety Issue",
-          "type": "repair",
-          "goesInSummary": true,
-          "text": "A raised or displaced section of the driveway at (location) presents a potential trip hazard. Grinding, leveling, or replacement is recommended for safety.",
-          "tags": ["driveway", "trip hazard"]
-        },
-        {
-          "id": "driveway-gravel-grading",
-          "label": "[[Gravel Driveway Grading]] Improve",
-          "type": "improve",
-          "goesInSummary": false,
-          "text": "The gravel driveway at (location) could be better graded to provide a more even surface and direct water away from structures.",
-          "tags": ["driveway", "gravel", "grading"]
-        }
-      ]
+      "id": "walls-gaps-caulk",
+      "category": "improve",
+      "title": "Gaps at Exterior",
+      "body": "Gaps were observed at exterior joints and penetrations at (location). Caulking or sealing is recommended to help reduce moisture intrusion and air leakage.",
+      "applies_to": ["Exterior Walls"],
+      "tags": ["caulking", "gaps", "sealant"]
     },
     {
-      "id": "walkways",
-      "label": "Walkways",
-      "comments": [
-        {
-          "id": "walkway-typical-cracks",
-          "label": "[[Typical Walkway Cracks]] Note",
-          "type": "note",
-          "goesInSummary": false,
-          "text": "Typical cracking and surface wear were observed in the walkways. These conditions are common and generally cosmetic unless otherwise noted.",
-          "tags": ["walkway", "cracks", "typical"]
-        },
-        {
-          "id": "walkway-trip-hazard-slab",
-          "label": "[[Walkway Trip Hazard]] Repair – Safety Issue",
-          "type": "repair",
-          "goesInSummary": true,
-          "text": "A raised or settled section of the walkway at (location) presents a trip hazard. Repair or leveling is recommended for safety.",
-          "tags": ["walkway", "trip hazard"]
-        },
-        {
-          "id": "walkway-section-missing",
-          "label": "[[Walkway Section Missing or Removed]] Repair",
-          "type": "repair",
-          "goesInSummary": false,
-          "text": "A section of walkway at (location) is missing or has been removed, creating an uneven surface. Repairs are recommended to provide a safer walking surface.",
-          "tags": ["walkway", "missing section"]
-        }
-      ]
+      "id": "walls-mortar-deteriorated",
+      "category": "repair",
+      "title": "Deteriorated Mortar Joints",
+      "body": "Areas of deteriorated or missing mortar were observed in the masonry at (location). Repointing by a qualified mason is recommended to help prevent water entry and further deterioration.",
+      "applies_to": ["Exterior Walls"],
+      "tags": ["masonry", "mortar", "repoint"]
     },
     {
-      "id": "porch-deck-patios",
-      "label": "Porch / Deck / Patios",
-      "comments": [
-        {
-          "id": "porch-deck-typical-wear",
-          "label": "[[Typical Porch/Deck Wear]] Note",
-          "type": "note",
-          "goesInSummary": false,
-          "text": "Typical wear and weathering were observed at the porch/deck/patio surfaces. No significant deficiencies were noted unless otherwise described.",
-          "tags": ["porch", "deck", "patio", "typical wear"]
-        },
-        {
-          "id": "deck-loose-railings",
-          "label": "[[Loose Railings]] Repair – Safety Issue",
-          "type": "repair",
-          "goesInSummary": true,
-          "text": "Loose or wobbly railings were observed at the porch/deck at (location). Secure repair is recommended for safety.",
-          "tags": ["deck", "railing", "safety"]
-        },
-        {
-          "id": "deck-damaged-boards",
-          "label": "[[Damaged or Loose Deck Boards]] Repair",
-          "type": "repair",
-          "goesInSummary": false,
-          "text": "Damaged, loose, or deteriorated deck/porch boards were observed at (location). Repairs or replacement of affected boards is recommended.",
-          "tags": ["deck", "boards", "damage"]
-        },
-        {
-          "id": "porch-brick-mortar-openings",
-          "label": "[[Porch Brick Mortar Openings]] Repair",
-          "type": "repair",
-          "goesInSummary": false,
-          "text": "Openings in the mortar joints were observed at the porch structure (location). Repointing and sealing are recommended to help limit moisture entry and deterioration.",
-          "tags": ["porch", "masonry", "mortar"]
-        },
-        {
-          "id": "porch-under-closet-moisture",
-          "label": "[[Porch Understructure Moisture]] Monitor/Repair",
-          "type": "monitor",
-          "goesInSummary": false,
-          "text": "Evidence of moisture staining or corrosion was observed in the area below the porch at (location). This area should be monitored and repairs made if active leakage is confirmed.",
-          "tags": ["porch", "moisture", "staining"]
-        }
-      ]
+      "id": "walls-paint-maintenance",
+      "category": "improve",
+      "title": "Paint Maintenance Needed",
+      "body": "Exterior painted surfaces at (location) show signs of weathering and could benefit from paint maintenance. Proper painting helps protect wood and other materials from moisture damage.",
+      "applies_to": ["Exterior Walls"],
+      "tags": ["paint", "maintenance"]
     },
     {
-      "id": "garage-carport",
-      "label": "Garage / Carport",
-      "comments": [
-        {
-          "id": "garage-typical-wear",
-          "label": "[[Typical Garage Wear]] Note",
-          "type": "note",
-          "goesInSummary": false,
-          "text": "Typical cosmetic wear was observed in the garage/carport. No significant deficiencies were noted unless otherwise stated.",
-          "tags": ["garage", "typical wear"]
-        },
-        {
-          "id": "garage-door-trim-damaged",
-          "label": "[[Garage Door Trim Damaged]] Repair",
-          "type": "repair",
-          "goesInSummary": false,
-          "text": "Exterior trim around the garage door opening at (location) is damaged or deteriorated. Repairs and sealing are recommended to help prevent further moisture-related damage.",
-          "tags": ["garage", "door trim", "damage"]
-        },
-        {
-          "id": "garage-door-deadbolt-difficult",
-          "label": "[[Garage Service Door Difficult to Lock]] Improve/Repair",
-          "type": "repair",
-          "goesInSummary": false,
-          "text": "The exterior service door at the garage (location) is difficult to lock or latch. Adjustment or minor repair is recommended for proper operation and security.",
-          "tags": ["garage door", "lock", "adjustment"]
-        },
-        {
-          "id": "garage-osb-exposed-near-grade",
-          "label": "[[Garage OSB Exposed near Grade]] Repair",
-          "type": "repair",
-          "goesInSummary": true,
-          "text": "Oriented strand board (OSB) or other non-durable sheathing was observed exposed near grade in the garage at (location). This material is not designed for continuous exterior exposure and should be protected or replaced as needed.",
-          "tags": ["garage", "OSB", "exposure"]
-        }
-      ]
+      "id": "walls-rot-observed",
+      "category": "repair",
+      "title": "Exterior Wood Rot",
+      "body": "Areas of rot were observed in exterior wood components at (location). Damaged material should be repaired or replaced as needed to restore structural integrity and prevent further deterioration.",
+      "applies_to": ["Exterior Walls"],
+      "tags": ["rot", "wood", "repair"]
     },
     {
-      "id": "lot-drainage",
-      "label": "Lot Drainage",
-      "comments": [
-        {
-          "id": "grading-typical",
-          "label": "[[Typical Lot Drainage]] Note",
-          "type": "note",
-          "goesInSummary": false,
-          "text": "Lot grading and drainage around the home appeared generally adequate at the time of inspection, with no significant standing water observed.",
-          "tags": ["grading", "drainage", "note"]
-        },
-        {
-          "id": "grading-negative-slope",
-          "label": "[[Negative Grading Towards House]] Repair/Improve",
-          "type": "repair",
-          "goesInSummary": true,
-          "text": "Areas of negative or flat grading were observed adjacent to the foundation at (location). Regrading to slope soil away from the home is recommended to help reduce the potential for water intrusion.",
-          "tags": ["grading", "negative slope"]
-        },
-        {
-          "id": "drainage-surface-water-flow",
-          "label": "[[Surface Water Flow Concern]] Monitor/Repair",
-          "type": "monitor",
-          "goesInSummary": false,
-          "text": "The lot configuration and hard surfaces suggest that significant water may flow toward the home or entry at (location) during heavy rain. Installation or improvement of drains or swales may be desirable.",
-          "tags": ["drainage", "surface water"]
-        },
-        {
-          "id": "drainage-driveway-landing",
-          "label": "[[Drainage at Exterior Door Landing]] Repair/Improve",
-          "type": "repair",
-          "goesInSummary": true,
-          "text": "Drainage near the exterior door landing at (location) appears inadequate to handle surface water. Improving drainage (for example, by adding or upgrading a drain) is recommended to help reduce water intrusion risk.",
-          "tags": ["drainage", "door landing"]
-        }
-      ]
+      "id": "walls-missing-j-channel",
+      "category": "repair",
+      "title": "Missing J-Channel",
+      "body": "J-channel or trim flashing around the exterior cladding is missing or incomplete at (location). Installation of proper trim is recommended to help shed water and protect wall assemblies.",
+      "applies_to": ["Exterior Walls"],
+      "tags": ["siding", "J-channel", "trim"]
+    },
+
+    {
+      "id": "eaves-typical-wear",
+      "category": "note",
+      "title": "Typical Eave Wear",
+      "body": "Typical weathering was observed at the eaves, soffits, and fascias. No significant deficiencies were noted unless otherwise described in this report.",
+      "applies_to": ["Eaves / Soffits / Fascias"],
+      "tags": ["eaves", "soffits", "fascia", "typical wear"]
     },
     {
-      "id": "retaining-walls",
-      "label": "Retaining Walls",
-      "comments": [
-        {
-          "id": "retaining-typical-wear",
-          "label": "[[Retaining Wall Typical Wear]] Note",
-          "type": "note",
-          "goesInSummary": false,
-          "text": "Typical cracking, staining, or movement was observed in the retaining wall at (location). No urgent deficiencies were noted unless otherwise described.",
-          "tags": ["retaining wall", "typical"]
-        },
-        {
-          "id": "retaining-wall-leaning",
-          "label": "[[Retaining Wall Leaning or Bowing]] Monitor / Possible Repair",
-          "type": "monitor",
-          "goesInSummary": true,
-          "text": "The retaining wall at (location) shows signs of leaning, bowing, or displacement. While no recent movement can be confirmed during a one-time inspection, evaluation by a qualified contractor may be desirable, especially if movement continues.",
-          "tags": ["retaining wall", "movement"]
-        },
-        {
-          "id": "retaining-wall-cracked",
-          "label": "[[Retaining Wall Cracking]] Monitor",
-          "type": "monitor",
-          "goesInSummary": false,
-          "text": "Cracking was observed in the retaining wall at (location). Cracks should be monitored for enlargement, and repairs may be needed if movement continues or if water penetration becomes an issue.",
-          "tags": ["retaining wall", "cracks"]
-        },
-        {
-          "id": "retaining-wall-drainage",
-          "label": "[[Retaining Wall Drainage]] Improve",
-          "type": "improve",
-          "goesInSummary": false,
-          "text": "It is not clear whether the retaining wall at (location) has adequate drainage provisions. Poor drainage can contribute to movement or failure over time. Further evaluation or improvements may be desirable.",
-          "tags": ["retaining wall", "drainage"]
-        }
-      ]
+      "id": "eaves-damaged-fascia",
+      "category": "repair",
+      "title": "Damaged Fascia",
+      "body": "Damaged or deteriorated fascia boards were observed at (location). Repairs are recommended to help protect roof edges and prevent moisture intrusion.",
+      "applies_to": ["Eaves / Soffits / Fascias"],
+      "tags": ["fascia", "damage"]
     },
     {
-      "id": "landscaping-fence",
-      "label": "Landscaping / Fence",
-      "comments": [
-        {
-          "id": "landscaping-vegetation-clearance",
-          "label": "[[Vegetation Too Close to House]] Improve",
-          "type": "improve",
-          "goesInSummary": false,
-          "text": "Vegetation is growing close to, or in contact with, the exterior walls or roof at (location). Trimming or removal is recommended to help prevent damage and improve airflow.",
-          "tags": ["vegetation", "clearance"]
-        },
-        {
-          "id": "fence-typical-wear",
-          "label": "[[Fence Typical Wear]] Note",
-          "type": "note",
-          "goesInSummary": false,
-          "text": "Typical wear and weathering were observed on the fencing. No significant deficiencies were noted unless otherwise described.",
-          "tags": ["fence", "typical"]
-        },
-        {
-          "id": "fence-damaged",
-          "label": "[[Fence Damaged or Leaning]] Repair/Improve",
-          "type": "repair",
-          "goesInSummary": false,
-          "text": "Sections of fence at (location) are damaged, leaning, or loose. Repairs may be desirable for appearance, security, or pet containment.",
-          "tags": ["fence", "damage"]
-        },
-        {
-          "id": "random-post-trip-hazard",
-          "label": "[[Random Post Trip Hazard]] Repair – Safety Issue",
-          "type": "repair",
-          "goesInSummary": true,
-          "text": "A lone post or stake in the yard at (location) presents a potential trip hazard. Removal or clear marking is recommended.",
-          "tags": ["yard", "post", "trip hazard"]
-        },
-        {
-          "id": "animal-burrow-foundation",
-          "label": "[[Animal Burrow or Erosion Near Foundation]] Monitor / Repair",
-          "type": "monitor",
-          "goesInSummary": false,
-          "text": "An animal burrow or erosion was observed near the foundation or exterior wall at (location). This area should be monitored and backfilled or otherwise repaired as needed to prevent further settlement or pest activity.",
-          "tags": ["animal burrow", "erosion"]
-        }
-      ]
+      "id": "eaves-rot",
+      "category": "repair",
+      "title": "Eave/Soffit Rot",
+      "body": "Rot or deterioration was observed at the eaves/soffits at (location). Repairs are recommended to restore proper protection of roof and wall assemblies.",
+      "applies_to": ["Eaves / Soffits / Fascias"],
+      "tags": ["soffit", "rot"]
     },
     {
-      "id": "steps",
-      "label": "Steps",
-      "comments": [
-        {
-          "id": "steps-typical-wear",
-          "label": "[[Typical Step Wear]] Note",
-          "type": "note",
-          "goesInSummary": false,
-          "text": "Typical wear was observed at the exterior steps. No significant deficiencies were noted unless otherwise stated.",
-          "tags": ["steps", "typical"]
-        },
-        {
-          "id": "steps-loose-handrail",
-          "label": "[[Loose Handrail]] Repair – Safety Issue",
-          "type": "repair",
-          "goesInSummary": true,
-          "text": "The handrail at the steps (location) is loose or not well secured. Repair is recommended for safety.",
-          "tags": ["handrail", "loose", "safety"]
-        },
-        {
-          "id": "steps-broken-tread",
-          "label": "[[Broken or Loose Step Tread]] Repair – Safety Issue",
-          "type": "repair",
-          "goesInSummary": true,
-          "text": "A damaged or loose step tread was observed at (location). Repair or replacement is recommended to reduce the risk of injury.",
-          "tags": ["steps", "tread", "trip hazard"]
-        },
-        {
-          "id": "steps-missing-handrail",
-          "label": "[[Handrail Recommended]] Improve – Safety",
-          "type": "improve",
-          "goesInSummary": false,
-          "text": "A handrail was not present at the steps at (location). Installing a secure handrail is recommended for improved safety.",
-          "tags": ["handrail", "missing", "safety"]
-        }
-      ]
+      "id": "eaves-vent-blocked",
+      "category": "improve",
+      "title": "Soffit Vents Blocked",
+      "body": "Soffit vents at (location) appear to be blocked or covered. Clearing or improving venting is recommended to allow proper attic ventilation.",
+      "applies_to": ["Eaves / Soffits / Fascias"],
+      "tags": ["soffit vents", "ventilation"]
     },
     {
-      "id": "exterior-limitations",
-      "label": "Exterior Limitations",
-      "comments": [
-        {
-          "id": "exterior-snow-leaves-limitation",
-          "label": "[[Exterior Limited by Snow/Vegetation]] Limitation",
-          "type": "note",
-          "goesInSummary": false,
-          "text": "Portions of the exterior were obscured by snow, vegetation, stored items, or finishes and could not be fully inspected.",
-          "tags": ["limitation", "obstructed"]
-        },
-        {
-          "id": "exterior-weather-limitation",
-          "label": "[[Exterior Limited by Weather]] Limitation",
-          "type": "note",
-          "goesInSummary": false,
-          "text": "Weather conditions at the time of inspection limited evaluation of some exterior components. Areas should be monitored during different weather conditions.",
-          "tags": ["limitation", "weather"]
-        }
-      ]
+      "id": "eaves-paint-maintenance",
+      "category": "improve",
+      "title": "Paint Maintenance at Eaves",
+      "body": "Peeling or worn paint was observed at the eaves/soffits/fascias. Scraping, priming, and repainting will help protect these components from deterioration.",
+      "applies_to": ["Eaves / Soffits / Fascias"],
+      "tags": ["paint", "eaves", "maintenance"]
+    },
+
+    {
+      "id": "ext-doors-gaps",
+      "category": "improve",
+      "title": "Gaps at Exterior Door",
+      "body": "Gaps were observed around the exterior door at (location). Weatherstripping or adjustment is recommended to improve sealing and energy efficiency.",
+      "applies_to": ["Exterior Doors / Windows"],
+      "tags": ["door", "gaps", "weatherstripping"]
     },
     {
-      "id": "outbuildings",
-      "label": "Outbuildings",
-      "comments": [
-        {
-          "id": "outbuilding-limited-scope",
-          "label": "[[Outbuildings Limited Evaluation]] Note",
-          "type": "note",
-          "goesInSummary": false,
-          "text": "Outbuildings and detached structures received a limited inspection focusing on major visible defects. Cosmetic issues and minor maintenance items may not be noted individually.",
-          "tags": ["outbuilding", "scope"]
-        },
-        {
-          "id": "outbuilding-typical-wear",
-          "label": "[[Outbuilding Typical Wear]] Note",
-          "type": "note",
-          "goesInSummary": false,
-          "text": "Typical wear and weathering were observed at the outbuilding(s). No significant deficiencies were noted unless otherwise described.",
-          "tags": ["outbuilding", "typical"]
-        }
-      ]
+      "id": "ext-door-damaged-trim",
+      "category": "repair",
+      "title": "Exterior Door Trim Damaged",
+      "body": "Damaged or deteriorated exterior trim was noted around the door at (location). Repairs and sealing are recommended to help prevent moisture intrusion.",
+      "applies_to": ["Exterior Doors / Windows"],
+      "tags": ["door", "trim", "damage"]
     },
     {
-      "id": "inspection-tips",
-      "label": "Inspection Tips – Exterior",
-      "comments": [
-        {
-          "id": "tip-ongoing-exterior-maintenance",
-          "label": "[[Exterior Maintenance Tip]] Note",
-          "type": "note",
-          "goesInSummary": false,
-          "text": "Ongoing exterior maintenance, including paint, caulking, and prompt repair of minor defects, is important to help protect the structure from moisture intrusion and extend the life of exterior materials.",
-          "tags": ["tip", "maintenance"]
-        }
-      ]
+      "id": "ext-door-primer-needs-paint",
+      "category": "improve",
+      "title": "Factory Primer Needs Paint",
+      "body": "The exterior door at (location) appears to have only a factory primer coat. A proper finish coat of paint is recommended to reduce the likelihood of rust and weather damage.",
+      "applies_to": ["Exterior Doors / Windows"],
+      "tags": ["door", "paint", "primer"]
+    },
+    {
+      "id": "ext-door-hinges-outward",
+      "category": "repair",
+      "title": "Door Hinges Oriented Outward",
+      "body": "The exterior door at (location) is installed with the hinges facing outward. This is a security concern because hinge pins can be removed from the exterior. Reinstallation or hardware changes are recommended for improved security.",
+      "applies_to": ["Exterior Doors / Windows"],
+      "tags": ["door", "hinges", "security"]
+    },
+    {
+      "id": "ext-window-exterior-rot",
+      "category": "repair",
+      "title": "Window Trim Rot",
+      "body": "Rot or deterioration was observed at the exterior window trim/sills at (location). Repairs are recommended to protect the structure from water intrusion.",
+      "applies_to": ["Exterior Doors / Windows"],
+      "tags": ["window", "rot", "trim"]
+    },
+    {
+      "id": "ext-window-caulking",
+      "category": "improve",
+      "title": "Window Caulking Needed",
+      "body": "Gaps or failed caulking were observed around the exterior window at (location). Re-caulking is recommended to help prevent moisture intrusion.",
+      "applies_to": ["Exterior Doors / Windows"],
+      "tags": ["window", "caulk", "sealant"]
+    },
+    {
+      "id": "storm-door-adjustment",
+      "category": "improve",
+      "title": "Storm Door Needs Adjustment",
+      "body": "The exterior storm door at (location) does not fully close or seal properly. Adjustment or minor repair is recommended.",
+      "applies_to": ["Exterior Doors / Windows"],
+      "tags": ["storm door", "adjustment"]
+    },
+    {
+      "id": "storm-door-glass-cracked",
+      "category": "repair",
+      "title": "Storm Door Glass Cracked",
+      "body": "Glass in the storm door at (location) is cracked or damaged. Repair or replacement is recommended for safety and weather protection.",
+      "applies_to": ["Exterior Doors / Windows"],
+      "tags": ["storm door", "glass", "cracked"]
+    },
+
+    {
+      "id": "driveway-typical-cracks",
+      "category": "note",
+      "title": "Typical Driveway Cracks",
+      "body": "Typical cracking and surface wear were observed in the driveway. These conditions are common and generally considered cosmetic unless otherwise noted.",
+      "applies_to": ["Driveways"],
+      "tags": ["driveway", "cracks", "typical"]
+    },
+    {
+      "id": "driveway-settlement",
+      "category": "monitor",
+      "title": "Driveway Settlement",
+      "body": "Areas of settlement or unevenness were observed in the driveway at (location). These areas should be monitored and repairs may be desirable for appearance, drainage, or to reduce trip hazards.",
+      "applies_to": ["Driveways"],
+      "tags": ["driveway", "settlement", "uneven"]
+    },
+    {
+      "id": "driveway-trip-hazard",
+      "category": "safety",
+      "title": "Driveway Trip Hazard",
+      "body": "A raised or displaced section of the driveway at (location) presents a potential trip hazard. Grinding, leveling, or replacement is recommended for safety.",
+      "applies_to": ["Driveways"],
+      "tags": ["driveway", "trip hazard"]
+    },
+    {
+      "id": "driveway-gravel-grading",
+      "category": "improve",
+      "title": "Gravel Driveway Grading",
+      "body": "The gravel driveway at (location) could be better graded to provide a more even surface and direct water away from structures.",
+      "applies_to": ["Driveways"],
+      "tags": ["driveway", "gravel", "grading"]
+    },
+
+    {
+      "id": "walkway-typical-cracks",
+      "category": "note",
+      "title": "Typical Walkway Cracks",
+      "body": "Typical cracking and surface wear were observed in the walkways. These conditions are common and generally cosmetic unless otherwise noted.",
+      "applies_to": ["Walkways"],
+      "tags": ["walkway", "cracks", "typical"]
+    },
+    {
+      "id": "walkway-trip-hazard-slab",
+      "category": "safety",
+      "title": "Walkway Trip Hazard",
+      "body": "A raised or settled section of the walkway at (location) presents a trip hazard. Repair or leveling is recommended for safety.",
+      "applies_to": ["Walkways"],
+      "tags": ["walkway", "trip hazard"]
+    },
+    {
+      "id": "walkway-section-missing",
+      "category": "repair",
+      "title": "Walkway Section Missing or Removed",
+      "body": "A section of walkway at (location) is missing or has been removed, creating an uneven surface. Repairs are recommended to provide a safer walking surface.",
+      "applies_to": ["Walkways"],
+      "tags": ["walkway", "missing section"]
+    },
+
+    {
+      "id": "porch-deck-typical-wear",
+      "category": "note",
+      "title": "Typical Porch/Deck Wear",
+      "body": "Typical wear and weathering were observed at the porch/deck/patio surfaces. No significant deficiencies were noted unless otherwise described.",
+      "applies_to": ["Porch / Deck / Patios"],
+      "tags": ["porch", "deck", "patio", "typical wear"]
+    },
+    {
+      "id": "deck-loose-railings",
+      "category": "safety",
+      "title": "Loose Railings",
+      "body": "Loose or wobbly railings were observed at the porch/deck at (location). Secure repair is recommended for safety.",
+      "applies_to": ["Porch / Deck / Patios"],
+      "tags": ["deck", "railing", "safety"]
+    },
+    {
+      "id": "deck-damaged-boards",
+      "category": "repair",
+      "title": "Damaged or Loose Deck Boards",
+      "body": "Damaged, loose, or deteriorated deck/porch boards were observed at (location). Repairs or replacement of affected boards is recommended.",
+      "applies_to": ["Porch / Deck / Patios"],
+      "tags": ["deck", "boards", "damage"]
+    },
+    {
+      "id": "porch-brick-mortar-openings",
+      "category": "repair",
+      "title": "Porch Brick Mortar Openings",
+      "body": "Openings in the mortar joints were observed at the porch structure (location). Repointing and sealing are recommended to help limit moisture entry and deterioration.",
+      "applies_to": ["Porch / Deck / Patios"],
+      "tags": ["porch", "masonry", "mortar"]
+    },
+    {
+      "id": "porch-under-closet-moisture",
+      "category": "monitor",
+      "title": "Porch Understructure Moisture",
+      "body": "Evidence of moisture staining or corrosion was observed in the area below the porch at (location). This area should be monitored and repairs made if active leakage is confirmed.",
+      "applies_to": ["Porch / Deck / Patios"],
+      "tags": ["porch", "moisture", "staining"]
+    },
+
+    {
+      "id": "garage-typical-wear",
+      "category": "note",
+      "title": "Typical Garage Wear",
+      "body": "Typical cosmetic wear was observed in the garage/carport. No significant deficiencies were noted unless otherwise stated.",
+      "applies_to": ["Garage / Carport"],
+      "tags": ["garage", "typical wear"]
+    },
+    {
+      "id": "garage-door-trim-damaged",
+      "category": "repair",
+      "title": "Garage Door Trim Damaged",
+      "body": "Exterior trim around the garage door opening at (location) is damaged or deteriorated. Repairs and sealing are recommended to help prevent further moisture-related damage.",
+      "applies_to": ["Garage / Carport"],
+      "tags": ["garage", "door trim", "damage"]
+    },
+    {
+      "id": "garage-door-deadbolt-difficult",
+      "category": "repair",
+      "title": "Garage Service Door Difficult to Lock",
+      "body": "The exterior service door at the garage (location) is difficult to lock or latch. Adjustment or minor repair is recommended for proper operation and security.",
+      "applies_to": ["Garage / Carport"],
+      "tags": ["garage door", "lock", "adjustment"]
+    },
+    {
+      "id": "garage-osb-exposed-near-grade",
+      "category": "repair",
+      "title": "Garage OSB Exposed near Grade",
+      "body": "Oriented strand board (OSB) or other non-durable sheathing was observed exposed near grade in the garage at (location). This material is not designed for continuous exterior exposure and should be protected or replaced as needed.",
+      "applies_to": ["Garage / Carport"],
+      "tags": ["garage", "OSB", "exposure"]
+    },
+
+    {
+      "id": "grading-typical",
+      "category": "note",
+      "title": "Typical Lot Drainage",
+      "body": "Lot grading and drainage around the home appeared generally adequate at the time of inspection, with no significant standing water observed.",
+      "applies_to": ["Lot Drainage"],
+      "tags": ["grading", "drainage", "note"]
+    },
+    {
+      "id": "grading-negative-slope",
+      "category": "repair",
+      "title": "Negative Grading Towards House",
+      "body": "Areas of negative or flat grading were observed adjacent to the foundation at (location). Regrading to slope soil away from the home is recommended to help reduce the potential for water intrusion.",
+      "applies_to": ["Lot Drainage"],
+      "tags": ["grading", "negative slope"]
+    },
+    {
+      "id": "drainage-surface-water-flow",
+      "category": "monitor",
+      "title": "Surface Water Flow Concern",
+      "body": "The lot configuration and hard surfaces suggest that significant water may flow toward the home or entry at (location) during heavy rain. Installation or improvement of drains or swales may be desirable.",
+      "applies_to": ["Lot Drainage"],
+      "tags": ["drainage", "surface water"]
+    },
+    {
+      "id": "drainage-driveway-landing",
+      "category": "repair",
+      "title": "Drainage at Exterior Door Landing",
+      "body": "Drainage near the exterior door landing at (location) appears inadequate to handle surface water. Improving drainage (for example, by adding or upgrading a drain) is recommended to help reduce water intrusion risk.",
+      "applies_to": ["Lot Drainage"],
+      "tags": ["drainage", "door landing"]
+    },
+
+    {
+      "id": "retaining-typical-wear",
+      "category": "note",
+      "title": "Retaining Wall Typical Wear",
+      "body": "Typical cracking, staining, or movement was observed in the retaining wall at (location). No urgent deficiencies were noted unless otherwise described.",
+      "applies_to": ["Retaining Walls"],
+      "tags": ["retaining wall", "typical"]
+    },
+    {
+      "id": "retaining-wall-leaning",
+      "category": "monitor",
+      "title": "Retaining Wall Leaning or Bowing",
+      "body": "The retaining wall at (location) shows signs of leaning, bowing, or displacement. While no recent movement can be confirmed during a one-time inspection, evaluation by a qualified contractor may be desirable, especially if movement continues.",
+      "applies_to": ["Retaining Walls"],
+      "tags": ["retaining wall", "movement"]
+    },
+    {
+      "id": "retaining-wall-cracked",
+      "category": "monitor",
+      "title": "Retaining Wall Cracking",
+      "body": "Cracking was observed in the retaining wall at (location). Cracks should be monitored for enlargement, and repairs may be needed if movement continues or if water penetration becomes an issue.",
+      "applies_to": ["Retaining Walls"],
+      "tags": ["retaining wall", "cracks"]
+    },
+    {
+      "id": "retaining-wall-drainage",
+      "category": "improve",
+      "title": "Retaining Wall Drainage",
+      "body": "It is not clear whether the retaining wall at (location) has adequate drainage provisions. Poor drainage can contribute to movement or failure over time. Further evaluation or improvements may be desirable.",
+      "applies_to": ["Retaining Walls"],
+      "tags": ["retaining wall", "drainage"]
+    },
+
+    {
+      "id": "landscaping-vegetation-clearance",
+      "category": "improve",
+      "title": "Vegetation Too Close to House",
+      "body": "Vegetation is growing close to, or in contact with, the exterior walls or roof at (location). Trimming or removal is recommended to help prevent damage and improve airflow.",
+      "applies_to": ["Landscaping / Fence"],
+      "tags": ["vegetation", "clearance"]
+    },
+    {
+      "id": "fence-typical-wear",
+      "category": "note",
+      "title": "Fence Typical Wear",
+      "body": "Typical wear and weathering were observed on the fencing. No significant deficiencies were noted unless otherwise described.",
+      "applies_to": ["Landscaping / Fence"],
+      "tags": ["fence", "typical"]
+    },
+    {
+      "id": "fence-damaged",
+      "category": "repair",
+      "title": "Fence Damaged or Leaning",
+      "body": "Sections of fence at (location) are damaged, leaning, or loose. Repairs may be desirable for appearance, security, or pet containment.",
+      "applies_to": ["Landscaping / Fence"],
+      "tags": ["fence", "damage"]
+    },
+    {
+      "id": "random-post-trip-hazard",
+      "category": "safety",
+      "title": "Random Post Trip Hazard",
+      "body": "A lone post or stake in the yard at (location) presents a potential trip hazard. Removal or clear marking is recommended.",
+      "applies_to": ["Landscaping / Fence"],
+      "tags": ["yard", "post", "trip hazard"]
+    },
+    {
+      "id": "animal-burrow-foundation",
+      "category": "monitor",
+      "title": "Animal Burrow or Erosion Near Foundation",
+      "body": "An animal burrow or erosion was observed near the foundation or exterior wall at (location). This area should be monitored and backfilled or otherwise repaired as needed to prevent further settlement or pest activity.",
+      "applies_to": ["Landscaping / Fence"],
+      "tags": ["animal burrow", "erosion"]
+    },
+
+    {
+      "id": "steps-typical-wear",
+      "category": "note",
+      "title": "Typical Step Wear",
+      "body": "Typical wear was observed at the exterior steps. No significant deficiencies were noted unless otherwise stated.",
+      "applies_to": ["Steps"],
+      "tags": ["steps", "typical"]
+    },
+    {
+      "id": "steps-loose-handrail",
+      "category": "safety",
+      "title": "Loose Handrail",
+      "body": "The handrail at the steps (location) is loose or not well secured. Repair is recommended for safety.",
+      "applies_to": ["Steps"],
+      "tags": ["handrail", "loose", "safety"]
+    },
+    {
+      "id": "steps-broken-tread",
+      "category": "safety",
+      "title": "Broken or Loose Step Tread",
+      "body": "A damaged or loose step tread was observed at (location). Repair or replacement is recommended to reduce the risk of injury.",
+      "applies_to": ["Steps"],
+      "tags": ["steps", "tread", "trip hazard"]
+    },
+    {
+      "id": "steps-missing-handrail",
+      "category": "improve",
+      "title": "Handrail Recommended",
+      "body": "A handrail was not present at the steps at (location). Installing a secure handrail is recommended for improved safety.",
+      "applies_to": ["Steps"],
+      "tags": ["handrail", "missing", "safety"]
+    },
+
+    {
+      "id": "exterior-snow-leaves-limitation",
+      "category": "note",
+      "title": "Exterior Limited by Snow/Vegetation",
+      "body": "Portions of the exterior were obscured by snow, vegetation, stored items, or finishes and could not be fully inspected.",
+      "applies_to": ["Exterior Limitations"],
+      "tags": ["limitation", "obstructed"]
+    },
+    {
+      "id": "exterior-weather-limitation",
+      "category": "note",
+      "title": "Exterior Limited by Weather",
+      "body": "Weather conditions at the time of inspection limited evaluation of some exterior components. Areas should be monitored during different weather conditions.",
+      "applies_to": ["Exterior Limitations"],
+      "tags": ["limitation", "weather"]
+    },
+
+    {
+      "id": "outbuilding-limited-scope",
+      "category": "note",
+      "title": "Outbuildings Limited Evaluation",
+      "body": "Outbuildings and detached structures received a limited inspection focusing on major visible defects. Cosmetic issues and minor maintenance items may not be noted individually.",
+      "applies_to": ["Outbuildings"],
+      "tags": ["outbuilding", "scope"]
+    },
+    {
+      "id": "outbuilding-typical-wear",
+      "category": "note",
+      "title": "Outbuilding Typical Wear",
+      "body": "Typical wear and weathering were observed at the outbuilding(s). No significant deficiencies were noted unless otherwise described.",
+      "applies_to": ["Outbuildings"],
+      "tags": ["outbuilding", "typical"]
+    },
+
+    {
+      "id": "tip-ongoing-exterior-maintenance",
+      "category": "note",
+      "title": "Exterior Maintenance Tip",
+      "body": "Ongoing exterior maintenance, including paint, caulking, and prompt repair of minor defects, is important to help protect the structure from moisture intrusion and extend the life of exterior materials.",
+      "applies_to": ["Inspection Tips – Exterior"],
+      "tags": ["tip", "maintenance"]
     }
   ]
 }
