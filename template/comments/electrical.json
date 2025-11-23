@@ -1,407 +1,363 @@
 {
   "category": "electrical",
-  "groups": [
+  "comments": [
     {
-      "id": "electrical-service",
-      "label": "Electrical Service",
-      "comments": [
-        {
-          "id": "service-general-note",
-          "label": "[[Electrical Service – General]] Note",
-          "type": "note",
-          "goesInSummary": false,
-          "text": "The home is served by an electrical service rated at approximately (amperage) amps, (overhead/underground) entry, as observed at the time of inspection.",
-          "tags": ["service", "amperage", "note"],
-          "notesToAI": "Fill in amperage and overhead/underground when known."
-        },
-        {
-          "id": "service-typical-condition",
-          "label": "[[Electrical Service – Typical Condition]] Note",
-          "type": "note",
-          "goesInSummary": false,
-          "text": "The electrical service equipment appeared in typical condition for its age. No major defects were noted unless specifically described in this report.",
-          "tags": ["service", "condition"]
-        },
-        {
-          "id": "service-rust-meter-base",
-          "label": "[[Rust at Meter or Service Equipment]] Monitor / Repair",
-          "type": "monitor",
-          "goesInSummary": false,
-          "text": "Rust or corrosion was observed at the meter base or exterior service equipment at (location). This area should be monitored and evaluated by a qualified electrician if deterioration continues.",
-          "tags": ["service", "rust", "corrosion"],
-          "notesToAI": "Upgrade to a repair comment if corrosion appears severe or is clearly damaging components."
-        },
-        {
-          "id": "service-clearance-issue",
-          "label": "[[Service Drop Clearance Concern]] Monitor / Repair",
-          "type": "monitor",
-          "goesInSummary": false,
-          "text": "The overhead service conductors at (location) appear to have limited clearance from roofs, decks, or vegetation. This condition should be reviewed by the utility company or a qualified electrician and corrected if necessary.",
-          "tags": ["service drop", "clearance"]
-        },
-        {
-          "id": "service-upgrade-deferred-cost",
-          "label": "[[Service Size – Future Upgrade]] Deferred Cost Item",
-          "type": "monitor",
-          "goesInSummary": false,
-          "text": "The existing electrical service size is modest by modern standards. While it may be adequate for current usage, upgrades may be desirable if additional large loads are added in the future.",
-          "tags": ["service size", "deferred cost"]
-        }
-      ]
+      "id": "service-general-note",
+      "category": "note",
+      "title": "Electrical Service – General",
+      "body": "The home is served by an electrical service rated at approximately (amperage) amps, (overhead/underground) entry, as observed at the time of inspection.",
+      "applies_to": ["Electrical Service"],
+      "tags": ["service", "amperage", "note"],
+      "ai": {
+        "notes": "Fill in amperage and overhead/underground when known."
+      }
+    },
+    {
+      "id": "service-typical-condition",
+      "category": "note",
+      "title": "Electrical Service – Typical Condition",
+      "body": "The electrical service equipment appeared in typical condition for its age. No major defects were noted unless specifically described in this report.",
+      "applies_to": ["Electrical Service"],
+      "tags": ["service", "condition"]
+    },
+    {
+      "id": "service-rust-meter-base",
+      "category": "monitor",
+      "title": "Rust at Meter or Service Equipment",
+      "body": "Rust or corrosion was observed at the meter base or exterior service equipment at (location). This area should be monitored and evaluated by a qualified electrician if deterioration continues.",
+      "applies_to": ["Electrical Service"],
+      "tags": ["service", "rust", "corrosion"],
+      "ai": {
+        "notes": "Upgrade to a repair comment if corrosion appears severe or is clearly damaging components."
+      }
+    },
+    {
+      "id": "service-clearance-issue",
+      "category": "monitor",
+      "title": "Service Drop Clearance Concern",
+      "body": "The overhead service conductors at (location) appear to have limited clearance from roofs, decks, or vegetation. This condition should be reviewed by the utility company or a qualified electrician and corrected if necessary.",
+      "applies_to": ["Electrical Service"],
+      "tags": ["service drop", "clearance"]
+    },
+    {
+      "id": "service-upgrade-deferred-cost",
+      "category": "deferred",
+      "title": "Service Size – Future Upgrade (Deferred Cost Item)",
+      "body": "The existing electrical service size is modest by modern standards. While it may be adequate for current usage, upgrades may be desirable if additional large loads are added in the future.",
+      "applies_to": ["Electrical Service"],
+      "tags": ["service size", "deferred cost"]
     },
 
     {
-      "id": "service-panels",
-      "label": "Service Panels",
-      "comments": [
-        {
-          "id": "panel-general-note",
-          "label": "[[Service Panel – General Condition]] Note",
-          "type": "note",
-          "goesInSummary": false,
-          "text": "The main electrical panel was opened and inspected where accessible. No signs of overheating or widespread defects were observed unless noted below.",
-          "tags": ["panel", "note"]
-        },
-        {
-          "id": "panel-no-dead-front",
-          "label": "[[Dead Front Cover Missing]] Repair (Safety)",
-          "type": "repair",
-          "safety": true,
-          "goesInSummary": true,
-          "text": "The service panel at (location) was missing its dead front cover at the time of inspection. This is a safety hazard because live electrical components are exposed. Installation of the proper cover is recommended.",
-          "tags": ["panel", "dead front", "safety"]
-        },
-        {
-          "id": "panel-open-knockouts",
-          "label": "[[Open Knockouts in Panel]] Repair",
-          "type": "repair",
-          "goesInSummary": false,
-          "text": "Open knockouts were observed in the electrical panel at (location). These openings should be closed with approved filler plates to help prevent accidental contact with live parts and entry of debris.",
-          "tags": ["panel", "knockout", "filler"]
-        },
-        {
-          "id": "panel-doubled-taps",
-          "label": "[[Multiple Conductors on Single Breaker]] Repair",
-          "type": "repair",
-          "goesInSummary": true,
-          "text": "Two or more conductors are installed on a breaker or terminal that is designed for a single conductor at (location). This condition can lead to loose connections and overheating. Correction by a qualified electrician is recommended.",
-          "tags": ["panel", "double tap"]
-        },
-        {
-          "id": "panel-oversized-breaker",
-          "label": "[[Breaker May Be Oversized]] Monitor / Repair",
-          "type": "monitor",
-          "goesInSummary": false,
-          "text": "A circuit breaker appears to be oversized for the connected wiring at (location). Further evaluation by a qualified electrician is recommended, and corrections made as needed.",
-          "tags": ["panel", "breaker", "oversized"]
-        },
-        {
-          "id": "panel-labeling-missing",
-          "label": "[[Panel Labeling Incomplete]] Improve",
-          "type": "improve",
-          "goesInSummary": false,
-          "text": "Circuit labeling in the electrical panel is incomplete or unclear. Accurate labeling is recommended to make it easier to identify and shut off circuits when needed.",
-          "tags": ["panel", "labeling"]
-        },
-        {
-          "id": "subpanel-neutrals-and-grounds-separated",
-          "label": "[[Subpanel Neutrals/Grounds – General Note]] Note",
-          "type": "note",
-          "goesInSummary": false,
-          "text": "In subpanels, neutral conductors are typically required to be isolated from equipment grounds. Where visible, connections appeared generally typical for this age of installation unless otherwise noted.",
-          "tags": ["subpanel", "neutrals", "grounds"]
-        },
-        {
-          "id": "subpanel-grounds-bundled",
-          "label": "[[Subpanel Grounding Concern]] Repair",
-          "type": "repair",
-          "goesInSummary": true,
-          "text": "In the subpanel at (location), equipment grounds were bundled together with the grounding conductor from the main service rather than terminating on a separate grounding bus as is typically recommended. Evaluation and correction by a qualified electrician is advised.",
-          "tags": ["subpanel", "grounding", "repair"],
-          "notesToAI": "Paraphrases your prior comment about grounds bound together with house ground in the garage subpanel."
-        }
-      ]
+      "id": "panel-general-note",
+      "category": "note",
+      "title": "Service Panel – General Condition",
+      "body": "The main electrical panel was opened and inspected where accessible. No signs of overheating or widespread defects were observed unless noted below.",
+      "applies_to": ["Service Panels"],
+      "tags": ["panel", "note"]
+    },
+    {
+      "id": "panel-no-dead-front",
+      "category": "safety",
+      "title": "Dead Front Cover Missing",
+      "body": "The service panel at (location) was missing its dead front cover at the time of inspection. This is a safety hazard because live electrical components are exposed. Installation of the proper cover is recommended.",
+      "applies_to": ["Service Panels"],
+      "tags": ["panel", "dead front", "safety"]
+    },
+    {
+      "id": "panel-open-knockouts",
+      "category": "repair",
+      "title": "Open Knockouts in Panel",
+      "body": "Open knockouts were observed in the electrical panel at (location). These openings should be closed with approved filler plates to help prevent accidental contact with live parts and entry of debris.",
+      "applies_to": ["Service Panels"],
+      "tags": ["panel", "knockout", "filler"]
+    },
+    {
+      "id": "panel-doubled-taps",
+      "category": "repair",
+      "title": "Multiple Conductors on Single Breaker",
+      "body": "Two or more conductors are installed on a breaker or terminal that is designed for a single conductor at (location). This condition can lead to loose connections and overheating. Correction by a qualified electrician is recommended.",
+      "applies_to": ["Service Panels"],
+      "tags": ["panel", "double tap"]
+    },
+    {
+      "id": "panel-oversized-breaker",
+      "category": "monitor",
+      "title": "Breaker May Be Oversized",
+      "body": "A circuit breaker appears to be oversized for the connected wiring at (location). Further evaluation by a qualified electrician is recommended, and corrections made as needed.",
+      "applies_to": ["Service Panels"],
+      "tags": ["panel", "breaker", "oversized"]
+    },
+    {
+      "id": "panel-labeling-missing",
+      "category": "improve",
+      "title": "Panel Labeling Incomplete",
+      "body": "Circuit labeling in the electrical panel is incomplete or unclear. Accurate labeling is recommended to make it easier to identify and shut off circuits when needed.",
+      "applies_to": ["Service Panels"],
+      "tags": ["panel", "labeling"]
+    },
+    {
+      "id": "subpanel-neutrals-and-grounds-separated",
+      "category": "note",
+      "title": "Subpanel Neutrals/Grounds – General Note",
+      "body": "In subpanels, neutral conductors are typically required to be isolated from equipment grounds. Where visible, connections appeared generally typical for this age of installation unless otherwise noted.",
+      "applies_to": ["Service Panels"],
+      "tags": ["subpanel", "neutrals", "grounds"]
+    },
+    {
+      "id": "subpanel-grounds-bundled",
+      "category": "repair",
+      "title": "Subpanel Grounding Concern",
+      "body": "In the subpanel at (location), equipment grounds were bundled together with the grounding conductor from the main service rather than terminating on a separate grounding bus as is typically recommended. Evaluation and correction by a qualified electrician is advised.",
+      "applies_to": ["Service Panels"],
+      "tags": ["subpanel", "grounding", "repair"],
+      "ai": {
+        "notes": "Paraphrases your prior comment about grounds bound together with house ground in the garage subpanel."
+      }
     },
 
     {
-      "id": "distribution-wiring",
-      "label": "Distribution Wiring",
-      "comments": [
-        {
-          "id": "wiring-typical-note",
-          "label": "[[Branch Wiring – Typical]] Note",
-          "type": "note",
-          "goesInSummary": false,
-          "text": "Visible branch wiring was generally modern non-metallic sheathed cable (Romex) unless otherwise noted. Concealed wiring could not be inspected.",
-          "tags": ["wiring", "note"]
-        },
-        {
-          "id": "wiring-open-junction-box",
-          "label": "[[Open Junction Box]] Repair",
-          "type": "repair",
-          "goesInSummary": true,
-          "text": "A junction box at (location) was missing its cover. A proper cover should be installed to protect the wiring and reduce the risk of accidental contact.",
-          "tags": ["junction box", "cover"]
-        },
-        {
-          "id": "wiring-splices-outside-box",
-          "label": "[[Splices Not in Junction Box]] Repair",
-          "type": "repair",
-          "goesInSummary": true,
-          "text": "Electrical splices were observed outside of a junction box at (location). All splices should be enclosed in approved boxes with covers. Correction by a qualified electrician is recommended.",
-          "tags": ["splices", "junction box"]
-        },
-        {
-          "id": "wiring-damaged",
-          "label": "[[Damaged Wiring]] Repair",
-          "type": "repair",
-          "goesInSummary": true,
-          "text": "Damaged or frayed wiring insulation was observed at (location). This condition should be repaired by a qualified electrician.",
-          "tags": ["wiring", "damage"]
-        },
-        {
-          "id": "wiring-old-cloth",
-          "label": "[[Older Cloth-Covered Wiring]] Monitor",
-          "type": "monitor",
-          "goesInSummary": false,
-          "text": "Older cloth-covered branch wiring was observed in portions of the home. This type of wiring can become brittle with age. Repairs or upgrades may be needed as conditions warrant.",
-          "tags": ["cloth wire", "old wiring"]
-        },
-        {
-          "id": "wiring-aluminum-branch",
-          "label": "[[Aluminum Branch-Circuit Wiring]] Monitor / Repair",
-          "type": "monitor",
-          "goesInSummary": true,
-          "text": "Single-strand aluminum branch-circuit wiring was observed. This wiring has a history of connection problems and overheating in some installations. Further evaluation by a qualified electrician is recommended, and approved repair methods should be used where needed.",
-          "tags": ["aluminum wiring"],
-          "notesToAI": "Use only if you actually see older aluminum branch wiring, not just service entrance cable."
-        },
-        {
-          "id": "wiring-stapling-support",
-          "label": "[[Wiring Support / Protection]] Improve",
-          "type": "improve",
-          "goesInSummary": false,
-          "text": "Some wiring at (location) lacks typical support or protection (for example, loose cables or exposed where subject to damage). Securing or protecting these cables is recommended.",
-          "tags": ["wiring", "support", "protection"]
-        }
-      ]
+      "id": "wiring-typical-note",
+      "category": "note",
+      "title": "Branch Wiring – Typical",
+      "body": "Visible branch wiring was generally modern non-metallic sheathed cable (Romex) unless otherwise noted. Concealed wiring could not be inspected.",
+      "applies_to": ["Distribution Wiring"],
+      "tags": ["wiring", "note"]
+    },
+    {
+      "id": "wiring-open-junction-box",
+      "category": "repair",
+      "title": "Open Junction Box",
+      "body": "A junction box at (location) was missing its cover. A proper cover should be installed to protect the wiring and reduce the risk of accidental contact.",
+      "applies_to": ["Distribution Wiring"],
+      "tags": ["junction box", "cover"]
+    },
+    {
+      "id": "wiring-splices-outside-box",
+      "category": "repair",
+      "title": "Splices Not in Junction Box",
+      "body": "Electrical splices were observed outside of a junction box at (location). All splices should be enclosed in approved boxes with covers. Correction by a qualified electrician is recommended.",
+      "applies_to": ["Distribution Wiring"],
+      "tags": ["splices", "junction box"]
+    },
+    {
+      "id": "wiring-damaged",
+      "category": "repair",
+      "title": "Damaged Wiring",
+      "body": "Damaged or frayed wiring insulation was observed at (location). This condition should be repaired by a qualified electrician.",
+      "applies_to": ["Distribution Wiring"],
+      "tags": ["wiring", "damage"]
+    },
+    {
+      "id": "wiring-old-cloth",
+      "category": "monitor",
+      "title": "Older Cloth-Covered Wiring",
+      "body": "Older cloth-covered branch wiring was observed in portions of the home. This type of wiring can become brittle with age. Repairs or upgrades may be needed as conditions warrant.",
+      "applies_to": ["Distribution Wiring"],
+      "tags": ["cloth wire", "old wiring"]
+    },
+    {
+      "id": "wiring-aluminum-branch",
+      "category": "monitor",
+      "title": "Aluminum Branch-Circuit Wiring",
+      "body": "Single-strand aluminum branch-circuit wiring was observed. This wiring has a history of connection problems and overheating in some installations. Further evaluation by a qualified electrician is recommended, and approved repair methods should be used where needed.",
+      "applies_to": ["Distribution Wiring"],
+      "tags": ["aluminum wiring"],
+      "ai": {
+        "notes": "Use only if you actually see older aluminum branch wiring, not just service entrance cable."
+      }
+    },
+    {
+      "id": "wiring-stapling-support",
+      "category": "improve",
+      "title": "Wiring Support / Protection",
+      "body": "Some wiring at (location) lacks typical support or protection (for example, loose cables or exposed where subject to damage). Securing or protecting these cables is recommended.",
+      "applies_to": ["Distribution Wiring"],
+      "tags": ["wiring", "support", "protection"]
     },
 
     {
-      "id": "service-grounding",
-      "label": "Service Grounding",
-      "comments": [
-        {
-          "id": "grounding-general-note",
-          "label": "[[Grounding System – General]] Note",
-          "type": "note",
-          "goesInSummary": false,
-          "text": "A grounding system was observed, typically including a connection to the water piping and/or one or more ground rods. Portions of the grounding system are often concealed and could not be fully evaluated.",
-          "tags": ["grounding", "note"]
-        },
-        {
-          "id": "grounding-electrode-not-visible",
-          "label": "[[Grounding Electrode Not Fully Visible]] Monitor",
-          "type": "monitor",
-          "goesInSummary": false,
-          "text": "The full extent of the grounding electrode system was not visible due to soil, finishes, or stored items. No attempt was made to expose concealed components.",
-          "tags": ["ground rod", "limitation"]
-        },
-        {
-          "id": "grounding-clamp-loose-or-corroded",
-          "label": "[[Grounding Clamp Concern]] Repair",
-          "type": "repair",
-          "goesInSummary": true,
-          "text": "A grounding clamp or connection at (location) appears loose, corroded, or otherwise suspect. Evaluation and repair by a qualified electrician are recommended.",
-          "tags": ["grounding", "clamp", "corrosion"]
-        },
-        {
-          "id": "bonding-water-piping-missing",
-          "label": "[[Water Piping Bonding Questionable]] Repair",
-          "type": "repair",
-          "goesInSummary": false,
-          "text": "Bonding of the interior metal water piping to the electrical system could not be confirmed or appeared incomplete. A qualified electrician should evaluate and improve bonding as needed.",
-          "tags": ["bonding", "water piping"]
-        }
-      ]
+      "id": "grounding-general-note",
+      "category": "note",
+      "title": "Grounding System – General",
+      "body": "A grounding system was observed, typically including a connection to the water piping and/or one or more ground rods. Portions of the grounding system are often concealed and could not be fully evaluated.",
+      "applies_to": ["Service Grounding"],
+      "tags": ["grounding", "note"]
+    },
+    {
+      "id": "grounding-electrode-not-visible",
+      "category": "monitor",
+      "title": "Grounding Electrode Not Fully Visible",
+      "body": "The full extent of the grounding electrode system was not visible due to soil, finishes, or stored items. No attempt was made to expose concealed components.",
+      "applies_to": ["Service Grounding"],
+      "tags": ["ground rod", "limitation"]
+    },
+    {
+      "id": "grounding-clamp-loose-or-corroded",
+      "category": "repair",
+      "title": "Grounding Clamp Concern",
+      "body": "A grounding clamp or connection at (location) appears loose, corroded, or otherwise suspect. Evaluation and repair by a qualified electrician are recommended.",
+      "applies_to": ["Service Grounding"],
+      "tags": ["grounding", "clamp", "corrosion"]
+    },
+    {
+      "id": "bonding-water-piping-missing",
+      "category": "repair",
+      "title": "Water Piping Bonding Questionable",
+      "body": "Bonding of the interior metal water piping to the electrical system could not be confirmed or appeared incomplete. A qualified electrician should evaluate and improve bonding as needed.",
+      "applies_to": ["Service Grounding"],
+      "tags": ["bonding", "water piping"]
     },
 
     {
-      "id": "outlets-switches-fixtures",
-      "label": "Outlets / Switches / Fixtures",
-      "comments": [
-        {
-          "id": "receptacles-typical-note",
-          "label": "[[Outlets and Switches – Typical]] Note",
-          "type": "note",
-          "goesInSummary": false,
-          "text": "A representative number of accessible outlets, switches, and light fixtures were tested. No widespread problems were noted unless specifically described below.",
-          "tags": ["outlets", "switches", "fixtures"]
-        },
-        {
-          "id": "receptacle-open-ground",
-          "label": "[[Open Ground Receptacle]] Repair",
-          "type": "repair",
-          "goesInSummary": false,
-          "text": "An outlet at (location) tested as having an open ground. Repair is recommended by a qualified electrician.",
-          "tags": ["receptacle", "open ground"]
-        },
-        {
-          "id": "receptacle-reversed-polarity",
-          "label": "[[Reversed Polarity Receptacle]] Repair",
-          "type": "repair",
-          "goesInSummary": true,
-          "text": "An outlet at (location) tested as having reversed polarity. This condition should be corrected by a qualified electrician.",
-          "tags": ["receptacle", "reversed polarity"]
-        },
-        {
-          "id": "receptacle-loose",
-          "label": "[[Loose Receptacle]] Repair",
-          "type": "repair",
-          "goesInSummary": false,
-          "text": "An electrical outlet at (location) is loose in the box or poorly secured to the wall. Tightening or repair is recommended.",
-          "tags": ["receptacle", "loose"]
-        },
-        {
-          "id": "switch-hot-to-touch",
-          "label": "[[Switch Excessively Hot]] Repair (Safety)",
-          "type": "repair",
-          "safety": true,
-          "goesInSummary": true,
-          "text": "A light switch at (location) was noticeably hot to the touch at the time of inspection. This may indicate an overloaded circuit or internal defect. Evaluation and repair by a qualified electrician are recommended.",
-          "tags": ["switch", "overheating", "safety"],
-          "notesToAI": "Matches your basement stair switch that was excessively hot."
-        },
-        {
-          "id": "three-way-wired-incorrectly",
-          "label": "[[3-Way Switch Wired Incorrectly]] Repair",
-          "type": "repair",
-          "goesInSummary": false,
-          "text": "A three-way switch arrangement at (location) did not function as expected. Wiring may be incorrect. Repair by a qualified electrician is recommended.",
-          "tags": ["3-way", "switch", "wiring"]
-        },
-        {
-          "id": "fixture-inoperative",
-          "label": "[[Light Fixture Inoperative]] Repair",
-          "type": "repair",
-          "goesInSummary": false,
-          "text": "A light fixture at (location) did not operate using normal controls. The bulb may be burned out or there may be a wiring or fixture problem. If replacing the bulb does not correct the issue, further evaluation by an electrician is recommended.",
-          "tags": ["fixture", "inoperative"]
-        },
-        {
-          "id": "exterior-gfci-missing-or-not-working",
-          "label": "[[Exterior GFCI Concern]] Repair (Safety)",
-          "type": "repair",
-          "safety": true,
-          "goesInSummary": true,
-          "text": "An exterior outlet at (location) is either not GFCI-protected or the GFCI did not respond properly to testing. GFCI protection is recommended for improved safety.",
-          "tags": ["GFCI", "exterior", "safety"]
-        },
-        {
-          "id": "bath-kitchen-gfci-missing",
-          "label": "[[GFCI Protection Recommended]] Improve (Safety)",
-          "type": "improve",
-          "safety": true,
-          "goesInSummary": false,
-          "text": "Ground-fault circuit-interrupter (GFCI) protection is recommended for outlets serving the kitchen, bathrooms, garage, exterior, and other wet or damp locations where not already provided.",
-          "tags": ["GFCI", "recommendation"]
-        }
-      ]
+      "id": "receptacles-typical-note",
+      "category": "note",
+      "title": "Outlets and Switches – Typical",
+      "body": "A representative number of accessible outlets, switches, and light fixtures were tested. No widespread problems were noted unless specifically described below.",
+      "applies_to": ["Outlets / Switches / Fixtures"],
+      "tags": ["outlets", "switches", "fixtures"]
+    },
+    {
+      "id": "receptacle-open-ground",
+      "category": "repair",
+      "title": "Open Ground Receptacle",
+      "body": "An outlet at (location) tested as having an open ground. Repair is recommended by a qualified electrician.",
+      "applies_to": ["Outlets / Switches / Fixtures"],
+      "tags": ["receptacle", "open ground"]
+    },
+    {
+      "id": "receptacle-reversed-polarity",
+      "category": "repair",
+      "title": "Reversed Polarity Receptacle",
+      "body": "An outlet at (location) tested as having reversed polarity. This condition should be corrected by a qualified electrician.",
+      "applies_to": ["Outlets / Switches / Fixtures"],
+      "tags": ["receptacle", "reversed polarity"]
+    },
+    {
+      "id": "receptacle-loose",
+      "category": "repair",
+      "title": "Loose Receptacle",
+      "body": "An electrical outlet at (location) is loose in the box or poorly secured to the wall. Tightening or repair is recommended.",
+      "applies_to": ["Outlets / Switches / Fixtures"],
+      "tags": ["receptacle", "loose"]
+    },
+    {
+      "id": "switch-hot-to-touch",
+      "category": "safety",
+      "title": "Switch Excessively Hot",
+      "body": "A light switch at (location) was noticeably hot to the touch at the time of inspection. This may indicate an overloaded circuit or internal defect. Evaluation and repair by a qualified electrician are recommended.",
+      "applies_to": ["Outlets / Switches / Fixtures"],
+      "tags": ["switch", "overheating", "safety"],
+      "ai": {
+        "notes": "Matches your basement stair switch that was excessively hot."
+      }
+    },
+    {
+      "id": "three-way-wired-incorrectly",
+      "category": "repair",
+      "title": "3-Way Switch Wired Incorrectly",
+      "body": "A three-way switch arrangement at (location) did not function as expected. Wiring may be incorrect. Repair by a qualified electrician is recommended.",
+      "applies_to": ["Outlets / Switches / Fixtures"],
+      "tags": ["3-way", "switch", "wiring"]
+    },
+    {
+      "id": "fixture-inoperative",
+      "category": "repair",
+      "title": "Light Fixture Inoperative",
+      "body": "A light fixture at (location) did not operate using normal controls. The bulb may be burned out or there may be a wiring or fixture problem. If replacing the bulb does not correct the issue, further evaluation by an electrician is recommended.",
+      "applies_to": ["Outlets / Switches / Fixtures"],
+      "tags": ["fixture", "inoperative"]
+    },
+    {
+      "id": "exterior-gfci-missing-or-not-working",
+      "category": "safety",
+      "title": "Exterior GFCI Concern",
+      "body": "An exterior outlet at (location) is either not GFCI-protected or the GFCI did not respond properly to testing. GFCI protection is recommended for improved safety.",
+      "applies_to": ["Outlets / Switches / Fixtures"],
+      "tags": ["GFCI", "exterior", "safety"]
+    },
+    {
+      "id": "bath-kitchen-gfci-missing",
+      "category": "safety",
+      "title": "GFCI Protection Recommended",
+      "body": "Ground-fault circuit-interrupter (GFCI) protection is recommended for outlets serving the kitchen, bathrooms, garage, exterior, and other wet or damp locations where not already provided.",
+      "applies_to": ["Outlets / Switches / Fixtures"],
+      "tags": ["GFCI", "recommendation"]
     },
 
     {
-      "id": "smoke-co-detectors",
-      "label": "Smoke / Carbon Monoxide Detectors",
-      "comments": [
-        {
-          "id": "smoke-detectors-general-note",
-          "label": "[[Smoke Detectors – General]] Note",
-          "type": "note",
-          "goesInSummary": false,
-          "text": "Smoke detectors were present in the home. Testing was limited to the built-in test buttons; this does not guarantee future performance.",
-          "tags": ["smoke detectors", "note"]
-        },
-        {
-          "id": "smoke-detectors-missing-or-insufficient",
-          "label": "[[Smoke Detectors Missing/Insufficient]] Improve (Safety)",
-          "type": "improve",
-          "safety": true,
-          "goesInSummary": true,
-          "text": "Smoke detector coverage appears incomplete or missing in some areas of the home. Installation of smoke detectors per current safety guidelines is recommended.",
-          "tags": ["smoke detectors", "missing", "safety"]
-        },
-        {
-          "id": "co-detectors-missing",
-          "label": "[[CO Detectors Recommended]] Improve (Safety)",
-          "type": "improve",
-          "safety": true,
-          "goesInSummary": true,
-          "text": "Carbon monoxide detectors were not observed in some recommended locations. Installation of CO detectors on each level and near sleeping areas is advised for safety.",
-          "tags": ["CO detector", "missing", "safety"]
-        },
-        {
-          "id": "detectors-old",
-          "label": "[[Detector Age Unknown]] Monitor / Improve",
-          "type": "monitor",
-          "goesInSummary": false,
-          "text": "The age of the existing smoke/CO detectors could not be confirmed. Many manufacturers recommend replacement after about 7–10 years. Replacement may be prudent if units are older or of unknown age.",
-          "tags": ["detectors", "age"]
-        }
-      ]
+      "id": "smoke-detectors-general-note",
+      "category": "note",
+      "title": "Smoke Detectors – General",
+      "body": "Smoke detectors were present in the home. Testing was limited to the built-in test buttons; this does not guarantee future performance.",
+      "applies_to": ["Smoke / Carbon Monoxide Detectors"],
+      "tags": ["smoke detectors", "note"]
+    },
+    {
+      "id": "smoke-detectors-missing-or-insufficient",
+      "category": "safety",
+      "title": "Smoke Detectors Missing/Insufficient",
+      "body": "Smoke detector coverage appears incomplete or missing in some areas of the home. Installation of smoke detectors per current safety guidelines is recommended.",
+      "applies_to": ["Smoke / Carbon Monoxide Detectors"],
+      "tags": ["smoke detectors", "missing", "safety"]
+    },
+    {
+      "id": "co-detectors-missing",
+      "category": "safety",
+      "title": "CO Detectors Recommended",
+      "body": "Carbon monoxide detectors were not observed in some recommended locations. Installation of CO detectors on each level and near sleeping areas is advised for safety.",
+      "applies_to": ["Smoke / Carbon Monoxide Detectors"],
+      "tags": ["CO detector", "missing", "safety"]
+    },
+    {
+      "id": "detectors-old",
+      "category": "monitor",
+      "title": "Detector Age Unknown",
+      "body": "The age of the existing smoke/CO detectors could not be confirmed. Many manufacturers recommend replacement after about 7–10 years. Replacement may be prudent if units are older or of unknown age.",
+      "applies_to": ["Smoke / Carbon Monoxide Detectors"],
+      "tags": ["detectors", "age"]
     },
 
     {
-      "id": "electrical-limitations",
-      "label": "Electrical Limitations",
-      "comments": [
-        {
-          "id": "electrical-limitation-concealed",
-          "label": "[[Concealed Electrical Components Not Inspected]] Limitation",
-          "type": "note",
-          "goesInSummary": false,
-          "text": "Most electrical wiring is concealed within walls, ceilings, and floors and could not be inspected. Evaluation was limited to visible components and operation of a representative number of outlets, switches, and fixtures.",
-          "tags": ["limitation", "concealed wiring"]
-        },
-        {
-          "id": "electrical-limitation-load",
-          "label": "[[Electrical Load Not Calculated]] Limitation",
-          "type": "note",
-          "goesInSummary": false,
-          "text": "The adequacy of the electrical system for future or specialized loads was not determined. Load calculations and design are beyond the scope of a home inspection.",
-          "tags": ["limitation", "load"]
-        },
-        {
-          "id": "electrical-limitation-access",
-          "label": "[[Electrical Access Limited]] Limitation",
-          "type": "note",
-          "goesInSummary": false,
-          "text": "Access to some electrical components was limited by stored items, finishes, or locked equipment and these areas could not be fully evaluated.",
-          "tags": ["limitation", "access"]
-        }
-      ]
+      "id": "electrical-limitation-concealed",
+      "category": "note",
+      "title": "Concealed Electrical Components Not Inspected",
+      "body": "Most electrical wiring is concealed within walls, ceilings, and floors and could not be inspected. Evaluation was limited to visible components and operation of a representative number of outlets, switches, and fixtures.",
+      "applies_to": ["Electrical Limitations"],
+      "tags": ["limitation", "concealed wiring"]
+    },
+    {
+      "id": "electrical-limitation-load",
+      "category": "note",
+      "title": "Electrical Load Not Calculated",
+      "body": "The adequacy of the electrical system for future or specialized loads was not determined. Load calculations and design are beyond the scope of a home inspection.",
+      "applies_to": ["Electrical Limitations"],
+      "tags": ["limitation", "load"]
+    },
+    {
+      "id": "electrical-limitation-access",
+      "category": "note",
+      "title": "Electrical Access Limited",
+      "body": "Access to some electrical components was limited by stored items, finishes, or locked equipment and these areas could not be fully evaluated.",
+      "applies_to": ["Electrical Limitations"],
+      "tags": ["limitation", "access"]
     },
 
     {
-      "id": "electric-tips",
-      "label": "Electric Tips",
-      "comments": [
-        {
-          "id": "tip-test-gfci-monthly",
-          "label": "[[GFCI/AFCI Testing Tip]] Note",
-          "type": "note",
-          "goesInSummary": false,
-          "text": "GFCI and AFCI devices should be tested periodically using their test buttons. If a device does not trip and reset properly, it should be replaced by a qualified electrician.",
-          "tags": ["tip", "GFCI", "AFCI"]
-        },
-        {
-          "id": "tip-upgrade-older-system",
-          "label": "[[Upgrade Older Electrical Systems Over Time]] Note",
-          "type": "note",
-          "goesInSummary": false,
-          "text": "As with many older homes, incremental electrical upgrades may be desirable over time, such as adding GFCI/AFCI protection, updating older wiring, and improving grounding and bonding.",
-          "tags": ["tip", "upgrades"]
-        }
-      ]
+      "id": "tip-test-gfci-monthly",
+      "category": "note",
+      "title": "GFCI/AFCI Testing Tip",
+      "body": "GFCI and AFCI devices should be tested periodically using their test buttons. If a device does not trip and reset properly, it should be replaced by a qualified electrician.",
+      "applies_to": ["Electric Tips"],
+      "tags": ["tip", "GFCI", "AFCI"]
+    },
+    {
+      "id": "tip-upgrade-older-system",
+      "category": "note",
+      "title": "Upgrade Older Electrical Systems Over Time",
+      "body": "As with many older homes, incremental electrical upgrades may be desirable over time, such as adding GFCI/AFCI protection, updating older wiring, and improving grounding and bonding.",
+      "applies_to": ["Electric Tips"],
+      "tags": ["tip", "upgrades"]
     }
   ]
 }
