@@ -1109,531 +1109,6 @@
         }
       ]
     },
-    "insulation-ventilation": {
-      "category": "insulation-ventilation",
-      "comments": [
-        {
-          "id": "attic-insulation-typical",
-          "category": "note",
-          "title": "Typical insulation levels",
-          "body": "Typical insulation levels were observed. No deficiencies were noted.",
-          "applies_to": [
-            "Attic Insulation"
-          ],
-          "tags": [
-            "insulation",
-            "attic"
-          ],
-          "ai": {
-            "notes": "Use when insulation depth appears typical for the area and no defects are visible."
-          }
-        },
-        {
-          "id": "attic-insulation-good",
-          "category": "note",
-          "title": "Good insulation levels observed",
-          "body": "Good insulation levels were observed.",
-          "applies_to": [
-            "Attic Insulation"
-          ],
-          "tags": [
-            "insulation",
-            "attic"
-          ],
-          "ai": {
-            "notes": "Use when insulation appears above average depth or coverage."
-          }
-        },
-        {
-          "id": "attic-insulation-improve-general",
-          "category": "improve",
-          "title": "Additional insulation",
-          "body": "Insulation improvements may be cost-effective depending on the anticipated term of ownership.",
-          "applies_to": [
-            "Attic Insulation"
-          ],
-          "tags": [
-            "insulation",
-            "attic"
-          ],
-          "ai": {
-            "notes": "Use when insulation is adequate but additional depth could improve efficiency."
-          }
-        },
-        {
-          "id": "attic-access-door-insulation",
-          "category": "improve",
-          "title": "Insulate attic access door",
-          "body": "The attic access door should be insulated for energy efficiency.",
-          "applies_to": [
-            "Attic Insulation"
-          ],
-          "tags": [
-            "insulation",
-            "attic",
-            "access door"
-          ],
-          "ai": {
-            "notes": "Use when the attic hatch or door is uninsulated or poorly insulated."
-          }
-        },
-        {
-          "id": "attic-insulation-uneven",
-          "category": "repair",
-          "title": "Uneven insulation",
-          "body": "Disturbed or uneven insulation should be evened out.",
-          "applies_to": [
-            "Attic Insulation"
-          ],
-          "tags": [
-            "insulation",
-            "attic",
-            "repair"
-          ],
-          "ai": {
-            "notes": "Use when insulation is disrupted, displaced, or significantly compressed in spots."
-          }
-        },
-        {
-          "id": "attic-insulation-missing",
-          "category": "repair",
-          "title": "Missing or incomplete insulation",
-          "body": "Missing or incomplete insulation should be corrected by a qualified installer.",
-          "applies_to": [
-            "Attic Insulation"
-          ],
-          "tags": [
-            "insulation",
-            "attic",
-            "missing"
-          ],
-          "ai": {
-            "notes": "Use when portions of the attic have no insulation or obvious gaps in coverage."
-          }
-        },
-        {
-          "id": "attic-duct-insulation",
-          "category": "repair",
-          "title": "Attic ductwork insulation",
-          "body": "Ductwork in the attic should be better insulated to reduce energy costs.",
-          "applies_to": [
-            "Attic Insulation"
-          ],
-          "tags": [
-            "ductwork",
-            "insulation",
-            "attic"
-          ],
-          "ai": {
-            "notes": "Use when supply or return ducts in the attic lack adequate insulation."
-          }
-        },
-        {
-          "id": "attic-vermiculite-monitor",
-          "category": "monitor",
-          "title": "Vermiculite insulation",
-          "body": "Vermiculite insulation was observed. Vermiculite may contain asbestos. EPA recommendations generally suggest leaving this material in place and undisturbed; consult an asbestos specialist if further evaluation is desired.",
-          "applies_to": [
-            "Attic Insulation"
-          ],
-          "tags": [
-            "vermiculite",
-            "asbestos",
-            "attic"
-          ],
-          "ai": {
-            "notes": "Use when loose-fill insulation resembles vermiculite. Do not state that asbestos is present unless confirmed by testing."
-          }
-        },
-        {
-          "id": "attic-recessed-lights-safety",
-          "category": "safety",
-          "title": "Recessed lights and insulation",
-          "body": "Recessed lights buried in insulation or not rated for insulation contact may pose a fire hazard. Evaluation by a qualified electrician is recommended.",
-          "applies_to": [
-            "Attic Insulation"
-          ],
-          "tags": [
-            "recessed lights",
-            "insulation",
-            "attic",
-            "safety"
-          ],
-          "ai": {
-            "notes": "Use when insulation covers recessed light fixtures that are not clearly rated for insulation contact."
-          }
-        },
-        {
-          "id": "attic-visibility-limited",
-          "category": "note",
-          "title": "Attic visibility limited",
-          "body": "The inspector was unable to visually see any items or components located beneath the attic insulation, such as the bottom chords of trusses, ceiling joists at the drywall, electrical wiring, or exhaust vents.",
-          "applies_to": [
-            "Attic Insulation"
-          ],
-          "tags": [
-            "insulation",
-            "attic",
-            "limitation"
-          ]
-        },
-        {
-          "id": "attic-access-limited",
-          "category": "note",
-          "title": "Attic access limited",
-          "body": "Due to the size of the attic opening and the design of the roof structure, some areas of the attic space were limited and could not be seen.",
-          "applies_to": [
-            "Attic Insulation"
-          ],
-          "tags": [
-            "insulation",
-            "attic",
-            "limitation"
-          ]
-        },
-        {
-          "id": "crawlspace-insulation-improve",
-          "category": "improve",
-          "title": "Crawlspace insulation improvements",
-          "body": "Crawlspace insulation improvements may be desirable depending on the anticipated term of ownership.",
-          "applies_to": [
-            "Crawlspace / Basement Insulation"
-          ],
-          "tags": [
-            "insulation",
-            "crawlspace"
-          ],
-          "ai": {
-            "notes": "Use when there is some insulation present but opportunities exist to add more for comfort/efficiency."
-          }
-        },
-        {
-          "id": "rim-joist-insulation",
-          "category": "improve",
-          "title": "Insulate rim joist cavities",
-          "body": "Rim joist cavities should be insulated.",
-          "applies_to": [
-            "Crawlspace / Basement Insulation"
-          ],
-          "tags": [
-            "rim joist",
-            "insulation",
-            "crawlspace",
-            "basement"
-          ],
-          "ai": {
-            "notes": "Use when rim joist areas are uninsulated or minimally insulated."
-          }
-        },
-        {
-          "id": "crawlspace-insulation-damaged",
-          "category": "repair",
-          "title": "Loose or damaged insulation",
-          "body": "Loose or damaged insulation should be repaired or replaced.",
-          "applies_to": [
-            "Crawlspace / Basement Insulation"
-          ],
-          "tags": [
-            "insulation",
-            "crawlspace",
-            "basement",
-            "repair"
-          ],
-          "ai": {
-            "notes": "Use when insulation is hanging loose, deteriorated, or missing backing."
-          }
-        },
-        {
-          "id": "plumbing-pipe-insulation",
-          "category": "repair",
-          "title": "Insulate plumbing pipes",
-          "body": "Plumbing pipes should be insulated to protect from freezing.",
-          "applies_to": [
-            "Crawlspace / Basement Insulation"
-          ],
-          "tags": [
-            "plumbing",
-            "pipes",
-            "insulation",
-            "freeze"
-          ],
-          "ai": {
-            "notes": "Use when water supply pipes are exposed in areas subject to freezing."
-          }
-        },
-        {
-          "id": "crawlspace-duct-insulation",
-          "category": "repair",
-          "title": "Crawlspace ductwork insulation",
-          "body": "Ductwork in the crawlspace or basement should be better insulated.",
-          "applies_to": [
-            "Crawlspace / Basement Insulation"
-          ],
-          "tags": [
-            "ductwork",
-            "insulation",
-            "crawlspace",
-            "basement"
-          ],
-          "ai": {
-            "notes": "Use when supply/return ducts in these areas have little or no insulation."
-          }
-        },
-        {
-          "id": "crawlspace-ventilation-inadequate",
-          "category": "repair",
-          "title": "Crawlspace ventilation inadequate",
-          "body": "Crawlspace ventilation is inadequate. It is generally recommended that approximately one square foot of vent opening be provided for every 500 square feet of crawlspace floor area.",
-          "applies_to": [
-            "Crawlspace / Basement Insulation"
-          ],
-          "tags": [
-            "ventilation",
-            "crawlspace"
-          ],
-          "ai": {
-            "notes": "Use when there are few or no vents, or vents appear undersized for crawlspace area."
-          }
-        },
-        {
-          "id": "crawlspace-vents-obstructed",
-          "category": "improve",
-          "title": "Crawlspace wall vents obstructed",
-          "body": "Crawlspace wall vents are obstructed and should be cleared or opened to allow air flow.",
-          "applies_to": [
-            "Crawlspace / Basement Insulation"
-          ],
-          "tags": [
-            "ventilation",
-            "crawlspace",
-            "vents"
-          ],
-          "ai": {
-            "notes": "Use when vents are blocked by vegetation, debris, or stored items."
-          }
-        },
-        {
-          "id": "crawlspace-moisture-barrier",
-          "category": "repair",
-          "title": "Install crawlspace moisture barrier",
-          "body": "A moisture barrier should be installed on the crawlspace floor to reduce ground moisture migration.",
-          "applies_to": [
-            "Crawlspace / Basement Insulation"
-          ],
-          "tags": [
-            "moisture barrier",
-            "crawlspace"
-          ],
-          "ai": {
-            "notes": "Use when bare soil is exposed on the crawlspace floor and no vapor barrier is present."
-          }
-        },
-        {
-          "id": "foam-board-insulation-safety",
-          "category": "safety",
-          "title": "Exposed foam board insulation",
-          "body": "Exposed foam board insulation is a fire hazard and should be removed or covered with an appropriate fire-resistant material.",
-          "applies_to": [
-            "Crawlspace / Basement Insulation"
-          ],
-          "tags": [
-            "foam board",
-            "insulation",
-            "safety",
-            "fire"
-          ],
-          "ai": {
-            "notes": "Use when rigid foam insulation is exposed without a proper fire barrier."
-          }
-        },
-        {
-          "id": "evidence-of-vermin-activity",
-          "category": "repair",
-          "title": "Evidence of vermin activity",
-          "body": "Evidence of vermin activity was observed. Pest control treatment or monitoring is recommended.",
-          "applies_to": [
-            "Crawlspace / Basement Insulation"
-          ],
-          "tags": [
-            "vermin",
-            "pests",
-            "insulation",
-            "crawlspace",
-            "basement"
-          ],
-          "ai": {
-            "notes": "Use when droppings, nesting, or gnaw marks are visible."
-          }
-        },
-        {
-          "id": "floor-insulation-improve",
-          "category": "improve",
-          "title": "Floor insulation for comfort",
-          "body": "Insulation improvements may be desirable to improve the comfort of the room above.",
-          "applies_to": [
-            "Floor Insulation"
-          ],
-          "tags": [
-            "floor",
-            "insulation"
-          ],
-          "ai": {
-            "notes": "Use when floors over unconditioned space feel cool and insulation is minimal or absent."
-          }
-        },
-        {
-          "id": "attic-roof-ventilation-improve",
-          "category": "repair",
-          "title": "Attic or roof ventilation",
-          "body": "Attic or roof ventilation should be improved. It is generally recommended that one square foot of free vent area be provided for every 150 square feet of ceiling area.",
-          "applies_to": [
-            "Attic & Roof Ventilation"
-          ],
-          "tags": [
-            "ventilation",
-            "attic",
-            "roof"
-          ],
-          "ai": {
-            "notes": "Use when intake/exhaust venting appears limited or unbalanced for the attic area."
-          }
-        },
-        {
-          "id": "soffit-vents-obstructed",
-          "category": "repair",
-          "title": "Soffit vents obstructed",
-          "body": "Soffit vents are obstructed; installation of baffles is recommended to maintain proper airflow from the eaves.",
-          "applies_to": [
-            "Attic & Roof Ventilation"
-          ],
-          "tags": [
-            "soffit vents",
-            "attic",
-            "ventilation"
-          ],
-          "ai": {
-            "notes": "Use when insulation or debris is blocking soffit vent openings."
-          }
-        },
-        {
-          "id": "roof-vents-unscreened",
-          "category": "repair",
-          "title": "Roof or exhaust vents not screened",
-          "body": "Roof or exhaust vents that are not screened should be screened to help prevent vermin entry.",
-          "applies_to": [
-            "Attic & Roof Ventilation"
-          ],
-          "tags": [
-            "vents",
-            "screening",
-            "roof",
-            "attic"
-          ],
-          "ai": {
-            "notes": "Use when open vent terminations lack screens or covers where pests could enter."
-          }
-        },
-        {
-          "id": "cathedral-ceilings-monitor",
-          "category": "monitor",
-          "title": "Sloped or cathedral ceilings",
-          "body": "Sloped or cathedral ceilings are rarely well ventilated and may be more prone to concealed moisture problems. Monitor for signs of distress over time.",
-          "applies_to": [
-            "Attic & Roof Ventilation"
-          ],
-          "tags": [
-            "cathedral ceiling",
-            "ventilation"
-          ],
-          "ai": {
-            "notes": "Use when rooms have vaulted or cathedral ceilings with limited visible venting."
-          }
-        },
-        {
-          "id": "bath-fan-inoperable",
-          "category": "repair",
-          "title": "Bathroom exhaust fan inoperable",
-          "body": "A bathroom exhaust fan was found to be inoperable. Repair or replacement is recommended.",
-          "applies_to": [
-            "Attic & Roof Ventilation"
-          ],
-          "tags": [
-            "bathroom fan",
-            "exhaust",
-            "ventilation"
-          ],
-          "ai": {
-            "notes": "Use when the fan does not respond to normal controls during testing."
-          }
-        },
-        {
-          "id": "attic-fan-inoperable",
-          "category": "repair",
-          "title": "Attic power ventilator inoperable",
-          "body": "An attic power ventilator was found to be inoperable. Repair or replacement is recommended if relied upon for ventilation.",
-          "applies_to": [
-            "Attic & Roof Ventilation"
-          ],
-          "tags": [
-            "attic fan",
-            "ventilation",
-            "attic"
-          ],
-          "ai": {
-            "notes": "Use when motorized attic fans do not operate using accessible controls or thermostats."
-          }
-        },
-        {
-          "id": "bath-fan-vents-into-attic",
-          "category": "repair",
-          "title": "Bathroom exhaust vents to exterior",
-          "body": "Bathroom exhaust vents should discharge to the building exterior rather than into the attic or other concealed spaces.",
-          "applies_to": [
-            "Attic & Roof Ventilation"
-          ],
-          "tags": [
-            "bathroom fan",
-            "attic",
-            "venting"
-          ],
-          "ai": {
-            "notes": "Use when exhaust ducts terminate in the attic or other concealed cavities instead of outdoors."
-          }
-        },
-        {
-          "id": "dryer-vent-limited-visibility",
-          "category": "note",
-          "title": "Portions of dryer vent concealed",
-          "body": "Portions of the dryer vent piping may be concealed by insulation or wall/ceiling finishes and could not be fully inspected.",
-          "applies_to": [
-            "Dryer Vent Limitations"
-          ],
-          "tags": [
-            "dryer vent",
-            "limitation"
-          ],
-          "ai": {
-            "notes": "Use as a limitation when much of the vent path is concealed."
-          }
-        },
-        {
-          "id": "insulation-energy-efficiency-note",
-          "category": "monitor",
-          "title": "Insulation levels and energy costs",
-          "body": "Insulation levels affect heating and cooling costs. Current energy standards generally recommend around R-49 attic insulation in this region for new homes. Existing homes may have less.",
-          "applies_to": [
-            "General Energy Efficiency Note"
-          ],
-          "tags": [
-            "insulation",
-            "energy efficiency"
-          ],
-          "ai": {
-            "notes": "Use as a general note where insulation is below current standards but typical for the age of the home."
-          }
-        }
-      ]
-    },
     "interior": {
       "category": "interior",
       "comments": [
@@ -4179,351 +3654,357 @@
     },
     "structure": {
       "category": "structure",
-      "groups": [
+      "comments": [
         {
-          "id": "foundation",
-          "label": "Foundation",
-          "comments": [
-            {
-              "id": "foundation-typical-settlement",
-              "label": "[[Typical Settlement Cracks]] Monitor",
-              "type": "monitor",
-              "goesInSummary": false,
-              "text": "Typical settlement cracks were observed in the foundation. These conditions are common in homes of this age and type. Monitor over time for changes.",
-              "tags": [
-                "foundation",
-                "settlement",
-                "monitor"
-              ]
-            },
-            {
-              "id": "foundation-major-settlement",
-              "label": "[[Major Settlement]] Possible Repair",
-              "type": "repair",
-              "goesInSummary": true,
-              "text": "Evidence of significant foundation settlement was observed at (location). The rate of movement cannot be determined during a one-time visit. Repairs may be needed to help prevent further movement. Recommend evaluation by a qualified foundation repair contractor.",
-              "tags": [
-                "foundation",
-                "settlement",
-                "repair"
-              ]
-            },
-            {
-              "id": "foundation-large-cracks",
-              "label": "[[Large Foundation Cracks]] Monitor / Repair",
-              "type": "monitor",
-              "goesInSummary": false,
-              "text": "Larger-than-typical foundation cracks were observed at (location). These may indicate structural movement. Monitor for changes, and consider evaluation by a qualified contractor if worsening occurs.",
-              "tags": [
-                "foundation",
-                "cracks",
-                "monitor"
-              ]
-            },
-            {
-              "id": "foundation-leaning-wall",
-              "label": "[[Foundation Wall Leaning]] Monitor / Possible Repair",
-              "type": "monitor",
-              "goesInSummary": true,
-              "text": "A foundation wall was noted to be leaning or bowed at (location). The rate of movement cannot be determined during a one-time inspection. Recommend evaluation by a qualified foundation contractor.",
-              "tags": [
-                "foundation",
-                "leaning wall"
-              ]
-            },
-            {
-              "id": "foundation-water-staining",
-              "label": "[[Foundation Water Staining]] Monitor",
-              "type": "monitor",
-              "goesInSummary": false,
-              "text": "Water staining was observed on the foundation wall at (location). The area was dry at time of inspection. Monitor during wet weather for signs of active leakage.",
-              "tags": [
-                "foundation",
-                "water staining"
-              ]
-            },
-            {
-              "id": "foundation-efflorescence",
-              "label": "[[Efflorescence]] Monitor",
-              "type": "monitor",
-              "goesInSummary": false,
-              "text": "Efflorescence, a white mineral deposit, was observed on the foundation wall. This typically indicates past moisture entry. Monitor for recurrence or active water infiltration.",
-              "tags": [
-                "foundation",
-                "efflorescence"
-              ]
-            }
+          "id": "foundation-typical-settlement",
+          "category": "monitor",
+          "title": "[[Typical Settlement Cracks]] Monitor",
+          "body": "Typical settlement cracks were observed in the foundation. These conditions are common in homes of this age and type. Monitor over time for changes.",
+          "applies_to": [
+            "Foundation"
+          ],
+          "tags": [
+            "foundation",
+            "settlement",
+            "monitor"
           ]
         },
         {
-          "id": "floor-structure",
-          "label": "Floor Structure",
-          "comments": [
-            {
-              "id": "floor-typical-wear",
-              "label": "[[Typical Floor Structure Conditions]] Note",
-              "type": "note",
-              "goesInSummary": false,
-              "text": "Typical wear and aging were observed in the floor structure. No significant concerns were noted unless otherwise described.",
-              "tags": [
-                "floor structure",
-                "typical"
-              ]
-            },
-            {
-              "id": "floor-sagging",
-              "label": "[[Floor Sagging]] Monitor / Repair",
-              "type": "monitor",
-              "goesInSummary": false,
-              "text": "Sagging of the floor structure was observed at (location). This is common in older homes but should be monitored for changes. Repairs may be needed if movement progresses.",
-              "tags": [
-                "floor",
-                "sagging"
-              ]
-            },
-            {
-              "id": "floor-broken-beam",
-              "label": "[[Broken Beam in Crawlspace]] Repair",
-              "type": "repair",
-              "goesInSummary": true,
-              "text": "A broken structural beam was observed in the crawlspace. The beam showed no support between steel reinforcement beams. Evaluation and repair by a qualified structural contractor is recommended.",
-              "tags": [
-                "floor structure",
-                "beam",
-                "repair"
-              ]
-            },
-            {
-              "id": "floor-joists-sistered-short",
-              "label": "[[Joists Improperly Sistered]] Repair",
-              "type": "repair",
-              "goesInSummary": false,
-              "text": "Floor joists were found to be sistered using short lengths that do not provide adequate support. This condition has allowed movement to occur. Recommend evaluation and repair by a qualified contractor.",
-              "tags": [
-                "joists",
-                "sistered",
-                "repair"
-              ]
-            },
-            {
-              "id": "floor-support-post-not-plumb",
-              "label": "[[Support Post Not Plumb]] Monitor",
-              "type": "monitor",
-              "goesInSummary": false,
-              "text": "A structural support post was observed to not be plumb. Settlement has likely occurred in this area. Movement appears to have been halted by reinforcement, but the area should be monitored for changes.",
-              "tags": [
-                "support post",
-                "monitor"
-              ]
-            }
+          "id": "foundation-major-settlement",
+          "category": "repair",
+          "title": "[[Major Settlement]] Possible Repair",
+          "body": "Evidence of significant foundation settlement was observed at (location). The rate of movement cannot be determined during a one-time visit. Repairs may be needed to help prevent further movement. Recommend evaluation by a qualified foundation repair contractor.",
+          "applies_to": [
+            "Foundation"
+          ],
+          "tags": [
+            "foundation",
+            "settlement",
+            "repair"
           ]
         },
         {
-          "id": "wall-structure",
-          "label": "Wall Structure",
-          "comments": [
-            {
-              "id": "wall-typical-settlement",
-              "label": "[[Typical Settlement Cracks in Walls]] Note",
-              "type": "note",
-              "goesInSummary": false,
-              "text": "Minor settlement cracks were observed in the walls. These conditions are typical and generally not of structural concern.",
-              "tags": [
-                "wall",
-                "settlement"
-              ]
-            },
-            {
-              "id": "wall-cracks-larger",
-              "label": "[[Large Wall Cracks]] Monitor / Possible Repair",
-              "type": "monitor",
-              "goesInSummary": false,
-              "text": "Cracking larger than typical was observed in wall structures. These areas should be monitored for worsening and evaluated if movement continues.",
-              "tags": [
-                "wall",
-                "cracks"
-              ]
-            },
-            {
-              "id": "wall-reinforced-ibeams",
-              "label": "[[Foundation Reinforced with I-Beams]] Note",
-              "type": "note",
-              "goesInSummary": false,
-              "text": "The foundation walls had been reinforced with steel I-beams at some point. These are typically installed to help stabilize movement. Monitor over time for any changes.",
-              "tags": [
-                "foundation",
-                "I-beams"
-              ]
-            }
+          "id": "foundation-large-cracks",
+          "category": "monitor",
+          "title": "[[Large Foundation Cracks]] Monitor / Repair",
+          "body": "Larger-than-typical foundation cracks were observed at (location). These may indicate structural movement. Monitor for changes, and consider evaluation by a qualified contractor if worsening occurs.",
+          "applies_to": [
+            "Foundation"
+          ],
+          "tags": [
+            "foundation",
+            "cracks",
+            "monitor"
           ]
         },
         {
-          "id": "roof-structure",
-          "label": "Roof Structure",
-          "comments": [
-            {
-              "id": "roof-typical-conditions",
-              "label": "[[Typical Roof Structure Conditions]] Note",
-              "type": "note",
-              "goesInSummary": false,
-              "text": "The visible portions of the roof structure showed typical conditions for a home of this age. No significant deficiencies were noted unless otherwise reported.",
-              "tags": [
-                "roof structure"
-              ]
-            },
-            {
-              "id": "roof-sagging-ridge",
-              "label": "[[Roof Ridge Sagging]] Monitor / Possible Repair",
-              "type": "monitor",
-              "goesInSummary": false,
-              "text": "Sagging or deflection of the roof ridge was observed. Monitor for changes; evaluation by a qualified roofing or structural contractor may be desirable.",
-              "tags": [
-                "roof",
-                "ridge sag"
-              ]
-            },
-            {
-              "id": "roof-truss-modified",
-              "label": "[[Roof Truss Modified]] Repair",
-              "type": "repair",
-              "goesInSummary": true,
-              "text": "A roof truss has been modified or cut. Truss alterations can negatively affect the structural integrity of the roof. Evaluation and repair by a qualified structural contractor are recommended.",
-              "tags": [
-                "roof truss",
-                "modification"
-              ]
-            }
+          "id": "foundation-leaning-wall",
+          "category": "monitor",
+          "title": "[[Foundation Wall Leaning]] Monitor / Possible Repair",
+          "body": "A foundation wall was noted to be leaning or bowed at (location). The rate of movement cannot be determined during a one-time inspection. Recommend evaluation by a qualified foundation contractor.",
+          "applies_to": [
+            "Foundation"
+          ],
+          "tags": [
+            "foundation",
+            "leaning wall"
           ]
         },
         {
-          "id": "wood-destroying-insects",
-          "label": "Wood Destroying Insects",
-          "comments": [
-            {
-              "id": "wdi-no-evidence",
-              "label": "[[No Visible WDI Activity]] Note",
-              "type": "note",
-              "goesInSummary": false,
-              "text": "No visible signs of wood-destroying insect activity were observed during the inspection. As with all homes, periodic monitoring is recommended.",
-              "tags": [
-                "WDI"
-              ]
-            },
-            {
-              "id": "wdi-evidence-previous",
-              "label": "[[Evidence of Previous WDI Activity]] Monitor",
-              "type": "monitor",
-              "goesInSummary": false,
-              "text": "Evidence of previous wood-destroying insect activity was observed. No active infestation was apparent. Monitoring and periodic evaluation may be desirable.",
-              "tags": [
-                "WDI",
-                "previous activity"
-              ]
-            },
-            {
-              "id": "wdi-damage",
-              "label": "[[WDI Damage Observed]] Repair",
-              "type": "repair",
-              "goesInSummary": true,
-              "text": "Damage consistent with wood-destroying insects was observed at (location). Recommend evaluation and treatment by a qualified pest control specialist.",
-              "tags": [
-                "WDI",
-                "damage"
-              ]
-            }
+          "id": "foundation-water-staining",
+          "category": "monitor",
+          "title": "[[Foundation Water Staining]] Monitor",
+          "body": "Water staining was observed on the foundation wall at (location). The area was dry at time of inspection. Monitor during wet weather for signs of active leakage.",
+          "applies_to": [
+            "Foundation"
+          ],
+          "tags": [
+            "foundation",
+            "water staining"
           ]
         },
         {
-          "id": "crawl-space",
-          "label": "Crawl Space",
-          "comments": [
-            {
-              "id": "crawlspace-limited-access",
-              "label": "[[Crawlspace Access Limited]] Limitation",
-              "type": "note",
-              "goesInSummary": false,
-              "text": "Inspection of the crawlspace was limited due to restricted access, low clearance, or obstructions.",
-              "tags": [
-                "crawlspace",
-                "limitation"
-              ]
-            },
-            {
-              "id": "crawlspace-moisture",
-              "label": "[[Crawlspace Moisture]] Monitor / Repair",
-              "type": "monitor",
-              "goesInSummary": false,
-              "text": "Moisture was observed in the crawlspace at (location). This area should be monitored, and drainage or vapor barrier improvements may be needed.",
-              "tags": [
-                "crawlspace",
-                "moisture"
-              ]
-            },
-            {
-              "id": "crawlspace-wood-damage",
-              "label": "[[Crawlspace Wood Damage]] Repair",
-              "type": "repair",
-              "goesInSummary": true,
-              "text": "Damage to wood structural components in the crawlspace was observed at (location). Repairs by a qualified contractor are recommended.",
-              "tags": [
-                "crawlspace",
-                "wood damage"
-              ]
-            }
+          "id": "foundation-efflorescence",
+          "category": "monitor",
+          "title": "[[Efflorescence]] Monitor",
+          "body": "Efflorescence, a white mineral deposit, was observed on the foundation wall. This typically indicates past moisture entry. Monitor for recurrence or active water infiltration.",
+          "applies_to": [
+            "Foundation"
+          ],
+          "tags": [
+            "foundation",
+            "efflorescence"
           ]
         },
         {
-          "id": "basement-leakage",
-          "label": "Basement / Crawlspace Leakage",
-          "comments": [
-            {
-              "id": "leakage-typical-cracks",
-              "label": "[[Typical Minor Leakage Signs]] Monitor",
-              "type": "monitor",
-              "goesInSummary": false,
-              "text": "Minor signs of leakage were observed in the basement/crawlspace. These conditions are common. Monitor during heavy rain for active leakage.",
-              "tags": [
-                "leakage",
-                "basement"
-              ]
-            },
-            {
-              "id": "leakage-active",
-              "label": "[[Active Leakage]] Repair",
-              "type": "repair",
-              "goesInSummary": true,
-              "text": "Active leakage was observed at (location). Recommend evaluation and correction by a qualified waterproofing contractor.",
-              "tags": [
-                "leakage",
-                "active"
-              ]
-            }
+          "id": "floor-typical-wear",
+          "category": "note",
+          "title": "[[Typical Floor Structure Conditions]] Note",
+          "body": "Typical wear and aging were observed in the floor structure. No significant concerns were noted unless otherwise described.",
+          "applies_to": [
+            "Floor Structure"
+          ],
+          "tags": [
+            "floor structure",
+            "typical"
           ]
         },
         {
-          "id": "inspection-tips",
-          "label": "Inspection Tips",
-          "comments": [
-            {
-              "id": "tip-monitor-changes",
-              "label": "[[Monitor Structural Changes]] Note",
-              "type": "note",
-              "goesInSummary": false,
-              "text": "Structural components should be periodically monitored for any changes, especially cracks, movement, or moisture intrusion.",
-              "tags": [
-                "tip"
-              ]
-            },
-            {
-              "id": "tip-routine-maintenance",
-              "label": "[[Routine Maintenance Recommended]] Note",
-              "type": "note",
-              "goesInSummary": false,
-              "text": "Routine exterior maintenance, drainage control, and prompt repair of minor defects can help prolong the life of the structure.",
-              "tags": [
-                "tip"
-              ]
-            }
+          "id": "floor-sagging",
+          "category": "monitor",
+          "title": "[[Floor Sagging]] Monitor / Repair",
+          "body": "Sagging of the floor structure was observed at (location). This is common in older homes but should be monitored for changes. Repairs may be needed if movement progresses.",
+          "applies_to": [
+            "Floor Structure"
+          ],
+          "tags": [
+            "floor",
+            "sagging"
+          ]
+        },
+        {
+          "id": "floor-broken-beam",
+          "category": "repair",
+          "title": "[[Broken Beam in Crawlspace]] Repair",
+          "body": "A broken structural beam was observed in the crawlspace. The beam showed no support between steel reinforcement beams. Evaluation and repair by a qualified structural contractor is recommended.",
+          "applies_to": [
+            "Floor Structure"
+          ],
+          "tags": [
+            "floor structure",
+            "beam",
+            "repair"
+          ]
+        },
+        {
+          "id": "floor-joists-sistered-short",
+          "category": "repair",
+          "title": "[[Joists Improperly Sistered]] Repair",
+          "body": "Floor joists were found to be sistered using short lengths that do not provide adequate support. This condition has allowed movement to occur. Recommend evaluation and repair by a qualified contractor.",
+          "applies_to": [
+            "Floor Structure"
+          ],
+          "tags": [
+            "joists",
+            "sistered",
+            "repair"
+          ]
+        },
+        {
+          "id": "floor-support-post-not-plumb",
+          "category": "monitor",
+          "title": "[[Support Post Not Plumb]] Monitor",
+          "body": "A structural support post was observed to not be plumb. Settlement has likely occurred in this area. Movement appears to have been halted by reinforcement, but the area should be monitored for changes.",
+          "applies_to": [
+            "Floor Structure"
+          ],
+          "tags": [
+            "support post",
+            "monitor"
+          ]
+        },
+        {
+          "id": "wall-typical-settlement",
+          "category": "note",
+          "title": "[[Typical Settlement Cracks in Walls]] Note",
+          "body": "Minor settlement cracks were observed in the walls. These conditions are typical and generally not of structural concern.",
+          "applies_to": [
+            "Wall Structure"
+          ],
+          "tags": [
+            "wall",
+            "settlement"
+          ]
+        },
+        {
+          "id": "wall-cracks-larger",
+          "category": "monitor",
+          "title": "[[Large Wall Cracks]] Monitor / Possible Repair",
+          "body": "Cracking larger than typical was observed in wall structures. These areas should be monitored for worsening and evaluated if movement continues.",
+          "applies_to": [
+            "Wall Structure"
+          ],
+          "tags": [
+            "wall",
+            "cracks"
+          ]
+        },
+        {
+          "id": "wall-reinforced-ibeams",
+          "category": "note",
+          "title": "[[Foundation Reinforced with I-Beams]] Note",
+          "body": "The foundation walls had been reinforced with steel I-beams at some point. These are typically installed to help stabilize movement. Monitor over time for any changes.",
+          "applies_to": [
+            "Wall Structure"
+          ],
+          "tags": [
+            "foundation",
+            "I-beams"
+          ]
+        },
+        {
+          "id": "roof-typical-conditions",
+          "category": "note",
+          "title": "[[Typical Roof Structure Conditions]] Note",
+          "body": "The visible portions of the roof structure showed typical conditions for a home of this age. No significant deficiencies were noted unless otherwise reported.",
+          "applies_to": [
+            "Roof Structure"
+          ],
+          "tags": [
+            "roof structure"
+          ]
+        },
+        {
+          "id": "roof-sagging-ridge",
+          "category": "monitor",
+          "title": "[[Roof Ridge Sagging]] Monitor / Possible Repair",
+          "body": "Sagging or deflection of the roof ridge was observed. Monitor for changes; evaluation by a qualified roofing or structural contractor may be desirable.",
+          "applies_to": [
+            "Roof Structure"
+          ],
+          "tags": [
+            "roof",
+            "ridge sag"
+          ]
+        },
+        {
+          "id": "roof-truss-modified",
+          "category": "repair",
+          "title": "[[Roof Truss Modified]] Repair",
+          "body": "A roof truss has been modified or cut. Truss alterations can negatively affect the structural integrity of the roof. Evaluation and repair by a qualified structural contractor are recommended.",
+          "applies_to": [
+            "Roof Structure"
+          ],
+          "tags": [
+            "roof truss",
+            "modification"
+          ]
+        },
+        {
+          "id": "wdi-no-evidence",
+          "category": "note",
+          "title": "[[No Visible WDI Activity]] Note",
+          "body": "No visible signs of wood-destroying insect activity were observed during the inspection. As with all homes, periodic monitoring is recommended.",
+          "applies_to": [
+            "Wood Destroying Insects"
+          ],
+          "tags": [
+            "WDI"
+          ]
+        },
+        {
+          "id": "wdi-evidence-previous",
+          "category": "monitor",
+          "title": "[[Evidence of Previous WDI Activity]] Monitor",
+          "body": "Evidence of previous wood-destroying insect activity was observed. No active infestation was apparent. Monitoring and periodic evaluation may be desirable.",
+          "applies_to": [
+            "Wood Destroying Insects"
+          ],
+          "tags": [
+            "WDI",
+            "previous activity"
+          ]
+        },
+        {
+          "id": "wdi-damage",
+          "category": "repair",
+          "title": "[[WDI Damage Observed]] Repair",
+          "body": "Damage consistent with wood-destroying insects was observed at (location). Recommend evaluation and treatment by a qualified pest control specialist.",
+          "applies_to": [
+            "Wood Destroying Insects"
+          ],
+          "tags": [
+            "WDI",
+            "damage"
+          ]
+        },
+        {
+          "id": "crawlspace-limited-access",
+          "category": "note",
+          "title": "[[Crawlspace Access Limited]] Limitation",
+          "body": "Inspection of the crawlspace was limited due to restricted access, low clearance, or obstructions.",
+          "applies_to": [
+            "Crawl Space"
+          ],
+          "tags": [
+            "crawlspace",
+            "limitation"
+          ]
+        },
+        {
+          "id": "crawlspace-moisture",
+          "category": "monitor",
+          "title": "[[Crawlspace Moisture]] Monitor / Repair",
+          "body": "Moisture was observed in the crawlspace at (location). This area should be monitored, and drainage or vapor barrier improvements may be needed.",
+          "applies_to": [
+            "Crawl Space"
+          ],
+          "tags": [
+            "crawlspace",
+            "moisture"
+          ]
+        },
+        {
+          "id": "crawlspace-wood-damage",
+          "category": "repair",
+          "title": "[[Crawlspace Wood Damage]] Repair",
+          "body": "Damage to wood structural components in the crawlspace was observed at (location). Repairs by a qualified contractor are recommended.",
+          "applies_to": [
+            "Crawl Space"
+          ],
+          "tags": [
+            "crawlspace",
+            "wood damage"
+          ]
+        },
+        {
+          "id": "leakage-typical-cracks",
+          "category": "monitor",
+          "title": "[[Typical Minor Leakage Signs]] Monitor",
+          "body": "Minor signs of leakage were observed in the basement/crawlspace. These conditions are common. Monitor during heavy rain for active leakage.",
+          "applies_to": [
+            "Basement / Crawlspace Leakage"
+          ],
+          "tags": [
+            "leakage",
+            "basement"
+          ]
+        },
+        {
+          "id": "leakage-active",
+          "category": "repair",
+          "title": "[[Active Leakage]] Repair",
+          "body": "Active leakage was observed at (location). Recommend evaluation and correction by a qualified waterproofing contractor.",
+          "applies_to": [
+            "Basement / Crawlspace Leakage"
+          ],
+          "tags": [
+            "leakage",
+            "active"
+          ]
+        },
+        {
+          "id": "tip-monitor-changes",
+          "category": "note",
+          "title": "[[Monitor Structural Changes]] Note",
+          "body": "Structural components should be periodically monitored for any changes, especially cracks, movement, or moisture intrusion.",
+          "applies_to": [
+            "Inspection Tips"
+          ],
+          "tags": [
+            "tip"
+          ]
+        },
+        {
+          "id": "tip-routine-maintenance",
+          "category": "note",
+          "title": "[[Routine Maintenance Recommended]] Note",
+          "body": "Routine exterior maintenance, drainage control, and prompt repair of minor defects can help prolong the life of the structure.",
+          "applies_to": [
+            "Inspection Tips"
+          ],
+          "tags": [
+            "tip"
           ]
         }
       ]
@@ -5937,6 +5418,531 @@
             "appliances",
             "tip"
           ]
+        }
+      ]
+    },
+    "insulation_ventilation": {
+      "category": "insulation_ventilation",
+      "comments": [
+        {
+          "id": "attic-insulation-typical",
+          "category": "note",
+          "title": "Typical insulation levels",
+          "body": "Typical insulation levels were observed. No deficiencies were noted.",
+          "applies_to": [
+            "Attic Insulation"
+          ],
+          "tags": [
+            "insulation",
+            "attic"
+          ],
+          "ai": {
+            "notes": "Use when insulation depth appears typical for the area and no defects are visible."
+          }
+        },
+        {
+          "id": "attic-insulation-good",
+          "category": "note",
+          "title": "Good insulation levels observed",
+          "body": "Good insulation levels were observed.",
+          "applies_to": [
+            "Attic Insulation"
+          ],
+          "tags": [
+            "insulation",
+            "attic"
+          ],
+          "ai": {
+            "notes": "Use when insulation appears above average depth or coverage."
+          }
+        },
+        {
+          "id": "attic-insulation-improve-general",
+          "category": "improve",
+          "title": "Additional insulation",
+          "body": "Insulation improvements may be cost-effective depending on the anticipated term of ownership.",
+          "applies_to": [
+            "Attic Insulation"
+          ],
+          "tags": [
+            "insulation",
+            "attic"
+          ],
+          "ai": {
+            "notes": "Use when insulation is adequate but additional depth could improve efficiency."
+          }
+        },
+        {
+          "id": "attic-access-door-insulation",
+          "category": "improve",
+          "title": "Insulate attic access door",
+          "body": "The attic access door should be insulated for energy efficiency.",
+          "applies_to": [
+            "Attic Insulation"
+          ],
+          "tags": [
+            "insulation",
+            "attic",
+            "access door"
+          ],
+          "ai": {
+            "notes": "Use when the attic hatch or door is uninsulated or poorly insulated."
+          }
+        },
+        {
+          "id": "attic-insulation-uneven",
+          "category": "repair",
+          "title": "Uneven insulation",
+          "body": "Disturbed or uneven insulation should be evened out.",
+          "applies_to": [
+            "Attic Insulation"
+          ],
+          "tags": [
+            "insulation",
+            "attic",
+            "repair"
+          ],
+          "ai": {
+            "notes": "Use when insulation is disrupted, displaced, or significantly compressed in spots."
+          }
+        },
+        {
+          "id": "attic-insulation-missing",
+          "category": "repair",
+          "title": "Missing or incomplete insulation",
+          "body": "Missing or incomplete insulation should be corrected by a qualified installer.",
+          "applies_to": [
+            "Attic Insulation"
+          ],
+          "tags": [
+            "insulation",
+            "attic",
+            "missing"
+          ],
+          "ai": {
+            "notes": "Use when portions of the attic have no insulation or obvious gaps in coverage."
+          }
+        },
+        {
+          "id": "attic-duct-insulation",
+          "category": "repair",
+          "title": "Attic ductwork insulation",
+          "body": "Ductwork in the attic should be better insulated to reduce energy costs.",
+          "applies_to": [
+            "Attic Insulation"
+          ],
+          "tags": [
+            "ductwork",
+            "insulation",
+            "attic"
+          ],
+          "ai": {
+            "notes": "Use when supply or return ducts in the attic lack adequate insulation."
+          }
+        },
+        {
+          "id": "attic-vermiculite-monitor",
+          "category": "monitor",
+          "title": "Vermiculite insulation",
+          "body": "Vermiculite insulation was observed. Vermiculite may contain asbestos. EPA recommendations generally suggest leaving this material in place and undisturbed; consult an asbestos specialist if further evaluation is desired.",
+          "applies_to": [
+            "Attic Insulation"
+          ],
+          "tags": [
+            "vermiculite",
+            "asbestos",
+            "attic"
+          ],
+          "ai": {
+            "notes": "Use when loose-fill insulation resembles vermiculite. Do not state that asbestos is present unless confirmed by testing."
+          }
+        },
+        {
+          "id": "attic-recessed-lights-safety",
+          "category": "safety",
+          "title": "Recessed lights and insulation",
+          "body": "Recessed lights buried in insulation or not rated for insulation contact may pose a fire hazard. Evaluation by a qualified electrician is recommended.",
+          "applies_to": [
+            "Attic Insulation"
+          ],
+          "tags": [
+            "recessed lights",
+            "insulation",
+            "attic",
+            "safety"
+          ],
+          "ai": {
+            "notes": "Use when insulation covers recessed light fixtures that are not clearly rated for insulation contact."
+          }
+        },
+        {
+          "id": "attic-visibility-limited",
+          "category": "note",
+          "title": "Attic visibility limited",
+          "body": "The inspector was unable to visually see any items or components located beneath the attic insulation, such as the bottom chords of trusses, ceiling joists at the drywall, electrical wiring, or exhaust vents.",
+          "applies_to": [
+            "Attic Insulation"
+          ],
+          "tags": [
+            "insulation",
+            "attic",
+            "limitation"
+          ]
+        },
+        {
+          "id": "attic-access-limited",
+          "category": "note",
+          "title": "Attic access limited",
+          "body": "Due to the size of the attic opening and the design of the roof structure, some areas of the attic space were limited and could not be seen.",
+          "applies_to": [
+            "Attic Insulation"
+          ],
+          "tags": [
+            "insulation",
+            "attic",
+            "limitation"
+          ]
+        },
+        {
+          "id": "crawlspace-insulation-improve",
+          "category": "improve",
+          "title": "Crawlspace insulation improvements",
+          "body": "Crawlspace insulation improvements may be desirable depending on the anticipated term of ownership.",
+          "applies_to": [
+            "Crawlspace / Basement Insulation"
+          ],
+          "tags": [
+            "insulation",
+            "crawlspace"
+          ],
+          "ai": {
+            "notes": "Use when there is some insulation present but opportunities exist to add more for comfort/efficiency."
+          }
+        },
+        {
+          "id": "rim-joist-insulation",
+          "category": "improve",
+          "title": "Insulate rim joist cavities",
+          "body": "Rim joist cavities should be insulated.",
+          "applies_to": [
+            "Crawlspace / Basement Insulation"
+          ],
+          "tags": [
+            "rim joist",
+            "insulation",
+            "crawlspace",
+            "basement"
+          ],
+          "ai": {
+            "notes": "Use when rim joist areas are uninsulated or minimally insulated."
+          }
+        },
+        {
+          "id": "crawlspace-insulation-damaged",
+          "category": "repair",
+          "title": "Loose or damaged insulation",
+          "body": "Loose or damaged insulation should be repaired or replaced.",
+          "applies_to": [
+            "Crawlspace / Basement Insulation"
+          ],
+          "tags": [
+            "insulation",
+            "crawlspace",
+            "basement",
+            "repair"
+          ],
+          "ai": {
+            "notes": "Use when insulation is hanging loose, deteriorated, or missing backing."
+          }
+        },
+        {
+          "id": "plumbing-pipe-insulation",
+          "category": "repair",
+          "title": "Insulate plumbing pipes",
+          "body": "Plumbing pipes should be insulated to protect from freezing.",
+          "applies_to": [
+            "Crawlspace / Basement Insulation"
+          ],
+          "tags": [
+            "plumbing",
+            "pipes",
+            "insulation",
+            "freeze"
+          ],
+          "ai": {
+            "notes": "Use when water supply pipes are exposed in areas subject to freezing."
+          }
+        },
+        {
+          "id": "crawlspace-duct-insulation",
+          "category": "repair",
+          "title": "Crawlspace ductwork insulation",
+          "body": "Ductwork in the crawlspace or basement should be better insulated.",
+          "applies_to": [
+            "Crawlspace / Basement Insulation"
+          ],
+          "tags": [
+            "ductwork",
+            "insulation",
+            "crawlspace",
+            "basement"
+          ],
+          "ai": {
+            "notes": "Use when supply/return ducts in these areas have little or no insulation."
+          }
+        },
+        {
+          "id": "crawlspace-ventilation-inadequate",
+          "category": "repair",
+          "title": "Crawlspace ventilation inadequate",
+          "body": "Crawlspace ventilation is inadequate. It is generally recommended that approximately one square foot of vent opening be provided for every 500 square feet of crawlspace floor area.",
+          "applies_to": [
+            "Crawlspace / Basement Insulation"
+          ],
+          "tags": [
+            "ventilation",
+            "crawlspace"
+          ],
+          "ai": {
+            "notes": "Use when there are few or no vents, or vents appear undersized for crawlspace area."
+          }
+        },
+        {
+          "id": "crawlspace-vents-obstructed",
+          "category": "improve",
+          "title": "Crawlspace wall vents obstructed",
+          "body": "Crawlspace wall vents are obstructed and should be cleared or opened to allow air flow.",
+          "applies_to": [
+            "Crawlspace / Basement Insulation"
+          ],
+          "tags": [
+            "ventilation",
+            "crawlspace",
+            "vents"
+          ],
+          "ai": {
+            "notes": "Use when vents are blocked by vegetation, debris, or stored items."
+          }
+        },
+        {
+          "id": "crawlspace-moisture-barrier",
+          "category": "repair",
+          "title": "Install crawlspace moisture barrier",
+          "body": "A moisture barrier should be installed on the crawlspace floor to reduce ground moisture migration.",
+          "applies_to": [
+            "Crawlspace / Basement Insulation"
+          ],
+          "tags": [
+            "moisture barrier",
+            "crawlspace"
+          ],
+          "ai": {
+            "notes": "Use when bare soil is exposed on the crawlspace floor and no vapor barrier is present."
+          }
+        },
+        {
+          "id": "foam-board-insulation-safety",
+          "category": "safety",
+          "title": "Exposed foam board insulation",
+          "body": "Exposed foam board insulation is a fire hazard and should be removed or covered with an appropriate fire-resistant material.",
+          "applies_to": [
+            "Crawlspace / Basement Insulation"
+          ],
+          "tags": [
+            "foam board",
+            "insulation",
+            "safety",
+            "fire"
+          ],
+          "ai": {
+            "notes": "Use when rigid foam insulation is exposed without a proper fire barrier."
+          }
+        },
+        {
+          "id": "evidence-of-vermin-activity",
+          "category": "repair",
+          "title": "Evidence of vermin activity",
+          "body": "Evidence of vermin activity was observed. Pest control treatment or monitoring is recommended.",
+          "applies_to": [
+            "Crawlspace / Basement Insulation"
+          ],
+          "tags": [
+            "vermin",
+            "pests",
+            "insulation",
+            "crawlspace",
+            "basement"
+          ],
+          "ai": {
+            "notes": "Use when droppings, nesting, or gnaw marks are visible."
+          }
+        },
+        {
+          "id": "floor-insulation-improve",
+          "category": "improve",
+          "title": "Floor insulation for comfort",
+          "body": "Insulation improvements may be desirable to improve the comfort of the room above.",
+          "applies_to": [
+            "Floor Insulation"
+          ],
+          "tags": [
+            "floor",
+            "insulation"
+          ],
+          "ai": {
+            "notes": "Use when floors over unconditioned space feel cool and insulation is minimal or absent."
+          }
+        },
+        {
+          "id": "attic-roof-ventilation-improve",
+          "category": "repair",
+          "title": "Attic or roof ventilation",
+          "body": "Attic or roof ventilation should be improved. It is generally recommended that one square foot of free vent area be provided for every 150 square feet of ceiling area.",
+          "applies_to": [
+            "Attic & Roof Ventilation"
+          ],
+          "tags": [
+            "ventilation",
+            "attic",
+            "roof"
+          ],
+          "ai": {
+            "notes": "Use when intake/exhaust venting appears limited or unbalanced for the attic area."
+          }
+        },
+        {
+          "id": "soffit-vents-obstructed",
+          "category": "repair",
+          "title": "Soffit vents obstructed",
+          "body": "Soffit vents are obstructed; installation of baffles is recommended to maintain proper airflow from the eaves.",
+          "applies_to": [
+            "Attic & Roof Ventilation"
+          ],
+          "tags": [
+            "soffit vents",
+            "attic",
+            "ventilation"
+          ],
+          "ai": {
+            "notes": "Use when insulation or debris is blocking soffit vent openings."
+          }
+        },
+        {
+          "id": "roof-vents-unscreened",
+          "category": "repair",
+          "title": "Roof or exhaust vents not screened",
+          "body": "Roof or exhaust vents that are not screened should be screened to help prevent vermin entry.",
+          "applies_to": [
+            "Attic & Roof Ventilation"
+          ],
+          "tags": [
+            "vents",
+            "screening",
+            "roof",
+            "attic"
+          ],
+          "ai": {
+            "notes": "Use when open vent terminations lack screens or covers where pests could enter."
+          }
+        },
+        {
+          "id": "cathedral-ceilings-monitor",
+          "category": "monitor",
+          "title": "Sloped or cathedral ceilings",
+          "body": "Sloped or cathedral ceilings are rarely well ventilated and may be more prone to concealed moisture problems. Monitor for signs of distress over time.",
+          "applies_to": [
+            "Attic & Roof Ventilation"
+          ],
+          "tags": [
+            "cathedral ceiling",
+            "ventilation"
+          ],
+          "ai": {
+            "notes": "Use when rooms have vaulted or cathedral ceilings with limited visible venting."
+          }
+        },
+        {
+          "id": "bath-fan-inoperable",
+          "category": "repair",
+          "title": "Bathroom exhaust fan inoperable",
+          "body": "A bathroom exhaust fan was found to be inoperable. Repair or replacement is recommended.",
+          "applies_to": [
+            "Attic & Roof Ventilation"
+          ],
+          "tags": [
+            "bathroom fan",
+            "exhaust",
+            "ventilation"
+          ],
+          "ai": {
+            "notes": "Use when the fan does not respond to normal controls during testing."
+          }
+        },
+        {
+          "id": "attic-fan-inoperable",
+          "category": "repair",
+          "title": "Attic power ventilator inoperable",
+          "body": "An attic power ventilator was found to be inoperable. Repair or replacement is recommended if relied upon for ventilation.",
+          "applies_to": [
+            "Attic & Roof Ventilation"
+          ],
+          "tags": [
+            "attic fan",
+            "ventilation",
+            "attic"
+          ],
+          "ai": {
+            "notes": "Use when motorized attic fans do not operate using accessible controls or thermostats."
+          }
+        },
+        {
+          "id": "bath-fan-vents-into-attic",
+          "category": "repair",
+          "title": "Bathroom exhaust vents to exterior",
+          "body": "Bathroom exhaust vents should discharge to the building exterior rather than into the attic or other concealed spaces.",
+          "applies_to": [
+            "Attic & Roof Ventilation"
+          ],
+          "tags": [
+            "bathroom fan",
+            "attic",
+            "venting"
+          ],
+          "ai": {
+            "notes": "Use when exhaust ducts terminate in the attic or other concealed cavities instead of outdoors."
+          }
+        },
+        {
+          "id": "dryer-vent-limited-visibility",
+          "category": "note",
+          "title": "Portions of dryer vent concealed",
+          "body": "Portions of the dryer vent piping may be concealed by insulation or wall/ceiling finishes and could not be fully inspected.",
+          "applies_to": [
+            "Dryer Vent Limitations"
+          ],
+          "tags": [
+            "dryer vent",
+            "limitation"
+          ],
+          "ai": {
+            "notes": "Use as a limitation when much of the vent path is concealed."
+          }
+        },
+        {
+          "id": "insulation-energy-efficiency-note",
+          "category": "monitor",
+          "title": "Insulation levels and energy costs",
+          "body": "Insulation levels affect heating and cooling costs. Current energy standards generally recommend around R-49 attic insulation in this region for new homes. Existing homes may have less.",
+          "applies_to": [
+            "General Energy Efficiency Note"
+          ],
+          "tags": [
+            "insulation",
+            "energy efficiency"
+          ],
+          "ai": {
+            "notes": "Use as a general note where insulation is below current standards but typical for the age of the home."
+          }
         }
       ]
     }
