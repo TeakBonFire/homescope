@@ -2,7 +2,10 @@
   "schema_version": 1,
   "name": "HomeScope Standard Residential Report",
   "summary": {
-    "pull_from_statuses": ["repair", "safety"],
+    "pull_from_statuses": [
+      "repair",
+      "safety"
+    ],
     "group_by_section": true
   },
   "sections": [
