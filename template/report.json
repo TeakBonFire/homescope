@@ -9,7 +9,7 @@
     {
       "id": "exterior",
       "title": "Exterior",
-      "comment_file": "comments/exterior.json",
+      "comment_file": "comments/masterlist.json",
       "include_in_summary": true,
       "subsections": [
         "Site / Grading",
@@ -24,7 +24,7 @@
     {
       "id": "roofing",
       "title": "Roofing",
-      "comment_file": "comments/roofing.json",
+      "comment_file": "comments/masterlist.json",
       "include_in_summary": true,
       "subsections": [
         "Roof Coverings",
@@ -37,7 +37,7 @@
     {
       "id": "structure",
       "title": "Structure",
-      "comment_file": "comments/structure.json",
+      "comment_file": "comments/masterlist.json",
       "include_in_summary": true,
       "subsections": [
         "Foundations",
@@ -51,7 +51,7 @@
     {
       "id": "heating",
       "title": "Heating",
-      "comment_file": "comments/heating.json",
+      "comment_file": "comments/masterlist.json",
       "include_in_summary": true,
       "subsections": [
         "Heating Equipment",
@@ -63,7 +63,7 @@
     {
       "id": "cooling",
       "title": "Cooling",
-      "comment_file": "comments/cooling.json",
+      "comment_file": "comments/masterlist.json",
       "include_in_summary": true,
       "subsections": [
         "Cooling Equipment",
@@ -75,7 +75,7 @@
     {
       "id": "insulation_ventilation",
       "title": "Insulation & Ventilation",
-      "comment_file": "comments/insulation-ventilation.json",
+      "comment_file": "comments/masterlist.json",
       "include_in_summary": false,
       "subsections": [
         "Attic Insulation",
@@ -88,7 +88,7 @@
     {
       "id": "plumbing",
       "title": "Plumbing",
-      "comment_file": "comments/plumbing.json",
+      "comment_file": "comments/masterlist.json",
       "include_in_summary": true,
       "subsections": [
         "Water Service & Main Shutoff",
@@ -103,7 +103,7 @@
     {
       "id": "electrical",
       "title": "Electrical",
-      "comment_file": "comments/electrical.json",
+      "comment_file": "comments/masterlist.json",
       "include_in_summary": true,
       "subsections": [
         "Service Drop / Lateral",
@@ -118,7 +118,7 @@
     {
       "id": "interior",
       "title": "Interior",
-      "comment_file": "comments/interior.json",
+      "comment_file": "comments/masterlist.json",
       "include_in_summary": false,
       "subsections": [
         "Walls & Ceilings",
@@ -132,7 +132,7 @@
     {
       "id": "appliances",
       "title": "Built-in Appliances",
-      "comment_file": "comments/appliances.json",
+      "comment_file": "comments/masterlist.json",
       "include_in_summary": false,
       "subsections": [
         "Range / Cooktop / Oven",
