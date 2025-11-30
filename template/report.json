@@ -52,6 +52,15 @@
       ]
     },
     {
+      "id": "additional_services",
+      "title": "Additional Services Recommended",
+      "comment_file": "comments/masterlist.json",
+      "include_in_summary": false,
+      "subsections": [
+        "Additional Services Recommended"
+      ]
+    },
+    {
       "id": "heating",
       "title": "Heating",
       "comment_file": "comments/masterlist.json",

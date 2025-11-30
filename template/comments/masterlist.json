@@ -803,6 +803,151 @@
             "tip",
             "maintenance"
           ]
+        },
+        {
+          "id": "eaves-water-stain-monitor",
+          "category": "monitor",
+          "title": "Water staining at eaves",
+          "body": "Water staining was observed at the eave/soffit area at (exterior locations). This can indicate leakage at the roof covering or flashing above. Further evaluation and repairs may be needed if active leakage is confirmed.",
+          "applies_to": [
+            "Eaves / Soffits / Fascias"
+          ],
+          "tags": [
+            "eave",
+            "soffit",
+            "water stain",
+            "leak"
+          ]
+        },
+        {
+          "id": "eaves-possible-ice-dam",
+          "category": "monitor",
+          "title": "Possible ice dam staining",
+          "body": "Water staining was observed at the eaves that may be related to ice damming. Improved insulation, ventilation, or additional eave protection may be needed to reduce the risk of future leakage in this area.",
+          "applies_to": [
+            "Eaves / Soffits / Fascias"
+          ],
+          "tags": [
+            "eave",
+            "ice dam",
+            "water stain"
+          ]
+        },
+        {
+          "id": "eaves-damaged-exhaust-vent",
+          "category": "repair",
+          "title": "Damaged exterior exhaust vent",
+          "body": "A damaged exterior exhaust vent was observed at (exterior locations). Damaged vents can admit water or vermin and can be a fire risk when connected to dryer or bath fan ducts. We recommend repair or replacement.",
+          "applies_to": [
+            "Eaves / Soffits / Fascias",
+            "Exterior Walls"
+          ],
+          "tags": [
+            "exhaust vent",
+            "dryer vent",
+            "damage"
+          ]
+        },
+        {
+          "id": "doors-drafty",
+          "category": "improve",
+          "title": "Drafty exterior door",
+          "body": "The exterior door at (exterior location) was observed to be drafty and showed visible daylight at the weatherstripping. Improving weatherstripping or adjustment is recommended for comfort and energy efficiency.",
+          "applies_to": [
+            "Exterior Doors / Windows"
+          ],
+          "tags": [
+            "door",
+            "draft",
+            "weatherstripping"
+          ]
+        },
+        {
+          "id": "doors-exterior-stair-drain",
+          "category": "maintenance",
+          "title": "Exterior stairway drain maintenance",
+          "body": "An exterior stairway drain was observed. This drain must be kept clear so water does not accumulate against the door or foundation. Ongoing cleaning and maintenance are recommended to prevent leakage and flooding.",
+          "applies_to": [
+            "Exterior Doors / Windows"
+          ],
+          "tags": [
+            "drain",
+            "stairway",
+            "maintenance"
+          ]
+        },
+        {
+          "id": "doors-no-area-drain",
+          "category": "improve",
+          "title": "No drain at below-grade exterior door",
+          "body": "A below-grade exterior door landing was observed without a functional drain. Adding a properly installed drain outside the door is recommended to help prevent water accumulation, leakage, and deterioration of the door frame.",
+          "applies_to": [
+            "Exterior Doors / Windows"
+          ],
+          "tags": [
+            "drain",
+            "below-grade",
+            "exterior door"
+          ]
+        },
+        {
+          "id": "garage-door-trim-rot-localized",
+          "category": "repair",
+          "title": "Garage door trim rot",
+          "body": "Localized wood rot was observed at the garage door frame/trim at (exterior locations). Repair or replacement of the damaged trim is recommended to help prevent further deterioration and moisture intrusion.",
+          "applies_to": [
+            "Garage / Carport"
+          ],
+          "tags": [
+            "garage",
+            "trim",
+            "rot"
+          ]
+        },
+        {
+          "id": "doors-unsafe-keyed-deadbolt",
+          "category": "safety",
+          "title": "Keyed deadbolt on interior",
+          "body": "The exterior door is equipped with a key-operated deadbolt on the interior side. This can delay exit in an emergency and is considered a safety concern. We recommend replacement with a thumb-turn style lock for improved safety.",
+          "applies_to": [
+            "Exterior Doors / Windows"
+          ],
+          "tags": [
+            "door",
+            "lock",
+            "safety"
+          ]
+        },
+        {
+          "id": "windows-boarded-up",
+          "category": "repair",
+          "title": "Boarded-up windows",
+          "body": "One or more windows have been boarded over. This is typically a temporary measure and does not provide proper weather protection or appearance. We recommend repair or replacement of the window assemblies and removal of temporary boarding.",
+          "applies_to": [
+            "Exterior Walls",
+            "Exterior Doors / Windows"
+          ],
+          "tags": [
+            "window",
+            "boarded",
+            "temporary repair"
+          ]
+        },
+        {
+          "id": "exterior-countersunk-nails",
+          "category": "improve",
+          "title": "Countersunk or exposed nails",
+          "body": "Countersunk or exposed fasteners were observed on exterior wood surfaces. These conditions can allow moisture entry and promote rot. We recommend sealing or filling fasteners and maintaining paint or stain to protect the wood.",
+          "applies_to": [
+            "Exterior Walls",
+            "Porch / Deck / Patios"
+          ],
+          "tags": [
+            "nails",
+            "fasteners",
+            "wood",
+            "maintenance"
+          ]
         }
       ]
     },
@@ -5943,6 +6088,53 @@
           "ai": {
             "notes": "Use as a general note where insulation is below current standards but typical for the age of the home."
           }
+        }
+      ]
+    },
+    "additional_services": {
+      "category": "additional_services",
+      "comments": [
+        {
+          "id": "addsvc-radon-test",
+          "category": "improve",
+          "title": "Radon testing recommended",
+          "body": "This home is in an area where elevated radon levels are known to occur. We recommend a separate radon test to determine if mitigation is needed.",
+          "applies_to": [
+            "Additional Services Recommended"
+          ],
+          "tags": [
+            "radon",
+            "testing",
+            "air quality"
+          ]
+        },
+        {
+          "id": "addsvc-sewer-cam",
+          "category": "improve",
+          "title": "Sewer camera inspection recommended",
+          "body": "Underground sewer lines can be obstructed, damaged, or improperly sloped and are not visible during a standard home inspection. A sewer camera inspection is recommended to further evaluate the condition of buried drain lines.",
+          "applies_to": [
+            "Additional Services Recommended"
+          ],
+          "tags": [
+            "sewer",
+            "camera",
+            "underground piping"
+          ]
+        },
+        {
+          "id": "addsvc-mold-air-test",
+          "category": "improve",
+          "title": "Mold air testing recommended",
+          "body": "Where moisture problems or suspected microbial growth are present, an indoor air mold test can help identify airborne spores and determine if elevated levels exist. Consider mold testing and any recommended follow-up if results are elevated.",
+          "applies_to": [
+            "Additional Services Recommended"
+          ],
+          "tags": [
+            "mold",
+            "air test",
+            "indoor air quality"
+          ]
         }
       ]
     }
