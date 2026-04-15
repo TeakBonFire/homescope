@@ -1,0 +1,375 @@
+import React, { useMemo, useState } from "react";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+
+type Severity = "Note" | "Improve" | "Maintenance" | "Repair" | "Safety";
+
+type Observation = {
+  id: string;
+  photo: string;
+  transcript: string;
+  comment: string;
+  severity: Severity;
+  includeInSummary: boolean;
+  assignedSection: string;
+};
+
+type FinalComment = {
+  id: string;
+  text: string;
+  severity: Severity;
+  includeInSummary: boolean;
+};
+
+const initialObservations: Observation[] = [
+  {
+    id: "cover",
+    photo: "Front of House",
+    transcript: "Front elevation",
+    comment: "Note: This image serves as the cover photo for the report.",
+    severity: "Note",
+    includeInSummary: false,
+    assignedSection: "General / Misc Photos",
+  },
+  {
+    id: "1",
+    photo: "Sink",
+    transcript: "Hallway bathroom sink cold side inoperative",
+    comment:
+      "Repair: The cold water supply at the hallway bathroom sink was inoperative at the time of inspection. This condition limits proper use of the fixture. We recommend evaluation and repair by a qualified plumber.",
+    severity: "Repair",
+    includeInSummary: true,
+    assignedSection: "Plumbing",
+  },
+  {
+    id: "2",
+    photo: "Heat Pump",
+    transcript: "Heat pump failed to produce heat, cooling worked",
+    comment:
+      "Repair: The heat pump system failed to produce heat at the time of inspection, though cooling mode was operational. We recommend further evaluation and repair by a licensed HVAC contractor.",
+    severity: "Repair",
+    includeInSummary: true,
+    assignedSection: "Cooling system",
+  },
+  {
+    id: "3",
+    photo: "Attic B-vent",
+    transcript: "Water marks around B-vent insulation",
+    comment:
+      "Repair: Water staining was observed on insulation surrounding the B-vent in the attic. This may indicate past or active leakage. We recommend evaluation and repair as needed.",
+    severity: "Repair",
+    includeInSummary: true,
+    assignedSection: "Insulation/Ventilation",
+  },
+];
+
+const severityOrder: Severity[] = ["Note", "Improve", "Maintenance", "Repair", "Safety"];
+const availableSections = [
+  "General / Misc Photos",
+  "Exterior",
+  "Roofing",
+  "Insulation/Ventilation",
+  "Interior",
+  "Appliances",
+  "FirePlaces/Wood Stoves",
+  "Plumbing",
+  "Electrical",
+  "Heating system",
+  "Cooling system",
+  "Structure",
+];
+
+function stripPrefix(text: string): string {
+  return text.replace(/^(Repair|Improve|Maintenance|Safety|Note):\s*/, "");
+}
+
+function applySeverityToText(text: string, severity: Severity): string {
+  return `${severity}: ${stripPrefix(text)}`;
+}
+
+function defaultSummaryForSeverity(severity: Severity): boolean {
+  return severity === "Repair" || severity === "Safety";
+}
+
+function mapToFinalComments(observations: Observation[]): FinalComment[] {
+  return observations
+    .filter((observation) => observation.id !== "cover")
+    .map((observation, idx) => ({
+      id: `c_${idx + 1}`,
+      text: observation.comment,
+      severity: observation.severity,
+      includeInSummary: defaultSummaryForSeverity(observation.severity),
+    }));
+}
+
+function severityColor(severity: Severity): string {
+  if (severity === "Repair") return "bg-blue-100 text-blue-700";
+  if (severity === "Improve") return "bg-green-100 text-green-700";
+  if (severity === "Maintenance") return "bg-orange-100 text-orange-700";
+  if (severity === "Safety") return "bg-red-100 text-red-700";
+  return "bg-purple-100 text-purple-700";
+}
+
+function severityTextColor(severity: Severity): string {
+  if (severity === "Repair") return "text-blue-600";
+  if (severity === "Improve") return "text-green-600";
+  if (severity === "Maintenance") return "text-orange-600";
+  if (severity === "Safety") return "text-red-600";
+  return "text-purple-600";
+}
+
+function getSuggestedSection(transcript: string): { section: string; confidence: "High" | "Low" } {
+  const lower = transcript.toLowerCase();
+
+  if (lower.includes("sink")) {
+    return { section: "Plumbing", confidence: "High" };
+  }
+  if (lower.includes("heat pump")) {
+    return { section: "Cooling system", confidence: "High" };
+  }
+  if (lower.includes("vent")) {
+    return { section: "Insulation/Ventilation", confidence: "High" };
+  }
+
+  return { section: "General / Misc Photos", confidence: "Low" };
+}
+
+export default function DesktopReviewUI() {
+  const [observations, setObservations] = useState<Observation[]>(initialObservations);
+  const [finalComments, setFinalComments] = useState<FinalComment[]>(
+    mapToFinalComments(initialObservations)
+  );
+
+  function cycleSeverity(index: number): void {
+    setFinalComments((prev) => {
+      const next = [...prev];
+      const current = next[index].severity;
+      const newSeverity = severityOrder[(severityOrder.indexOf(current) + 1) % severityOrder.length];
+      next[index] = {
+        ...next[index],
+        severity: newSeverity,
+        text: applySeverityToText(next[index].text, newSeverity),
+        includeInSummary: defaultSummaryForSeverity(newSeverity),
+      };
+      return next;
+    });
+  }
+
+  function cycleSeverityBackward(index: number): void {
+    setFinalComments((prev) => {
+      const next = [...prev];
+      const current = next[index].severity;
+      const newIndex = (severityOrder.indexOf(current) - 1 + severityOrder.length) % severityOrder.length;
+      const newSeverity = severityOrder[newIndex];
+      next[index] = {
+        ...next[index],
+        severity: newSeverity,
+        text: applySeverityToText(next[index].text, newSeverity),
+        includeInSummary: defaultSummaryForSeverity(newSeverity),
+      };
+      return next;
+    });
+  }
+
+  function cycleObservationSeverity(index: number): void {
+    setObservations((prev) => {
+      const next = [...prev];
+      const current = next[index].severity;
+      const newSeverity = severityOrder[(severityOrder.indexOf(current) + 1) % severityOrder.length];
+      next[index] = {
+        ...next[index],
+        severity: newSeverity,
+        comment: applySeverityToText(next[index].comment, newSeverity),
+        includeInSummary: defaultSummaryForSeverity(newSeverity),
+      };
+      return next;
+    });
+  }
+
+  function toggleSummary(index: number): void {
+    setFinalComments((prev) => {
+      const next = [...prev];
+      next[index] = {
+        ...next[index],
+        includeInSummary: !next[index].includeInSummary,
+      };
+      return next;
+    });
+  }
+
+  function updateObservationSection(index: number, section: string): void {
+    setObservations((prev) => {
+      const next = [...prev];
+      next[index] = {
+        ...next[index],
+        assignedSection: section,
+      };
+      return next;
+    });
+  }
+
+  function applySuggestedSection(index: number): void {
+    const suggestion = getSuggestedSection(observations[index].transcript);
+    updateObservationSection(index, suggestion.section);
+  }
+
+  const summaryComments = useMemo(
+    () => finalComments.filter((comment) => comment.includeInSummary),
+    [finalComments]
+  );
+
+  const commentsBySection = useMemo(() => {
+    return observations.reduce<Record<string, FinalComment[]>>((acc, observation, index) => {
+      if (observation.id === "cover") return acc;
+      const section = observation.assignedSection;
+      if (!acc[section]) acc[section] = [];
+      const comment = finalComments[index - 1];
+      if (comment) acc[section].push(comment);
+      return acc;
+    }, {});
+  }, [observations, finalComments]);
+
+  return (
+    <div className="grid h-screen grid-cols-2">
+      <div className="space-y-6 overflow-y-auto bg-white p-4">
+        <div className="rounded-xl border p-4">
+          <h2 className="mb-2 text-lg font-bold">Cover Page</h2>
+          <div className="mb-3 flex h-48 items-center justify-center bg-gray-200">Front of House</div>
+          <div className="space-y-1 text-sm">
+            <p>Date: 4/15/2026</p>
+            <p>Inspector: Tim Sutherland</p>
+            <p>Company: Flinn Inspection Group</p>
+          </div>
+        </div>
+
+        <div className="rounded-xl border bg-slate-50 p-4">
+          <h3 className="mb-2 font-semibold">Report Summary</h3>
+          {summaryComments.length === 0 ? (
+            <p className="text-sm text-gray-500">No summary items</p>
+          ) : (
+            summaryComments.map((comment) => (
+              <p key={comment.id} className={`mb-2 ${severityTextColor(comment.severity)}`}>
+                {comment.text}
+              </p>
+            ))
+          )}
+        </div>
+
+        <div className="rounded-xl border p-4">
+          <h3 className="mb-3 font-semibold">Report Body</h3>
+          {Object.entries(commentsBySection).map(([section, comments]) => (
+            <div key={section} className="mb-5">
+              <h4 className="mb-2 font-medium">{section}</h4>
+              {comments.map((comment) => (
+                <p key={comment.id} className={`mb-2 ${severityTextColor(comment.severity)}`}>
+                  {comment.text}
+                </p>
+              ))}
+            </div>
+          ))}
+        </div>
+      </div>
+
+      <div className="overflow-y-auto bg-slate-100 p-4">
+        <Card className="mb-4">
+          <CardHeader>
+            <CardTitle>Observations</CardTitle>
+          </CardHeader>
+          <CardContent className="space-y-3">
+            {observations.map((observation, index) => {
+              const suggestion = getSuggestedSection(observation.transcript);
+
+              return (
+                <div key={observation.id} className="rounded-xl border bg-white p-3">
+                  <div className="flex justify-between">
+                    <div className="flex h-20 w-20 items-center justify-center bg-gray-200">
+                      {observation.photo}
+                    </div>
+                    <button
+                      onClick={() => cycleObservationSeverity(index)}
+                      className={`rounded px-2 py-1 text-xs ${severityColor(observation.severity)}`}
+                      type="button"
+                    >
+                      {observation.severity}
+                    </button>
+                  </div>
+
+                  <p className="mt-2 text-sm text-gray-600">{observation.transcript}</p>
+                  <div className="mt-2 space-y-2 text-xs text-gray-500">
+                    <div>
+                      AI Suggestion: <span className="font-medium">{suggestion.section}</span> ({suggestion.confidence})
+                    </div>
+                    <div className="flex items-center gap-2">
+                      <button
+                        type="button"
+                        onClick={() => applySuggestedSection(index)}
+                        className="rounded border bg-slate-50 px-2 py-1 text-xs text-slate-700"
+                      >
+                        Use AI Suggestion
+                      </button>
+                      <select
+                        value={observation.assignedSection}
+                        onChange={(event) => updateObservationSection(index, event.target.value)}
+                        className="rounded border bg-white px-2 py-1 text-xs text-slate-700"
+                      >
+                        {availableSections.map((section) => (
+                          <option key={section} value={section}>
+                            {section}
+                          </option>
+                        ))}
+                      </select>
+                    </div>
+                    <div>
+                      Assigned to: <span className="font-medium text-slate-700">{observation.assignedSection}</span>
+                    </div>
+                  </div>
+                </div>
+              );
+            })}
+          </CardContent>
+        </Card>
+
+        <Card>
+          <CardHeader>
+            <CardTitle>Final Comments</CardTitle>
+          </CardHeader>
+          <CardContent className="space-y-3">
+            {finalComments.map((comment, index) => (
+              <div key={comment.id} className="rounded-xl border bg-white p-3">
+                <div className="flex justify-between gap-3">
+                  <p className={`flex-1 text-sm ${severityTextColor(comment.severity)}`}>
+                    {comment.text}
+                  </p>
+                  <button
+                    onClick={() => cycleSeverity(index)}
+                    onContextMenu={(event) => {
+                      event.preventDefault();
+                      cycleSeverityBackward(index);
+                    }}
+                    className={`rounded px-2 py-1 text-xs ${severityColor(comment.severity)}`}
+                    type="button"
+                  >
+                    {comment.severity}
+                  </button>
+                </div>
+
+                <div className="mt-3 flex justify-between">
+                  <label className="flex items-center gap-2 text-sm">
+                    <input
+                      type="checkbox"
+                      checked={comment.includeInSummary}
+                      onChange={() => toggleSummary(index)}
+                    />
+                    Include in summary
+                  </label>
+                  <span className="text-xs text-gray-400">
+                    {comment.includeInSummary ? "Summary" : "Not Summary"}
+                  </span>
+                </div>
+              </div>
+            ))}
+          </CardContent>
+        </Card>
+      </div>
+    </div>
+  );
+}
