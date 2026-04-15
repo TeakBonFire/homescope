@@ -1,0 +1,56 @@
+{
+  "id": "obs_001",
+  "inspectionId": "insp_sample_001",
+  "createdAt": "2026-04-15T14:23:11-04:00",
+  "deviceCreatedAt": "2026-04-15T14:23:09-04:00",
+  "source": "mobile",
+  "captureMode": "photo_plus_audio",
+
+  "sectionHint": "Plumbing",
+  "checklistItemHint": "fixtures",
+  "locationHint": "Hallway bathroom",
+
+  "photos": [
+    {
+      "id": "photo_001",
+      "uri": "file://local/photos/photo_001.jpg",
+      "takenAt": "2026-04-15T14:23:09-04:00",
+      "isCoverCandidate": false
+    }
+  ],
+
+  "audio": {
+    "id": "audio_001",
+    "uri": "file://local/audio/audio_001.m4a",
+    "durationSeconds": 6,
+    "recordedAt": "2026-04-15T14:23:11-04:00"
+  },
+
+  "transcript": null,
+  "rawTranscript": null,
+
+  "inspectorNote": null,
+  "manualTags": ["bathroom", "sink"],
+
+  "ai": {
+    "suggestedSection": null,
+    "suggestedChecklistItem": null,
+    "suggestedCommentIds": [],
+    "suggestedSeverity": null,
+    "confidence": null,
+    "imageLabels": [],
+    "workflowHints": []
+  },
+
+  "review": {
+    "status": "unreviewed",
+    "selectedCommentId": null,
+    "severityOverride": null,
+    "includeInSummaryOverride": null,
+    "finalSection": null,
+    "finalChecklistItem": null,
+    "finalCommentText": null,
+    "reviewedBy": null,
+    "reviewedAt": null
+  }
+}
