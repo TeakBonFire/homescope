@@ -1,0 +1,102 @@
+[
+    ]
+  },
+  {
+    "section": "Roofing",
+    "items": [
+      { "id": "roof_covering", "label": "Roof Covering", "tags": ["roof", "shingle", "flashing", "granules"] },
+      { "id": "roof_flashing", "label": "Flashings", "tags": ["flashing", "step flashing", "counter flashing"] },
+      { "id": "gutters_downspouts", "label": "Gutters / Downspouts", "tags": ["gutter", "downspout", "drainage", "drip edge", "spike"] },
+      { "id": "chimney_roof_penetrations", "label": "Chimney / Roof Penetrations", "tags": ["chimney", "vent", "boot", "pipe flashing"] }
+    ]
+  },
+  {
+    "section": "Insulation/Ventilation",
+    "items": [
+      { "id": "attic_insulation", "label": "Attic Insulation", "tags": ["insulation", "fiberglass", "cellulose", "attic"] },
+      { "id": "attic_ventilation", "label": "Attic Ventilation", "tags": ["ventilation", "ridge vent", "soffit vent", "bath vent"] },
+      { "id": "vermin_activity", "label": "Vermin Activity", "tags": ["vermin", "droppings", "nest", "pest"] }
+    ]
+  },
+  {
+    "section": "Interior",
+    "items": [
+      { "id": "walls_ceilings", "label": "Walls / Ceilings", "tags": ["wall", "ceiling", "drywall", "crack", "stain"] },
+      { "id": "floors", "label": "Floors", "tags": ["floor", "carpet", "tile", "lvp", "trip hazard"] },
+      { "id": "interior_windows", "label": "Interior Windows", "tags": ["window", "sash", "screen", "lock"] },
+      { "id": "interior_doors", "label": "Interior Doors", "tags": ["door", "closet door", "guide", "latch"] },
+      { "id": "cabinets_counters", "label": "Cabinets / Counters", "tags": ["cabinet", "counter", "vanity", "backsplash"] },
+      { "id": "stairs_railings", "label": "Stairs / Railings", "tags": ["stairs", "railing", "handrail", "guard"] }
+    ]
+  },
+  {
+    "section": "Appliances",
+    "items": [
+      { "id": "range_oven", "label": "Range / Oven", "tags": ["range", "oven", "burner", "cooktop"] },
+      { "id": "refrigerator", "label": "Refrigerator", "tags": ["refrigerator", "fridge", "ice maker"] },
+      { "id": "microwave", "label": "Microwave", "tags": ["microwave"] },
+      { "id": "dishwasher", "label": "Dishwasher", "tags": ["dishwasher", "high loop", "drain hose"] },
+      { "id": "waste_disposer", "label": "Waste Disposer", "tags": ["disposer", "garbage disposal"] },
+      { "id": "washer_dryer_area", "label": "Washer / Dryer Area", "tags": ["washer", "dryer", "laundry", "drain pan", "standpipe"] },
+      { "id": "kitchen_exhaust", "label": "Kitchen Exhaust", "tags": ["range hood", "kitchen exhaust", "vent hood"] }
+    ]
+  },
+  {
+    "section": "Plumbing",
+    "items": [
+      { "id": "water_supply", "label": "Water Supply", "tags": ["main shutoff", "supply", "pex", "copper", "public water", "well"] },
+      { "id": "waste_drain_vent", "label": "Drain / Waste / Vent", "tags": ["drain", "waste", "vent", "cleanout", "trap", "aav"] },
+      { "id": "water_heater", "label": "Water Heater", "tags": ["water heater", "tpr", "gas control", "tankless", "hot water"] },
+      { "id": "fixtures", "label": "Fixtures", "tags": ["sink", "faucet", "toilet", "tub", "shower", "diverter", "caulk", "grout"] },
+      { "id": "hose_bibs", "label": "Hose Bibs", "tags": ["hose bib", "spigot", "exterior faucet"] },
+      { "id": "sump_pump", "label": "Sump Pump", "tags": ["sump", "sump pump", "pit", "discharge"] },
+      { "id": "fuel_distribution", "label": "Gas / Fuel Distribution", "tags": ["gas line", "csst", "bonding", "shutoff", "meter"] }
+    ]
+  },
+  {
+    "section": "Electrical",
+    "items": [
+      { "id": "service_entry_meter", "label": "Service Entry / Meter", "tags": ["meter", "service entry", "overhead", "underground"] },
+      { "id": "main_panel_subpanels", "label": "Main Panel / Subpanels", "tags": ["panel", "breaker", "neutral", "ground", "double lug"] },
+      { "id": "grounding_bonding", "label": "Grounding / Bonding", "tags": ["ground rod", "bonding", "grounding"] },
+      { "id": "outlets_switches_fixtures", "label": "Outlets / Switches / Fixtures", "tags": ["outlet", "switch", "fixture", "light", "ceiling fan"] },
+      { "id": "gfci_afci", "label": "GFCI / AFCI Protection", "tags": ["gfci", "afci", "trip", "reset"] },
+      { "id": "smoke_detectors", "label": "Smoke Detectors", "tags": ["smoke detector", "smoke alarm"] },
+      { "id": "co_detectors", "label": "CO Detectors", "tags": ["co detector", "carbon monoxide detector"] }
+    ]
+  },
+  {
+    "section": "Heating system",
+    "items": [
+      { "id": "furnace_air_handler", "label": "Furnace / Air Handler", "tags": ["furnace", "air handler", "burner", "filter"] },
+      { "id": "ductwork", "label": "Ductwork", "tags": ["duct", "register", "return", "supply", "duct cleaning"] },
+      { "id": "exhaust_venting", "label": "Exhaust / Venting", "tags": ["flue", "b-vent", "pvc vent", "exhaust"] },
+      { "id": "thermostat_heating_controls", "label": "Thermostat / Heating Controls", "tags": ["thermostat", "heat", "emergency heat", "aux heat"] }
+    ]
+  },
+  {
+    "section": "Cooling system",
+    "items": [
+      { "id": "condensing_unit_heat_pump", "label": "Condensing Unit / Heat Pump", "tags": ["ac", "condenser", "heat pump", "compressor"] },
+      { "id": "cooling_performance", "label": "Cooling Performance", "tags": ["cooling", "temperature split", "did not cool"] },
+      { "id": "refrigerant_lines", "label": "Refrigerant Lines", "tags": ["line set", "refrigerant line", "insulation"] },
+      { "id": "mini_split_units", "label": "Mini-Split Units", "tags": ["mini split", "head unit"] }
+    ]
+  },
+  {
+    "section": "Structure",
+    "items": [
+      { "id": "foundation", "label": "Foundation", "tags": ["foundation", "wall crack", "settlement", "step crack"] },
+      { "id": "floor_structure", "label": "Floor Structure", "tags": ["joist", "beam", "subfloor", "crawlspace"] },
+      { "id": "roof_structure", "label": "Roof Structure", "tags": ["truss", "rafter", "sheathing"] },
+      { "id": "wood_destroying_insects", "label": "Wood Destroying Insects", "tags": ["termite", "wood destroying insect", "frass"] }
+    ]
+  },
+  {
+    "section": "Fireplaces/Wood Stoves",
+    "items": [
+      { "id": "fireplace_operation", "label": "Fireplace Operation", "tags": ["fireplace", "gas log", "pilot", "ignition"] },
+      { "id": "fireplace_venting", "label": "Fireplace / Chimney Venting", "tags": ["chimney", "flue", "venting", "draft"] }
+    ]
+  }
+]
