@@ -25,6 +25,7 @@
     "inspection_time": "14:00",
     "inspector": {
       "name": "Tim Sutherland",
+       "license_number": "OHI.2022003114",
       "company": "Flinn Inspection Group, LLC"
     },
     "client": {
@@ -238,6 +239,7 @@
   ],
   "signoff": {
     "inspector_name": "Tim Sutherland",
+     "license_number": "OHI.2022003114",
     "company_name": "Flinn Inspection Group, LLC",
     "finalized_at": null
   }
