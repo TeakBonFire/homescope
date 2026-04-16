@@ -1,5 +1,5 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "name": "HomeScope Standard Residential Report",
   "summary": {
     "pull_from_statuses": [
@@ -15,13 +15,34 @@
       "comment_file": "comments/masterlist.json",
       "include_in_summary": true,
       "subsections": [
-        "Site / Grading",
-        "Driveways & Walkways",
-        "Porches / Decks / Patios",
-        "Exterior Walls & Trim",
-        "Exterior Doors",
-        "Exterior Windows",
-        "Garage / Carport (Exterior view)"
+        {
+          "id": "site_grading",
+          "title": "Site / Grading"
+        },
+        {
+          "id": "driveways_walkways",
+          "title": "Driveways & Walkways"
+        },
+        {
+          "id": "porches_decks_patios",
+          "title": "Porches / Decks / Patios"
+        },
+        {
+          "id": "exterior_walls_trim",
+          "title": "Exterior Walls & Trim"
+        },
+        {
+          "id": "exterior_doors",
+          "title": "Exterior Doors"
+        },
+        {
+          "id": "exterior_windows",
+          "title": "Exterior Windows"
+        },
+        {
+          "id": "garage_carport_exterior",
+          "title": "Garage / Carport (Exterior view)"
+        }
       ]
     },
     {
@@ -30,11 +51,26 @@
       "comment_file": "comments/masterlist.json",
       "include_in_summary": true,
       "subsections": [
-        "Roof Coverings",
-        "Flashings",
-        "Roof Penetrations",
-        "Roof Drainage / Gutters",
-        "Chimneys (roof view)"
+        {
+          "id": "roof_coverings",
+          "title": "Roof Coverings"
+        },
+        {
+          "id": "flashings",
+          "title": "Flashings"
+        },
+        {
+          "id": "roof_penetrations",
+          "title": "Roof Penetrations"
+        },
+        {
+          "id": "roof_drainage_gutters",
+          "title": "Roof Drainage / Gutters"
+        },
+        {
+          "id": "chimneys_roof_view",
+          "title": "Chimneys (roof view)"
+        }
       ]
     },
     {
@@ -43,12 +79,30 @@
       "comment_file": "comments/masterlist.json",
       "include_in_summary": true,
       "subsections": [
-        "Foundations",
-        "Floor Structure",
-        "Wall Structure",
-        "Roof Structure",
-        "Crawlspace / Basement Access",
-        "Observed Settlement"
+        {
+          "id": "foundations",
+          "title": "Foundations"
+        },
+        {
+          "id": "floor_structure",
+          "title": "Floor Structure"
+        },
+        {
+          "id": "wall_structure",
+          "title": "Wall Structure"
+        },
+        {
+          "id": "roof_structure",
+          "title": "Roof Structure"
+        },
+        {
+          "id": "crawlspace_basement_access",
+          "title": "Crawlspace / Basement Access"
+        },
+        {
+          "id": "observed_settlement",
+          "title": "Observed Settlement"
+        }
       ]
     },
     {
@@ -57,7 +111,10 @@
       "comment_file": "comments/masterlist.json",
       "include_in_summary": false,
       "subsections": [
-        "Additional Services Recommended"
+        {
+          "id": "additional_services_recommended",
+          "title": "Additional Services Recommended"
+        }
       ]
     },
     {
@@ -66,10 +123,22 @@
       "comment_file": "comments/masterlist.json",
       "include_in_summary": true,
       "subsections": [
-        "Heating Equipment",
-        "Distribution System (ducts / radiators / baseboards)",
-        "Vents / Flues / Chimneys",
-        "Thermostats"
+        {
+          "id": "heating_equipment",
+          "title": "Heating Equipment"
+        },
+        {
+          "id": "distribution_system",
+          "title": "Distribution System (ducts / radiators / baseboards)"
+        },
+        {
+          "id": "vents_flues_chimneys",
+          "title": "Vents / Flues / Chimneys"
+        },
+        {
+          "id": "thermostats",
+          "title": "Thermostats"
+        }
       ]
     },
     {
@@ -78,10 +147,22 @@
       "comment_file": "comments/masterlist.json",
       "include_in_summary": true,
       "subsections": [
-        "Cooling Equipment",
-        "Condenser Location",
-        "Coils / Air Handler",
-        "Condensate Drainage"
+        {
+          "id": "cooling_equipment",
+          "title": "Cooling Equipment"
+        },
+        {
+          "id": "condenser_location",
+          "title": "Condenser Location"
+        },
+        {
+          "id": "coils_air_handler",
+          "title": "Coils / Air Handler"
+        },
+        {
+          "id": "condensate_drainage",
+          "title": "Condensate Drainage"
+        }
       ]
     },
     {
@@ -90,11 +171,26 @@
       "comment_file": "comments/masterlist.json",
       "include_in_summary": false,
       "subsections": [
-        "Attic Insulation",
-        "Wall / Floor Insulation (where visible)",
-        "Attic Ventilation",
-        "Crawlspace Ventilation",
-        "Air Sealing / Bypasses"
+        {
+          "id": "attic_insulation",
+          "title": "Attic Insulation"
+        },
+        {
+          "id": "wall_floor_insulation_visible",
+          "title": "Wall / Floor Insulation (where visible)"
+        },
+        {
+          "id": "attic_ventilation",
+          "title": "Attic Ventilation"
+        },
+        {
+          "id": "crawlspace_ventilation",
+          "title": "Crawlspace Ventilation"
+        },
+        {
+          "id": "air_sealing_bypasses",
+          "title": "Air Sealing / Bypasses"
+        }
       ]
     },
     {
@@ -103,13 +199,34 @@
       "comment_file": "comments/masterlist.json",
       "include_in_summary": true,
       "subsections": [
-        "Water Service & Main Shutoff",
-        "Interior Supply Piping",
-        "Waste / Vent Piping",
-        "Water Heater(s)",
-        "Fixtures & Faucets",
-        "Sump / Ejector Pumps",
-        "Private Water / Sewer (if applicable)"
+        {
+          "id": "water_service_main_shutoff",
+          "title": "Water Service & Main Shutoff"
+        },
+        {
+          "id": "interior_supply_piping",
+          "title": "Interior Supply Piping"
+        },
+        {
+          "id": "waste_vent_piping",
+          "title": "Waste / Vent Piping"
+        },
+        {
+          "id": "water_heaters",
+          "title": "Water Heater(s)"
+        },
+        {
+          "id": "fixtures_faucets",
+          "title": "Fixtures & Faucets"
+        },
+        {
+          "id": "sump_ejector_pumps",
+          "title": "Sump / Ejector Pumps"
+        },
+        {
+          "id": "private_water_sewer",
+          "title": "Private Water / Sewer (if applicable)"
+        }
       ]
     },
     {
@@ -118,13 +235,34 @@
       "comment_file": "comments/masterlist.json",
       "include_in_summary": true,
       "subsections": [
-        "Service Drop / Lateral",
-        "Meter & Service Equipment",
-        "Main Panel",
-        "Subpanels",
-        "Branch Wiring",
-        "Outlets & Switches",
-        "Smoke / CO Detectors"
+        {
+          "id": "service_drop_lateral",
+          "title": "Service Drop / Lateral"
+        },
+        {
+          "id": "meter_service_equipment",
+          "title": "Meter & Service Equipment"
+        },
+        {
+          "id": "main_panel",
+          "title": "Main Panel"
+        },
+        {
+          "id": "subpanels",
+          "title": "Subpanels"
+        },
+        {
+          "id": "branch_wiring",
+          "title": "Branch Wiring"
+        },
+        {
+          "id": "outlets_switches",
+          "title": "Outlets & Switches"
+        },
+        {
+          "id": "smoke_co_detectors",
+          "title": "Smoke / CO Detectors"
+        }
       ]
     },
     {
@@ -133,12 +271,30 @@
       "comment_file": "comments/masterlist.json",
       "include_in_summary": false,
       "subsections": [
-        "Walls & Ceilings",
-        "Floors",
-        "Interior Doors",
-        "Interior Windows",
-        "Stairs & Railings",
-        "Cabinetry & Countertops"
+        {
+          "id": "walls_ceilings",
+          "title": "Walls & Ceilings"
+        },
+        {
+          "id": "floors",
+          "title": "Floors"
+        },
+        {
+          "id": "interior_doors",
+          "title": "Interior Doors"
+        },
+        {
+          "id": "interior_windows",
+          "title": "Interior Windows"
+        },
+        {
+          "id": "stairs_railings",
+          "title": "Stairs & Railings"
+        },
+        {
+          "id": "cabinetry_countertops",
+          "title": "Cabinetry & Countertops"
+        }
       ]
     },
     {
@@ -147,12 +303,30 @@
       "comment_file": "comments/masterlist.json",
       "include_in_summary": false,
       "subsections": [
-        "Range / Cooktop / Oven",
-        "Dishwasher",
-        "Refrigerator (if included)",
-        "Microwave (built-in)",
-        "Washer / Dryer (if inspected)",
-        "Other Built-in Appliances"
+        {
+          "id": "range_cooktop_oven",
+          "title": "Range / Cooktop / Oven"
+        },
+        {
+          "id": "dishwasher",
+          "title": "Dishwasher"
+        },
+        {
+          "id": "refrigerator_included",
+          "title": "Refrigerator (if included)"
+        },
+        {
+          "id": "microwave_builtin",
+          "title": "Microwave (built-in)"
+        },
+        {
+          "id": "washer_dryer_inspected",
+          "title": "Washer / Dryer (if inspected)"
+        },
+        {
+          "id": "other_builtin_appliances",
+          "title": "Other Built-in Appliances"
+        }
       ]
     }
   ]
