@@ -16,7 +16,8 @@
             "exterior walls",
             "cosmetic",
             "typical wear"
-          ]
+          ],
+          "canonical_subsection_id": "exterior_walls_trim"
         },
         {
           "id": "walls-damaged-siding",
@@ -29,7 +30,8 @@
           "tags": [
             "siding",
             "damage"
-          ]
+          ],
+          "canonical_subsection_id": "exterior_walls_trim"
         },
         {
           "id": "walls-missing-siding",
@@ -42,7 +44,8 @@
           "tags": [
             "siding",
             "missing"
-          ]
+          ],
+          "canonical_subsection_id": "exterior_walls_trim"
         },
         {
           "id": "walls-gaps-caulk",
@@ -56,7 +59,8 @@
             "caulking",
             "gaps",
             "sealant"
-          ]
+          ],
+          "canonical_subsection_id": "exterior_walls_trim"
         },
         {
           "id": "walls-mortar-deteriorated",
@@ -70,7 +74,8 @@
             "masonry",
             "mortar",
             "repoint"
-          ]
+          ],
+          "canonical_subsection_id": "exterior_walls_trim"
         },
         {
           "id": "walls-paint-maintenance",
@@ -83,7 +88,8 @@
           "tags": [
             "paint",
             "maintenance"
-          ]
+          ],
+          "canonical_subsection_id": "exterior_walls_trim"
         },
         {
           "id": "walls-rot-observed",
@@ -97,7 +103,8 @@
             "rot",
             "wood",
             "repair"
-          ]
+          ],
+          "canonical_subsection_id": "exterior_walls_trim"
         },
         {
           "id": "walls-missing-j-channel",
@@ -111,7 +118,8 @@
             "siding",
             "J-channel",
             "trim"
-          ]
+          ],
+          "canonical_subsection_id": "exterior_walls_trim"
         },
         {
           "id": "eaves-typical-wear",
@@ -126,7 +134,8 @@
             "soffits",
             "fascia",
             "typical wear"
-          ]
+          ],
+          "canonical_subsection_id": "exterior_walls_trim"
         },
         {
           "id": "eaves-damaged-fascia",
@@ -139,7 +148,8 @@
           "tags": [
             "fascia",
             "damage"
-          ]
+          ],
+          "canonical_subsection_id": "exterior_walls_trim"
         },
         {
           "id": "eaves-rot",
@@ -152,7 +162,8 @@
           "tags": [
             "soffit",
             "rot"
-          ]
+          ],
+          "canonical_subsection_id": "exterior_walls_trim"
         },
         {
           "id": "eaves-vent-blocked",
@@ -165,7 +176,8 @@
           "tags": [
             "soffit vents",
             "ventilation"
-          ]
+          ],
+          "canonical_subsection_id": "exterior_walls_trim"
         },
         {
           "id": "eaves-paint-maintenance",
@@ -179,7 +191,8 @@
             "paint",
             "eaves",
             "maintenance"
-          ]
+          ],
+          "canonical_subsection_id": "exterior_walls_trim"
         },
         {
           "id": "ext-doors-gaps",
@@ -193,7 +206,8 @@
             "door",
             "gaps",
             "weatherstripping"
-          ]
+          ],
+          "canonical_subsection_id": "exterior_windows"
         },
         {
           "id": "ext-door-damaged-trim",
@@ -207,7 +221,8 @@
             "door",
             "trim",
             "damage"
-          ]
+          ],
+          "canonical_subsection_id": "exterior_windows"
         },
         {
           "id": "ext-door-primer-needs-paint",
@@ -221,7 +236,8 @@
             "door",
             "paint",
             "primer"
-          ]
+          ],
+          "canonical_subsection_id": "exterior_windows"
         },
         {
           "id": "ext-door-hinges-outward",
@@ -235,7 +251,8 @@
             "door",
             "hinges",
             "security"
-          ]
+          ],
+          "canonical_subsection_id": "exterior_windows"
         },
         {
           "id": "ext-window-exterior-rot",
@@ -249,7 +266,8 @@
             "window",
             "rot",
             "trim"
-          ]
+          ],
+          "canonical_subsection_id": "exterior_windows"
         },
         {
           "id": "ext-window-caulking",
@@ -263,7 +281,8 @@
             "window",
             "caulk",
             "sealant"
-          ]
+          ],
+          "canonical_subsection_id": "exterior_windows"
         },
         {
           "id": "storm-door-adjustment",
@@ -276,7 +295,8 @@
           "tags": [
             "storm door",
             "adjustment"
-          ]
+          ],
+          "canonical_subsection_id": "exterior_windows"
         },
         {
           "id": "storm-door-glass-cracked",
@@ -290,7 +310,8 @@
             "storm door",
             "glass",
             "cracked"
-          ]
+          ],
+          "canonical_subsection_id": "exterior_windows"
         },
         {
           "id": "driveway-typical-cracks",
@@ -304,7 +325,8 @@
             "driveway",
             "cracks",
             "typical"
-          ]
+          ],
+          "canonical_subsection_id": "driveways_walkways"
         },
         {
           "id": "driveway-settlement",
@@ -318,7 +340,8 @@
             "driveway",
             "settlement",
             "uneven"
-          ]
+          ],
+          "canonical_subsection_id": "driveways_walkways"
         },
         {
           "id": "driveway-trip-hazard",
@@ -331,7 +354,8 @@
           "tags": [
             "driveway",
             "trip hazard"
-          ]
+          ],
+          "canonical_subsection_id": "driveways_walkways"
         },
         {
           "id": "driveway-gravel-grading",
@@ -345,7 +369,8 @@
             "driveway",
             "gravel",
             "grading"
-          ]
+          ],
+          "canonical_subsection_id": "driveways_walkways"
         },
         {
           "id": "walkway-typical-cracks",
@@ -359,7 +384,8 @@
             "walkway",
             "cracks",
             "typical"
-          ]
+          ],
+          "canonical_subsection_id": "driveways_walkways"
         },
         {
           "id": "walkway-trip-hazard-slab",
@@ -372,7 +398,8 @@
           "tags": [
             "walkway",
             "trip hazard"
-          ]
+          ],
+          "canonical_subsection_id": "driveways_walkways"
         },
         {
           "id": "walkway-section-missing",
@@ -385,7 +412,8 @@
           "tags": [
             "walkway",
             "missing section"
-          ]
+          ],
+          "canonical_subsection_id": "driveways_walkways"
         },
         {
           "id": "porch-deck-typical-wear",
@@ -400,7 +428,8 @@
             "deck",
             "patio",
             "typical wear"
-          ]
+          ],
+          "canonical_subsection_id": "porches_decks_patios"
         },
         {
           "id": "deck-loose-railings",
@@ -414,7 +443,8 @@
             "deck",
             "railing",
             "safety"
-          ]
+          ],
+          "canonical_subsection_id": "porches_decks_patios"
         },
         {
           "id": "deck-damaged-boards",
@@ -428,7 +458,8 @@
             "deck",
             "boards",
             "damage"
-          ]
+          ],
+          "canonical_subsection_id": "porches_decks_patios"
         },
         {
           "id": "porch-brick-mortar-openings",
@@ -442,7 +473,8 @@
             "porch",
             "masonry",
             "mortar"
-          ]
+          ],
+          "canonical_subsection_id": "porches_decks_patios"
         },
         {
           "id": "porch-under-closet-moisture",
@@ -456,7 +488,8 @@
             "porch",
             "moisture",
             "staining"
-          ]
+          ],
+          "canonical_subsection_id": "porches_decks_patios"
         },
         {
           "id": "garage-typical-wear",
@@ -469,7 +502,8 @@
           "tags": [
             "garage",
             "typical wear"
-          ]
+          ],
+          "canonical_subsection_id": "garage_carport_exterior"
         },
         {
           "id": "garage-door-trim-damaged",
@@ -483,7 +517,8 @@
             "garage",
             "door trim",
             "damage"
-          ]
+          ],
+          "canonical_subsection_id": "garage_carport_exterior"
         },
         {
           "id": "garage-door-deadbolt-difficult",
@@ -497,7 +532,8 @@
             "garage door",
             "lock",
             "adjustment"
-          ]
+          ],
+          "canonical_subsection_id": "garage_carport_exterior"
         },
         {
           "id": "garage-osb-exposed-near-grade",
@@ -511,7 +547,8 @@
             "garage",
             "OSB",
             "exposure"
-          ]
+          ],
+          "canonical_subsection_id": "garage_carport_exterior"
         },
         {
           "id": "grading-typical",
@@ -525,7 +562,8 @@
             "grading",
             "drainage",
             "note"
-          ]
+          ],
+          "canonical_subsection_id": "site_grading"
         },
         {
           "id": "grading-negative-slope",
@@ -538,7 +576,8 @@
           "tags": [
             "grading",
             "negative slope"
-          ]
+          ],
+          "canonical_subsection_id": "site_grading"
         },
         {
           "id": "drainage-surface-water-flow",
@@ -551,7 +590,8 @@
           "tags": [
             "drainage",
             "surface water"
-          ]
+          ],
+          "canonical_subsection_id": "site_grading"
         },
         {
           "id": "drainage-driveway-landing",
@@ -564,7 +604,8 @@
           "tags": [
             "drainage",
             "door landing"
-          ]
+          ],
+          "canonical_subsection_id": "site_grading"
         },
         {
           "id": "retaining-typical-wear",
@@ -577,7 +618,8 @@
           "tags": [
             "retaining wall",
             "typical"
-          ]
+          ],
+          "canonical_subsection_id": "site_grading"
         },
         {
           "id": "retaining-wall-leaning",
@@ -590,7 +632,8 @@
           "tags": [
             "retaining wall",
             "movement"
-          ]
+          ],
+          "canonical_subsection_id": "site_grading"
         },
         {
           "id": "retaining-wall-cracked",
@@ -603,7 +646,8 @@
           "tags": [
             "retaining wall",
             "cracks"
-          ]
+          ],
+          "canonical_subsection_id": "site_grading"
         },
         {
           "id": "retaining-wall-drainage",
@@ -616,7 +660,8 @@
           "tags": [
             "retaining wall",
             "drainage"
-          ]
+          ],
+          "canonical_subsection_id": "site_grading"
         },
         {
           "id": "landscaping-vegetation-clearance",
@@ -629,7 +674,8 @@
           "tags": [
             "vegetation",
             "clearance"
-          ]
+          ],
+          "canonical_subsection_id": "site_grading"
         },
         {
           "id": "fence-typical-wear",
@@ -642,7 +688,8 @@
           "tags": [
             "fence",
             "typical"
-          ]
+          ],
+          "canonical_subsection_id": "site_grading"
         },
         {
           "id": "fence-damaged",
@@ -655,7 +702,8 @@
           "tags": [
             "fence",
             "damage"
-          ]
+          ],
+          "canonical_subsection_id": "site_grading"
         },
         {
           "id": "random-post-trip-hazard",
@@ -669,7 +717,8 @@
             "yard",
             "post",
             "trip hazard"
-          ]
+          ],
+          "canonical_subsection_id": "site_grading"
         },
         {
           "id": "animal-burrow-foundation",
@@ -682,7 +731,8 @@
           "tags": [
             "animal burrow",
             "erosion"
-          ]
+          ],
+          "canonical_subsection_id": "site_grading"
         },
         {
           "id": "steps-typical-wear",
@@ -695,7 +745,8 @@
           "tags": [
             "steps",
             "typical"
-          ]
+          ],
+          "canonical_subsection_id": "porches_decks_patios"
         },
         {
           "id": "steps-loose-handrail",
@@ -709,7 +760,8 @@
             "handrail",
             "loose",
             "safety"
-          ]
+          ],
+          "canonical_subsection_id": "porches_decks_patios"
         },
         {
           "id": "steps-broken-tread",
@@ -723,7 +775,8 @@
             "steps",
             "tread",
             "trip hazard"
-          ]
+          ],
+          "canonical_subsection_id": "porches_decks_patios"
         },
         {
           "id": "steps-missing-handrail",
@@ -737,7 +790,8 @@
             "handrail",
             "missing",
             "safety"
-          ]
+          ],
+          "canonical_subsection_id": "porches_decks_patios"
         },
         {
           "id": "exterior-snow-leaves-limitation",
@@ -817,7 +871,8 @@
             "soffit",
             "water stain",
             "leak"
-          ]
+          ],
+          "canonical_subsection_id": "exterior_walls_trim"
         },
         {
           "id": "eaves-possible-ice-dam",
@@ -831,7 +886,8 @@
             "eave",
             "ice dam",
             "water stain"
-          ]
+          ],
+          "canonical_subsection_id": "exterior_walls_trim"
         },
         {
           "id": "eaves-damaged-exhaust-vent",
@@ -846,7 +902,8 @@
             "exhaust vent",
             "dryer vent",
             "damage"
-          ]
+          ],
+          "canonical_subsection_id": "exterior_walls_trim"
         },
         {
           "id": "doors-drafty",
@@ -860,7 +917,8 @@
             "door",
             "draft",
             "weatherstripping"
-          ]
+          ],
+          "canonical_subsection_id": "exterior_windows"
         },
         {
           "id": "doors-exterior-stair-drain",
@@ -874,7 +932,8 @@
             "drain",
             "stairway",
             "maintenance"
-          ]
+          ],
+          "canonical_subsection_id": "exterior_windows"
         },
         {
           "id": "doors-no-area-drain",
@@ -888,7 +947,8 @@
             "drain",
             "below-grade",
             "exterior door"
-          ]
+          ],
+          "canonical_subsection_id": "exterior_windows"
         },
         {
           "id": "garage-door-trim-rot-localized",
@@ -902,7 +962,8 @@
             "garage",
             "trim",
             "rot"
-          ]
+          ],
+          "canonical_subsection_id": "garage_carport_exterior"
         },
         {
           "id": "doors-unsafe-keyed-deadbolt",
@@ -916,7 +977,8 @@
             "door",
             "lock",
             "safety"
-          ]
+          ],
+          "canonical_subsection_id": "exterior_windows"
         },
         {
           "id": "windows-boarded-up",
@@ -931,7 +993,8 @@
             "window",
             "boarded",
             "temporary repair"
-          ]
+          ],
+          "canonical_subsection_id": "exterior_walls_trim"
         },
         {
           "id": "exterior-countersunk-nails",
@@ -947,7 +1010,8 @@
             "fasteners",
             "wood",
             "maintenance"
-          ]
+          ],
+          "canonical_subsection_id": "exterior_walls_trim"
         }
       ]
     },
@@ -968,7 +1032,8 @@
           ],
           "ai": {
             "notes": "Fill in fuel type (gas, electric, geothermal, etc.), equipment type, and location."
-          }
+          },
+          "canonical_subsection_id": "heating_equipment"
         },
         {
           "id": "heat-typical-condition",
@@ -981,7 +1046,8 @@
           "tags": [
             "heating",
             "condition"
-          ]
+          ],
+          "canonical_subsection_id": "heating_equipment"
         },
         {
           "id": "heat-old-unit-monitor",
@@ -995,7 +1061,8 @@
             "heating",
             "age",
             "deferred cost"
-          ]
+          ],
+          "canonical_subsection_id": "heating_equipment"
         },
         {
           "id": "heat-inoperative",
@@ -1008,7 +1075,8 @@
           "tags": [
             "heating",
             "inoperative"
-          ]
+          ],
+          "canonical_subsection_id": "heating_equipment"
         },
         {
           "id": "heat-low-temperature-rise",
@@ -1025,7 +1093,8 @@
           ],
           "ai": {
             "notes": "Use when your measured temp rise is below the nameplate range."
-          }
+          },
+          "canonical_subsection_id": "heating_equipment"
         },
         {
           "id": "heat-rust-in-cabinet",
@@ -1042,7 +1111,8 @@
           ],
           "ai": {
             "notes": "Matches your frequent 'rust observed inside of furnace cabinet' finding."
-          }
+          },
+          "canonical_subsection_id": "heating_equipment"
         },
         {
           "id": "heat-water-stain-in-cabinet",
@@ -1059,7 +1129,8 @@
           ],
           "ai": {
             "notes": "This is the monitor comment you asked for previously about water stains in the furnace cabinet."
-          }
+          },
+          "canonical_subsection_id": "heating_equipment"
         },
         {
           "id": "heat-geothermal-note",
@@ -1072,7 +1143,8 @@
           "tags": [
             "geothermal",
             "limitation"
-          ]
+          ],
+          "canonical_subsection_id": "heating_equipment"
         },
         {
           "id": "heat-electric-baseboard",
@@ -1084,7 +1156,8 @@
           ],
           "tags": [
             "electric baseboard"
-          ]
+          ],
+          "canonical_subsection_id": "heating_equipment"
         },
         {
           "id": "heat-electric-baseboard-clearance",
@@ -1098,7 +1171,8 @@
             "electric baseboard",
             "clearance",
             "safety"
-          ]
+          ],
+          "canonical_subsection_id": "heating_equipment"
         },
         {
           "id": "heat-gas-wall-unit",
@@ -1110,7 +1184,8 @@
           ],
           "tags": [
             "gas wall heater"
-          ]
+          ],
+          "canonical_subsection_id": "heating_equipment"
         },
         {
           "id": "duct-typical-note",
@@ -1123,7 +1198,8 @@
           "tags": [
             "ductwork",
             "note"
-          ]
+          ],
+          "canonical_subsection_id": "vents_flues_chimneys"
         },
         {
           "id": "duct-damaged-or-disconnected",
@@ -1137,7 +1213,8 @@
             "ductwork",
             "damage",
             "disconnected"
-          ]
+          ],
+          "canonical_subsection_id": "vents_flues_chimneys"
         },
         {
           "id": "duct-airflow-imbalance",
@@ -1150,7 +1227,8 @@
           "tags": [
             "ductwork",
             "airflow"
-          ]
+          ],
+          "canonical_subsection_id": "vents_flues_chimneys"
         },
         {
           "id": "flue-bvent-not-plumb",
@@ -1167,7 +1245,8 @@
           ],
           "ai": {
             "notes": "Use for your 'B-vents not plumb' photo/comment."
-          }
+          },
+          "canonical_subsection_id": "vents_flues_chimneys"
         },
         {
           "id": "flue-pvc-water-stain",
@@ -1184,7 +1263,8 @@
           ],
           "ai": {
             "notes": "Matches your recent comment: water observed on exterior of PVC furnace flue and stain below."
-          }
+          },
+          "canonical_subsection_id": "vents_flues_chimneys"
         },
         {
           "id": "flue-rust-or-corrosion",
@@ -1197,7 +1277,8 @@
           "tags": [
             "flue",
             "rust"
-          ]
+          ],
+          "canonical_subsection_id": "vents_flues_chimneys"
         },
         {
           "id": "flue-clearance-combustibles",
@@ -1211,7 +1292,8 @@
             "flue",
             "clearance",
             "safety"
-          ]
+          ],
+          "canonical_subsection_id": "vents_flues_chimneys"
         },
         {
           "id": "heating-annual-service-tip",
@@ -1272,7 +1354,8 @@
           ],
           "ai": {
             "notes": "Use for normal age-related flooring wear."
-          }
+          },
+          "canonical_subsection_id": "floors"
         },
         {
           "id": "loose-flooring",
@@ -1286,7 +1369,8 @@
             "flooring",
             "loose",
             "trip hazard"
-          ]
+          ],
+          "canonical_subsection_id": "floors"
         },
         {
           "id": "damaged-flooring",
@@ -1299,7 +1383,8 @@
           "tags": [
             "flooring",
             "damage"
-          ]
+          ],
+          "canonical_subsection_id": "floors"
         },
         {
           "id": "damaged-lvp",
@@ -1313,7 +1398,8 @@
             "LVP",
             "flooring",
             "damage"
-          ]
+          ],
+          "canonical_subsection_id": "floors"
         },
         {
           "id": "cracked-tile",
@@ -1326,7 +1412,8 @@
           "tags": [
             "tile",
             "crack"
-          ]
+          ],
+          "canonical_subsection_id": "floors"
         },
         {
           "id": "trip-hazard-transition",
@@ -1339,7 +1426,8 @@
           "tags": [
             "trip hazard",
             "transition"
-          ]
+          ],
+          "canonical_subsection_id": "floors"
         },
         {
           "id": "trip-hazard-uneven-floor",
@@ -1352,7 +1440,8 @@
           "tags": [
             "uneven floor",
             "trip hazard"
-          ]
+          ],
+          "canonical_subsection_id": "floors"
         },
         {
           "id": "poor-installation",
@@ -1365,7 +1454,8 @@
           "tags": [
             "installation",
             "cosmetic"
-          ]
+          ],
+          "canonical_subsection_id": "floors"
         },
         {
           "id": "gaps-in-flooring",
@@ -1378,7 +1468,8 @@
           "tags": [
             "flooring",
             "gaps"
-          ]
+          ],
+          "canonical_subsection_id": "floors"
         },
         {
           "id": "carpet-wear",
@@ -1391,7 +1482,8 @@
           "tags": [
             "carpet",
             "wear"
-          ]
+          ],
+          "canonical_subsection_id": "floors"
         },
         {
           "id": "carpet-loose",
@@ -1405,7 +1497,8 @@
             "carpet",
             "loose",
             "trip hazard"
-          ]
+          ],
+          "canonical_subsection_id": "floors"
         },
         {
           "id": "window-maintenance",
@@ -1418,7 +1511,8 @@
           "tags": [
             "window",
             "maintenance"
-          ]
+          ],
+          "canonical_subsection_id": "interior_windows"
         },
         {
           "id": "window-disrepair",
@@ -1431,7 +1525,8 @@
           "tags": [
             "window",
             "repair"
-          ]
+          ],
+          "canonical_subsection_id": "interior_windows"
         },
         {
           "id": "older-windows",
@@ -1444,7 +1539,8 @@
           "tags": [
             "window",
             "age"
-          ]
+          ],
+          "canonical_subsection_id": "interior_windows"
         },
         {
           "id": "painted-shut",
@@ -1457,7 +1553,8 @@
           "tags": [
             "window",
             "safety"
-          ]
+          ],
+          "canonical_subsection_id": "interior_windows"
         },
         {
           "id": "hardware-nonfunctional",
@@ -1470,7 +1567,8 @@
           "tags": [
             "window",
             "hardware"
-          ]
+          ],
+          "canonical_subsection_id": "interior_windows"
         },
         {
           "id": "difficult-to-operate",
@@ -1483,7 +1581,8 @@
           "tags": [
             "window",
             "operation"
-          ]
+          ],
+          "canonical_subsection_id": "interior_windows"
         },
         {
           "id": "chronic-leakage",
@@ -1496,7 +1595,8 @@
           "tags": [
             "window",
             "leakage"
-          ]
+          ],
+          "canonical_subsection_id": "interior_windows"
         },
         {
           "id": "water-stains-around-window",
@@ -1509,7 +1609,8 @@
           "tags": [
             "window",
             "stain"
-          ]
+          ],
+          "canonical_subsection_id": "interior_windows"
         },
         {
           "id": "lost-seal-fogged-window",
@@ -1522,7 +1623,8 @@
           "tags": [
             "window",
             "seal failure"
-          ]
+          ],
+          "canonical_subsection_id": "interior_windows"
         },
         {
           "id": "glass-cracked-damaged",
@@ -1536,7 +1638,8 @@
             "window",
             "glass",
             "damage"
-          ]
+          ],
+          "canonical_subsection_id": "interior_windows"
         },
         {
           "id": "screens-missing-damaged",
@@ -1549,7 +1652,8 @@
           "tags": [
             "window",
             "screens"
-          ]
+          ],
+          "canonical_subsection_id": "interior_windows"
         },
         {
           "id": "caulk-gaps-window-trim",
@@ -1562,7 +1666,8 @@
           "tags": [
             "window",
             "caulk"
-          ]
+          ],
+          "canonical_subsection_id": "interior_windows"
         },
         {
           "id": "interior-condensation",
@@ -1575,7 +1680,8 @@
           "tags": [
             "window",
             "condensation"
-          ]
+          ],
+          "canonical_subsection_id": "interior_windows"
         },
         {
           "id": "typical-window-wear",
@@ -1588,7 +1694,8 @@
           "tags": [
             "window",
             "cosmetic"
-          ]
+          ],
+          "canonical_subsection_id": "interior_windows"
         },
         {
           "id": "preowned-drywall-flaws",
@@ -1601,7 +1708,8 @@
           "tags": [
             "drywall",
             "cosmetic"
-          ]
+          ],
+          "canonical_subsection_id": "walls_ceilings"
         },
         {
           "id": "new-build-drywall-flaws",
@@ -1614,7 +1722,8 @@
           "tags": [
             "drywall",
             "new build"
-          ]
+          ],
+          "canonical_subsection_id": "walls_ceilings"
         },
         {
           "id": "water-staining-dry-a",
@@ -1627,7 +1736,8 @@
           "tags": [
             "water stain",
             "dry"
-          ]
+          ],
+          "canonical_subsection_id": "walls_ceilings"
         },
         {
           "id": "water-damage",
@@ -1639,7 +1749,8 @@
           ],
           "tags": [
             "water damage"
-          ]
+          ],
+          "canonical_subsection_id": "walls_ceilings"
         },
         {
           "id": "active-leak",
@@ -1651,7 +1762,8 @@
           ],
           "tags": [
             "active leak"
-          ]
+          ],
+          "canonical_subsection_id": "walls_ceilings"
         },
         {
           "id": "patching",
@@ -1663,7 +1775,8 @@
           ],
           "tags": [
             "patching"
-          ]
+          ],
+          "canonical_subsection_id": "walls_ceilings"
         },
         {
           "id": "finish-damage",
@@ -1676,7 +1789,8 @@
           "tags": [
             "finish",
             "damage"
-          ]
+          ],
+          "canonical_subsection_id": "walls_ceilings"
         },
         {
           "id": "large-cracks",
@@ -1689,7 +1803,8 @@
           "tags": [
             "cracks",
             "settlement"
-          ]
+          ],
+          "canonical_subsection_id": "walls_ceilings"
         },
         {
           "id": "plaster-bulging",
@@ -1701,7 +1816,8 @@
           ],
           "tags": [
             "plaster"
-          ]
+          ],
+          "canonical_subsection_id": "walls_ceilings"
         },
         {
           "id": "fire-separation",
@@ -1713,7 +1829,8 @@
           ],
           "tags": [
             "fire separation"
-          ]
+          ],
+          "canonical_subsection_id": "walls_ceilings"
         },
         {
           "id": "mold-visible",
@@ -1725,7 +1842,8 @@
           ],
           "tags": [
             "mold"
-          ]
+          ],
+          "canonical_subsection_id": "walls_ceilings"
         },
         {
           "id": "popcorn-ceiling",
@@ -1737,7 +1855,8 @@
           ],
           "tags": [
             "popcorn ceiling"
-          ]
+          ],
+          "canonical_subsection_id": "walls_ceilings"
         },
         {
           "id": "ghosting",
@@ -1749,7 +1868,8 @@
           ],
           "tags": [
             "ghosting"
-          ]
+          ],
+          "canonical_subsection_id": "walls_ceilings"
         },
         {
           "id": "door-adjustments",
@@ -1762,7 +1882,8 @@
           "tags": [
             "door",
             "adjustment"
-          ]
+          ],
+          "canonical_subsection_id": "interior_doors"
         },
         {
           "id": "damaged-hardware",
@@ -1775,7 +1896,8 @@
           "tags": [
             "door",
             "hardware"
-          ]
+          ],
+          "canonical_subsection_id": "interior_doors"
         },
         {
           "id": "loose-door-knob",
@@ -1788,7 +1910,8 @@
           "tags": [
             "door",
             "knob"
-          ]
+          ],
+          "canonical_subsection_id": "interior_doors"
         },
         {
           "id": "closet-door-guide",
@@ -1801,7 +1924,8 @@
           "tags": [
             "closet",
             "sliding door"
-          ]
+          ],
+          "canonical_subsection_id": "interior_doors"
         },
         {
           "id": "sliding-door-rollers",
@@ -1814,7 +1938,8 @@
           "tags": [
             "sliding door",
             "rollers"
-          ]
+          ],
+          "canonical_subsection_id": "interior_doors"
         },
         {
           "id": "sliding-door-old",
@@ -1827,7 +1952,8 @@
           "tags": [
             "sliding door",
             "age"
-          ]
+          ],
+          "canonical_subsection_id": "interior_doors"
         },
         {
           "id": "sliding-door-hardware",
@@ -1840,7 +1966,8 @@
           "tags": [
             "sliding door",
             "hardware"
-          ]
+          ],
+          "canonical_subsection_id": "interior_doors"
         },
         {
           "id": "sliding-door-leakage",
@@ -1853,7 +1980,8 @@
           "tags": [
             "sliding door",
             "leakage"
-          ]
+          ],
+          "canonical_subsection_id": "interior_doors"
         },
         {
           "id": "garage-fire-door",
@@ -1866,7 +1994,8 @@
           "tags": [
             "garage",
             "fire safety"
-          ]
+          ],
+          "canonical_subsection_id": "interior_doors"
         },
         {
           "id": "garage-door-not-sealed",
@@ -1879,7 +2008,8 @@
           "tags": [
             "garage",
             "seal"
-          ]
+          ],
+          "canonical_subsection_id": "interior_doors"
         },
         {
           "id": "garage-entry-adjustment",
@@ -1892,7 +2022,8 @@
           "tags": [
             "garage",
             "door"
-          ]
+          ],
+          "canonical_subsection_id": "interior_doors"
         }
       ]
     },
@@ -1913,7 +2044,8 @@
           ],
           "ai": {
             "notes": "Use when overall pressure is acceptable and only normal drop is noted with multiple fixtures."
-          }
+          },
+          "canonical_subsection_id": "interior_supply_piping"
         },
         {
           "id": "supply-main-shutoff-limitation",
@@ -1929,7 +2061,8 @@
           ],
           "ai": {
             "notes": "Use as a standard limitation whenever main shutoff valves are not operated."
-          }
+          },
+          "canonical_subsection_id": "interior_supply_piping"
         },
         {
           "id": "supply-leak",
@@ -1945,7 +2078,8 @@
           ],
           "ai": {
             "notes": "Use when active leakage from pressurized water lines is present."
-          }
+          },
+          "canonical_subsection_id": "interior_supply_piping"
         },
         {
           "id": "supply-corrosion-exterior",
@@ -1961,7 +2095,8 @@
           ],
           "ai": {
             "notes": "Use when rust or mineral build-up is visible but no active leakage is confirmed."
-          }
+          },
+          "canonical_subsection_id": "interior_supply_piping"
         },
         {
           "id": "supply-old-steel-piping",
@@ -1977,7 +2112,8 @@
           ],
           "ai": {
             "notes": "Use when galvanized/steel supply lines are present."
-          }
+          },
+          "canonical_subsection_id": "interior_supply_piping"
         },
         {
           "id": "supply-polybutylene",
@@ -1993,7 +2129,8 @@
           ],
           "ai": {
             "notes": "Use when gray polybutylene piping is present. Do not state it is failing unless leaks are observed."
-          }
+          },
+          "canonical_subsection_id": "interior_supply_piping"
         },
         {
           "id": "supply-freeze-risk-outbuilding",
@@ -2009,7 +2146,8 @@
           ],
           "ai": {
             "notes": "Use when exposed supply piping is outside conditioned space."
-          }
+          },
+          "canonical_subsection_id": "interior_supply_piping"
         },
         {
           "id": "supply-poor-support",
@@ -2025,7 +2163,8 @@
           ],
           "ai": {
             "notes": "Use when piping is hanging, sagging, or loosely supported."
-          }
+          },
+          "canonical_subsection_id": "interior_supply_piping"
         },
         {
           "id": "supply-missing-valve-handle",
@@ -2041,7 +2180,8 @@
           ],
           "ai": {
             "notes": "Use when valve is present but cannot be operated normally."
-          }
+          },
+          "canonical_subsection_id": "interior_supply_piping"
         },
         {
           "id": "supply-damaged-valve-handle",
@@ -2057,7 +2197,8 @@
           ],
           "ai": {
             "notes": "Use when the handle is cracked, bent, or not securely attached."
-          }
+          },
+          "canonical_subsection_id": "interior_supply_piping"
         },
         {
           "id": "supply-water-hammer",
@@ -2072,7 +2213,8 @@
           ],
           "ai": {
             "notes": "Use when noticeable banging is heard when fixtures are shut off."
-          }
+          },
+          "canonical_subsection_id": "interior_supply_piping"
         },
         {
           "id": "supply-poor-workmanship",
@@ -2088,7 +2230,8 @@
           ],
           "ai": {
             "notes": "Use when connections appear sloppy or non-standard but intact."
-          }
+          },
+          "canonical_subsection_id": "interior_supply_piping"
         },
         {
           "id": "supply-condensation",
@@ -2103,7 +2246,8 @@
           ],
           "ai": {
             "notes": "Use when droplets form on cold pipes in humid areas."
-          }
+          },
+          "canonical_subsection_id": "interior_supply_piping"
         },
         {
           "id": "supply-cross-connection",
@@ -2118,7 +2262,8 @@
           ],
           "ai": {
             "notes": "Use when a hose or fixture could allow backflow into the potable supply."
-          }
+          },
+          "canonical_subsection_id": "interior_supply_piping"
         },
         {
           "id": "supply-old-pressure-tank",
@@ -2134,7 +2279,8 @@
           ],
           "ai": {
             "notes": "Use on well systems when tank appears aged."
-          }
+          },
+          "canonical_subsection_id": "interior_supply_piping"
         },
         {
           "id": "supply-add-shutoffs",
@@ -2149,7 +2295,8 @@
           ],
           "ai": {
             "notes": "Use when fixtures lack local shutoff valves."
-          }
+          },
+          "canonical_subsection_id": "interior_supply_piping"
         },
         {
           "id": "supply-dissimilar-metals",
@@ -2165,7 +2312,8 @@
           ],
           "ai": {
             "notes": "Use where copper connects directly to steel/galvanized without dielectric union."
-          }
+          },
+          "canonical_subsection_id": "interior_supply_piping"
         },
         {
           "id": "waste-possible-obstruction",
@@ -2181,7 +2329,8 @@
           ],
           "ai": {
             "notes": "Use when drains back up, gurgle, or drain very slowly."
-          }
+          },
+          "canonical_subsection_id": "waste_vent_piping"
         },
         {
           "id": "trap-leak",
@@ -2197,7 +2346,8 @@
           ],
           "ai": {
             "notes": "Use when active drip or water staining is present at a trap."
-          }
+          },
+          "canonical_subsection_id": "waste_vent_piping"
         },
         {
           "id": "flexible-trap",
@@ -2212,7 +2362,8 @@
           ],
           "ai": {
             "notes": "Use when corrugated or flexible traps are installed."
-          }
+          },
+          "canonical_subsection_id": "waste_vent_piping"
         },
         {
           "id": "trap-suspect-condition",
@@ -2228,7 +2379,8 @@
           ],
           "ai": {
             "notes": "Use when trap is rusted, patched, or poorly assembled but not leaking."
-          }
+          },
+          "canonical_subsection_id": "waste_vent_piping"
         },
         {
           "id": "s-trap",
@@ -2243,7 +2395,8 @@
           ],
           "ai": {
             "notes": "Use when S-shaped traps are visible under fixtures."
-          }
+          },
+          "canonical_subsection_id": "waste_vent_piping"
         },
         {
           "id": "waste-poor-slope",
@@ -2259,7 +2412,8 @@
           ],
           "ai": {
             "notes": "Use when horizontal drains appear flat or back-pitched."
-          }
+          },
+          "canonical_subsection_id": "waste_vent_piping"
         },
         {
           "id": "waste-poor-support",
@@ -2275,7 +2429,8 @@
           ],
           "ai": {
             "notes": "Use when piping sags or hangs loosely."
-          }
+          },
+          "canonical_subsection_id": "waste_vent_piping"
         },
         {
           "id": "abs-waste-monitor",
@@ -2291,7 +2446,8 @@
           ],
           "ai": {
             "notes": "Use when ABS is present, particularly in attics or exterior walls."
-          }
+          },
+          "canonical_subsection_id": "waste_vent_piping"
         },
         {
           "id": "waste-connection-suspect",
@@ -2306,7 +2462,8 @@
           ],
           "ai": {
             "notes": "Use when odd fittings or patch repairs are present but not leaking."
-          }
+          },
+          "canonical_subsection_id": "waste_vent_piping"
         },
         {
           "id": "waste-old-piping",
@@ -2321,7 +2478,8 @@
           ],
           "ai": {
             "notes": "Use for cast iron, clay, or older mixed piping."
-          }
+          },
+          "canonical_subsection_id": "waste_vent_piping"
         },
         {
           "id": "waste-lead-piping",
@@ -2336,7 +2494,8 @@
           ],
           "ai": {
             "notes": "Use when lead bends or other lead components are visible."
-          }
+          },
+          "canonical_subsection_id": "waste_vent_piping"
         },
         {
           "id": "no-main-cleanout",
@@ -2351,7 +2510,8 @@
           ],
           "ai": {
             "notes": "Use when main cleanout cannot be located."
-          }
+          },
+          "canonical_subsection_id": "waste_vent_piping"
         },
         {
           "id": "sewer-odor",
@@ -2367,7 +2527,8 @@
           ],
           "ai": {
             "notes": "Use when noticeable odor is present in a localized area."
-          }
+          },
+          "canonical_subsection_id": "waste_vent_piping"
         },
         {
           "id": "venting-suspect",
@@ -2382,7 +2543,8 @@
           ],
           "ai": {
             "notes": "Use when fixture performance suggests venting problems."
-          }
+          },
+          "canonical_subsection_id": "waste_vent_piping"
         },
         {
           "id": "roof-vent-height",
@@ -2397,7 +2559,8 @@
           ],
           "ai": {
             "notes": "Use when vent terminations are unusually short or undersized."
-          }
+          },
+          "canonical_subsection_id": "waste_vent_piping"
         },
         {
           "id": "waste-limitation-concealed",
@@ -2413,7 +2576,8 @@
           ],
           "ai": {
             "notes": "Use as a standard limitation where appropriate."
-          }
+          },
+          "canonical_subsection_id": "waste_vent_piping"
         },
         {
           "id": "sink-drain-stop-missing",
@@ -2429,7 +2593,8 @@
           ],
           "ai": {
             "notes": "Use when pop-up or stopper does not seal or is absent."
-          }
+          },
+          "canonical_subsection_id": "fixtures_faucets"
         },
         {
           "id": "tub-drain-stop-missing",
@@ -2445,7 +2610,8 @@
           ],
           "ai": {
             "notes": "Use when tub stopper will not hold water or is missing."
-          }
+          },
+          "canonical_subsection_id": "fixtures_faucets"
         },
         {
           "id": "toilet-loose",
@@ -2461,7 +2627,8 @@
           ],
           "ai": {
             "notes": "Use when the toilet rocks or moves under light pressure."
-          }
+          },
+          "canonical_subsection_id": "fixtures_faucets"
         },
         {
           "id": "toilet-runs-on",
@@ -2477,7 +2644,8 @@
           ],
           "ai": {
             "notes": "Use when tank does not shut off reliably."
-          }
+          },
+          "canonical_subsection_id": "fixtures_faucets"
         },
         {
           "id": "shower-diverter-not-working",
@@ -2493,7 +2661,8 @@
           ],
           "ai": {
             "notes": "Use when diverter does not adequately send water to shower head."
-          }
+          },
+          "canonical_subsection_id": "fixtures_faucets"
         },
         {
           "id": "tile-shower-needs-repair",
@@ -2509,7 +2678,8 @@
           ],
           "ai": {
             "notes": "Use when cracked grout, loose tile, or water damage is evident."
-          }
+          },
+          "canonical_subsection_id": "fixtures_faucets"
         },
         {
           "id": "tub-rust-interior",
@@ -2525,7 +2695,8 @@
           ],
           "ai": {
             "notes": "Use when enamel is chipped and rust spots are visible."
-          }
+          },
+          "canonical_subsection_id": "fixtures_faucets"
         },
         {
           "id": "tub-rust-underside",
@@ -2541,7 +2712,8 @@
           ],
           "ai": {
             "notes": "Use when underside is accessible and rust is visible."
-          }
+          },
+          "canonical_subsection_id": "fixtures_faucets"
         },
         {
           "id": "tub-shower-maintenance-caulking",
@@ -2557,7 +2729,8 @@
           ],
           "ai": {
             "notes": "Use as a general maintenance note for baths and showers."
-          }
+          },
+          "canonical_subsection_id": "fixtures_faucets"
         },
         {
           "id": "whirlpool-testing-note",
@@ -2572,7 +2745,8 @@
           ],
           "ai": {
             "notes": "Use when a whirlpool tub is present and you performed a basic operational test."
-          }
+          },
+          "canonical_subsection_id": "fixtures_faucets"
         },
         {
           "id": "whirlpool-debris-jets",
@@ -2588,7 +2762,8 @@
           ],
           "ai": {
             "notes": "Use when dark debris or buildup appears during operation."
-          }
+          },
+          "canonical_subsection_id": "fixtures_faucets"
         },
         {
           "id": "hose-bib-iso-valve",
@@ -2604,7 +2779,8 @@
           ],
           "ai": {
             "notes": "Use when no interior shutoff is present in cold climates."
-          }
+          },
+          "canonical_subsection_id": "fixtures_faucets"
         },
         {
           "id": "hose-bib-leaking",
@@ -2620,7 +2796,8 @@
           ],
           "ai": {
             "notes": "Use when dripping is observed at the handle or spout."
-          }
+          },
+          "canonical_subsection_id": "fixtures_faucets"
         },
         {
           "id": "hose-bib-loose",
@@ -2636,7 +2813,8 @@
           ],
           "ai": {
             "notes": "Use when the faucet moves relative to the wall."
-          }
+          },
+          "canonical_subsection_id": "fixtures_faucets"
         },
         {
           "id": "hose-bib-damaged",
@@ -2652,7 +2830,8 @@
           ],
           "ai": {
             "notes": "Use when handle is broken or body is cracked."
-          }
+          },
+          "canonical_subsection_id": "fixtures_faucets"
         },
         {
           "id": "hose-bib-operational-note",
@@ -2668,7 +2847,8 @@
           ],
           "ai": {
             "notes": "Use as a positive operational note."
-          }
+          },
+          "canonical_subsection_id": "fixtures_faucets"
         },
         {
           "id": "hose-bib-not-tested-cold-weather",
@@ -2684,7 +2864,8 @@
           ],
           "ai": {
             "notes": "Use when shut off or not tested due to weather."
-          }
+          },
+          "canonical_subsection_id": "fixtures_faucets"
         },
         {
           "id": "water-heater-operational",
@@ -2700,7 +2881,8 @@
           ],
           "ai": {
             "notes": "Use when unit works and appears dry."
-          }
+          },
+          "canonical_subsection_id": "water_heaters"
         },
         {
           "id": "water-temp-too-hot",
@@ -2716,7 +2898,8 @@
           ],
           "ai": {
             "notes": "Use when measured temperature exceeds ~120\u00b0F."
-          }
+          },
+          "canonical_subsection_id": "water_heaters"
         },
         {
           "id": "water-heater-old",
@@ -2732,7 +2915,8 @@
           ],
           "ai": {
             "notes": "Use when age suggests limited remaining life."
-          }
+          },
+          "canonical_subsection_id": "water_heaters"
         },
         {
           "id": "water-heater-prior-leak",
@@ -2747,7 +2931,8 @@
           ],
           "ai": {
             "notes": "Use when rust or staining is present around seams or base."
-          }
+          },
+          "canonical_subsection_id": "water_heaters"
         },
         {
           "id": "water-heater-leaking",
@@ -2763,7 +2948,8 @@
           ],
           "ai": {
             "notes": "Use when active leakage is visible from tank or fittings."
-          }
+          },
+          "canonical_subsection_id": "water_heaters"
         },
         {
           "id": "water-heater-service-recommended",
@@ -2778,7 +2964,8 @@
           ],
           "ai": {
             "notes": "Use when unit appears older or burner is dirty, even if operating."
-          }
+          },
+          "canonical_subsection_id": "water_heaters"
         },
         {
           "id": "burner-dirty",
@@ -2794,7 +2981,8 @@
           ],
           "ai": {
             "notes": "Use when visual inspection shows soot or debris."
-          }
+          },
+          "canonical_subsection_id": "water_heaters"
         },
         {
           "id": "water-heater-corrode-connections",
@@ -2810,7 +2998,8 @@
           ],
           "ai": {
             "notes": "Use when rust is present at nipples or unions."
-          }
+          },
+          "canonical_subsection_id": "water_heaters"
         },
         {
           "id": "water-heater-reversed-connections",
@@ -2825,7 +3014,8 @@
           ],
           "ai": {
             "notes": "Use when labeling or piping indicates hot/cold reversal at the tank."
-          }
+          },
+          "canonical_subsection_id": "water_heaters"
         },
         {
           "id": "water-heater-no-cold-shutoff",
@@ -2840,7 +3030,8 @@
           ],
           "ai": {
             "notes": "Use when cold inlet lacks a local shutoff."
-          }
+          },
+          "canonical_subsection_id": "water_heaters"
         },
         {
           "id": "tpr-no-discharge-pipe",
@@ -2856,7 +3047,8 @@
           ],
           "ai": {
             "notes": "Use when valve has open outlet."
-          }
+          },
+          "canonical_subsection_id": "water_heaters"
         },
         {
           "id": "tpr-leaking",
@@ -2872,7 +3064,8 @@
           ],
           "ai": {
             "notes": "Use when crusting, staining, or active drip is present at outlet."
-          }
+          },
+          "canonical_subsection_id": "water_heaters"
         },
         {
           "id": "tpr-discharge-improper",
@@ -2888,7 +3081,8 @@
           ],
           "ai": {
             "notes": "Use when pipe is capped, reduced, or ends too high."
-          }
+          },
+          "canonical_subsection_id": "water_heaters"
         },
         {
           "id": "water-heater-wiring-unprotected",
@@ -2904,7 +3098,8 @@
           ],
           "ai": {
             "notes": "Use when NM cable enters without strain relief or conduit is missing where typically expected."
-          }
+          },
+          "canonical_subsection_id": "water_heaters"
         },
         {
           "id": "water-heater-burner-cover-missing",
@@ -2920,7 +3115,8 @@
           ],
           "ai": {
             "notes": "Use when combustion chamber is open."
-          }
+          },
+          "canonical_subsection_id": "water_heaters"
         },
         {
           "id": "water-heater-spillage-backdraft",
@@ -2936,7 +3132,8 @@
           ],
           "ai": {
             "notes": "Use when draft test or staining suggests flue gases are not drafting properly."
-          }
+          },
+          "canonical_subsection_id": "water_heaters"
         },
         {
           "id": "gas-copper-not-approved",
@@ -2985,7 +3182,8 @@
           ],
           "ai": {
             "notes": "Use when sealed covers prevent normal testing."
-          }
+          },
+          "canonical_subsection_id": "sump_ejector_pumps"
         },
         {
           "id": "radon-system-operational",
@@ -3000,7 +3198,8 @@
           ],
           "ai": {
             "notes": "Use when manometer or fan indicates operation."
-          }
+          },
+          "canonical_subsection_id": "sump_ejector_pumps"
         },
         {
           "id": "plumbing-concealed-limitation",
@@ -3087,7 +3286,8 @@
           ],
           "ai": {
             "notes": "Use when roof appears functional with no active issues."
-          }
+          },
+          "canonical_subsection_id": "roof_coverings"
         },
         {
           "id": "roof-normal-wear",
@@ -3104,7 +3304,8 @@
           ],
           "ai": {
             "notes": "Use when shingles show normal age-related wear but are still functional."
-          }
+          },
+          "canonical_subsection_id": "roof_coverings"
         },
         {
           "id": "roof-recommend-evaluation",
@@ -3121,7 +3322,8 @@
           ],
           "ai": {
             "notes": "Use when roof appears older or vulnerable even without confirmed defects."
-          }
+          },
+          "canonical_subsection_id": "roof_coverings"
         },
         {
           "id": "roof-minor-repairs",
@@ -3139,7 +3341,8 @@
           ],
           "ai": {
             "notes": "Use when repairs are localized and non-urgent."
-          }
+          },
+          "canonical_subsection_id": "roof_coverings"
         },
         {
           "id": "roof-deferred-cost-minor",
@@ -3156,7 +3359,8 @@
           ],
           "ai": {
             "notes": "Use when roof is old but not actively leaking."
-          }
+          },
+          "canonical_subsection_id": "roof_coverings"
         },
         {
           "id": "roof-end-life-major",
@@ -3173,7 +3377,8 @@
           ],
           "ai": {
             "notes": "Use when widespread deterioration is present."
-          }
+          },
+          "canonical_subsection_id": "roof_coverings"
         },
         {
           "id": "roof-monitor-uneven-wear",
@@ -3189,7 +3394,8 @@
           ],
           "ai": {
             "notes": "Use when some slopes look worse than others."
-          }
+          },
+          "canonical_subsection_id": "roof_coverings"
         },
         {
           "id": "roof-monitor-fair-condition",
@@ -3204,7 +3410,8 @@
           ],
           "ai": {
             "notes": "Use when wear is moderate but not urgent."
-          }
+          },
+          "canonical_subsection_id": "roof_coverings"
         },
         {
           "id": "roof-monitor-prior-repairs",
@@ -3219,7 +3426,8 @@
           ],
           "ai": {
             "notes": "Use when patches or replaced shingles are visible."
-          }
+          },
+          "canonical_subsection_id": "roof_coverings"
         },
         {
           "id": "roof-possible-hail-damage",
@@ -3235,7 +3443,8 @@
           ],
           "ai": {
             "notes": "Use when granular loss or bruising suggests hail."
-          }
+          },
+          "canonical_subsection_id": "roof_coverings"
         },
         {
           "id": "roof-monitor-multiple-layers",
@@ -3251,7 +3460,8 @@
           ],
           "ai": {
             "notes": "Use when more than one layer of shingles is visible."
-          }
+          },
+          "canonical_subsection_id": "roof_coverings"
         },
         {
           "id": "roof-monitor-poor-workmanship",
@@ -3267,7 +3477,8 @@
           ],
           "ai": {
             "notes": "Use for misaligned shingles, exposed nails, messy flashing, etc."
-          }
+          },
+          "canonical_subsection_id": "roof_coverings"
         },
         {
           "id": "roof-possible-flaws",
@@ -3283,7 +3494,8 @@
           ],
           "ai": {
             "notes": "Use when shingles appear defective or improperly installed."
-          }
+          },
+          "canonical_subsection_id": "roof_coverings"
         },
         {
           "id": "roof-monitor-moss-growth",
@@ -3299,7 +3511,8 @@
           ],
           "ai": {
             "notes": "Use for visible moss on shaded roof slopes."
-          }
+          },
+          "canonical_subsection_id": "roof_coverings"
         },
         {
           "id": "roof-monitor-older-roof",
@@ -3315,7 +3528,8 @@
           ],
           "ai": {
             "notes": "Use when roof appears significantly old."
-          }
+          },
+          "canonical_subsection_id": "roof_coverings"
         },
         {
           "id": "roof-monitor-wood-roof",
@@ -3332,7 +3546,8 @@
           ],
           "ai": {
             "notes": "Use only for cedar or wood shake/shingle roofs."
-          }
+          },
+          "canonical_subsection_id": "roof_coverings"
         },
         {
           "id": "roof-monitor-vulnerable-areas",
@@ -3348,7 +3563,8 @@
           ],
           "ai": {
             "notes": "Use for valleys, dead-end flashing, low-slope transitions, etc."
-          }
+          },
+          "canonical_subsection_id": "roof_coverings"
         },
         {
           "id": "roof-repair-debris",
@@ -3364,7 +3580,8 @@
           ],
           "ai": {
             "notes": "Use when leaves, branches, or debris are visible."
-          }
+          },
+          "canonical_subsection_id": "roof_coverings"
         },
         {
           "id": "roof-repair-exposed-sheathing",
@@ -3380,7 +3597,8 @@
           ],
           "ai": {
             "notes": "Use when bare wood is visible."
-          }
+          },
+          "canonical_subsection_id": "roof_coverings"
         },
         {
           "id": "roof-repair-ridge-caps",
@@ -3396,7 +3614,8 @@
           ],
           "ai": {
             "notes": "Use when ridge caps show cracks, curling, or separation."
-          }
+          },
+          "canonical_subsection_id": "roof_coverings"
         },
         {
           "id": "roof-note-reroofing-remove-layers",
@@ -3412,7 +3631,8 @@
           ],
           "ai": {
             "notes": "Use when discussing reroofing best practices."
-          }
+          },
+          "canonical_subsection_id": "roof_coverings"
         },
         {
           "id": "roof-note-sun-exposure-wear",
@@ -3428,7 +3648,8 @@
           ],
           "ai": {
             "notes": "Use when one side looks particularly aged."
-          }
+          },
+          "canonical_subsection_id": "roof_coverings"
         },
         {
           "id": "roof-note-replace-flashing-during-reroof",
@@ -3444,7 +3665,8 @@
           ],
           "ai": {
             "notes": "Use for general reroofing guidance."
-          }
+          },
+          "canonical_subsection_id": "roof_coverings"
         },
         {
           "id": "roof-note-weather-limited-inspection",
@@ -3459,7 +3681,8 @@
           ],
           "ai": {
             "notes": "Use when snow, rain, or ice obstructs roof inspection."
-          }
+          },
+          "canonical_subsection_id": "roof_coverings"
         },
         {
           "id": "roof-improve-waviness",
@@ -3474,7 +3697,8 @@
           ],
           "ai": {
             "notes": "Use for visible undulation in shingles."
-          }
+          },
+          "canonical_subsection_id": "roof_coverings"
         },
         {
           "id": "flat-roof-end-life-major-concern",
@@ -3490,7 +3714,8 @@
           ],
           "ai": {
             "notes": "Use when flat membrane is severely deteriorated."
-          }
+          },
+          "canonical_subsection_id": "roof_coverings"
         },
         {
           "id": "flat-roof-deferred-end-life",
@@ -3506,7 +3731,8 @@
           ],
           "ai": {
             "notes": "Use when wear is significant but not urgent."
-          }
+          },
+          "canonical_subsection_id": "roof_coverings"
         },
         {
           "id": "flat-roof-missing-gravel",
@@ -3522,7 +3748,8 @@
           ],
           "ai": {
             "notes": "Use for BUR roofs missing gravel."
-          }
+          },
+          "canonical_subsection_id": "roof_coverings"
         },
         {
           "id": "flat-roof-fair-condition",
@@ -3538,7 +3765,8 @@
           ],
           "ai": {
             "notes": "Use for moderately aged but functional flat roofs."
-          }
+          },
+          "canonical_subsection_id": "roof_coverings"
         },
         {
           "id": "flat-roof-fair-no-gravel",
@@ -3554,7 +3782,8 @@
           ],
           "ai": {
             "notes": "Use when gravel is absent where expected."
-          }
+          },
+          "canonical_subsection_id": "roof_coverings"
         },
         {
           "id": "flat-roof-ponding",
@@ -3570,7 +3799,8 @@
           ],
           "ai": {
             "notes": "Use when standing water exceeds 48 hours after rain."
-          }
+          },
+          "canonical_subsection_id": "roof_coverings"
         },
         {
           "id": "flat-roof-poor-workmanship",
@@ -3586,7 +3816,8 @@
           ],
           "ai": {
             "notes": "Use for messy seams, bubbles, wrinkles, etc."
-          }
+          },
+          "canonical_subsection_id": "roof_coverings"
         },
         {
           "id": "flat-roof-repair-maintenance-needed",
@@ -3602,7 +3833,8 @@
           ],
           "ai": {
             "notes": "Use when moss, blisters, or surface defects are present."
-          }
+          },
+          "canonical_subsection_id": "roof_coverings"
         },
         {
           "id": "flat-roof-monitor-prior-repairs",
@@ -3618,7 +3850,8 @@
           ],
           "ai": {
             "notes": "Use when patches or modified areas are visible."
-          }
+          },
+          "canonical_subsection_id": "roof_coverings"
         },
         {
           "id": "flashing-improperly-sealed",
@@ -3634,7 +3867,8 @@
           ],
           "ai": {
             "notes": "Use when flashing sealant is cracked, missing, or poorly applied."
-          }
+          },
+          "canonical_subsection_id": "roof_penetrations"
         },
         {
           "id": "flashing-gaps-penetrations",
@@ -3650,7 +3884,8 @@
           ],
           "ai": {
             "notes": "Use when daylight or gaps are visible."
-          }
+          },
+          "canonical_subsection_id": "roof_penetrations"
         },
         {
           "id": "penetrations-monitor-small-gaps",
@@ -3666,7 +3901,8 @@
           ],
           "ai": {
             "notes": "Use when sealant aging is visible but not failing."
-          }
+          },
+          "canonical_subsection_id": "roof_penetrations"
         },
         {
           "id": "skylight-monitor-sealant",
@@ -3682,7 +3918,8 @@
           ],
           "ai": {
             "notes": "Use when skylight surrounds show surface aging."
-          }
+          },
+          "canonical_subsection_id": "roof_penetrations"
         },
         {
           "id": "gutter-spikes-loose",
@@ -3698,7 +3935,8 @@
           ],
           "ai": {
             "notes": "Use when spikes are visibly loose or pulling away."
-          }
+          },
+          "canonical_subsection_id": "roof_drainage_gutters"
         },
         {
           "id": "gutter-overflow",
@@ -3714,7 +3952,8 @@
           ],
           "ai": {
             "notes": "Use when staining, water marks, or debris indicate overflow."
-          }
+          },
+          "canonical_subsection_id": "roof_drainage_gutters"
         },
         {
           "id": "downspout-missing-extensions",
@@ -3730,7 +3969,8 @@
           ],
           "ai": {
             "notes": "Use when extensions do not carry water away properly."
-          }
+          },
+          "canonical_subsection_id": "roof_drainage_gutters"
         },
         {
           "id": "downspout-too-close-foundation",
@@ -3746,7 +3986,8 @@
           ],
           "ai": {
             "notes": "Use when downspout discharge is within 3\u20134 feet of the foundation."
-          }
+          },
+          "canonical_subsection_id": "roof_drainage_gutters"
         },
         {
           "id": "gutters-sagging",
@@ -3762,7 +4003,8 @@
           ],
           "ai": {
             "notes": "Use when gutter slope is visibly incorrect."
-          }
+          },
+          "canonical_subsection_id": "roof_drainage_gutters"
         },
         {
           "id": "satellite-dish-removal",
@@ -3777,7 +4019,8 @@
           ],
           "ai": {
             "notes": "Use when unused dish hardware is present."
-          }
+          },
+          "canonical_subsection_id": "roof_coverings"
         },
         {
           "id": "satellite-bracket-seal",
@@ -3793,7 +4036,8 @@
           ],
           "ai": {
             "notes": "Use when brackets remain after dish removal."
-          }
+          },
+          "canonical_subsection_id": "roof_coverings"
         }
       ]
     },
@@ -3812,7 +4056,8 @@
             "foundation",
             "settlement",
             "monitor"
-          ]
+          ],
+          "canonical_subsection_id": "foundations"
         },
         {
           "id": "foundation-major-settlement",
@@ -3826,7 +4071,8 @@
             "foundation",
             "settlement",
             "repair"
-          ]
+          ],
+          "canonical_subsection_id": "foundations"
         },
         {
           "id": "foundation-large-cracks",
@@ -3840,7 +4086,8 @@
             "foundation",
             "cracks",
             "monitor"
-          ]
+          ],
+          "canonical_subsection_id": "foundations"
         },
         {
           "id": "foundation-leaning-wall",
@@ -3853,7 +4100,8 @@
           "tags": [
             "foundation",
             "leaning wall"
-          ]
+          ],
+          "canonical_subsection_id": "foundations"
         },
         {
           "id": "foundation-water-staining",
@@ -3866,7 +4114,8 @@
           "tags": [
             "foundation",
             "water staining"
-          ]
+          ],
+          "canonical_subsection_id": "foundations"
         },
         {
           "id": "foundation-efflorescence",
@@ -3879,7 +4128,8 @@
           "tags": [
             "foundation",
             "efflorescence"
-          ]
+          ],
+          "canonical_subsection_id": "foundations"
         },
         {
           "id": "floor-typical-wear",
@@ -3892,7 +4142,8 @@
           "tags": [
             "floor structure",
             "typical"
-          ]
+          ],
+          "canonical_subsection_id": "floor_structure"
         },
         {
           "id": "floor-sagging",
@@ -3905,7 +4156,8 @@
           "tags": [
             "floor",
             "sagging"
-          ]
+          ],
+          "canonical_subsection_id": "floor_structure"
         },
         {
           "id": "floor-broken-beam",
@@ -3919,7 +4171,8 @@
             "floor structure",
             "beam",
             "repair"
-          ]
+          ],
+          "canonical_subsection_id": "floor_structure"
         },
         {
           "id": "floor-joists-sistered-short",
@@ -3933,7 +4186,8 @@
             "joists",
             "sistered",
             "repair"
-          ]
+          ],
+          "canonical_subsection_id": "floor_structure"
         },
         {
           "id": "floor-support-post-not-plumb",
@@ -3946,7 +4200,8 @@
           "tags": [
             "support post",
             "monitor"
-          ]
+          ],
+          "canonical_subsection_id": "floor_structure"
         },
         {
           "id": "wall-typical-settlement",
@@ -3959,7 +4214,8 @@
           "tags": [
             "wall",
             "settlement"
-          ]
+          ],
+          "canonical_subsection_id": "wall_structure"
         },
         {
           "id": "wall-cracks-larger",
@@ -3972,7 +4228,8 @@
           "tags": [
             "wall",
             "cracks"
-          ]
+          ],
+          "canonical_subsection_id": "wall_structure"
         },
         {
           "id": "wall-reinforced-ibeams",
@@ -3985,7 +4242,8 @@
           "tags": [
             "foundation",
             "I-beams"
-          ]
+          ],
+          "canonical_subsection_id": "wall_structure"
         },
         {
           "id": "roof-typical-conditions",
@@ -3997,7 +4255,8 @@
           ],
           "tags": [
             "roof structure"
-          ]
+          ],
+          "canonical_subsection_id": "roof_structure"
         },
         {
           "id": "roof-sagging-ridge",
@@ -4010,7 +4269,8 @@
           "tags": [
             "roof",
             "ridge sag"
-          ]
+          ],
+          "canonical_subsection_id": "roof_structure"
         },
         {
           "id": "roof-truss-modified",
@@ -4023,7 +4283,8 @@
           "tags": [
             "roof truss",
             "modification"
-          ]
+          ],
+          "canonical_subsection_id": "roof_structure"
         },
         {
           "id": "wdi-no-evidence",
@@ -4035,7 +4296,8 @@
           ],
           "tags": [
             "WDI"
-          ]
+          ],
+          "canonical_subsection_id": "foundations"
         },
         {
           "id": "wdi-evidence-previous",
@@ -4048,7 +4310,8 @@
           "tags": [
             "WDI",
             "previous activity"
-          ]
+          ],
+          "canonical_subsection_id": "foundations"
         },
         {
           "id": "wdi-damage",
@@ -4061,7 +4324,8 @@
           "tags": [
             "WDI",
             "damage"
-          ]
+          ],
+          "canonical_subsection_id": "foundations"
         },
         {
           "id": "crawlspace-limited-access",
@@ -4074,7 +4338,8 @@
           "tags": [
             "crawlspace",
             "limitation"
-          ]
+          ],
+          "canonical_subsection_id": "crawlspace_basement_access"
         },
         {
           "id": "crawlspace-moisture",
@@ -4087,7 +4352,8 @@
           "tags": [
             "crawlspace",
             "moisture"
-          ]
+          ],
+          "canonical_subsection_id": "crawlspace_basement_access"
         },
         {
           "id": "crawlspace-wood-damage",
@@ -4100,7 +4366,8 @@
           "tags": [
             "crawlspace",
             "wood damage"
-          ]
+          ],
+          "canonical_subsection_id": "crawlspace_basement_access"
         },
         {
           "id": "leakage-typical-cracks",
@@ -4113,7 +4380,8 @@
           "tags": [
             "leakage",
             "basement"
-          ]
+          ],
+          "canonical_subsection_id": "crawlspace_basement_access"
         },
         {
           "id": "leakage-active",
@@ -4126,7 +4394,8 @@
           "tags": [
             "leakage",
             "active"
-          ]
+          ],
+          "canonical_subsection_id": "crawlspace_basement_access"
         },
         {
           "id": "tip-monitor-changes",
@@ -4172,7 +4441,8 @@
           ],
           "ai": {
             "notes": "Fill in amperage and overhead/underground when known."
-          }
+          },
+          "canonical_subsection_id": "meter_service_equipment"
         },
         {
           "id": "service-typical-condition",
@@ -4185,7 +4455,8 @@
           "tags": [
             "service",
             "condition"
-          ]
+          ],
+          "canonical_subsection_id": "meter_service_equipment"
         },
         {
           "id": "service-rust-meter-base",
@@ -4202,7 +4473,8 @@
           ],
           "ai": {
             "notes": "Upgrade to a repair comment if corrosion appears severe or is clearly damaging components."
-          }
+          },
+          "canonical_subsection_id": "meter_service_equipment"
         },
         {
           "id": "service-clearance-issue",
@@ -4215,7 +4487,8 @@
           "tags": [
             "service drop",
             "clearance"
-          ]
+          ],
+          "canonical_subsection_id": "meter_service_equipment"
         },
         {
           "id": "service-upgrade-deferred-cost",
@@ -4228,7 +4501,8 @@
           "tags": [
             "service size",
             "deferred cost"
-          ]
+          ],
+          "canonical_subsection_id": "meter_service_equipment"
         },
         {
           "id": "panel-general-note",
@@ -4241,7 +4515,8 @@
           "tags": [
             "panel",
             "note"
-          ]
+          ],
+          "canonical_subsection_id": "subpanels"
         },
         {
           "id": "panel-no-dead-front",
@@ -4255,7 +4530,8 @@
             "panel",
             "dead front",
             "safety"
-          ]
+          ],
+          "canonical_subsection_id": "subpanels"
         },
         {
           "id": "panel-open-knockouts",
@@ -4269,7 +4545,8 @@
             "panel",
             "knockout",
             "filler"
-          ]
+          ],
+          "canonical_subsection_id": "subpanels"
         },
         {
           "id": "panel-doubled-taps",
@@ -4282,7 +4559,8 @@
           "tags": [
             "panel",
             "double tap"
-          ]
+          ],
+          "canonical_subsection_id": "subpanels"
         },
         {
           "id": "panel-oversized-breaker",
@@ -4296,7 +4574,8 @@
             "panel",
             "breaker",
             "oversized"
-          ]
+          ],
+          "canonical_subsection_id": "subpanels"
         },
         {
           "id": "panel-labeling-missing",
@@ -4309,7 +4588,8 @@
           "tags": [
             "panel",
             "labeling"
-          ]
+          ],
+          "canonical_subsection_id": "subpanels"
         },
         {
           "id": "subpanel-neutrals-and-grounds-separated",
@@ -4323,7 +4603,8 @@
             "subpanel",
             "neutrals",
             "grounds"
-          ]
+          ],
+          "canonical_subsection_id": "subpanels"
         },
         {
           "id": "subpanel-grounds-bundled",
@@ -4340,7 +4621,8 @@
           ],
           "ai": {
             "notes": "Paraphrases your prior comment about grounds bound together with house ground in the garage subpanel."
-          }
+          },
+          "canonical_subsection_id": "subpanels"
         },
         {
           "id": "wiring-typical-note",
@@ -4353,7 +4635,8 @@
           "tags": [
             "wiring",
             "note"
-          ]
+          ],
+          "canonical_subsection_id": "branch_wiring"
         },
         {
           "id": "wiring-open-junction-box",
@@ -4366,7 +4649,8 @@
           "tags": [
             "junction box",
             "cover"
-          ]
+          ],
+          "canonical_subsection_id": "branch_wiring"
         },
         {
           "id": "wiring-splices-outside-box",
@@ -4379,7 +4663,8 @@
           "tags": [
             "splices",
             "junction box"
-          ]
+          ],
+          "canonical_subsection_id": "branch_wiring"
         },
         {
           "id": "wiring-damaged",
@@ -4392,7 +4677,8 @@
           "tags": [
             "wiring",
             "damage"
-          ]
+          ],
+          "canonical_subsection_id": "branch_wiring"
         },
         {
           "id": "wiring-old-cloth",
@@ -4405,7 +4691,8 @@
           "tags": [
             "cloth wire",
             "old wiring"
-          ]
+          ],
+          "canonical_subsection_id": "branch_wiring"
         },
         {
           "id": "wiring-aluminum-branch",
@@ -4420,7 +4707,8 @@
           ],
           "ai": {
             "notes": "Use only if you actually see older aluminum branch wiring, not just service entrance cable."
-          }
+          },
+          "canonical_subsection_id": "branch_wiring"
         },
         {
           "id": "wiring-stapling-support",
@@ -4434,7 +4722,8 @@
             "wiring",
             "support",
             "protection"
-          ]
+          ],
+          "canonical_subsection_id": "branch_wiring"
         },
         {
           "id": "grounding-general-note",
@@ -4447,7 +4736,8 @@
           "tags": [
             "grounding",
             "note"
-          ]
+          ],
+          "canonical_subsection_id": "main_panel"
         },
         {
           "id": "grounding-electrode-not-visible",
@@ -4460,7 +4750,8 @@
           "tags": [
             "ground rod",
             "limitation"
-          ]
+          ],
+          "canonical_subsection_id": "main_panel"
         },
         {
           "id": "grounding-clamp-loose-or-corroded",
@@ -4474,7 +4765,8 @@
             "grounding",
             "clamp",
             "corrosion"
-          ]
+          ],
+          "canonical_subsection_id": "main_panel"
         },
         {
           "id": "bonding-water-piping-missing",
@@ -4487,7 +4779,8 @@
           "tags": [
             "bonding",
             "water piping"
-          ]
+          ],
+          "canonical_subsection_id": "main_panel"
         },
         {
           "id": "receptacles-typical-note",
@@ -4501,7 +4794,8 @@
             "outlets",
             "switches",
             "fixtures"
-          ]
+          ],
+          "canonical_subsection_id": "outlets_switches"
         },
         {
           "id": "receptacle-open-ground",
@@ -4514,7 +4808,8 @@
           "tags": [
             "receptacle",
             "open ground"
-          ]
+          ],
+          "canonical_subsection_id": "outlets_switches"
         },
         {
           "id": "receptacle-reversed-polarity",
@@ -4527,7 +4822,8 @@
           "tags": [
             "receptacle",
             "reversed polarity"
-          ]
+          ],
+          "canonical_subsection_id": "outlets_switches"
         },
         {
           "id": "receptacle-loose",
@@ -4540,7 +4836,8 @@
           "tags": [
             "receptacle",
             "loose"
-          ]
+          ],
+          "canonical_subsection_id": "outlets_switches"
         },
         {
           "id": "switch-hot-to-touch",
@@ -4557,7 +4854,8 @@
           ],
           "ai": {
             "notes": "Matches your basement stair switch that was excessively hot."
-          }
+          },
+          "canonical_subsection_id": "outlets_switches"
         },
         {
           "id": "three-way-wired-incorrectly",
@@ -4571,7 +4869,8 @@
             "3-way",
             "switch",
             "wiring"
-          ]
+          ],
+          "canonical_subsection_id": "outlets_switches"
         },
         {
           "id": "fixture-inoperative",
@@ -4584,7 +4883,8 @@
           "tags": [
             "fixture",
             "inoperative"
-          ]
+          ],
+          "canonical_subsection_id": "outlets_switches"
         },
         {
           "id": "exterior-gfci-missing-or-not-working",
@@ -4598,7 +4898,8 @@
             "GFCI",
             "exterior",
             "safety"
-          ]
+          ],
+          "canonical_subsection_id": "outlets_switches"
         },
         {
           "id": "bath-kitchen-gfci-missing",
@@ -4611,7 +4912,8 @@
           "tags": [
             "GFCI",
             "recommendation"
-          ]
+          ],
+          "canonical_subsection_id": "outlets_switches"
         },
         {
           "id": "smoke-detectors-general-note",
@@ -4624,7 +4926,8 @@
           "tags": [
             "smoke detectors",
             "note"
-          ]
+          ],
+          "canonical_subsection_id": "smoke_co_detectors"
         },
         {
           "id": "smoke-detectors-missing-or-insufficient",
@@ -4638,7 +4941,8 @@
             "smoke detectors",
             "missing",
             "safety"
-          ]
+          ],
+          "canonical_subsection_id": "smoke_co_detectors"
         },
         {
           "id": "co-detectors-missing",
@@ -4652,7 +4956,8 @@
             "CO detector",
             "missing",
             "safety"
-          ]
+          ],
+          "canonical_subsection_id": "smoke_co_detectors"
         },
         {
           "id": "detectors-old",
@@ -4665,7 +4970,8 @@
           "tags": [
             "detectors",
             "age"
-          ]
+          ],
+          "canonical_subsection_id": "smoke_co_detectors"
         },
         {
           "id": "electrical-limitation-concealed",
@@ -4752,7 +5058,8 @@
           ],
           "ai": {
             "notes": "Fill in system type, fuel type (usually electric), and location."
-          }
+          },
+          "canonical_subsection_id": "condensate_drainage"
         },
         {
           "id": "cooling-typical-condition",
@@ -4765,7 +5072,8 @@
           "tags": [
             "cooling",
             "condition"
-          ]
+          ],
+          "canonical_subsection_id": "condensate_drainage"
         },
         {
           "id": "cooling-not-tested-cold-weather-50",
@@ -4782,7 +5090,8 @@
           ],
           "ai": {
             "notes": "Directly based on Meadowbrook: 'If outside temperature is below 50 degrees, then system is not tested.'"
-          }
+          },
+          "canonical_subsection_id": "condensate_drainage"
         },
         {
           "id": "cooling-limited-test-below-60",
@@ -4796,7 +5105,8 @@
             "cooling",
             "limitation",
             "temperature"
-          ]
+          ],
+          "canonical_subsection_id": "condensate_drainage"
         },
         {
           "id": "cooling-inoperative",
@@ -4809,7 +5119,8 @@
           "tags": [
             "cooling",
             "inoperative"
-          ]
+          ],
+          "canonical_subsection_id": "condensate_drainage"
         },
         {
           "id": "cooling-old-system-deferred-cost",
@@ -4826,7 +5137,8 @@
           ],
           "ai": {
             "notes": "Paraphrased from Meadowbrook 'old' deferred cost bullet."
-          }
+          },
+          "canonical_subsection_id": "condensate_drainage"
         },
         {
           "id": "cooling-middle-aged-deferred-cost",
@@ -4843,7 +5155,8 @@
           ],
           "ai": {
             "notes": "Based on Meadowbrook 'relatively middle aged' deferred cost text."
-          }
+          },
+          "canonical_subsection_id": "condensate_drainage"
         },
         {
           "id": "cooling-low-temp-drop",
@@ -4860,7 +5173,8 @@
           ],
           "ai": {
             "notes": "Use when your measured delta-T is below the normal range from Meadowbrook chart."
-          }
+          },
+          "canonical_subsection_id": "condensate_drainage"
         },
         {
           "id": "cooling-undersized-capacity",
@@ -4877,7 +5191,8 @@
           ],
           "ai": {
             "notes": "Directly patterned on Meadowbrook 'capacity undersized and may prove to be marginal' bullet."
-          }
+          },
+          "canonical_subsection_id": "condensate_drainage"
         },
         {
           "id": "cooling-oversized-short-cycling",
@@ -4891,7 +5206,8 @@
             "cooling",
             "capacity",
             "oversized"
-          ]
+          ],
+          "canonical_subsection_id": "condensate_drainage"
         },
         {
           "id": "cooling-r22-refrigerant",
@@ -4908,7 +5224,8 @@
           ],
           "ai": {
             "notes": "Based on Meadowbrook note about R-22 systems."
-          }
+          },
+          "canonical_subsection_id": "condensate_drainage"
         },
         {
           "id": "cooling-refrigerant-line-insulation",
@@ -4924,7 +5241,8 @@
           ],
           "ai": {
             "notes": "From Meadowbrook: 'Damaged and missing insulation on refrigerant lines should be repaired... all the way to the compressor unit.'"
-          }
+          },
+          "canonical_subsection_id": "condensate_drainage"
         },
         {
           "id": "cooling-condenser-out-of-level",
@@ -4937,7 +5255,8 @@
           "tags": [
             "condenser",
             "level"
-          ]
+          ],
+          "canonical_subsection_id": "condensate_drainage"
         },
         {
           "id": "cooling-condenser-needs-cleaning",
@@ -4950,7 +5269,8 @@
           "tags": [
             "condenser",
             "cleaning"
-          ]
+          ],
+          "canonical_subsection_id": "condensate_drainage"
         },
         {
           "id": "cooling-fins-damaged",
@@ -4964,7 +5284,8 @@
             "condenser",
             "fins",
             "damage"
-          ]
+          ],
+          "canonical_subsection_id": "condensate_drainage"
         },
         {
           "id": "cooling-unit-noisy",
@@ -4977,7 +5298,8 @@
           "tags": [
             "condenser",
             "noise"
-          ]
+          ],
+          "canonical_subsection_id": "condensate_drainage"
         },
         {
           "id": "cooling-vegetation-clearance",
@@ -4990,7 +5312,8 @@
           "tags": [
             "condenser",
             "vegetation"
-          ]
+          ],
+          "canonical_subsection_id": "condensate_drainage"
         },
         {
           "id": "cooling-disconnect-missing",
@@ -5006,7 +5329,8 @@
           ],
           "ai": {
             "notes": "Based on Meadowbrook: 'Electrical disconnect is missing for the AC unit... We recommend a shut off be in place.'"
-          }
+          },
+          "canonical_subsection_id": "condensate_drainage"
         },
         {
           "id": "cooling-annual-service-tip",
@@ -5098,7 +5422,8 @@
           "tags": [
             "range",
             "operational"
-          ]
+          ],
+          "canonical_subsection_id": "range_cooktop_oven"
         },
         {
           "id": "range-burner-igniter-not-working",
@@ -5114,7 +5439,8 @@
           ],
           "ai": {
             "notes": "Use when a gas burner will light with a match but the igniter fails."
-          }
+          },
+          "canonical_subsection_id": "range_cooktop_oven"
         },
         {
           "id": "range-igniter-keeps-sparking",
@@ -5130,7 +5456,8 @@
           ],
           "ai": {
             "notes": "Use for comment you\u2019ve used before: starter does not stop sparking after burners are lit."
-          }
+          },
+          "canonical_subsection_id": "range_cooktop_oven"
         },
         {
           "id": "range-anti-tip-missing",
@@ -5144,7 +5471,8 @@
             "range",
             "anti-tip",
             "safety"
-          ]
+          ],
+          "canonical_subsection_id": "range_cooktop_oven"
         },
         {
           "id": "refrigerator-not-inspected-personal",
@@ -5160,7 +5488,8 @@
           ],
           "ai": {
             "notes": "Use by default when refrigerator is not clearly included with the sale."
-          }
+          },
+          "canonical_subsection_id": "refrigerator_included"
         },
         {
           "id": "refrigerator-operational-basic",
@@ -5176,7 +5505,8 @@
           ],
           "ai": {
             "notes": "Use when you did perform a basic test."
-          }
+          },
+          "canonical_subsection_id": "refrigerator_included"
         },
         {
           "id": "microwave-operational",
@@ -5189,7 +5519,8 @@
           "tags": [
             "microwave",
             "operational"
-          ]
+          ],
+          "canonical_subsection_id": "microwave_builtin"
         },
         {
           "id": "microwave-not-tested-countertop",
@@ -5203,7 +5534,8 @@
             "microwave",
             "portable",
             "limitation"
-          ]
+          ],
+          "canonical_subsection_id": "microwave_builtin"
         },
         {
           "id": "disposer-operational",
@@ -5216,7 +5548,8 @@
           "tags": [
             "disposer",
             "operational"
-          ]
+          ],
+          "canonical_subsection_id": "other_builtin_appliances"
         },
         {
           "id": "disposer-debris",
@@ -5232,7 +5565,8 @@
           ],
           "ai": {
             "notes": "Use for your frequent 'debris in disposer' / 'debris in disposal' observation."
-          }
+          },
+          "canonical_subsection_id": "other_builtin_appliances"
         },
         {
           "id": "disposer-leaking",
@@ -5245,7 +5579,8 @@
           "tags": [
             "disposer",
             "leak"
-          ]
+          ],
+          "canonical_subsection_id": "other_builtin_appliances"
         },
         {
           "id": "cooktop-operational",
@@ -5258,7 +5593,8 @@
           "tags": [
             "cooktop",
             "operational"
-          ]
+          ],
+          "canonical_subsection_id": "range_cooktop_oven"
         },
         {
           "id": "cooktop-igniter-inoperative",
@@ -5274,7 +5610,8 @@
           ],
           "ai": {
             "notes": "Matches the comment you\u2019ve used: automatic igniter did not function during testing."
-          }
+          },
+          "canonical_subsection_id": "range_cooktop_oven"
         },
         {
           "id": "cooktop-breaker-off-note",
@@ -5290,7 +5627,8 @@
           ],
           "ai": {
             "notes": "Use when you find the breaker off and choose not to energize."
-          }
+          },
+          "canonical_subsection_id": "range_cooktop_oven"
         },
         {
           "id": "oven-operational-basic",
@@ -5303,7 +5641,8 @@
           "tags": [
             "oven",
             "operational"
-          ]
+          ],
+          "canonical_subsection_id": "range_cooktop_oven"
         },
         {
           "id": "oven-not-tested",
@@ -5319,7 +5658,8 @@
           ],
           "ai": {
             "notes": "Inspector should fill in the reason: items stored inside, power off, etc."
-          }
+          },
+          "canonical_subsection_id": "range_cooktop_oven"
         },
         {
           "id": "washer-not-inspected-personal",
@@ -5335,7 +5675,8 @@
           ],
           "ai": {
             "notes": "Use as your default stance since you only occasionally inspect laundry appliances."
-          }
+          },
+          "canonical_subsection_id": "washer_dryer_inspected"
         },
         {
           "id": "washer-operational-basic",
@@ -5351,7 +5692,8 @@
           ],
           "ai": {
             "notes": "Use when you *do* test the washer."
-          }
+          },
+          "canonical_subsection_id": "washer_dryer_inspected"
         },
         {
           "id": "washer-drain-pan-recommended",
@@ -5368,7 +5710,8 @@
           ],
           "ai": {
             "notes": "Use when the washer is above finished flooring or over drywall/paneling rather than bare concrete."
-          }
+          },
+          "canonical_subsection_id": "washer_dryer_inspected"
         },
         {
           "id": "dryer-not-inspected-personal",
@@ -5381,7 +5724,8 @@
           "tags": [
             "dryer",
             "limitation"
-          ]
+          ],
+          "canonical_subsection_id": "washer_dryer_inspected"
         },
         {
           "id": "dryer-operational-basic",
@@ -5394,7 +5738,8 @@
           "tags": [
             "dryer",
             "operational"
-          ]
+          ],
+          "canonical_subsection_id": "washer_dryer_inspected"
         },
         {
           "id": "dryer-venting-concern",
@@ -5410,7 +5755,8 @@
           ],
           "ai": {
             "notes": "You can tweak the specific issue when you insert it."
-          }
+          },
+          "canonical_subsection_id": "washer_dryer_inspected"
         },
         {
           "id": "doorbell-operational",
@@ -5423,7 +5769,8 @@
           "tags": [
             "door bell",
             "operational"
-          ]
+          ],
+          "canonical_subsection_id": "other_builtin_appliances"
         },
         {
           "id": "doorbell-inoperative",
@@ -5436,7 +5783,8 @@
           "tags": [
             "door bell",
             "inoperative"
-          ]
+          ],
+          "canonical_subsection_id": "other_builtin_appliances"
         },
         {
           "id": "compactor-not-present",
@@ -5449,7 +5797,8 @@
           "tags": [
             "trash compactor",
             "not present"
-          ]
+          ],
+          "canonical_subsection_id": "other_builtin_appliances"
         },
         {
           "id": "compactor-not-tested",
@@ -5462,7 +5811,8 @@
           "tags": [
             "trash compactor",
             "limitation"
-          ]
+          ],
+          "canonical_subsection_id": "other_builtin_appliances"
         },
         {
           "id": "exhaust-operational",
@@ -5475,7 +5825,8 @@
           "tags": [
             "kitchen exhaust",
             "operational"
-          ]
+          ],
+          "canonical_subsection_id": "other_builtin_appliances"
         },
         {
           "id": "exhaust-vents-indoors",
@@ -5491,7 +5842,8 @@
           ],
           "ai": {
             "notes": "Use for over-the-range microwaves or hoods that don\u2019t vent outside."
-          }
+          },
+          "canonical_subsection_id": "other_builtin_appliances"
         },
         {
           "id": "dishwasher-operational",
@@ -5504,7 +5856,8 @@
           "tags": [
             "dishwasher",
             "operational"
-          ]
+          ],
+          "canonical_subsection_id": "dishwasher"
         },
         {
           "id": "dishwasher-supplied-cold-water",
@@ -5520,7 +5873,8 @@
           ],
           "ai": {
             "notes": "Matches your prior comment about dishwasher on cold water, upgraded to repair if you want."
-          }
+          },
+          "canonical_subsection_id": "dishwasher"
         },
         {
           "id": "dishwasher-leak",
@@ -5533,7 +5887,8 @@
           "tags": [
             "dishwasher",
             "leak"
-          ]
+          ],
+          "canonical_subsection_id": "dishwasher"
         },
         {
           "id": "dishwasher-air-gap-or-high-loop",
@@ -5549,7 +5904,8 @@
           ],
           "ai": {
             "notes": "Use when the drain line is low under the sink."
-          }
+          },
+          "canonical_subsection_id": "dishwasher"
         },
         {
           "id": "appliance-future-maintenance-tip",
@@ -5583,7 +5939,8 @@
           ],
           "ai": {
             "notes": "Use when insulation depth appears typical for the area and no defects are visible."
-          }
+          },
+          "canonical_subsection_id": "attic_insulation"
         },
         {
           "id": "attic-insulation-good",
@@ -5599,7 +5956,8 @@
           ],
           "ai": {
             "notes": "Use when insulation appears above average depth or coverage."
-          }
+          },
+          "canonical_subsection_id": "attic_insulation"
         },
         {
           "id": "attic-insulation-improve-general",
@@ -5615,7 +5973,8 @@
           ],
           "ai": {
             "notes": "Use when insulation is adequate but additional depth could improve efficiency."
-          }
+          },
+          "canonical_subsection_id": "attic_insulation"
         },
         {
           "id": "attic-access-door-insulation",
@@ -5632,7 +5991,8 @@
           ],
           "ai": {
             "notes": "Use when the attic hatch or door is uninsulated or poorly insulated."
-          }
+          },
+          "canonical_subsection_id": "attic_insulation"
         },
         {
           "id": "attic-insulation-uneven",
@@ -5649,7 +6009,8 @@
           ],
           "ai": {
             "notes": "Use when insulation is disrupted, displaced, or significantly compressed in spots."
-          }
+          },
+          "canonical_subsection_id": "attic_insulation"
         },
         {
           "id": "attic-insulation-missing",
@@ -5666,7 +6027,8 @@
           ],
           "ai": {
             "notes": "Use when portions of the attic have no insulation or obvious gaps in coverage."
-          }
+          },
+          "canonical_subsection_id": "attic_insulation"
         },
         {
           "id": "attic-duct-insulation",
@@ -5683,7 +6045,8 @@
           ],
           "ai": {
             "notes": "Use when supply or return ducts in the attic lack adequate insulation."
-          }
+          },
+          "canonical_subsection_id": "attic_insulation"
         },
         {
           "id": "attic-vermiculite-monitor",
@@ -5700,7 +6063,8 @@
           ],
           "ai": {
             "notes": "Use when loose-fill insulation resembles vermiculite. Do not state that asbestos is present unless confirmed by testing."
-          }
+          },
+          "canonical_subsection_id": "attic_insulation"
         },
         {
           "id": "attic-recessed-lights-safety",
@@ -5718,7 +6082,8 @@
           ],
           "ai": {
             "notes": "Use when insulation covers recessed light fixtures that are not clearly rated for insulation contact."
-          }
+          },
+          "canonical_subsection_id": "attic_insulation"
         },
         {
           "id": "attic-visibility-limited",
@@ -5732,7 +6097,8 @@
             "insulation",
             "attic",
             "limitation"
-          ]
+          ],
+          "canonical_subsection_id": "attic_insulation"
         },
         {
           "id": "attic-access-limited",
@@ -5746,7 +6112,8 @@
             "insulation",
             "attic",
             "limitation"
-          ]
+          ],
+          "canonical_subsection_id": "attic_insulation"
         },
         {
           "id": "crawlspace-insulation-improve",
@@ -5762,7 +6129,8 @@
           ],
           "ai": {
             "notes": "Use when there is some insulation present but opportunities exist to add more for comfort/efficiency."
-          }
+          },
+          "canonical_subsection_id": "wall_floor_insulation_visible"
         },
         {
           "id": "rim-joist-insulation",
@@ -5780,7 +6148,8 @@
           ],
           "ai": {
             "notes": "Use when rim joist areas are uninsulated or minimally insulated."
-          }
+          },
+          "canonical_subsection_id": "wall_floor_insulation_visible"
         },
         {
           "id": "crawlspace-insulation-damaged",
@@ -5798,7 +6167,8 @@
           ],
           "ai": {
             "notes": "Use when insulation is hanging loose, deteriorated, or missing backing."
-          }
+          },
+          "canonical_subsection_id": "wall_floor_insulation_visible"
         },
         {
           "id": "plumbing-pipe-insulation",
@@ -5816,7 +6186,8 @@
           ],
           "ai": {
             "notes": "Use when water supply pipes are exposed in areas subject to freezing."
-          }
+          },
+          "canonical_subsection_id": "wall_floor_insulation_visible"
         },
         {
           "id": "crawlspace-duct-insulation",
@@ -5834,7 +6205,8 @@
           ],
           "ai": {
             "notes": "Use when supply/return ducts in these areas have little or no insulation."
-          }
+          },
+          "canonical_subsection_id": "wall_floor_insulation_visible"
         },
         {
           "id": "crawlspace-ventilation-inadequate",
@@ -5850,7 +6222,8 @@
           ],
           "ai": {
             "notes": "Use when there are few or no vents, or vents appear undersized for crawlspace area."
-          }
+          },
+          "canonical_subsection_id": "wall_floor_insulation_visible"
         },
         {
           "id": "crawlspace-vents-obstructed",
@@ -5867,7 +6240,8 @@
           ],
           "ai": {
             "notes": "Use when vents are blocked by vegetation, debris, or stored items."
-          }
+          },
+          "canonical_subsection_id": "wall_floor_insulation_visible"
         },
         {
           "id": "crawlspace-moisture-barrier",
@@ -5883,7 +6257,8 @@
           ],
           "ai": {
             "notes": "Use when bare soil is exposed on the crawlspace floor and no vapor barrier is present."
-          }
+          },
+          "canonical_subsection_id": "wall_floor_insulation_visible"
         },
         {
           "id": "foam-board-insulation-safety",
@@ -5901,7 +6276,8 @@
           ],
           "ai": {
             "notes": "Use when rigid foam insulation is exposed without a proper fire barrier."
-          }
+          },
+          "canonical_subsection_id": "wall_floor_insulation_visible"
         },
         {
           "id": "evidence-of-vermin-activity",
@@ -5920,7 +6296,8 @@
           ],
           "ai": {
             "notes": "Use when droppings, nesting, or gnaw marks are visible."
-          }
+          },
+          "canonical_subsection_id": "wall_floor_insulation_visible"
         },
         {
           "id": "floor-insulation-improve",
@@ -5936,7 +6313,8 @@
           ],
           "ai": {
             "notes": "Use when floors over unconditioned space feel cool and insulation is minimal or absent."
-          }
+          },
+          "canonical_subsection_id": "wall_floor_insulation_visible"
         },
         {
           "id": "attic-roof-ventilation-improve",
@@ -5953,7 +6331,8 @@
           ],
           "ai": {
             "notes": "Use when intake/exhaust venting appears limited or unbalanced for the attic area."
-          }
+          },
+          "canonical_subsection_id": "attic_ventilation"
         },
         {
           "id": "soffit-vents-obstructed",
@@ -5970,7 +6349,8 @@
           ],
           "ai": {
             "notes": "Use when insulation or debris is blocking soffit vent openings."
-          }
+          },
+          "canonical_subsection_id": "attic_ventilation"
         },
         {
           "id": "roof-vents-unscreened",
@@ -5988,7 +6368,8 @@
           ],
           "ai": {
             "notes": "Use when open vent terminations lack screens or covers where pests could enter."
-          }
+          },
+          "canonical_subsection_id": "attic_ventilation"
         },
         {
           "id": "cathedral-ceilings-monitor",
@@ -6004,7 +6385,8 @@
           ],
           "ai": {
             "notes": "Use when rooms have vaulted or cathedral ceilings with limited visible venting."
-          }
+          },
+          "canonical_subsection_id": "attic_ventilation"
         },
         {
           "id": "bath-fan-inoperable",
@@ -6021,7 +6403,8 @@
           ],
           "ai": {
             "notes": "Use when the fan does not respond to normal controls during testing."
-          }
+          },
+          "canonical_subsection_id": "attic_ventilation"
         },
         {
           "id": "attic-fan-inoperable",
@@ -6038,7 +6421,8 @@
           ],
           "ai": {
             "notes": "Use when motorized attic fans do not operate using accessible controls or thermostats."
-          }
+          },
+          "canonical_subsection_id": "attic_ventilation"
         },
         {
           "id": "bath-fan-vents-into-attic",
@@ -6055,7 +6439,8 @@
           ],
           "ai": {
             "notes": "Use when exhaust ducts terminate in the attic or other concealed cavities instead of outdoors."
-          }
+          },
+          "canonical_subsection_id": "attic_ventilation"
         },
         {
           "id": "dryer-vent-limited-visibility",
@@ -6106,7 +6491,8 @@
             "radon",
             "testing",
             "air quality"
-          ]
+          ],
+          "canonical_subsection_id": "additional_services_recommended"
         },
         {
           "id": "addsvc-sewer-cam",
@@ -6120,7 +6506,8 @@
             "sewer",
             "camera",
             "underground piping"
-          ]
+          ],
+          "canonical_subsection_id": "additional_services_recommended"
         },
         {
           "id": "addsvc-mold-air-test",
@@ -6134,7 +6521,8 @@
             "mold",
             "air test",
             "indoor air quality"
-          ]
+          ],
+          "canonical_subsection_id": "additional_services_recommended"
         }
       ]
     }
