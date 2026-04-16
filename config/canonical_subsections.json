@@ -1,0 +1,500 @@
+{
+  "schema_version": 1,
+  "description": "Canonical HomeScope section/subsection source of truth. Each subsection has a stable internal id, a report title, and legacy names from the current comment library.",
+  "sections": [
+    {
+      "id": "exterior",
+      "title": "Exterior",
+      "comment_file": "comments/masterlist.json",
+      "include_in_summary": true,
+      "subsections": [
+        {
+          "id": "site_grading",
+          "title": "Site / Grading",
+          "legacy_names": [
+            "Lot Drainage",
+            "Retaining Walls",
+            "Landscaping / Fence"
+          ]
+        },
+        {
+          "id": "driveways_walkways",
+          "title": "Driveways & Walkways",
+          "legacy_names": [
+            "Driveways",
+            "Walkways"
+          ]
+        },
+        {
+          "id": "porches_decks_patios",
+          "title": "Porches / Decks / Patios",
+          "legacy_names": [
+            "Porch / Deck / Patios",
+            "Steps"
+          ]
+        },
+        {
+          "id": "exterior_walls_trim",
+          "title": "Exterior Walls & Trim",
+          "legacy_names": [
+            "Exterior Walls",
+            "Eaves / Soffits / Fascias"
+          ]
+        },
+        {
+          "id": "exterior_doors",
+          "title": "Exterior Doors",
+          "legacy_names": [
+            "Exterior Doors / Windows"
+          ]
+        },
+        {
+          "id": "exterior_windows",
+          "title": "Exterior Windows",
+          "legacy_names": [
+            "Exterior Doors / Windows"
+          ]
+        },
+        {
+          "id": "garage_carport_exterior",
+          "title": "Garage / Carport (Exterior view)",
+          "legacy_names": [
+            "Garage / Carport"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "roofing",
+      "title": "Roofing",
+      "comment_file": "comments/masterlist.json",
+      "include_in_summary": true,
+      "subsections": [
+        {
+          "id": "roof_coverings",
+          "title": "Roof Coverings",
+          "legacy_names": [
+            "Roof Covering \u2013 Pitched Roof",
+            "Roof Covering \u2013 Flat Roof",
+            "Other Roofing Findings"
+          ]
+        },
+        {
+          "id": "flashings",
+          "title": "Flashings",
+          "legacy_names": [
+            "Flashing & Roof Penetrations"
+          ]
+        },
+        {
+          "id": "roof_penetrations",
+          "title": "Roof Penetrations",
+          "legacy_names": [
+            "Flashing & Roof Penetrations"
+          ]
+        },
+        {
+          "id": "roof_drainage_gutters",
+          "title": "Roof Drainage / Gutters",
+          "legacy_names": [
+            "Roof Drainage (Gutters & Downspouts)"
+          ]
+        },
+        {
+          "id": "chimneys_roof_view",
+          "title": "Chimneys (roof view)",
+          "legacy_names": []
+        }
+      ]
+    },
+    {
+      "id": "structure",
+      "title": "Structure",
+      "comment_file": "comments/masterlist.json",
+      "include_in_summary": true,
+      "subsections": [
+        {
+          "id": "foundations",
+          "title": "Foundations",
+          "legacy_names": [
+            "Foundation",
+            "Wood Destroying Insects"
+          ]
+        },
+        {
+          "id": "floor_structure",
+          "title": "Floor Structure",
+          "legacy_names": [
+            "Floor Structure"
+          ]
+        },
+        {
+          "id": "wall_structure",
+          "title": "Wall Structure",
+          "legacy_names": [
+            "Wall Structure"
+          ]
+        },
+        {
+          "id": "roof_structure",
+          "title": "Roof Structure",
+          "legacy_names": [
+            "Roof Structure"
+          ]
+        },
+        {
+          "id": "crawlspace_basement_access",
+          "title": "Crawlspace / Basement Access",
+          "legacy_names": [
+            "Crawl Space",
+            "Basement / Crawlspace Leakage"
+          ]
+        },
+        {
+          "id": "observed_settlement",
+          "title": "Observed Settlement",
+          "legacy_names": []
+        }
+      ]
+    },
+    {
+      "id": "additional_services",
+      "title": "Additional Services Recommended",
+      "comment_file": "comments/masterlist.json",
+      "include_in_summary": false,
+      "subsections": [
+        {
+          "id": "additional_services_recommended",
+          "title": "Additional Services Recommended",
+          "legacy_names": [
+            "Additional Services Recommended"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "heating",
+      "title": "Heating",
+      "comment_file": "comments/masterlist.json",
+      "include_in_summary": true,
+      "subsections": [
+        {
+          "id": "heating_equipment",
+          "title": "Heating Equipment",
+          "legacy_names": [
+            "Heating System"
+          ]
+        },
+        {
+          "id": "distribution_system",
+          "title": "Distribution System (ducts / radiators / baseboards)",
+          "legacy_names": [
+            "Ductwork and Exhaust"
+          ]
+        },
+        {
+          "id": "vents_flues_chimneys",
+          "title": "Vents / Flues / Chimneys",
+          "legacy_names": [
+            "Ductwork and Exhaust"
+          ]
+        },
+        {
+          "id": "thermostats",
+          "title": "Thermostats",
+          "legacy_names": []
+        }
+      ]
+    },
+    {
+      "id": "cooling",
+      "title": "Cooling",
+      "comment_file": "comments/masterlist.json",
+      "include_in_summary": true,
+      "subsections": [
+        {
+          "id": "cooling_equipment",
+          "title": "Cooling Equipment",
+          "legacy_names": [
+            "Cooling System"
+          ]
+        },
+        {
+          "id": "condenser_location",
+          "title": "Condenser Location",
+          "legacy_names": []
+        },
+        {
+          "id": "coils_air_handler",
+          "title": "Coils / Air Handler",
+          "legacy_names": [
+            "Cooling System"
+          ]
+        },
+        {
+          "id": "condensate_drainage",
+          "title": "Condensate Drainage",
+          "legacy_names": [
+            "Cooling System"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "insulation_ventilation",
+      "title": "Insulation & Ventilation",
+      "comment_file": "comments/masterlist.json",
+      "include_in_summary": false,
+      "subsections": [
+        {
+          "id": "attic_insulation",
+          "title": "Attic Insulation",
+          "legacy_names": [
+            "Attic Insulation"
+          ]
+        },
+        {
+          "id": "wall_floor_insulation_visible",
+          "title": "Wall / Floor Insulation (where visible)",
+          "legacy_names": [
+            "Crawlspace / Basement Insulation",
+            "Floor Insulation"
+          ]
+        },
+        {
+          "id": "attic_ventilation",
+          "title": "Attic Ventilation",
+          "legacy_names": [
+            "Attic & Roof Ventilation"
+          ]
+        },
+        {
+          "id": "crawlspace_ventilation",
+          "title": "Crawlspace Ventilation",
+          "legacy_names": []
+        },
+        {
+          "id": "air_sealing_bypasses",
+          "title": "Air Sealing / Bypasses",
+          "legacy_names": []
+        }
+      ]
+    },
+    {
+      "id": "plumbing",
+      "title": "Plumbing",
+      "comment_file": "comments/masterlist.json",
+      "include_in_summary": true,
+      "subsections": [
+        {
+          "id": "water_service_main_shutoff",
+          "title": "Water Service & Main Shutoff",
+          "legacy_names": [
+            "Supply Plumbing"
+          ]
+        },
+        {
+          "id": "interior_supply_piping",
+          "title": "Interior Supply Piping",
+          "legacy_names": [
+            "Supply Plumbing"
+          ]
+        },
+        {
+          "id": "waste_vent_piping",
+          "title": "Waste / Vent Piping",
+          "legacy_names": [
+            "Waste, Drain, and Vent Piping"
+          ]
+        },
+        {
+          "id": "water_heaters",
+          "title": "Water Heater(s)",
+          "legacy_names": [
+            "Water Heater"
+          ]
+        },
+        {
+          "id": "fixtures_faucets",
+          "title": "Fixtures & Faucets",
+          "legacy_names": [
+            "Plumbing Fixtures",
+            "Hose Bibs"
+          ]
+        },
+        {
+          "id": "sump_ejector_pumps",
+          "title": "Sump / Ejector Pumps",
+          "legacy_names": [
+            "Sump, Ejector, and Radon-Related Plumbing"
+          ]
+        },
+        {
+          "id": "private_water_sewer",
+          "title": "Private Water / Sewer (if applicable)",
+          "legacy_names": []
+        }
+      ]
+    },
+    {
+      "id": "electrical",
+      "title": "Electrical",
+      "comment_file": "comments/masterlist.json",
+      "include_in_summary": true,
+      "subsections": [
+        {
+          "id": "service_drop_lateral",
+          "title": "Service Drop / Lateral",
+          "legacy_names": [
+            "Electrical Service"
+          ]
+        },
+        {
+          "id": "meter_service_equipment",
+          "title": "Meter & Service Equipment",
+          "legacy_names": [
+            "Electrical Service"
+          ]
+        },
+        {
+          "id": "main_panel",
+          "title": "Main Panel",
+          "legacy_names": [
+            "Service Panels",
+            "Service Grounding"
+          ]
+        },
+        {
+          "id": "subpanels",
+          "title": "Subpanels",
+          "legacy_names": [
+            "Service Panels"
+          ]
+        },
+        {
+          "id": "branch_wiring",
+          "title": "Branch Wiring",
+          "legacy_names": [
+            "Distribution Wiring"
+          ]
+        },
+        {
+          "id": "outlets_switches",
+          "title": "Outlets & Switches",
+          "legacy_names": [
+            "Outlets / Switches / Fixtures"
+          ]
+        },
+        {
+          "id": "smoke_co_detectors",
+          "title": "Smoke / CO Detectors",
+          "legacy_names": [
+            "Smoke / Carbon Monoxide Detectors"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "interior",
+      "title": "Interior",
+      "comment_file": "comments/masterlist.json",
+      "include_in_summary": false,
+      "subsections": [
+        {
+          "id": "walls_ceilings",
+          "title": "Walls & Ceilings",
+          "legacy_names": [
+            "Walls & Ceilings"
+          ]
+        },
+        {
+          "id": "floors",
+          "title": "Floors",
+          "legacy_names": [
+            "Floors"
+          ]
+        },
+        {
+          "id": "interior_doors",
+          "title": "Interior Doors",
+          "legacy_names": [
+            "Doors"
+          ]
+        },
+        {
+          "id": "interior_windows",
+          "title": "Interior Windows",
+          "legacy_names": [
+            "Windows"
+          ]
+        },
+        {
+          "id": "stairs_railings",
+          "title": "Stairs & Railings",
+          "legacy_names": []
+        },
+        {
+          "id": "cabinetry_countertops",
+          "title": "Cabinetry & Countertops",
+          "legacy_names": []
+        }
+      ]
+    },
+    {
+      "id": "appliances",
+      "title": "Built-in Appliances",
+      "comment_file": "comments/masterlist.json",
+      "include_in_summary": false,
+      "subsections": [
+        {
+          "id": "range_cooktop_oven",
+          "title": "Range / Cooktop / Oven",
+          "legacy_names": [
+            "Built-in Oven",
+            "Cooktop",
+            "Range / Stove"
+          ]
+        },
+        {
+          "id": "dishwasher",
+          "title": "Dishwasher",
+          "legacy_names": [
+            "Dishwasher"
+          ]
+        },
+        {
+          "id": "refrigerator_included",
+          "title": "Refrigerator (if included)",
+          "legacy_names": [
+            "Refrigerator"
+          ]
+        },
+        {
+          "id": "microwave_builtin",
+          "title": "Microwave (built-in)",
+          "legacy_names": [
+            "Microwave"
+          ]
+        },
+        {
+          "id": "washer_dryer_inspected",
+          "title": "Washer / Dryer (if inspected)",
+          "legacy_names": [
+            "Clothes Washer",
+            "Clothes Dryer"
+          ]
+        },
+        {
+          "id": "other_builtin_appliances",
+          "title": "Other Built-in Appliances",
+          "legacy_names": [
+            "Door Bell",
+            "Trash Compactor",
+            "Waste Disposer",
+            "Kitchen Exhaust"
+          ]
+        }
+      ]
+    }
+  ]
+}
