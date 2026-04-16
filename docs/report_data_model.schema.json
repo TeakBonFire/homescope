@@ -121,6 +121,7 @@
       "required": [
         "inspection_date",
         "inspector",
+         "license_number": "OHI.2022003114",
         "client_present",
         "cover_photo_id"
       ],
@@ -309,6 +310,7 @@
       "additionalProperties": false,
       "required": [
         "inspector_name",
+         "license_number": "OHI.2022003114",
         "company_name",
         "finalized_at"
       ],
