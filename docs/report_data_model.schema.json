@@ -121,7 +121,6 @@
       "required": [
         "inspection_date",
         "inspector",
-         "license_number": "OHI.2022003114",
         "client_present",
         "cover_photo_id"
       ],
@@ -141,10 +140,14 @@
           "additionalProperties": false,
           "required": [
             "name",
+            "license_number",
             "company"
           ],
           "properties": {
             "name": {
+              "type": "string"
+            },
+            "license_number": {
               "type": "string"
             },
             "company": {
@@ -155,6 +158,9 @@
         "client": {
           "type": "object",
           "additionalProperties": false,
+          "required": [
+            "name"
+          ],
           "properties": {
             "name": {
               "type": [
@@ -162,14 +168,14 @@
                 "null"
               ]
             }
-          },
-          "required": [
-            "name"
-          ]
+          }
         },
         "agent": {
           "type": "object",
           "additionalProperties": false,
+          "required": [
+            "name"
+          ],
           "properties": {
             "name": {
               "type": [
@@ -177,14 +183,16 @@
                 "null"
               ]
             }
-          },
-          "required": [
-            "name"
-          ]
+          }
         },
         "weather": {
           "type": "object",
           "additionalProperties": false,
+          "required": [
+            "conditions",
+            "temperature_f",
+            "soil_condition"
+          ],
           "properties": {
             "conditions": {
               "type": [
@@ -204,16 +212,16 @@
                 "null"
               ]
             }
-          },
-          "required": [
-            "conditions",
-            "temperature_f",
-            "soil_condition"
-          ]
+          }
         },
         "utilities": {
           "type": "object",
           "additionalProperties": false,
+          "required": [
+            "electric",
+            "gas",
+            "water"
+          ],
           "properties": {
             "electric": {
               "type": [
@@ -233,12 +241,7 @@
                 "null"
               ]
             }
-          },
-          "required": [
-            "electric",
-            "gas",
-            "water"
-          ]
+          }
         },
         "client_present": {
           "type": "boolean"
@@ -310,12 +313,15 @@
       "additionalProperties": false,
       "required": [
         "inspector_name",
-         "license_number": "OHI.2022003114",
+        "license_number",
         "company_name",
         "finalized_at"
       ],
       "properties": {
         "inspector_name": {
+          "type": "string"
+        },
+        "license_number": {
           "type": "string"
         },
         "company_name": {
