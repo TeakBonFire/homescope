@@ -1,0 +1,244 @@
+{
+  "report_meta": {
+    "report_id": "2026-04-16-1542-s-4th-st",
+    "template_version": "1.0",
+    "report_status": "draft",
+    "created_at": "2026-04-16T18:45:00-04:00",
+    "updated_at": "2026-04-16T21:10:00-04:00",
+    "software_source": "HomeScope"
+  },
+  "property_info": {
+    "address": {
+      "street": "1542 S 4th St",
+      "city": "Columbus",
+      "state": "OH",
+      "zip": "43207"
+    },
+    "property_type": "multi_family",
+    "year_built": 1915,
+    "square_feet": null,
+    "occupancy": "vacant",
+    "house_faces": "west"
+  },
+  "inspection_context": {
+    "inspection_date": "2026-04-16",
+    "inspection_time": "14:00",
+    "inspector": {
+      "name": "Tim Sutherland",
+      "company": "Flinn Inspection Group, LLC"
+    },
+    "client": {
+      "name": null
+    },
+    "agent": {
+      "name": null
+    },
+    "weather": {
+      "conditions": "Sunny",
+      "temperature_f": 77,
+      "soil_condition": "Dry"
+    },
+    "utilities": {
+      "electric": true,
+      "gas": true,
+      "water": true
+    },
+    "client_present": true,
+    "cover_photo_id": "photo-cover-001",
+    "general_description": "This is an average quality home that has been recently renovated."
+  },
+  "sections": [
+    {
+      "section_id": "exterior",
+      "title": "Exterior",
+      "enabled": true,
+      "order": 1,
+      "limitations_text": "Exterior inspection limitations text here.",
+      "subsections": [
+        {
+          "subsection_id": "steps",
+          "title": "Steps",
+          "order": 1
+        },
+        {
+          "subsection_id": "porch_deck_patio",
+          "title": "Porch / Deck / Patio",
+          "order": 2
+        }
+      ]
+    },
+    {
+      "section_id": "electrical",
+      "title": "Electrical",
+      "enabled": true,
+      "order": 2,
+      "limitations_text": "Electrical inspection limitations text here.",
+      "subsections": [
+        {
+          "subsection_id": "distribution_wiring",
+          "title": "Distribution wiring",
+          "order": 1
+        }
+      ]
+    }
+  ],
+  "observations": [
+    {
+      "observation_id": "obs-0001",
+      "section_id": "exterior",
+      "subsection_id": "steps",
+      "location_label": "rear stairway",
+      "source": {
+        "capture_method": "manual",
+        "raw_note": "loose handrail exterior rear stairway",
+        "voice_transcript": null,
+        "ai_assisted": true,
+        "ai_confidence": 0.94
+      },
+      "comment": {
+        "comment_id": null,
+        "library_match_id": "steps_loose_handrail_001",
+        "suggested_text": "Safety Issue: The exterior rear stairway handrail is loose.",
+        "final_text": "Safety Issue: The exterior rear stairway handrail is loose. This condition may not provide adequate support and increases the risk of falls. We recommend securing the handrail to restore proper function.",
+        "comment_type": "library_with_edit"
+      },
+      "classification": {
+        "severity": "safety_issue",
+        "include_in_summary": true,
+        "trade_recommendation": "general_contractor"
+      },
+      "photos": [
+        "photo-0042"
+      ],
+      "review": {
+        "review_status": "approved",
+        "reviewed_by": "Tim Sutherland",
+        "reviewed_at": "2026-04-16T20:42:00-04:00",
+        "override_reason": null
+      },
+      "tags": [
+        "handrail",
+        "fall_hazard",
+        "exterior"
+      ]
+    },
+    {
+      "observation_id": "obs-0002",
+      "section_id": "electrical",
+      "subsection_id": "distribution_wiring",
+      "location_label": "basement",
+      "source": {
+        "capture_method": "manual",
+        "raw_note": "knob and tube wiring still in use",
+        "voice_transcript": null,
+        "ai_assisted": true,
+        "ai_confidence": 0.91
+      },
+      "comment": {
+        "comment_id": null,
+        "library_match_id": "distribution_knob_tube_001",
+        "suggested_text": "Repair/Replace: It is recommended that the obsolete knob-and-tube wiring be replaced.",
+        "final_text": "Repair/Replace: It is recommended that the obsolete knob-and-tube wiring be replaced. Knob-and-tube wiring can be problematic and may be expensive to replace. The inspection cannot determine the extent of wiring that may need replaced as most wiring is hidden behind walls, floors, and ceilings. We recommend that a licensed electrician review and replace as needed.",
+        "comment_type": "library_with_edit"
+      },
+      "classification": {
+        "severity": "repair_replace",
+        "include_in_summary": true,
+        "trade_recommendation": "electrician"
+      },
+      "photos": [
+        "photo-0043"
+      ],
+      "review": {
+        "review_status": "approved",
+        "reviewed_by": "Tim Sutherland",
+        "reviewed_at": "2026-04-16T20:47:00-04:00",
+        "override_reason": null
+      },
+      "tags": [
+        "electrical",
+        "knob_and_tube",
+        "obsolete_wiring"
+      ]
+    }
+  ],
+  "photos": [
+    {
+      "photo_id": "photo-cover-001",
+      "file_name": "cover.jpg",
+      "section_id": "general",
+      "subsection_id": "cover",
+      "caption": "Front elevation",
+      "label": "Cover photo",
+      "observation_ids": [],
+      "taken_at": "2026-04-16T14:02:00-04:00",
+      "sort_order": 0,
+      "is_cover_photo": true,
+      "annotation_data": null
+    },
+    {
+      "photo_id": "photo-0042",
+      "file_name": "IMG_0042.jpg",
+      "section_id": "exterior",
+      "subsection_id": "steps",
+      "caption": "Loose handrail",
+      "label": "Loose handrail",
+      "observation_ids": [
+        "obs-0001"
+      ],
+      "taken_at": "2026-04-16T15:18:00-04:00",
+      "sort_order": 1,
+      "is_cover_photo": false,
+      "annotation_data": null
+    },
+    {
+      "photo_id": "photo-0043",
+      "file_name": "IMG_0043.jpg",
+      "section_id": "electrical",
+      "subsection_id": "distribution_wiring",
+      "caption": "Live knob and tube wiring",
+      "label": "Live knob and tube wiring",
+      "observation_ids": [
+        "obs-0002"
+      ],
+      "taken_at": "2026-04-16T16:11:00-04:00",
+      "sort_order": 2,
+      "is_cover_photo": false,
+      "annotation_data": null
+    }
+  ],
+  "summary": {
+    "grouped_by": "severity_then_section",
+    "items": [
+      {
+        "observation_id": "obs-0001",
+        "severity": "safety_issue",
+        "section_id": "exterior",
+        "subsection_id": "steps",
+        "summary_text": "Safety Issue: The exterior rear stairway handrail is loose. This condition may not provide adequate support and increases the risk of falls. We recommend securing the handrail to restore proper function.",
+        "sort_order": 1
+      },
+      {
+        "observation_id": "obs-0002",
+        "severity": "repair_replace",
+        "section_id": "electrical",
+        "subsection_id": "distribution_wiring",
+        "summary_text": "Repair/Replace: It is recommended that the obsolete knob-and-tube wiring be replaced. Knob-and-tube wiring can be problematic and may be expensive to replace.",
+        "sort_order": 2
+      }
+    ]
+  },
+  "additional_services_recommended": [
+    {
+      "service_id": "service-001",
+      "title": "Sewer scope",
+      "reason": "Recommended due to the age of the property.",
+      "related_observation_ids": []
+    }
+  ],
+  "signoff": {
+    "inspector_name": "Tim Sutherland",
+    "company_name": "Flinn Inspection Group, LLC",
+    "finalized_at": null
+  }
+}

@@ -1,0 +1,743 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://homescope.local/schemas/report_data_model.schema.json",
+  "title": "HomeScope Final Report Data Model",
+  "description": "Structured inspection report model for capture, review, summary logic, and final report rendering.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "report_meta",
+    "property_info",
+    "inspection_context",
+    "sections",
+    "observations",
+    "photos",
+    "summary",
+    "additional_services_recommended",
+    "signoff"
+  ],
+  "properties": {
+    "report_meta": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "report_id",
+        "template_version",
+        "report_status",
+        "created_at",
+        "updated_at",
+        "software_source"
+      ],
+      "properties": {
+        "report_id": {
+          "type": "string"
+        },
+        "template_version": {
+          "type": "string"
+        },
+        "report_status": {
+          "type": "string",
+          "enum": [
+            "draft",
+            "review",
+            "final"
+          ]
+        },
+        "created_at": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "updated_at": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "software_source": {
+          "type": "string"
+        }
+      }
+    },
+    "property_info": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "address",
+        "property_type",
+        "occupancy"
+      ],
+      "properties": {
+        "address": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "street",
+            "city",
+            "state",
+            "zip"
+          ],
+          "properties": {
+            "street": {
+              "type": "string"
+            },
+            "city": {
+              "type": "string"
+            },
+            "state": {
+              "type": "string"
+            },
+            "zip": {
+              "type": "string"
+            }
+          }
+        },
+        "property_type": {
+          "type": "string"
+        },
+        "year_built": {
+          "type": [
+            "integer",
+            "null"
+          ]
+        },
+        "square_feet": {
+          "type": [
+            "integer",
+            "null"
+          ]
+        },
+        "occupancy": {
+          "type": "string"
+        },
+        "house_faces": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "inspection_context": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "inspection_date",
+        "inspector",
+        "client_present",
+        "cover_photo_id"
+      ],
+      "properties": {
+        "inspection_date": {
+          "type": "string",
+          "format": "date"
+        },
+        "inspection_time": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "inspector": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "name",
+            "company"
+          ],
+          "properties": {
+            "name": {
+              "type": "string"
+            },
+            "company": {
+              "type": "string"
+            }
+          }
+        },
+        "client": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "name": {
+              "type": [
+                "string",
+                "null"
+              ]
+            }
+          },
+          "required": [
+            "name"
+          ]
+        },
+        "agent": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "name": {
+              "type": [
+                "string",
+                "null"
+              ]
+            }
+          },
+          "required": [
+            "name"
+          ]
+        },
+        "weather": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "conditions": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "temperature_f": {
+              "type": [
+                "number",
+                "null"
+              ]
+            },
+            "soil_condition": {
+              "type": [
+                "string",
+                "null"
+              ]
+            }
+          },
+          "required": [
+            "conditions",
+            "temperature_f",
+            "soil_condition"
+          ]
+        },
+        "utilities": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "electric": {
+              "type": [
+                "boolean",
+                "null"
+              ]
+            },
+            "gas": {
+              "type": [
+                "boolean",
+                "null"
+              ]
+            },
+            "water": {
+              "type": [
+                "boolean",
+                "null"
+              ]
+            }
+          },
+          "required": [
+            "electric",
+            "gas",
+            "water"
+          ]
+        },
+        "client_present": {
+          "type": "boolean"
+        },
+        "cover_photo_id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "general_description": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "sections": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/section"
+      }
+    },
+    "observations": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/observation"
+      }
+    },
+    "photos": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/photo"
+      }
+    },
+    "summary": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "grouped_by",
+        "items"
+      ],
+      "properties": {
+        "grouped_by": {
+          "type": "string",
+          "enum": [
+            "severity_then_section",
+            "section_then_severity",
+            "manual"
+          ]
+        },
+        "items": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/summary_item"
+          }
+        }
+      }
+    },
+    "additional_services_recommended": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/additional_service"
+      }
+    },
+    "signoff": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "inspector_name",
+        "company_name",
+        "finalized_at"
+      ],
+      "properties": {
+        "inspector_name": {
+          "type": "string"
+        },
+        "company_name": {
+          "type": "string"
+        },
+        "finalized_at": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "date-time"
+        }
+      }
+    }
+  },
+  "$defs": {
+    "section": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "section_id",
+        "title",
+        "enabled",
+        "order",
+        "subsections"
+      ],
+      "properties": {
+        "section_id": {
+          "type": "string"
+        },
+        "title": {
+          "type": "string"
+        },
+        "enabled": {
+          "type": "boolean"
+        },
+        "order": {
+          "type": "integer"
+        },
+        "limitations_text": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "subsections": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/subsection"
+          }
+        }
+      }
+    },
+    "subsection": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "subsection_id",
+        "title",
+        "order"
+      ],
+      "properties": {
+        "subsection_id": {
+          "type": "string"
+        },
+        "title": {
+          "type": "string"
+        },
+        "order": {
+          "type": "integer"
+        }
+      }
+    },
+    "observation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "observation_id",
+        "section_id",
+        "subsection_id",
+        "location_label",
+        "source",
+        "comment",
+        "classification",
+        "photos",
+        "review",
+        "tags"
+      ],
+      "properties": {
+        "observation_id": {
+          "type": "string"
+        },
+        "section_id": {
+          "type": "string"
+        },
+        "subsection_id": {
+          "type": "string"
+        },
+        "location_label": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "source": {
+          "$ref": "#/$defs/source"
+        },
+        "comment": {
+          "$ref": "#/$defs/comment"
+        },
+        "classification": {
+          "$ref": "#/$defs/classification"
+        },
+        "photos": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "review": {
+          "$ref": "#/$defs/review"
+        },
+        "tags": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "capture_method",
+        "raw_note",
+        "voice_transcript",
+        "ai_assisted",
+        "ai_confidence"
+      ],
+      "properties": {
+        "capture_method": {
+          "type": "string",
+          "enum": [
+            "manual",
+            "voice",
+            "photo",
+            "photo_plus_voice",
+            "desktop_entry",
+            "imported"
+          ]
+        },
+        "raw_note": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "voice_transcript": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "ai_assisted": {
+          "type": "boolean"
+        },
+        "ai_confidence": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0,
+          "maximum": 1
+        }
+      }
+    },
+    "comment": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "comment_id",
+        "library_match_id",
+        "suggested_text",
+        "final_text",
+        "comment_type"
+      ],
+      "properties": {
+        "comment_id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "library_match_id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "suggested_text": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "final_text": {
+          "type": "string"
+        },
+        "comment_type": {
+          "type": "string",
+          "enum": [
+            "library_exact",
+            "library_with_edit",
+            "custom",
+            "ai_generated"
+          ]
+        }
+      }
+    },
+    "classification": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "severity",
+        "include_in_summary",
+        "trade_recommendation"
+      ],
+      "properties": {
+        "severity": {
+          "type": "string",
+          "enum": [
+            "major_concern",
+            "safety_issue",
+            "repair_replace",
+            "deferred_cost",
+            "maintenance_item",
+            "improve",
+            "monitor",
+            "note",
+            "limitation"
+          ]
+        },
+        "include_in_summary": {
+          "type": "boolean"
+        },
+        "trade_recommendation": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "review": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "review_status",
+        "reviewed_by",
+        "reviewed_at",
+        "override_reason"
+      ],
+      "properties": {
+        "review_status": {
+          "type": "string",
+          "enum": [
+            "draft",
+            "reviewed",
+            "approved"
+          ]
+        },
+        "reviewed_by": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "reviewed_at": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "date-time"
+        },
+        "override_reason": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "photo": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "photo_id",
+        "file_name",
+        "section_id",
+        "subsection_id",
+        "caption",
+        "label",
+        "observation_ids",
+        "taken_at",
+        "sort_order",
+        "is_cover_photo",
+        "annotation_data"
+      ],
+      "properties": {
+        "photo_id": {
+          "type": "string"
+        },
+        "file_name": {
+          "type": "string"
+        },
+        "section_id": {
+          "type": "string"
+        },
+        "subsection_id": {
+          "type": "string"
+        },
+        "caption": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "label": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "observation_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "taken_at": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "date-time"
+        },
+        "sort_order": {
+          "type": "integer"
+        },
+        "is_cover_photo": {
+          "type": "boolean"
+        },
+        "annotation_data": {
+          "type": [
+            "object",
+            "array",
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "summary_item": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "observation_id",
+        "severity",
+        "section_id",
+        "subsection_id",
+        "summary_text",
+        "sort_order"
+      ],
+      "properties": {
+        "observation_id": {
+          "type": "string"
+        },
+        "severity": {
+          "type": "string"
+        },
+        "section_id": {
+          "type": "string"
+        },
+        "subsection_id": {
+          "type": "string"
+        },
+        "summary_text": {
+          "type": "string"
+        },
+        "sort_order": {
+          "type": "integer"
+        }
+      }
+    },
+    "additional_service": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "service_id",
+        "title",
+        "reason",
+        "related_observation_ids"
+      ],
+      "properties": {
+        "service_id": {
+          "type": "string"
+        },
+        "title": {
+          "type": "string"
+        },
+        "reason": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "related_observation_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}
